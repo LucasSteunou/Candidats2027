@@ -1,0 +1,81 @@
+{
+  "day": 14,
+  "lesson_type": "country",
+  "topic_id": "morocco",
+  "topic_name": "Morocco",
+  "language": "fr",
+  "title": "Maroc : le royaume des passages",
+  "hook": "Le Maroc regarde à la fois l’Atlantique, la Méditerranée, l’Europe, l’Afrique et le Sahara.",
+  "summary": "Le Maroc est un pays de carrefours : montagnes de l’Atlas, villes impériales, monde amazigh, héritage arabe et andalou, ouverture atlantique et proximité européenne. Sa position lui donne une identité très riche et un rôle stratégique entre Afrique, Méditerranée et Sahara.",
+  "takeaways": [
+    "L’Atlas structure les paysages, le climat et les circulations.",
+    "Les cultures amazighes sont fondamentales pour comprendre le pays.",
+    "Le Maroc est lié à la fois au monde arabe, à l’Afrique, à l’Europe et à l’Atlantique.",
+    "La question du Sahara occidental doit être abordée avec neutralité."
+  ],
+  "cards": [
+    {
+      "heading": "Le fil rouge",
+      "body": "Le Maroc est un pays de seuils. On y passe de la Méditerranée à l’Atlantique, des plaines aux montagnes, des villes impériales aux oasis, du Maghreb au Sahara. Cette position a fait du pays un espace de commerce, de pouvoir et de mélanges."
+    },
+    {
+      "heading": "Ce que la carte raconte",
+      "body": "Le détroit de Gibraltar place le Maroc face à l’Espagne. Les montagnes de l’Atlas arrêtent les masses d’air et créent des contrastes forts. Les côtes ouvrent vers l’Europe et l’Atlantique, tandis que le sud mène vers le Sahara et l’Afrique subsaharienne."
+    },
+    {
+      "heading": "Une histoire en couches",
+      "body": "Les dynasties marocaines ont contrôlé des routes commerciales, fondé des villes savantes et négocié avec l’Europe comme avec le Sahara. Les héritages amazigh, arabe, africain, juif et andalou se lisent dans les langues, l’architecture, la musique et la cuisine."
+    },
+    {
+      "heading": "Pourquoi cela compte aujourd’hui",
+      "body": "Le Maroc mise sur les infrastructures, les énergies renouvelables, l’automobile, le tourisme et sa position logistique. Il joue un rôle diplomatique en Afrique et en Méditerranée. La monarchie demeure l’axe central du système politique."
+    },
+    {
+      "heading": "À regarder autrement",
+      "body": "Pour regarder le Maroc autrement, ne choisissez pas entre “Afrique”, “monde arabe” ou “Méditerranée”. Le pays est précisément intéressant parce qu’il tient ces appartenances ensemble."
+    }
+  ],
+  "key_figures": [
+    {
+      "label": "Détroit stratégique",
+      "value": "Gibraltar",
+      "note": "Un passage entre Atlantique et Méditerranée."
+    },
+    {
+      "label": "Chaîne majeure",
+      "value": "Atlas",
+      "note": "Elle structure climats, routes et identités régionales."
+    },
+    {
+      "label": "Langues officielles",
+      "value": "Arabe et amazigh",
+      "note": "Reconnaissance d’une pluralité ancienne."
+    }
+  ],
+  "anecdote": "La place Jemaa el-Fna à Marrakech fonctionne comme une scène ouverte : conteurs, musiciens, stands, passants. Elle rappelle que le patrimoine peut être vivant, bruyant et quotidien, pas seulement monumental.",
+  "sources": [
+    {
+      "title": "Encyclopaedia Britannica — Morocco",
+      "url": "https://www.britannica.com/place/Morocco",
+      "description": "Repères historiques et géographiques."
+    },
+    {
+      "title": "CIA World Factbook — Morocco",
+      "url": "https://www.cia.gov/the-world-factbook/countries/morocco/",
+      "description": "Données synthétiques sur le pays."
+    },
+    {
+      "title": "UNESCO — Medina of Marrakesh",
+      "url": "https://whc.unesco.org/en/list/331/",
+      "description": "Contexte patrimonial sur Marrakech."
+    }
+  ],
+  "image": {
+    "path": "/media/images/default-country.svg",
+    "original_url": null,
+    "author": null,
+    "license": null,
+    "alt_text": "Paysage marocain entre Atlas, médina et désert."
+  },
+  "estimated_reading_minutes": 5
+}

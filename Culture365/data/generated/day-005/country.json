@@ -1,0 +1,81 @@
+{
+  "day": 5,
+  "lesson_type": "country",
+  "topic_id": "india",
+  "topic_name": "India",
+  "language": "fr",
+  "title": "Inde : une civilisation-monde en démocratie",
+  "hook": "L’Inde n’est pas “un” monde : c’est une mosaïque de langues, religions, cuisines, climats et mémoires tenue dans un même cadre politique.",
+  "summary": "L’Inde impressionne par son échelle humaine et culturelle. Elle combine une histoire très ancienne, une diversité linguistique majeure, un héritage colonial britannique, une démocratie de masse et une économie en transformation rapide. Sa complexité est la clé : rien d’important n’y est simple.",
+  "takeaways": [
+    "La diversité linguistique et religieuse est centrale pour comprendre l’Inde.",
+    "Le sous-continent a longtemps été relié par échanges, empires, pèlerinages et fleuves.",
+    "L’indépendance de 1947 et la partition restent des événements fondateurs.",
+    "L’Inde actuelle combine puissance technologique, pauvreté persistante et ambitions géopolitiques."
+  ],
+  "cards": [
+    {
+      "heading": "Le fil rouge",
+      "body": "L’Inde est souvent décrite par les contrastes, mais le mot le plus utile est peut-être “coexistence”. Des centaines de langues, plusieurs grandes religions, des mégapoles, des villages, des industries numériques et des traditions anciennes y cohabitent dans un cadre démocratique immense."
+    },
+    {
+      "heading": "Ce que la carte raconte",
+      "body": "Le pays est structuré par l’Himalaya au nord, les plaines du Gange, le plateau du Deccan et de longues façades maritimes. Cette géographie crée plusieurs Indes : agricole, montagnarde, côtière, urbaine, tropicale, sèche. Les fleuves sont des axes économiques autant que spirituels."
+    },
+    {
+      "heading": "Une histoire en couches",
+      "body": "L’Inde a vu naître ou grandir l’hindouisme, le bouddhisme, le jaïnisme et le sikhisme. Elle a connu de grands empires, des réseaux commerciaux, l’Empire moghol, puis la domination britannique. En 1947, l’indépendance s’accompagne de la partition avec le Pakistan, traumatisme majeur du XXe siècle."
+    },
+    {
+      "heading": "Pourquoi cela compte aujourd’hui",
+      "body": "L’Inde est une grande puissance démographique, technologique, militaire et culturelle. Elle exporte logiciels, films, médicaments, ingénieurs et idées. Ses défis sont à la même échelle : emploi des jeunes, pollution, infrastructures, tensions religieuses, inégalités et adaptation climatique."
+    },
+    {
+      "heading": "À regarder autrement",
+      "body": "Pour regarder l’Inde autrement, évitez de chercher une seule identité. L’Inde fonctionne comme une conversation permanente entre unité politique et pluralité sociale."
+    }
+  ],
+  "key_figures": [
+    {
+      "label": "Langues constitutionnelles",
+      "value": "22",
+      "note": "Un indice de la diversité linguistique reconnue."
+    },
+    {
+      "label": "Indépendance",
+      "value": "1947",
+      "note": "Avec la partition, événement fondateur de l’Inde moderne."
+    },
+    {
+      "label": "Système politique",
+      "value": "Démocratie fédérale",
+      "note": "Un cadre commun pour une diversité exceptionnelle."
+    }
+  ],
+  "anecdote": "Les billets de banque indiens affichent leur valeur dans de nombreuses langues. C’est un petit objet quotidien qui résume un immense compromis politique : faire circuler une monnaie commune dans un pays multilingue.",
+  "sources": [
+    {
+      "title": "Encyclopaedia Britannica — India",
+      "url": "https://www.britannica.com/place/India",
+      "description": "Vue d’ensemble historique et géographique."
+    },
+    {
+      "title": "CIA World Factbook — India",
+      "url": "https://www.cia.gov/the-world-factbook/countries/india/",
+      "description": "Données synthétiques sur le pays."
+    },
+    {
+      "title": "Government of India — National Portal",
+      "url": "https://www.india.gov.in/",
+      "description": "Portail institutionnel indien."
+    }
+  ],
+  "image": {
+    "path": "/media/images/default-country.svg",
+    "original_url": null,
+    "author": null,
+    "license": null,
+    "alt_text": "Paysage indien mêlant fleuve, ville et patrimoine."
+  },
+  "estimated_reading_minutes": 5
+}

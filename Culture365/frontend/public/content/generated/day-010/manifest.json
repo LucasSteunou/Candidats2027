@@ -1,0 +1,35 @@
+{
+  "day": 10,
+  "assets": {
+    "country": {
+      "image": {
+        "path": "/media/images/default-country.svg",
+        "original_url": null,
+        "author": null,
+        "license": null,
+        "alt_text": "Paysage sud-africain entre ville, montagne et mémoire historique."
+      }
+    },
+    "question": {
+      "image": {
+        "path": "/media/images/default-question.svg",
+        "original_url": null,
+        "author": null,
+        "license": null,
+        "alt_text": "Illustration d’une étoile produisant de la lumière par fusion."
+      }
+    }
+  },
+  "topics": {
+    "country": {
+      "id": "south-africa",
+      "name": "South Africa",
+      "type": "country"
+    },
+    "question": {
+      "id": "why-do-stars-shine",
+      "name": "Why do stars shine?",
+      "type": "question"
+    }
+  }
+}

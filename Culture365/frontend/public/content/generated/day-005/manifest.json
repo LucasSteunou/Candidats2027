@@ -1,0 +1,35 @@
+{
+  "day": 5,
+  "assets": {
+    "country": {
+      "image": {
+        "path": "/media/images/default-country.svg",
+        "original_url": null,
+        "author": null,
+        "license": null,
+        "alt_text": "Paysage indien mêlant fleuve, ville et patrimoine."
+      }
+    },
+    "question": {
+      "image": {
+        "path": "/media/images/default-question.svg",
+        "original_url": null,
+        "author": null,
+        "license": null,
+        "alt_text": "Illustration du système immunitaire apprenant à reconnaître un antigène."
+      }
+    }
+  },
+  "topics": {
+    "country": {
+      "id": "india",
+      "name": "India",
+      "type": "country"
+    },
+    "question": {
+      "id": "how-do-vaccines-train-the-immune-system",
+      "name": "How do vaccines train the immune system?",
+      "type": "question"
+    }
+  }
+}

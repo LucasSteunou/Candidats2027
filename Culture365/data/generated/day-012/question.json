@@ -1,0 +1,81 @@
+{
+  "day": 12,
+  "lesson_type": "question",
+  "topic_id": "why-do-financial-markets-crash",
+  "topic_name": "Why do financial markets crash?",
+  "language": "fr",
+  "title": "Pourquoi les marchés financiers s’effondrent-ils parfois ?",
+  "hook": "Un krach n’est pas seulement une baisse des prix : c’est un moment où la confiance disparaît plus vite que les vendeurs ne trouvent des acheteurs.",
+  "summary": "Les marchés chutent brutalement quand trop d’acteurs veulent vendre en même temps, souvent après une bulle, un choc économique, une hausse des taux, une crise bancaire ou une panique. Les prix financiers reposent sur des anticipations ; quand le récit commun se casse, la chute peut devenir auto-entretenue.",
+  "takeaways": [
+    "Les marchés valorisent des attentes sur le futur, pas seulement le présent.",
+    "Une bulle se forme quand les prix montent surtout parce qu’on espère les revendre plus cher.",
+    "L’endettement amplifie les chutes.",
+    "La liquidité disparaît quand les acheteurs se retirent."
+  ],
+  "cards": [
+    {
+      "heading": "Les prix sont des histoires chiffrées",
+      "body": "Acheter une action, c’est croire à des profits futurs. Acheter une obligation, c’est croire à un remboursement. Les marchés sont donc sensibles aux récits collectifs sur l’avenir."
+    },
+    {
+      "heading": "La bulle gonfle par imitation",
+      "body": "Quand les prix montent, ils attirent de nouveaux acheteurs. La hausse semble confirmer qu’il faut acheter. Peu à peu, le prix peut s’éloigner de la réalité économique."
+    },
+    {
+      "heading": "L’endettement accélère la panique",
+      "body": "Si des investisseurs ont emprunté pour acheter, une baisse les force parfois à vendre pour rembourser. Ces ventes font encore baisser les prix : le mécanisme s’auto-alimente."
+    },
+    {
+      "heading": "La liquidité peut s’évaporer",
+      "body": "En temps normal, il y a des acheteurs et vendeurs. En crise, tout le monde veut sortir en même temps. Le problème n’est plus seulement le prix, mais l’absence de contrepartie."
+    },
+    {
+      "heading": "Les institutions tentent de casser la spirale",
+      "body": "Banques centrales, régulateurs et États peuvent fournir de la liquidité, garantir des dépôts, suspendre certaines règles ou rassurer. Leur objectif : éviter qu’une panique financière devienne une dépression économique."
+    }
+  ],
+  "key_figures": [
+    {
+      "label": "Amplificateur",
+      "value": "Dette",
+      "note": "Elle transforme une baisse en ventes forcées."
+    },
+    {
+      "label": "Ressource rare",
+      "value": "Liquidité",
+      "note": "Possibilité de vendre sans effondrer le prix."
+    },
+    {
+      "label": "Point faible",
+      "value": "Confiance",
+      "note": "Elle soutient les marchés tant qu’elle tient."
+    }
+  ],
+  "anecdote": "Lors du krach de 1929, les téléscripteurs boursiers avaient du retard tant les échanges étaient nombreux. Les investisseurs lisaient parfois des prix déjà dépassés, ce qui ajoutait à la confusion.",
+  "sources": [
+    {
+      "title": "Federal Reserve History — Stock Market Crash of 1929",
+      "url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929",
+      "description": "Ressource historique sur le krach de 1929."
+    },
+    {
+      "title": "IMF — Financial Crises",
+      "url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Financial-Crisis",
+      "description": "Explication des crises financières."
+    },
+    {
+      "title": "SEC — Investor.gov",
+      "url": "https://www.investor.gov/",
+      "description": "Ressource pédagogique sur les marchés et les risques."
+    }
+  ],
+  "image": {
+    "path": "/media/images/default-question.svg",
+    "original_url": null,
+    "author": null,
+    "license": null,
+    "alt_text": "Illustration d’un graphique financier chutant et d’une foule d’ordres de vente."
+  },
+  "estimated_reading_minutes": 5
+}

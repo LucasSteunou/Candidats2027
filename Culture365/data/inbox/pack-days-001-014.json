@@ -1,0 +1,2328 @@
+{
+  "days": [
+    {
+      "day": 1,
+      "country": {
+        "day": 1,
+        "lesson_type": "country",
+        "topic_id": "japan",
+        "topic_name": "Japan",
+        "language": "fr",
+        "title": "Japon : l’archipel qui transforme les contraintes en art",
+        "hook": "Un pays montagneux, pauvre en espace, exposé aux séismes, mais devenu l’un des grands laboratoires de la modernité.",
+        "summary": "Le Japon se comprend comme un dialogue permanent entre îles, montagnes, mer et villes très denses. Sa force vient d’une capacité rare à absorber des influences extérieures, puis à les transformer en formes très japonaises : institutions, industrie, cuisine, design, culture populaire.",
+        "takeaways": [
+          "Le relief montagneux concentre la population sur des plaines côtières étroites.",
+          "Le pays a longtemps alterné ouverture sélective et protection de son identité.",
+          "Tokyo illustre une urbanisation dense mais étonnamment organisée.",
+          "La culture japonaise marie souvent discipline collective et goût du détail."
+        ],
+        "cards": [
+          {
+            "heading": "Le fil rouge",
+            "body": "Le Japon n’est pas seulement un pays insulaire : c’est un pays d’îles volcaniques, de couloirs côtiers et de risques naturels. Cette géographie force à composer avec le manque d’espace, les typhons, les séismes et la mer. Beaucoup de traits célèbres, de la précision ferroviaire à l’architecture légère, prennent du sens quand on voit cette contrainte de départ."
+          },
+          {
+            "heading": "Ce que la carte raconte",
+            "body": "Les quatre grandes îles, Honshu, Hokkaido, Kyushu et Shikoku, forment une longue courbe au bord du Pacifique. Les montagnes occupent une grande partie du territoire ; les métropoles se serrent donc sur les plaines, surtout autour de Tokyo, Osaka et Nagoya. La mer n’est pas un décor : elle nourrit, protège, menace et relie."
+          },
+          {
+            "heading": "Une histoire en couches",
+            "body": "Pendant des siècles, le Japon a emprunté à la Chine et à la Corée l’écriture, le bouddhisme, des modèles politiques, puis a développé ses propres formes. L’époque d’Edo a limité les contacts extérieurs, avant que l’ère Meiji transforme le pays à grande vitesse au XIXe siècle. Après 1945, il reconstruit une puissance économique sans empire militaire."
+          },
+          {
+            "heading": "Pourquoi cela compte aujourd’hui",
+            "body": "Le Japon compte dans l’industrie, la robotique, l’automobile, les jeux vidéo, le cinéma d’animation et les objets du quotidien. Mais il affronte aussi un défi majeur : une population vieillissante et une natalité basse. C’est l’un des pays où l’on observe le plus concrètement ce que peut devenir une société très avancée et très âgée."
+          },
+          {
+            "heading": "À regarder autrement",
+            "body": "Pour regarder le Japon autrement, évitez l’image d’un pays “entre tradition et modernité”, trop facile. La vraie question est plus intéressante : comment une société rend-elle compatibles le changement rapide, le respect des formes, la mémoire des catastrophes et une vie urbaine extrêmement dense ?"
+          }
+        ],
+        "key_figures": [
+          {
+            "label": "Îles principales",
+            "value": "4",
+            "note": "Elles structurent l’essentiel du territoire habité."
+          },
+          {
+            "label": "Part montagneuse",
+            "value": "≈ 3/4",
+            "note": "Le relief explique la densité des plaines côtières."
+          },
+          {
+            "label": "Mégalopole de Tokyo",
+            "value": "> 35 M",
+            "note": "L’une des plus grandes régions urbaines du monde."
+          }
+        ],
+        "anecdote": "À Tokyo, beaucoup de rues n’ont pas de nom au sens européen. On s’oriente souvent par blocs et bâtiments. Ce détail dit beaucoup : la ville japonaise ne se lit pas toujours comme une grille, mais comme un tissu vivant de quartiers.",
+        "sources": [
+          {
+            "title": "Encyclopaedia Britannica — Japan",
+            "url": "https://www.britannica.com/place/Japan",
+            "description": "Vue d’ensemble historique et géographique."
+          },
+          {
+            "title": "CIA World Factbook — Japan",
+            "url": "https://www.cia.gov/the-world-factbook/countries/japan/",
+            "description": "Données synthétiques sur le territoire, la population et l’économie."
+          },
+          {
+            "title": "Japan Meteorological Agency",
+            "url": "https://www.jma.go.jp/jma/indexe.html",
+            "description": "Référence utile sur les risques naturels et le climat."
+          }
+        ],
+        "image": {
+          "path": "",
+          "original_url": null,
+          "author": null,
+          "license": null,
+          "alt_text": "Paysage symbolique du Japon, entre montagne, ville et mer."
+        },
+        "estimated_reading_minutes": 5
+      },
+      "question": {
+        "day": 1,
+        "lesson_type": "question",
+        "topic_id": "why-do-volcanoes-erupt",
+        "topic_name": "Why do volcanoes erupt?",
+        "language": "fr",
+        "title": "Pourquoi les volcans entrent-ils en éruption ?",
+        "hook": "Un volcan n’est pas une montagne en colère : c’est une soupape entre l’intérieur chaud de la Terre et sa surface fragile.",
+        "summary": "Les éruptions arrivent quand du magma, des gaz et de la pression trouvent un chemin vers la surface. Elles sont liées à la tectonique des plaques, mais aussi à la composition du magma et à la quantité de gaz piégée. Un volcan peut construire des sols fertiles, détruire des villes et révéler que notre planète est encore active.",
+        "takeaways": [
+          "Le magma remonte parce qu’il est moins dense que les roches qui l’entourent.",
+          "Les gaz dissous jouent un rôle majeur dans l’explosivité.",
+          "Beaucoup de volcans se trouvent aux limites des plaques tectoniques.",
+          "Une éruption peut être fluide ou explosive selon la viscosité du magma."
+        ],
+        "cards": [
+          {
+            "heading": "La Terre n’est pas froide à l’intérieur",
+            "body": "Sous la croûte, la chaleur reste intense. À certains endroits, les roches fondent partiellement et forment du magma. Ce magma cherche à remonter, un peu comme une bulle plus légère dans un liquide épais."
+          },
+          {
+            "heading": "La pression fait monter le danger",
+            "body": "Le magma contient des gaz dissous. Tant qu’il reste en profondeur, la pression les maintient mélangés. En remontant, la pression baisse : les gaz se dilatent, comme dans une bouteille de soda que l’on ouvre trop vite."
+          },
+          {
+            "heading": "La viscosité change tout",
+            "body": "Un magma fluide laisse les gaz s’échapper plus facilement : l’éruption peut produire des coulées. Un magma visqueux bloque les gaz : la pression monte, et l’explosion peut être violente."
+          },
+          {
+            "heading": "Les plaques dessinent la carte",
+            "body": "Aux zones de subduction, une plaque plonge sous une autre et favorise la fusion partielle. Aux dorsales, les plaques s’écartent et le magma remonte. Certains volcans naissent aussi de points chauds, loin des frontières de plaques."
+          },
+          {
+            "heading": "Des catastrophes, mais aussi de la fertilité",
+            "body": "Les volcans détruisent, mais ils construisent aussi : îles, montagnes, sols riches en minéraux. C’est pourquoi des populations vivent parfois près d’eux malgré le risque."
+          }
+        ],
+        "key_figures": [
+          {
+            "label": "Moteur principal",
+            "value": "Pression + gaz",
+            "note": "La détente des gaz rend certaines éruptions explosives."
+          },
+          {
+            "label": "Carte volcanique",
+            "value": "Plaques",
+            "note": "Les limites de plaques concentrent de nombreux volcans."
+          },
+          {
+            "label": "Style d’éruption",
+            "value": "Viscosité",
+            "note": "Plus le magma est visqueux, plus les gaz restent piégés."
+          }
+        ],
+        "anecdote": "L’éruption du Tambora en 1815 a projeté assez de particules dans l’atmosphère pour perturber le climat mondial. L’année suivante fut surnommée “l’année sans été” dans plusieurs régions.",
+        "sources": [
+          {
+            "title": "USGS — Volcano Hazards Program",
+            "url": "https://www.usgs.gov/programs/VHP",
+            "description": "Référence scientifique sur les volcans et leurs risques."
+          },
+          {
+            "title": "Smithsonian — Global Volcanism Program",
+            "url": "https://volcano.si.edu/",
+            "description": "Base de données mondiale sur l’activité volcanique."
+          },
+          {
+            "title": "Encyclopaedia Britannica — Volcano",
+            "url": "https://www.britannica.com/science/volcano",
+            "description": "Synthèse pédagogique sur les volcans."
+          }
+        ],
+        "image": {
+          "path": "",
+          "original_url": null,
+          "author": null,
+          "license": null,
+          "alt_text": "Illustration d’un volcan en éruption et de la pression du magma."
+        },
+        "estimated_reading_minutes": 5
+      },
+      "manifest": {}
+    },
+    {
+      "day": 2,
+      "country": {
+        "day": 2,
+        "lesson_type": "country",
+        "topic_id": "france",
+        "topic_name": "France",
+        "language": "fr",
+        "title": "France : un carrefour devenu État très centralisé",
+        "hook": "La France ressemble à une évidence sur la carte. En réalité, c’est une construction patiente : langues, régions, pouvoir royal, révolutions et République.",
+        "summary": "Comprendre la France, c’est comprendre comment un carrefour européen est devenu un État centralisé, puis une République attachée à l’égalité civique. Son influence vient autant de sa géographie que de ses institutions, de sa langue, de ses révolutions et de sa capacité à projeter une certaine idée de la culture.",
+        "takeaways": [
+          "La France est placée entre Europe du Nord, Méditerranée et Atlantique.",
+          "Paris concentre depuis longtemps pouvoir politique, culturel et économique.",
+          "La Révolution française a transformé la manière moderne de penser citoyenneté et droits.",
+          "Le pays reste marqué par la tension entre diversité régionale et unité républicaine."
+        ],
+        "cards": [
+          {
+            "heading": "Le fil rouge",
+            "body": "La France s’est bâtie autour d’un centre politique très fort. Cette centralisation n’était pas inévitable : le territoire abritait des langues, des droits et des identités régionales variées. Le projet français a longtemps consisté à relier tout cela à une capitale, une administration, une école, puis une idée commune de la citoyenneté."
+          },
+          {
+            "heading": "Ce que la carte raconte",
+            "body": "La carte française est presque un résumé d’Europe : Manche, Atlantique, Méditerranée, Alpes, Pyrénées, plaines agricoles, grands fleuves. Cette position a favorisé échanges, invasions, commerce et puissance agricole. Elle explique aussi pourquoi le pays s’est souvent pensé comme un pont, mais aussi comme une frontière."
+          },
+          {
+            "heading": "Une histoire en couches",
+            "body": "Royaume capétien, monarchie absolue, Révolution, Empire, Républiques : l’histoire politique française est une suite de ruptures fortes. L’État a appris à durer en changeant de forme. La Révolution de 1789 reste centrale car elle a donné un vocabulaire mondial : citoyen, droits, souveraineté nationale, égalité devant la loi."
+          },
+          {
+            "heading": "Pourquoi cela compte aujourd’hui",
+            "body": "La France pèse par son siège permanent au Conseil de sécurité de l’ONU, son économie, sa langue, son réseau diplomatique et sa culture. Elle doit aussi gérer des débats profonds : rapport à la laïcité, mémoire coloniale, place de Paris, fractures sociales, transition écologique."
+          },
+          {
+            "heading": "À regarder autrement",
+            "body": "Pour regarder la France autrement, observez la tension entre l’universel et le local. Le pays aime parler au nom de principes généraux, mais il est fait de terroirs, d’accents, de paysages et de mémoires très différents."
+          }
+        ],
+        "key_figures": [
+          {
+            "label": "Façades maritimes",
+            "value": "3",
+            "note": "Manche, Atlantique et Méditerranée ouvrent le pays sur plusieurs mondes."
+          },
+          {
+            "label": "Révolution fondatrice",
+            "value": "1789",
+            "note": "Date pivot de la citoyenneté moderne française."
+          },
+          {
+            "label": "Langue française",
+            "value": "5 continents",
+            "note": "Présente grâce à l’histoire, la diplomatie et la francophonie."
+          }
+        ],
+        "anecdote": "Le découpage des départements après la Révolution voulait que l’on puisse, en théorie, rejoindre le chef-lieu en une journée de cheval. Même la carte administrative portait une idée politique : rapprocher l’État du citoyen.",
+        "sources": [
+          {
+            "title": "Encyclopaedia Britannica — France",
+            "url": "https://www.britannica.com/place/France",
+            "description": "Repères géographiques et historiques."
+          },
+          {
+            "title": "CIA World Factbook — France",
+            "url": "https://www.cia.gov/the-world-factbook/countries/france/",
+            "description": "Données de synthèse sur le pays."
+          },
+          {
+            "title": "Vie publique — Institutions françaises",
+            "url": "https://www.vie-publique.fr/",
+            "description": "Ressource institutionnelle sur la République et l’administration."
+          }
+        ],
+        "image": {
+          "path": "",
+          "original_url": null,
+          "author": null,
+          "license": null,
+          "alt_text": "Paysage français mêlant ville, fleuve et patrimoine."
+        },
+        "estimated_reading_minutes": 5
+      },
+      "question": {
+        "day": 2,
+        "lesson_type": "question",
+        "topic_id": "how-does-the-internet-work",
+        "topic_name": "How does the Internet work?",
+        "language": "fr",
+        "title": "Comment fonctionne Internet ?",
+        "hook": "Internet paraît immatériel. En réalité, c’est une gigantesque chorégraphie de câbles, d’adresses, de paquets et d’accords entre réseaux.",
+        "summary": "Internet est un réseau de réseaux. Quand vous ouvrez une page, votre appareil découpe et reçoit des données en petits paquets, les fait circuler par des routeurs, utilise des adresses IP et s’appuie sur le DNS pour traduire les noms de sites. Sa magie vient d’une idée simple : aucun centre unique ne doit tout contrôler.",
+        "takeaways": [
+          "Internet relie des réseaux différents grâce à des protocoles communs.",
+          "Les données voyagent en paquets, pas comme un bloc unique.",
+          "Le DNS transforme un nom lisible en adresse utilisable par les machines.",
+          "La résilience vient de la multiplicité des routes possibles."
+        ],
+        "cards": [
+          {
+            "heading": "Un réseau de réseaux",
+            "body": "Votre téléphone n’est pas connecté à “un nuage”. Il parle à un fournisseur d’accès, qui parle à d’autres réseaux, qui parlent à des centres de données. Internet est l’ensemble de ces interconnexions."
+          },
+          {
+            "heading": "Les paquets font le voyage",
+            "body": "Un message, une vidéo ou une page web est découpé en paquets. Chaque paquet porte une adresse de destination et peut emprunter un chemin différent. À l’arrivée, l’ensemble est réassemblé."
+          },
+          {
+            "heading": "Le DNS, l’annuaire discret",
+            "body": "Vous tapez un nom comme example.com, mais les machines utilisent des adresses IP. Le DNS sert d’annuaire : il trouve l’adresse numérique correspondant au nom demandé."
+          },
+          {
+            "heading": "Les protocoles évitent le chaos",
+            "body": "TCP/IP, HTTP, TLS et d’autres règles communes permettent à des machines très différentes de se comprendre. Internet fonctionne parce que tout le monde accepte un minimum de grammaire partagée."
+          },
+          {
+            "heading": "Pourquoi c’est robuste",
+            "body": "Internet n’a pas besoin d’un chemin unique. Si une route est saturée ou coupée, les paquets peuvent passer ailleurs. Cette logique distribuée explique sa résistance, mais aussi sa complexité."
+          }
+        ],
+        "key_figures": [
+          {
+            "label": "Unité de voyage",
+            "value": "Paquet",
+            "note": "Petit morceau de donnée adressé et routé."
+          },
+          {
+            "label": "Annuaire",
+            "value": "DNS",
+            "note": "Traduit les noms de domaine en adresses IP."
+          },
+          {
+            "label": "Principe",
+            "value": "Réseau de réseaux",
+            "note": "Internet relie des réseaux autonomes."
+          }
+        ],
+        "anecdote": "Le symbole “@” existait bien avant les emails. Il a été choisi parce qu’il indiquait naturellement qu’un utilisateur se trouvait “chez” un serveur donné.",
+        "sources": [
+          {
+            "title": "Internet Society — How does the Internet work?",
+            "url": "https://www.internetsociety.org/internet/how-it-works/",
+            "description": "Explication accessible des principes d’Internet."
+          },
+          {
+            "title": "ICANN — Beginner’s Guides",
+            "url": "https://www.icann.org/resources/pages/beginners-guides-2012-03-06-en",
+            "description": "Ressources sur les noms de domaine et la gouvernance technique."
+          },
+          {
+            "title": "Cloudflare Learning Center — What is the Internet?",
+            "url": "https://www.cloudflare.com/learning/network-layer/what-is-the-internet/",
+            "description": "Présentation pédagogique du réseau de réseaux."
+          }
+        ],
+        "image": {
+          "path": "",
+          "original_url": null,
+          "author": null,
+          "license": null,
+          "alt_text": "Illustration de paquets de données circulant entre réseaux."
+        },
+        "estimated_reading_minutes": 5
+      },
+      "manifest": {}
+    },
+    {
+      "day": 3,
+      "country": {
+        "day": 3,
+        "lesson_type": "country",
+        "topic_id": "brazil",
+        "topic_name": "Brazil",
+        "language": "fr",
+        "title": "Brésil : un continent en un seul pays",
+        "hook": "Le Brésil n’est pas seulement grand : il contient plusieurs mondes, de l’Amazonie aux métropoles côtières.",
+        "summary": "Le Brésil se comprend par l’échelle : immense territoire, biodiversité exceptionnelle, population très urbaine, héritage colonial portugais et société profondément métissée. Sa puissance potentielle est énorme, mais elle se heurte à des inégalités persistantes et à la question décisive de l’Amazonie.",
+        "takeaways": [
+          "Le Brésil occupe près de la moitié de l’Amérique du Sud.",
+          "L’Amazonie est un enjeu écologique mondial, mais aussi un espace habité et politique.",
+          "La colonisation portugaise a donné au pays une trajectoire linguistique distincte en Amérique latine.",
+          "Les inégalités sociales structurent encore fortement les villes et les campagnes."
+        ],
+        "cards": [
+          {
+            "heading": "Le fil rouge",
+            "body": "Le Brésil est un pays de dimensions continentales. Cette taille donne des ressources immenses, mais rend aussi l’unité difficile : distances, régions très différentes, frontières longues, contrastes entre littoral riche, intérieur agricole, Amazonie et grandes villes."
+          },
+          {
+            "heading": "Ce que la carte raconte",
+            "body": "La majorité de la population vit près du littoral atlantique, où la colonisation et le commerce se sont d’abord concentrés. L’intérieur a ensuite été ouvert par l’agriculture, les routes et la construction de Brasília. L’Amazonie, au nord, n’est pas un vide : c’est un système vivant, habité, disputé et surveillé par le monde entier."
+          },
+          {
+            "heading": "Une histoire en couches",
+            "body": "Le Brésil naît dans l’empire portugais, avec une économie de plantations et une histoire esclavagiste massive. Il devient indépendant au XIXe siècle sous forme d’empire, puis République. Cette trajectoire explique une partie de son originalité : langue portugaise, forte culture afro-brésilienne, et un rapport complexe entre richesse naturelle et hiérarchies sociales."
+          },
+          {
+            "heading": "Pourquoi cela compte aujourd’hui",
+            "body": "Le pays est une puissance agricole, minière, énergétique et culturelle. Football, musique, diplomatie du Sud global, industrie et environnement s’y croisent. Mais la question brésilienne centrale reste : comment développer, réduire les inégalités et préserver l’Amazonie en même temps ?"
+          },
+          {
+            "heading": "À regarder autrement",
+            "body": "Pour regarder le Brésil autrement, ne séparez pas nature et société. La forêt, les villes, les routes, les peuples autochtones, l’élevage, l’énergie et le climat forment un seul problème politique."
+          }
+        ],
+        "key_figures": [
+          {
+            "label": "Part de l’Amérique du Sud",
+            "value": "≈ 47 %",
+            "note": "Le Brésil domine la carte du continent."
+          },
+          {
+            "label": "Langue principale",
+            "value": "Portugais",
+            "note": "Une exception majeure dans une Amérique latine surtout hispanophone."
+          },
+          {
+            "label": "Biome emblématique",
+            "value": "Amazonie",
+            "note": "Réservoir de biodiversité et enjeu climatique mondial."
+          }
+        ],
+        "anecdote": "Brasília a été construite à l’intérieur du pays pour déplacer le centre de gravité national. Sa forme d’avion ou d’oiseau sur les plans est devenue un symbole d’un Brésil qui voulait inventer son futur.",
+        "sources": [
+          {
+            "title": "Encyclopaedia Britannica — Brazil",
+            "url": "https://www.britannica.com/place/Brazil",
+            "description": "Repères historiques, géographiques et culturels."
+          },
+          {
+            "title": "CIA World Factbook — Brazil",
+            "url": "https://www.cia.gov/the-world-factbook/countries/brazil/",
+            "description": "Données synthétiques sur le pays."
+          },
+          {
+            "title": "World Bank — Brazil",
+            "url": "https://www.worldbank.org/en/country/brazil",
+            "description": "Contexte économique et social contemporain."
+          }
+        ],
+        "image": {
+          "path": "",
+          "original_url": null,
+          "author": null,
+          "license": null,
+          "alt_text": "Paysage brésilien évoquant l’Amazonie et les grandes villes."
+        },
+        "estimated_reading_minutes": 5
+      },
+      "question": {
+        "day": 3,
+        "lesson_type": "question",
+        "topic_id": "why-do-empires-collapse",
+        "topic_name": "Why do empires collapse?",
+        "language": "fr",
+        "title": "Pourquoi les empires s’effondrent-ils ?",
+        "hook": "Un empire ne tombe presque jamais pour une seule raison. Il se fissure quand trop de tensions deviennent impossibles à coordonner.",
+        "summary": "Les empires s’effondrent quand leur capacité à gouverner un espace très vaste diminue : coûts militaires, crises fiscales, rivalités internes, pressions extérieures, pertes de légitimité, maladies, climat ou mutations commerciales. Le plus intéressant n’est pas la chute spectaculaire, mais l’accumulation lente des fragilités.",
+        "takeaways": [
+          "Un empire doit transformer la distance en administration.",
+          "Les coûts de défense peuvent dépasser les bénéfices de l’expansion.",
+          "La légitimité compte autant que la force militaire.",
+          "Beaucoup d’effondrements sont des transformations plutôt que des disparitions instantanées."
+        ],
+        "cards": [
+          {
+            "heading": "La distance coûte cher",
+            "body": "Plus un empire grandit, plus il doit payer routes, soldats, fonctionnaires, relais, alliances et garnisons. La grandeur devient une charge autant qu’un avantage."
+          },
+          {
+            "heading": "La périphérie teste le centre",
+            "body": "Les provinces lointaines obéissent tant que le centre protège, paie, arbitre et impressionne. Quand il paraît faible, les élites locales cherchent plus d’autonomie."
+          },
+          {
+            "heading": "La crise fiscale est un poison lent",
+            "body": "Armées, monuments, bureaucratie et crises exigent des ressources. Si l’impôt devient trop lourd ou inefficace, le pacte impérial se fragilise."
+          },
+          {
+            "heading": "Les ennemis sentent les failles",
+            "body": "Les pressions extérieures ne suffisent pas toujours à détruire un empire solide. Elles deviennent décisives quand elles rencontrent des divisions internes."
+          },
+          {
+            "heading": "Tomber peut vouloir dire changer",
+            "body": "Après la chute d’un empire, ses langues, ses lois, ses routes, ses religions ou ses élites survivent souvent. Rome disparaît politiquement en Occident, mais reste partout dans les institutions et les imaginaires."
+          }
+        ],
+        "key_figures": [
+          {
+            "label": "Risque structurel",
+            "value": "Surextension",
+            "note": "Quand l’espace contrôlé devient trop coûteux à tenir."
+          },
+          {
+            "label": "Ressource invisible",
+            "value": "Légitimité",
+            "note": "Les sujets doivent croire que l’ordre impérial vaut encore la peine."
+          },
+          {
+            "label": "Forme fréquente",
+            "value": "Transformation",
+            "note": "Un empire laisse souvent des héritages durables."
+          }
+        ],
+        "anecdote": "L’Empire romain d’Orient, que nous appelons souvent byzantin, a survécu près de mille ans après la fin de l’Empire romain d’Occident. Cela rappelle qu’une “chute” dépend beaucoup de l’endroit où l’on regarde.",
+        "sources": [
+          {
+            "title": "Encyclopaedia Britannica — Roman Empire",
+            "url": "https://www.britannica.com/place/Roman-Empire",
+            "description": "Exemple majeur d’expansion, transformation et héritage impérial."
+          },
+          {
+            "title": "World History Encyclopedia — Empire",
+            "url": "https://www.worldhistory.org/empire/",
+            "description": "Repères généraux sur les formes impériales."
+          },
+          {
+            "title": "Khan Academy — Fall of Rome",
+            "url": "https://www.khanacademy.org/humanities/world-history/ancient-medieval/roman-empire/a/the-fall-of-rome",
+            "description": "Synthèse pédagogique sur les facteurs de chute romaine."
+          }
+        ],
+        "image": {
+          "path": "",
+          "original_url": null,
+          "author": null,
+          "license": null,
+          "alt_text": "Illustration d’une carte impériale qui se fragmente."
+        },
+        "estimated_reading_minutes": 5
+      },
+      "manifest": {}
+    },
+    {
+      "day": 4,
+      "country": {
+        "day": 4,
+        "lesson_type": "country",
+        "topic_id": "egypt",
+        "topic_name": "Egypt",
+        "language": "fr",
+        "title": "Égypte : le don du Nil, mais pas seulement",
+        "hook": "On résume souvent l’Égypte aux pyramides. Le vrai fil conducteur est plus puissant : un fleuve qui fabrique un pays.",
+        "summary": "L’Égypte est l’un des meilleurs exemples de géographie devenue civilisation. Le Nil concentre l’eau, les terres cultivables, les villes et l’imaginaire national. Mais l’Égypte est aussi méditerranéenne, africaine, arabe, désertique et stratégique, notamment grâce au canal de Suez.",
+        "takeaways": [
+          "Le Nil structure l’habitat, l’agriculture et l’histoire politique.",
+          "Le désert protège et contraint à la fois.",
+          "Le canal de Suez fait de l’Égypte un point clé du commerce mondial.",
+          "L’héritage pharaonique coexiste avec une identité arabe, africaine et méditerranéenne."
+        ],
+        "cards": [
+          {
+            "heading": "Le fil rouge",
+            "body": "L’Égypte est une leçon de concentration. Dans un pays largement désertique, la vie se resserre autour du Nil et de son delta. Cette étroite bande verte a permis une administration ancienne, des surplus agricoles, des villes, des temples, des armées et une mémoire qui fascine encore."
+          },
+          {
+            "heading": "Ce que la carte raconte",
+            "body": "La carte oppose presque brutalement le désert et le fleuve. Au nord, le delta ouvre vers la Méditerranée. À l’est, le Sinaï relie Afrique et Asie. Le canal de Suez, entre Méditerranée et mer Rouge, transforme cette géographie en levier mondial."
+          },
+          {
+            "heading": "Une histoire en couches",
+            "body": "L’Égypte ancienne a développé une des civilisations les plus durables de l’histoire, portée par les crues du Nil et une administration très organisée. Plus tard, Grecs, Romains, Arabes, Ottomans et Britanniques ont tous laissé des traces. Le pays moderne hérite donc de plusieurs couches, pas d’une seule antiquité figée."
+          },
+          {
+            "heading": "Pourquoi cela compte aujourd’hui",
+            "body": "L’Égypte reste un poids lourd démographique, culturel et diplomatique du monde arabe. Elle affronte des défis d’eau, d’urbanisation, d’emploi et de développement. Sa position autour de Suez lui donne une importance stratégique qui dépasse largement ses frontières."
+          },
+          {
+            "heading": "À regarder autrement",
+            "body": "Pour regarder l’Égypte autrement, remplacez l’image de monuments isolés par celle d’une infrastructure naturelle : le Nil. Les pyramides impressionnent, mais le fleuve explique pourquoi elles ont pu exister."
+          }
+        ],
+        "key_figures": [
+          {
+            "label": "Axe vital",
+            "value": "Nil",
+            "note": "La majorité de la population vit près du fleuve ou du delta."
+          },
+          {
+            "label": "Canal stratégique",
+            "value": "Suez",
+            "note": "Un passage majeur entre Europe, Asie et océan Indien."
+          },
+          {
+            "label": "Désert",
+            "value": "Très dominant",
+            "note": "Il rend l’eau et les terres cultivables politiquement essentielles."
+          }
+        ],
+        "anecdote": "Le mot “papier” vient de papyrus, cette plante du Nil transformée en support d’écriture. Même notre vocabulaire garde une trace de l’écologie égyptienne.",
+        "sources": [
+          {
+            "title": "Encyclopaedia Britannica — Egypt",
+            "url": "https://www.britannica.com/place/Egypt",
+            "description": "Repères historiques et géographiques."
+          },
+          {
+            "title": "CIA World Factbook — Egypt",
+            "url": "https://www.cia.gov/the-world-factbook/countries/egypt/",
+            "description": "Données synthétiques sur le pays."
+          },
+          {
+            "title": "Suez Canal Authority",
+            "url": "https://www.suezcanal.gov.eg/English/Pages/default.aspx",
+            "description": "Informations institutionnelles sur le canal de Suez."
+          }
+        ],
+        "image": {
+          "path": "",
+          "original_url": null,
+          "author": null,
+          "license": null,
+          "alt_text": "Paysage égyptien autour du Nil et du désert."
+        },
+        "estimated_reading_minutes": 5
+      },
+      "question": {
+        "day": 4,
+        "lesson_type": "question",
+        "topic_id": "why-do-deserts-exist",
+        "topic_name": "Why do deserts exist?",
+        "language": "fr",
+        "title": "Pourquoi les déserts existent-ils ?",
+        "hook": "Un désert n’est pas défini par le sable, mais par le manque d’eau. Certains sont brûlants, d’autres glacés.",
+        "summary": "Les déserts apparaissent quand l’air apporte très peu d’humidité ou quand les conditions empêchent les pluies régulières. Circulation atmosphérique, montagnes, courants océaniques froids, éloignement de la mer et zones polaires peuvent tous créer de l’aridité. Le désert est donc une histoire d’air, pas seulement de sol.",
+        "takeaways": [
+          "Un désert reçoit très peu de précipitations.",
+          "Les grandes cellules de circulation atmosphérique créent des zones sèches vers les tropiques.",
+          "Les montagnes peuvent bloquer l’humidité et produire une ombre pluviométrique.",
+          "Il existe des déserts froids, notamment en Antarctique."
+        ],
+        "cards": [
+          {
+            "heading": "Le vrai critère : l’eau",
+            "body": "On imagine les dunes, mais un désert est d’abord une région aride. Le sol peut être sableux, rocheux, salé ou gelé. Ce qui manque, c’est l’eau disponible pour la vie."
+          },
+          {
+            "heading": "L’air qui descend s’assèche",
+            "body": "Vers les latitudes subtropicales, de grandes masses d’air descendent. En descendant, l’air se réchauffe et retient mieux l’humidité : les nuages se forment moins facilement. Résultat : beaucoup de grands déserts se situent près des tropiques."
+          },
+          {
+            "heading": "Les montagnes font écran",
+            "body": "Quand l’air humide rencontre une montagne, il monte, refroidit et perd sa pluie. De l’autre côté, l’air redescend plus sec : c’est l’ombre pluviométrique. Elle explique des déserts comme l’Atacama ou des zones arides derrière de grandes chaînes."
+          },
+          {
+            "heading": "Les océans peuvent assécher",
+            "body": "Un courant océanique froid refroidit l’air au-dessus de lui et limite l’évaporation. Près de certaines côtes, cela crée du brouillard, mais très peu de pluie."
+          },
+          {
+            "heading": "Les déserts vivent quand même",
+            "body": "Plantes, insectes, reptiles, mammifères et humains s’adaptent : racines profondes, activité nocturne, stockage d’eau, mobilité. Le désert n’est pas vide ; il est exigeant."
+          }
+        ],
+        "key_figures": [
+          {
+            "label": "Définition simple",
+            "value": "Aridité",
+            "note": "Peu de précipitations, quelle que soit la température."
+          },
+          {
+            "label": "Mécanisme clé",
+            "value": "Air descendant",
+            "note": "Il limite la formation de nuages dans les zones subtropicales."
+          },
+          {
+            "label": "Désert froid",
+            "value": "Antarctique",
+            "note": "Très sec malgré la glace."
+          }
+        ],
+        "anecdote": "Le désert d’Atacama est si sec que certaines zones servent d’analogue terrestre pour tester des instruments destinés à Mars.",
+        "sources": [
+          {
+            "title": "National Geographic — Desert",
+            "url": "https://education.nationalgeographic.org/resource/desert/",
+            "description": "Présentation pédagogique des déserts et de leurs formes."
+          },
+          {
+            "title": "NASA Earth Observatory",
+            "url": "https://earthobservatory.nasa.gov/",
+            "description": "Ressources sur climat, aridité et observation de la Terre."
+          },
+          {
+            "title": "Encyclopaedia Britannica — Desert",
+            "url": "https://www.britannica.com/science/desert",
+            "description": "Synthèse sur les mécanismes et types de déserts."
+          }
+        ],
+        "image": {
+          "path": "",
+          "original_url": null,
+          "author": null,
+          "license": null,
+          "alt_text": "Illustration de désert, montagnes et air sec."
+        },
+        "estimated_reading_minutes": 5
+      },
+      "manifest": {}
+    },
+    {
+      "day": 5,
+      "country": {
+        "day": 5,
+        "lesson_type": "country",
+        "topic_id": "india",
+        "topic_name": "India",
+        "language": "fr",
+        "title": "Inde : une civilisation-monde en démocratie",
+        "hook": "L’Inde n’est pas “un” monde : c’est une mosaïque de langues, religions, cuisines, climats et mémoires tenue dans un même cadre politique.",
+        "summary": "L’Inde impressionne par son échelle humaine et culturelle. Elle combine une histoire très ancienne, une diversité linguistique majeure, un héritage colonial britannique, une démocratie de masse et une économie en transformation rapide. Sa complexité est la clé : rien d’important n’y est simple.",
+        "takeaways": [
+          "La diversité linguistique et religieuse est centrale pour comprendre l’Inde.",
+          "Le sous-continent a longtemps été relié par échanges, empires, pèlerinages et fleuves.",
+          "L’indépendance de 1947 et la partition restent des événements fondateurs.",
+          "L’Inde actuelle combine puissance technologique, pauvreté persistante et ambitions géopolitiques."
+        ],
+        "cards": [
+          {
+            "heading": "Le fil rouge",
+            "body": "L’Inde est souvent décrite par les contrastes, mais le mot le plus utile est peut-être “coexistence”. Des centaines de langues, plusieurs grandes religions, des mégapoles, des villages, des industries numériques et des traditions anciennes y cohabitent dans un cadre démocratique immense."
+          },
+          {
+            "heading": "Ce que la carte raconte",
+            "body": "Le pays est structuré par l’Himalaya au nord, les plaines du Gange, le plateau du Deccan et de longues façades maritimes. Cette géographie crée plusieurs Indes : agricole, montagnarde, côtière, urbaine, tropicale, sèche. Les fleuves sont des axes économiques autant que spirituels."
+          },
+          {
+            "heading": "Une histoire en couches",
+            "body": "L’Inde a vu naître ou grandir l’hindouisme, le bouddhisme, le jaïnisme et le sikhisme. Elle a connu de grands empires, des réseaux commerciaux, l’Empire moghol, puis la domination britannique. En 1947, l’indépendance s’accompagne de la partition avec le Pakistan, traumatisme majeur du XXe siècle."
+          },
+          {
+            "heading": "Pourquoi cela compte aujourd’hui",
+            "body": "L’Inde est une grande puissance démographique, technologique, militaire et culturelle. Elle exporte logiciels, films, médicaments, ingénieurs et idées. Ses défis sont à la même échelle : emploi des jeunes, pollution, infrastructures, tensions religieuses, inégalités et adaptation climatique."
+          },
+          {
+            "heading": "À regarder autrement",
+            "body": "Pour regarder l’Inde autrement, évitez de chercher une seule identité. L’Inde fonctionne comme une conversation permanente entre unité politique et pluralité sociale."
+          }
+        ],
+        "key_figures": [
+          {
+            "label": "Langues constitutionnelles",
+            "value": "22",
+            "note": "Un indice de la diversité linguistique reconnue."
+          },
+          {
+            "label": "Indépendance",
+            "value": "1947",
+            "note": "Avec la partition, événement fondateur de l’Inde moderne."
+          },
+          {
+            "label": "Système politique",
+            "value": "Démocratie fédérale",
+            "note": "Un cadre commun pour une diversité exceptionnelle."
+          }
+        ],
+        "anecdote": "Les billets de banque indiens affichent leur valeur dans de nombreuses langues. C’est un petit objet quotidien qui résume un immense compromis politique : faire circuler une monnaie commune dans un pays multilingue.",
+        "sources": [
+          {
+            "title": "Encyclopaedia Britannica — India",
+            "url": "https://www.britannica.com/place/India",
+            "description": "Vue d’ensemble historique et géographique."
+          },
+          {
+            "title": "CIA World Factbook — India",
+            "url": "https://www.cia.gov/the-world-factbook/countries/india/",
+            "description": "Données synthétiques sur le pays."
+          },
+          {
+            "title": "Government of India — National Portal",
+            "url": "https://www.india.gov.in/",
+            "description": "Portail institutionnel indien."
+          }
+        ],
+        "image": {
+          "path": "",
+          "original_url": null,
+          "author": null,
+          "license": null,
+          "alt_text": "Paysage indien mêlant fleuve, ville et patrimoine."
+        },
+        "estimated_reading_minutes": 5
+      },
+      "question": {
+        "day": 5,
+        "lesson_type": "question",
+        "topic_id": "how-do-vaccines-train-the-immune-system",
+        "topic_name": "How do vaccines train the immune system?",
+        "language": "fr",
+        "title": "Comment les vaccins entraînent-ils le système immunitaire ?",
+        "hook": "Un vaccin est une répétition générale : il montre le danger sans laisser la maladie jouer la vraie scène.",
+        "summary": "Un vaccin présente au système immunitaire une version inoffensive d’un microbe, un fragment ou une instruction pour fabriquer un fragment. Le corps apprend à reconnaître l’ennemi, produit des anticorps et surtout garde des cellules mémoire. Si le vrai pathogène arrive, la réponse est plus rapide et plus forte.",
+        "takeaways": [
+          "Le vaccin déclenche un apprentissage immunitaire sans provoquer la maladie complète.",
+          "Les cellules mémoire permettent une réaction plus rapide lors d’une vraie infection.",
+          "La vaccination protège l’individu et peut réduire la transmission dans une population.",
+          "Les vaccins sont testés pour mesurer sécurité, efficacité et effets indésirables."
+        ],
+        "cards": [
+          {
+            "heading": "Reconnaître avant de combattre",
+            "body": "Le système immunitaire fonctionne comme une équipe de surveillance. Il doit distinguer ce qui appartient au corps de ce qui peut être dangereux. Un vaccin lui donne une cible à apprendre."
+          },
+          {
+            "heading": "Antigène : le signal d’entraînement",
+            "body": "Le vaccin contient ou fait produire un antigène, c’est-à-dire un élément reconnaissable du microbe. Il ne s’agit pas de “donner la maladie”, mais de montrer une signature."
+          },
+          {
+            "heading": "La mémoire immunitaire",
+            "body": "Après la première rencontre, certaines cellules restent prêtes. Lors d’une exposition future, elles réagissent plus vite. C’est cette mémoire qui rend la vaccination si puissante."
+          },
+          {
+            "heading": "Pourquoi plusieurs doses ?",
+            "body": "Un rappel renforce la mémoire, augmente la quantité ou la qualité des anticorps et prolonge la protection. C’est comme réviser avant un examen important."
+          },
+          {
+            "heading": "Une protection collective",
+            "body": "Quand beaucoup de personnes sont immunisées, un pathogène circule moins facilement. Les personnes fragiles ou non vaccinables bénéficient alors indirectement de cette barrière."
+          }
+        ],
+        "key_figures": [
+          {
+            "label": "Acteur clé",
+            "value": "Cellules mémoire",
+            "note": "Elles accélèrent la réponse lors d’une future exposition."
+          },
+          {
+            "label": "Signal appris",
+            "value": "Antigène",
+            "note": "Fragment ou signature reconnue par l’immunité."
+          },
+          {
+            "label": "Effet population",
+            "value": "Immunité collective",
+            "note": "Réduction de la circulation quand beaucoup sont protégés."
+          }
+        ],
+        "anecdote": "Le mot vaccin vient de “vacca”, la vache en latin, car Edward Jenner a utilisé la vaccine, maladie bovine proche de la variole, pour protéger contre la variole humaine.",
+        "sources": [
+          {
+            "title": "WHO — Vaccines and immunization",
+            "url": "https://www.who.int/health-topics/vaccines-and-immunization",
+            "description": "Référence mondiale sur la vaccination."
+          },
+          {
+            "title": "CDC — How Vaccines Work",
+            "url": "https://www.cdc.gov/vaccines/basics/index.html",
+            "description": "Explication pédagogique du fonctionnement des vaccins."
+          },
+          {
+            "title": "Institut Pasteur — Vaccins",
+            "url": "https://www.pasteur.fr/fr/centre-medical/fiches-maladies/vaccins",
+            "description": "Ressource francophone sur les vaccins."
+          }
+        ],
+        "image": {
+          "path": "",
+          "original_url": null,
+          "author": null,
+          "license": null,
+          "alt_text": "Illustration du système immunitaire apprenant à reconnaître un antigène."
+        },
+        "estimated_reading_minutes": 5
+      },
+      "manifest": {}
+    },
+    {
+      "day": 6,
+      "country": {
+        "day": 6,
+        "lesson_type": "country",
+        "topic_id": "nigeria",
+        "topic_name": "Nigeria",
+        "language": "fr",
+        "title": "Nigeria : le géant africain aux mille équilibres",
+        "hook": "Le Nigeria concentre une question essentielle : comment faire tenir une puissance immense, jeune, diverse et inégalement développée ?",
+        "summary": "Le Nigeria est le pays le plus peuplé d’Afrique et l’un de ses grands moteurs culturels et économiques. Sa richesse vient du pétrole, des villes, de l’entrepreneuriat et d’une créativité puissante. Ses fragilités viennent des inégalités régionales, des tensions politiques, de la sécurité et de la dépendance aux hydrocarbures.",
+        "takeaways": [
+          "Le Nigeria est un poids lourd démographique et culturel du continent africain.",
+          "Sa diversité ethnique, linguistique et religieuse exige des compromis politiques constants.",
+          "Le pétrole a apporté des revenus majeurs, mais aussi dépendance et tensions.",
+          "Lagos illustre l’énergie urbaine, économique et culturelle du pays."
+        ],
+        "cards": [
+          {
+            "heading": "Le fil rouge",
+            "body": "Le Nigeria est souvent appelé “géant de l’Afrique”. Ce n’est pas seulement une formule : population, cinéma, musique, finance, pétrole, diaspora et diplomatie lui donnent une présence considérable. Mais un géant doit aussi apprendre à coordonner ses forces internes."
+          },
+          {
+            "heading": "Ce que la carte raconte",
+            "body": "Le pays relie le golfe de Guinée au Sahel. Le sud est plus humide, côtier et fortement urbanisé ; le nord est plus sec et tourné vers les réseaux sahéliens. Cette géographie recoupe partiellement des différences économiques, religieuses et historiques, ce qui rend le fédéralisme crucial."
+          },
+          {
+            "heading": "Une histoire en couches",
+            "body": "Le territoire actuel rassemble d’anciens royaumes, cités commerçantes, califats, sociétés agricoles et réseaux atlantiques. La colonisation britannique a réuni ces espaces dans un même cadre. Depuis l’indépendance, le pays cherche un équilibre entre régions, ressources et pouvoir central."
+          },
+          {
+            "heading": "Pourquoi cela compte aujourd’hui",
+            "body": "Le Nigeria rayonne par Nollywood, l’afrobeats, ses entrepreneurs et sa diaspora. Il doit aussi répondre à des défis sérieux : accès à l’électricité, corruption, inflation, violences armées, chômage des jeunes. Son avenir comptera pour toute l’Afrique de l’Ouest."
+          },
+          {
+            "heading": "À regarder autrement",
+            "body": "Pour regarder le Nigeria autrement, ne le réduisez ni au pétrole ni aux crises. Regardez aussi la capacité d’invention sociale : marchés, musique, technologies financières, mode, cinéma et humour politique."
+          }
+        ],
+        "key_figures": [
+          {
+            "label": "Population africaine",
+            "value": "1er rang",
+            "note": "Le Nigeria est le pays le plus peuplé du continent."
+          },
+          {
+            "label": "Ville symbole",
+            "value": "Lagos",
+            "note": "Métropole créative, économique et démographique majeure."
+          },
+          {
+            "label": "Ressource clé",
+            "value": "Pétrole",
+            "note": "Une force économique, mais aussi une dépendance."
+          }
+        ],
+        "anecdote": "Nollywood produit énormément de films avec des budgets souvent modestes. Son succès montre qu’une industrie culturelle peut naître d’un public local immense avant de conquérir une diaspora mondiale.",
+        "sources": [
+          {
+            "title": "Encyclopaedia Britannica — Nigeria",
+            "url": "https://www.britannica.com/place/Nigeria",
+            "description": "Repères historiques et géographiques."
+          },
+          {
+            "title": "CIA World Factbook — Nigeria",
+            "url": "https://www.cia.gov/the-world-factbook/countries/nigeria/",
+            "description": "Données synthétiques sur le pays."
+          },
+          {
+            "title": "World Bank — Nigeria",
+            "url": "https://www.worldbank.org/en/country/nigeria",
+            "description": "Contexte économique et social."
+          }
+        ],
+        "image": {
+          "path": "",
+          "original_url": null,
+          "author": null,
+          "license": null,
+          "alt_text": "Paysage nigérian évoquant ville, fleuve et énergie urbaine."
+        },
+        "estimated_reading_minutes": 5
+      },
+      "question": {
+        "day": 6,
+        "lesson_type": "question",
+        "topic_id": "why-are-some-currencies-stronger-than-others",
+        "topic_name": "Why are some currencies stronger than others?",
+        "language": "fr",
+        "title": "Pourquoi certaines monnaies sont-elles plus fortes que d’autres ?",
+        "hook": "Une monnaie forte n’est pas seulement un billet respecté : c’est un vote de confiance permanent dans une économie et ses institutions.",
+        "summary": "La valeur d’une monnaie dépend de l’offre et de la demande sur les marchés des changes. Les investisseurs regardent l’inflation, les taux d’intérêt, la stabilité politique, la confiance dans la banque centrale, la balance commerciale et les perspectives économiques. Une monnaie peut être “forte” pour de bonnes raisons, mais aussi devenir un problème si elle pénalise les exportations.",
+        "takeaways": [
+          "Le taux de change reflète une demande relative pour une monnaie.",
+          "Inflation basse et institutions crédibles renforcent la confiance.",
+          "Des taux d’intérêt élevés peuvent attirer des capitaux.",
+          "Une monnaie forte rend les importations moins chères, mais les exportations plus coûteuses."
+        ],
+        "cards": [
+          {
+            "heading": "Une monnaie s’achète aussi",
+            "body": "Pour acheter des biens, investir ou prêter dans un pays, il faut souvent sa monnaie. Plus la demande est forte par rapport à l’offre, plus la monnaie tend à monter."
+          },
+          {
+            "heading": "La confiance est centrale",
+            "body": "Si les prix augmentent trop vite, la monnaie perd du pouvoir d’achat. Si l’État ou la banque centrale paraît imprévisible, les investisseurs demandent une prime de risque ou partent ailleurs."
+          },
+          {
+            "heading": "Les taux attirent les capitaux",
+            "body": "Quand un pays offre des rendements plus élevés, des capitaux peuvent affluer. Mais si ces taux reflètent une crise ou une inflation élevée, l’effet peut s’inverser."
+          },
+          {
+            "heading": "Le commerce compte",
+            "body": "Un pays qui exporte beaucoup de biens recherchés reçoit des devises. La demande pour sa monnaie peut augmenter, surtout si ses produits sont difficiles à remplacer."
+          },
+          {
+            "heading": "Fort ne veut pas toujours dire mieux",
+            "body": "Une monnaie forte facilite les importations et les voyages, mais elle peut rendre les produits nationaux plus chers à l’étranger. Les pays cherchent souvent un équilibre, pas un trophée."
+          }
+        ],
+        "key_figures": [
+          {
+            "label": "Mesure visible",
+            "value": "Taux de change",
+            "note": "Prix d’une monnaie exprimé dans une autre."
+          },
+          {
+            "label": "Force invisible",
+            "value": "Confiance",
+            "note": "Elle dépend des institutions, de l’inflation et de la stabilité."
+          },
+          {
+            "label": "Canal rapide",
+            "value": "Taux d’intérêt",
+            "note": "Ils influencent les flux de capitaux."
+          }
+        ],
+        "anecdote": "Le franc suisse est souvent perçu comme valeur refuge. Cela tient moins à sa taille qu’à une réputation de stabilité politique, financière et institutionnelle construite sur la durée.",
+        "sources": [
+          {
+            "title": "IMF — Exchange Rates",
+            "url": "https://www.imf.org/en/About/Factsheets/Sheets/2023/exchange-rates",
+            "description": "Repères sur les régimes et mécanismes de change."
+          },
+          {
+            "title": "Federal Reserve — Exchange Rates and International Data",
+            "url": "https://www.federalreserve.gov/releases/h10/",
+            "description": "Données et contexte sur les taux de change."
+          },
+          {
+            "title": "BIS — Foreign exchange market",
+            "url": "https://www.bis.org/statistics/about_fx_stats.htm",
+            "description": "Ressources sur les marchés des changes."
+          }
+        ],
+        "image": {
+          "path": "",
+          "original_url": null,
+          "author": null,
+          "license": null,
+          "alt_text": "Illustration de monnaies reliées par des taux de change."
+        },
+        "estimated_reading_minutes": 5
+      },
+      "manifest": {}
+    },
+    {
+      "day": 7,
+      "country": {
+        "day": 7,
+        "lesson_type": "country",
+        "topic_id": "canada",
+        "topic_name": "Canada",
+        "language": "fr",
+        "title": "Canada : l’immensité comme défi politique",
+        "hook": "Le Canada est si vaste que sa géographie ressemble à une épreuve : comment gouverner, relier et habiter un espace pareil ?",
+        "summary": "Le Canada se comprend par l’immensité, le climat, les ressources naturelles, la relation avec les peuples autochtones, le bilinguisme et la proximité des États-Unis. C’est un pays riche, stable et urbain, mais construit sur des distances énormes et des mémoires difficiles.",
+        "takeaways": [
+          "La majorité des Canadiens vit près de la frontière sud.",
+          "Le bilinguisme anglais-français structure l’identité politique du pays.",
+          "Les peuples autochtones sont centraux pour comprendre le territoire et ses injustices historiques.",
+          "Les ressources naturelles et l’Arctique donnent au Canada une importance stratégique."
+        ],
+        "cards": [
+          {
+            "heading": "Le fil rouge",
+            "body": "Le Canada est un pays où la carte impressionne plus que la densité. L’immense nord, les forêts, les lacs, les Prairies, les Rocheuses et l’Arctique créent un territoire difficile à relier. Le pays moderne s’est bâti en négociant cette distance."
+          },
+          {
+            "heading": "Ce que la carte raconte",
+            "body": "Le sud concentre villes, industries et population : Toronto, Montréal, Vancouver, Ottawa, Calgary. Le nord représente une grande partie du territoire, mais avec des densités très faibles. L’Arctique canadien devient de plus en plus important avec le changement climatique et les routes polaires."
+          },
+          {
+            "heading": "Une histoire en couches",
+            "body": "La rencontre entre peuples autochtones, colonisation française, puis domination britannique a créé une histoire à plusieurs couches. Le Québec garde une place particulière par sa langue et son droit civil. L’histoire des pensionnats autochtones rappelle aussi que la construction du pays a eu un coût humain profond."
+          },
+          {
+            "heading": "Pourquoi cela compte aujourd’hui",
+            "body": "Le Canada est associé à l’immigration, aux ressources, à la stabilité institutionnelle et à un modèle social relativement protecteur. Mais il doit gérer le logement cher, la dépendance à certains secteurs, la réconciliation autochtone et l’équilibre entre provinces."
+          },
+          {
+            "heading": "À regarder autrement",
+            "body": "Pour regarder le Canada autrement, pensez-le comme une fédération de distances : distance entre langues, entre sud et nord, entre villes et ressources, entre mémoire coloniale et projet multiculturel."
+          }
+        ],
+        "key_figures": [
+          {
+            "label": "Océans bordiers",
+            "value": "3",
+            "note": "Atlantique, Pacifique et Arctique."
+          },
+          {
+            "label": "Langues officielles",
+            "value": "2",
+            "note": "Anglais et français structurent la vie fédérale."
+          },
+          {
+            "label": "Territoire",
+            "value": "Immense",
+            "note": "Le deuxième plus vaste État du monde par superficie."
+          }
+        ],
+        "anecdote": "La frontière entre le Canada et les États-Unis est souvent présentée comme la plus longue frontière non militarisée du monde. Elle rappelle que la sécurité peut aussi venir d’une relation politique durable.",
+        "sources": [
+          {
+            "title": "Encyclopaedia Britannica — Canada",
+            "url": "https://www.britannica.com/place/Canada",
+            "description": "Repères historiques et géographiques."
+          },
+          {
+            "title": "CIA World Factbook — Canada",
+            "url": "https://www.cia.gov/the-world-factbook/countries/canada/",
+            "description": "Données synthétiques sur le pays."
+          },
+          {
+            "title": "Government of Canada",
+            "url": "https://www.canada.ca/en.html",
+            "description": "Portail officiel du gouvernement canadien."
+          }
+        ],
+        "image": {
+          "path": "",
+          "original_url": null,
+          "author": null,
+          "license": null,
+          "alt_text": "Paysage canadien entre forêt, ville et immensité nordique."
+        },
+        "estimated_reading_minutes": 5
+      },
+      "question": {
+        "day": 7,
+        "lesson_type": "question",
+        "topic_id": "what-is-artificial-intelligence",
+        "topic_name": "What is artificial intelligence?",
+        "language": "fr",
+        "title": "Qu’est-ce que l’intelligence artificielle ?",
+        "hook": "L’intelligence artificielle n’est pas une intelligence magique : c’est l’art de faire accomplir à des machines des tâches qui exigeaient jusque-là du jugement humain.",
+        "summary": "L’IA regroupe des méthodes qui permettent à des machines de percevoir, classer, prédire, générer ou décider. Les systèmes modernes apprennent souvent à partir de données plutôt que de règles écrites à la main. Leur puissance est réelle, mais elle dépend de leurs données, de leurs objectifs, de leurs limites et de leur évaluation.",
+        "takeaways": [
+          "L’IA désigne une famille de techniques, pas une seule technologie.",
+          "Le machine learning apprend des régularités dans les données.",
+          "Les modèles peuvent produire des résultats utiles sans “comprendre” comme un humain.",
+          "Les risques viennent des erreurs, biais, usages mal conçus et excès de confiance."
+        ],
+        "cards": [
+          {
+            "heading": "Imiter une capacité, pas une personne",
+            "body": "Une IA peut reconnaître une image, traduire, prédire une panne ou générer du texte. Cela ne signifie pas qu’elle possède une conscience ou une intention humaine."
+          },
+          {
+            "heading": "Des règles aux données",
+            "body": "Les premières approches reposaient beaucoup sur des règles explicites. Le machine learning a déplacé le centre : on donne des exemples, et le système ajuste ses paramètres pour repérer des motifs."
+          },
+          {
+            "heading": "Le rôle du modèle",
+            "body": "Un modèle est une représentation simplifiée du monde. Il ne contient pas la réalité ; il contient des relations apprises. C’est pourquoi il peut être puissant dans un contexte et fragile dans un autre."
+          },
+          {
+            "heading": "Pourquoi les erreurs surprennent",
+            "body": "Une IA optimise un objectif statistique. Elle peut donc réussir souvent, puis échouer bizarrement quand une situation sort de ses données ou quand la demande est ambiguë."
+          },
+          {
+            "heading": "La vraie question : l’usage",
+            "body": "L’IA devient importante quand elle entre dans des décisions : médecine, école, justice, travail, création. La question n’est pas seulement “peut-on le faire ?”, mais “qui contrôle, qui vérifie, qui répond ?”."
+          }
+        ],
+        "key_figures": [
+          {
+            "label": "Méthode centrale",
+            "value": "Apprentissage",
+            "note": "Repérer des régularités à partir d’exemples."
+          },
+          {
+            "label": "Limite fréquente",
+            "value": "Biais",
+            "note": "Les données et objectifs peuvent reproduire des déséquilibres."
+          },
+          {
+            "label": "Question clé",
+            "value": "Évaluation",
+            "note": "Tester ce que le système fait vraiment, pas ce qu’il promet."
+          }
+        ],
+        "anecdote": "Le terme “intelligence artificielle” est popularisé lors d’un atelier à Dartmouth en 1956. Dès le départ, le domaine porte une ambition immense : comprendre l’intelligence en essayant de la reproduire.",
+        "sources": [
+          {
+            "title": "Stanford AI Index",
+            "url": "https://aiindex.stanford.edu/",
+            "description": "Rapports de référence sur l’évolution de l’IA."
+          },
+          {
+            "title": "NIST — AI Risk Management Framework",
+            "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+            "description": "Cadre sur les risques et la gouvernance de l’IA."
+          },
+          {
+            "title": "Encyclopaedia Britannica — Artificial intelligence",
+            "url": "https://www.britannica.com/technology/artificial-intelligence",
+            "description": "Synthèse générale sur l’IA."
+          }
+        ],
+        "image": {
+          "path": "",
+          "original_url": null,
+          "author": null,
+          "license": null,
+          "alt_text": "Illustration d’un modèle d’intelligence artificielle reliant données et prédictions."
+        },
+        "estimated_reading_minutes": 5
+      },
+      "manifest": {}
+    },
+    {
+      "day": 8,
+      "country": {
+        "day": 8,
+        "lesson_type": "country",
+        "topic_id": "indonesia",
+        "topic_name": "Indonesia",
+        "language": "fr",
+        "title": "Indonésie : l’archipel qui relie deux océans",
+        "hook": "L’Indonésie n’est pas une île : c’est une constellation. Et gouverner une constellation est une prouesse.",
+        "summary": "L’Indonésie est le plus grand archipel du monde par son importance politique et démographique. Elle relie l’océan Indien au Pacifique, rassemble des centaines de langues et abrite la plus grande population musulmane du monde. Sa diversité est sa richesse, mais aussi son défi permanent.",
+        "takeaways": [
+          "L’archipel compte des milliers d’îles, dont Java, Sumatra, Bornéo, Sulawesi et la Papouasie occidentale.",
+          "Java concentre une part très importante de la population et du pouvoir.",
+          "L’islam indonésien coexiste avec des traditions locales très diverses.",
+          "La position maritime du pays lui donne une importance stratégique majeure."
+        ],
+        "cards": [
+          {
+            "heading": "Le fil rouge",
+            "body": "L’Indonésie se comprend par la mer. Les îles ne sont pas seulement séparées par l’eau ; elles sont aussi reliées par elle. Commerce, religions, épices, migrations et langues ont circulé par les détroits pendant des siècles."
+          },
+          {
+            "heading": "Ce que la carte raconte",
+            "body": "Le pays s’étire entre Asie du Sud-Est et Océanie, au croisement de routes maritimes vitales. Le détroit de Malacca, proche de Sumatra, est l’un des passages commerciaux les plus importants du monde. Les volcans rappellent que l’archipel se trouve sur une zone tectonique active."
+          },
+          {
+            "heading": "Une histoire en couches",
+            "body": "Les royaumes hindou-bouddhiques, les réseaux marchands musulmans, puis la colonisation néerlandaise ont façonné l’archipel. Après l’indépendance, l’Indonésie a dû inventer une unité nationale au-dessus d’une diversité gigantesque. Sa devise, “Unité dans la diversité”, n’est pas décorative : c’est un programme politique."
+          },
+          {
+            "heading": "Pourquoi cela compte aujourd’hui",
+            "body": "L’Indonésie est une grande démocratie émergente, une puissance du G20 et un acteur clé de l’Asie du Sud-Est. Elle doit gérer urbanisation, déforestation, infrastructures, montée des eaux et déplacement de sa capitale vers Nusantara."
+          },
+          {
+            "heading": "À regarder autrement",
+            "body": "Pour regarder l’Indonésie autrement, imaginez un pays qui doit penser comme un réseau : ports, ferries, langues, îles, volcans, forêts et villes forment un système mouvant."
+          }
+        ],
+        "key_figures": [
+          {
+            "label": "Devise nationale",
+            "value": "Bhinneka Tunggal Ika",
+            "note": "“Unité dans la diversité”."
+          },
+          {
+            "label": "Île centrale",
+            "value": "Java",
+            "note": "Cœur démographique et politique."
+          },
+          {
+            "label": "Position",
+            "value": "Deux océans",
+            "note": "Entre océan Indien et Pacifique."
+          }
+        ],
+        "anecdote": "Le temple de Borobudur, à Java, est un immense monument bouddhique dans un pays aujourd’hui majoritairement musulman. Il rappelle que les identités religieuses de l’archipel se sont superposées au fil du temps.",
+        "sources": [
+          {
+            "title": "Encyclopaedia Britannica — Indonesia",
+            "url": "https://www.britannica.com/place/Indonesia",
+            "description": "Vue d’ensemble historique et géographique."
+          },
+          {
+            "title": "CIA World Factbook — Indonesia",
+            "url": "https://www.cia.gov/the-world-factbook/countries/indonesia/",
+            "description": "Données synthétiques sur le pays."
+          },
+          {
+            "title": "ASEAN — Indonesia",
+            "url": "https://asean.org/member-states/",
+            "description": "Contexte régional en Asie du Sud-Est."
+          }
+        ],
+        "image": {
+          "path": "",
+          "original_url": null,
+          "author": null,
+          "license": null,
+          "alt_text": "Paysage indonésien entre îles, volcans et mer."
+        },
+        "estimated_reading_minutes": 5
+      },
+      "question": {
+        "day": 8,
+        "lesson_type": "question",
+        "topic_id": "why-do-languages-change",
+        "topic_name": "Why do languages change?",
+        "language": "fr",
+        "title": "Pourquoi les langues changent-elles ?",
+        "hook": "Une langue vivante est une ville : tout le monde l’habite, personne ne la contrôle entièrement.",
+        "summary": "Les langues changent parce que les humains changent : sons simplifiés, mots empruntés, nouvelles technologies, migrations, prestige social, erreurs devenues habitudes. Le changement linguistique n’est pas une décadence. C’est le fonctionnement normal d’un outil collectif transmis de bouche en bouche.",
+        "takeaways": [
+          "Toutes les langues vivantes changent avec le temps.",
+          "Les sons, la grammaire, le vocabulaire et le sens des mots peuvent évoluer.",
+          "Les contacts entre populations accélèrent emprunts et mélanges.",
+          "Les normes scolaires ralentissent certains changements, mais ne les arrêtent jamais complètement."
+        ],
+        "cards": [
+          {
+            "heading": "La transmission n’est jamais parfaite",
+            "body": "Chaque génération apprend la langue des précédentes, mais avec ses propres usages, accents, groupes et besoins. De petites différences deviennent visibles avec le temps."
+          },
+          {
+            "heading": "Les sons se déplacent",
+            "body": "Prononcer demande de l’effort. Les sons peuvent se simplifier, se rapprocher ou disparaître. Des changements minuscules, répétés pendant des siècles, transforment profondément une langue."
+          },
+          {
+            "heading": "Les mots voyagent",
+            "body": "Commerce, conquêtes, migrations, religion, cuisine, science : chaque contact apporte des mots. “Café”, “algèbre”, “kimono” ou “internet” racontent des circulations culturelles."
+          },
+          {
+            "heading": "Le prestige change la norme",
+            "body": "Les façons de parler associées au pouvoir, à la ville, à la jeunesse ou aux médias peuvent se diffuser. Une forme jugée incorrecte peut devenir normale plus tard."
+          },
+          {
+            "heading": "Écrire ralentit, parler accélère",
+            "body": "L’école, les dictionnaires et l’administration stabilisent la langue écrite. Mais la langue parlée continue d’innover, souvent avant que les règles officielles ne suivent."
+          }
+        ],
+        "key_figures": [
+          {
+            "label": "Moteur quotidien",
+            "value": "Usage",
+            "note": "Ce que les locuteurs répètent finit par compter."
+          },
+          {
+            "label": "Accélérateur",
+            "value": "Contact",
+            "note": "Les langues empruntent quand les groupes interagissent."
+          },
+          {
+            "label": "Frein relatif",
+            "value": "Norme écrite",
+            "note": "Elle stabilise sans figer totalement."
+          }
+        ],
+        "anecdote": "Le français vient du latin, mais aucun enfant n’a un jour décidé de “parler français au lieu de latin”. La transformation s’est faite par milliers de petits glissements accumulés.",
+        "sources": [
+          {
+            "title": "Linguistic Society of America — Language Change",
+            "url": "https://www.linguisticsociety.org/resource/language-change",
+            "description": "Explication claire des mécanismes de changement linguistique."
+          },
+          {
+            "title": "Encyclopaedia Britannica — Language",
+            "url": "https://www.britannica.com/topic/language",
+            "description": "Synthèse générale sur les langues humaines."
+          },
+          {
+            "title": "Académie française — Dire, ne pas dire",
+            "url": "https://www.academie-francaise.fr/dire-ne-pas-dire",
+            "description": "Exemple institutionnel de réflexion sur la norme française."
+          }
+        ],
+        "image": {
+          "path": "",
+          "original_url": null,
+          "author": null,
+          "license": null,
+          "alt_text": "Illustration de mots qui voyagent et se transforment."
+        },
+        "estimated_reading_minutes": 5
+      },
+      "manifest": {}
+    },
+    {
+      "day": 9,
+      "country": {
+        "day": 9,
+        "lesson_type": "country",
+        "topic_id": "turkey",
+        "topic_name": "Turkey",
+        "language": "fr",
+        "title": "Turquie : le pont qui est aussi une puissance",
+        "hook": "La Turquie est souvent appelée pont entre Europe et Asie. Mais un pont peut aussi contrôler le passage.",
+        "summary": "La Turquie occupe une position exceptionnelle entre mer Noire, Méditerranée, Balkans, Caucase et Moyen-Orient. Héritière de l’Empire ottoman et de la République fondée par Atatürk, elle combine identité nationale forte, mémoire impériale, ambitions régionales et rôle stratégique dans les détroits.",
+        "takeaways": [
+          "Istanbul est une ville-monde entre deux continents.",
+          "Les détroits turcs relient mer Noire et Méditerranée.",
+          "La République turque s’est construite sur une modernisation laïque et nationaliste.",
+          "Le pays joue un rôle clé entre Europe, Russie, Caucase et Moyen-Orient."
+        ],
+        "cards": [
+          {
+            "heading": "Le fil rouge",
+            "body": "La Turquie est un espace de passage, mais aussi de contrôle. Qui tient l’Anatolie et les détroits peut influencer les routes, les armées, les grains, l’énergie et les diplomaties régionales. Cette position donne au pays une densité stratégique rare."
+          },
+          {
+            "heading": "Ce que la carte raconte",
+            "body": "L’Anatolie forme le cœur du territoire. À l’ouest, la Thrace touche les Balkans. Istanbul et les détroits du Bosphore et des Dardanelles relient deux mers et séparent deux continents. Au sud et à l’est, la Turquie touche la Syrie, l’Irak, l’Iran, le Caucase et la Méditerranée."
+          },
+          {
+            "heading": "Une histoire en couches",
+            "body": "Byzance, Constantinople, Empire ottoman, puis République turque : peu de lieux accumulent autant de couches. Après la Première Guerre mondiale, Mustafa Kemal Atatürk fonde une République tournée vers la souveraineté nationale, la réforme de l’État et une rupture partielle avec l’ordre ottoman."
+          },
+          {
+            "heading": "Pourquoi cela compte aujourd’hui",
+            "body": "La Turquie est membre de l’OTAN, partenaire difficile de l’Union européenne, puissance militaire régionale et acteur diplomatique entre plusieurs mondes. Elle est aussi traversée par des débats sur la religion, la laïcité, la question kurde, la liberté politique et l’économie."
+          },
+          {
+            "heading": "À regarder autrement",
+            "body": "Pour regarder la Turquie autrement, ne demandez pas seulement si elle est européenne ou asiatique. Demandez plutôt comment un pays transforme une position intermédiaire en marge de manœuvre."
+          }
+        ],
+        "key_figures": [
+          {
+            "label": "Ville pivot",
+            "value": "Istanbul",
+            "note": "Métropole située de part et d’autre du Bosphore."
+          },
+          {
+            "label": "Détroits",
+            "value": "2",
+            "note": "Bosphore et Dardanelles structurent la stratégie maritime."
+          },
+          {
+            "label": "République",
+            "value": "1923",
+            "note": "Date fondatrice de la Turquie moderne."
+          }
+        ],
+        "anecdote": "Sainte-Sophie a été basilique, mosquée, musée, puis à nouveau mosquée. Son histoire architecturale raconte à elle seule les changements de pouvoir, de religion et de mémoire à Istanbul.",
+        "sources": [
+          {
+            "title": "Encyclopaedia Britannica — Turkey",
+            "url": "https://www.britannica.com/place/Turkey",
+            "description": "Repères historiques et géographiques."
+          },
+          {
+            "title": "CIA World Factbook — Turkey",
+            "url": "https://www.cia.gov/the-world-factbook/countries/turkey-turkiye/",
+            "description": "Données synthétiques sur le pays."
+          },
+          {
+            "title": "UNESCO — Historic Areas of Istanbul",
+            "url": "https://whc.unesco.org/en/list/356/",
+            "description": "Contexte patrimonial sur Istanbul."
+          }
+        ],
+        "image": {
+          "path": "",
+          "original_url": null,
+          "author": null,
+          "license": null,
+          "alt_text": "Paysage turc évoquant Istanbul, détroits et Anatolie."
+        },
+        "estimated_reading_minutes": 5
+      },
+      "question": {
+        "day": 9,
+        "lesson_type": "question",
+        "topic_id": "how-does-democracy-work",
+        "topic_name": "How does democracy work?",
+        "language": "fr",
+        "title": "Comment fonctionne la démocratie ?",
+        "hook": "La démocratie n’est pas seulement voter. C’est organiser pacifiquement le désaccord.",
+        "summary": "Une démocratie fonctionne quand le pouvoir politique dépend du consentement des citoyens, directement ou par représentants, et quand des règles empêchent les gagnants d’écraser les perdants. Élections, droits, séparation des pouvoirs, presse libre, justice indépendante et culture du compromis forment un écosystème fragile.",
+        "takeaways": [
+          "Le vote est central, mais insuffisant à lui seul.",
+          "Les droits protègent les minorités et les opposants.",
+          "La séparation des pouvoirs limite les abus.",
+          "Une démocratie a besoin de confiance dans les règles du jeu."
+        ],
+        "cards": [
+          {
+            "heading": "Le principe : consentir au pouvoir",
+            "body": "Dans une démocratie, les gouvernants ne sont légitimes que parce que les citoyens peuvent les choisir, les critiquer et les remplacer selon des règles connues."
+          },
+          {
+            "heading": "Pourquoi les élections ne suffisent pas",
+            "body": "Une élection sans liberté d’expression, sans opposition réelle ou sans dépouillement crédible peut devenir une façade. Le vote compte parce qu’il s’inscrit dans un ensemble de garanties."
+          },
+          {
+            "heading": "Limiter les vainqueurs",
+            "body": "La démocratie accepte qu’une majorité décide, mais elle refuse que cette majorité puisse tout faire. Les constitutions, juges, droits fondamentaux et contre-pouvoirs protègent l’espace commun."
+          },
+          {
+            "heading": "Accepter de perdre",
+            "body": "Le moment le plus démocratique n’est pas seulement la victoire : c’est la défaite reconnue. Quand les perdants acceptent le résultat parce qu’ils pourront rejouer plus tard, le système respire."
+          },
+          {
+            "heading": "Une culture, pas seulement une machine",
+            "body": "Les institutions ne marchent pas seules. Il faut des citoyens informés, des médias crédibles, des partis responsables et une certaine confiance dans le fait que l’adversaire n’est pas un ennemi absolu."
+          }
+        ],
+        "key_figures": [
+          {
+            "label": "Outil visible",
+            "value": "Élection",
+            "note": "Mécanisme régulier de choix et de sanction."
+          },
+          {
+            "label": "Protection",
+            "value": "Droits",
+            "note": "Ils limitent ce que la majorité peut imposer."
+          },
+          {
+            "label": "Condition fragile",
+            "value": "Confiance",
+            "note": "Sans confiance minimale, les règles perdent leur force."
+          }
+        ],
+        "anecdote": "Dans l’Athènes antique, certaines charges publiques étaient tirées au sort. L’idée était radicale : empêcher qu’une petite élite monopolise toujours la décision.",
+        "sources": [
+          {
+            "title": "International IDEA — Democracy",
+            "url": "https://www.idea.int/",
+            "description": "Ressource institutionnelle sur les systèmes démocratiques."
+          },
+          {
+            "title": "Encyclopaedia Britannica — Democracy",
+            "url": "https://www.britannica.com/topic/democracy",
+            "description": "Synthèse historique et conceptuelle."
+          },
+          {
+            "title": "Freedom House",
+            "url": "https://freedomhouse.org/",
+            "description": "Données comparatives sur libertés politiques et droits civils."
+          }
+        ],
+        "image": {
+          "path": "",
+          "original_url": null,
+          "author": null,
+          "license": null,
+          "alt_text": "Illustration de citoyens, vote et institutions démocratiques."
+        },
+        "estimated_reading_minutes": 5
+      },
+      "manifest": {}
+    },
+    {
+      "day": 10,
+      "country": {
+        "day": 10,
+        "lesson_type": "country",
+        "topic_id": "south-africa",
+        "topic_name": "South Africa",
+        "language": "fr",
+        "title": "Afrique du Sud : le pays arc-en-ciel face à ses cicatrices",
+        "hook": "Peu de pays montrent aussi clairement qu’une démocratie peut naître d’une blessure profonde sans l’effacer magiquement.",
+        "summary": "L’Afrique du Sud est une puissance africaine majeure, riche en ressources, en villes, en cultures et en symboles politiques. Son histoire récente est dominée par l’apartheid et la transition démocratique de 1994. Le pays incarne à la fois l’espoir institutionnel et la difficulté de réparer des inégalités construites pendant des générations.",
+        "takeaways": [
+          "L’apartheid a organisé légalement la séparation raciale jusqu’au début des années 1990.",
+          "La transition de 1994 a fait de Nelson Mandela un symbole mondial.",
+          "Le pays possède plusieurs capitales institutionnelles et une grande diversité linguistique.",
+          "Les inégalités restent l’un des grands défis sud-africains."
+        ],
+        "cards": [
+          {
+            "heading": "Le fil rouge",
+            "body": "L’Afrique du Sud oblige à penser ensemble richesse et injustice. Mines, ports, agriculture, industrie, universités, tourisme : les atouts sont nombreux. Mais la répartition de l’espace, de la propriété et des opportunités reste marquée par l’apartheid."
+          },
+          {
+            "heading": "Ce que la carte raconte",
+            "body": "Le pays occupe la pointe australe du continent, entre Atlantique et océan Indien. Le Cap regarde vers les routes maritimes ; Johannesburg s’est développée autour de l’or ; Pretoria, Bloemfontein et Le Cap partagent des fonctions politiques. La carte urbaine garde la trace des séparations imposées."
+          },
+          {
+            "heading": "Une histoire en couches",
+            "body": "La colonisation néerlandaise puis britannique, les guerres, l’exploitation minière et la ségrégation ont préparé le système d’apartheid instauré en 1948. La résistance intérieure et internationale a mené à la fin du régime et aux élections multiraciales de 1994."
+          },
+          {
+            "heading": "Pourquoi cela compte aujourd’hui",
+            "body": "L’Afrique du Sud reste influente dans la diplomatie africaine, les mines, la finance et la culture. Elle affronte toutefois chômage, violences, corruption, crise énergétique et inégalités territoriales. Sa démocratie est vivante, mais mise à l’épreuve."
+          },
+          {
+            "heading": "À regarder autrement",
+            "body": "Pour regarder l’Afrique du Sud autrement, observez les lieux : routes, quartiers, écoles, réseaux électriques. L’histoire politique se lit dans l’organisation très concrète de l’espace."
+          }
+        ],
+        "key_figures": [
+          {
+            "label": "Élection fondatrice",
+            "value": "1994",
+            "note": "Premières élections multiraciales au suffrage universel."
+          },
+          {
+            "label": "Langues officielles",
+            "value": "11",
+            "note": "Un indice de la pluralité culturelle du pays."
+          },
+          {
+            "label": "Océans",
+            "value": "2",
+            "note": "Atlantique et océan Indien se rencontrent au sud du continent."
+          }
+        ],
+        "anecdote": "La Commission Vérité et Réconciliation n’était pas un tribunal ordinaire. Elle cherchait à produire une vérité publique, parfois douloureuse, pour permettre au pays d’avancer sans prétendre oublier.",
+        "sources": [
+          {
+            "title": "Encyclopaedia Britannica — South Africa",
+            "url": "https://www.britannica.com/place/South-Africa",
+            "description": "Repères historiques et géographiques."
+          },
+          {
+            "title": "CIA World Factbook — South Africa",
+            "url": "https://www.cia.gov/the-world-factbook/countries/south-africa/",
+            "description": "Données synthétiques sur le pays."
+          },
+          {
+            "title": "South African History Online",
+            "url": "https://www.sahistory.org.za/",
+            "description": "Ressource historique sud-africaine."
+          }
+        ],
+        "image": {
+          "path": "",
+          "original_url": null,
+          "author": null,
+          "license": null,
+          "alt_text": "Paysage sud-africain entre ville, montagne et mémoire historique."
+        },
+        "estimated_reading_minutes": 5
+      },
+      "question": {
+        "day": 10,
+        "lesson_type": "question",
+        "topic_id": "why-do-stars-shine",
+        "topic_name": "Why do stars shine?",
+        "language": "fr",
+        "title": "Pourquoi les étoiles brillent-elles ?",
+        "hook": "Une étoile brille parce qu’elle mène, en silence, une bataille entre gravité et énergie nucléaire.",
+        "summary": "Les étoiles brillent grâce à la fusion nucléaire dans leur cœur. La gravité comprime la matière à des températures et pressions extrêmes ; des noyaux d’hydrogène fusionnent pour former de l’hélium, libérant de l’énergie. Cette énergie met parfois très longtemps à sortir, puis voyage dans l’espace sous forme de lumière.",
+        "takeaways": [
+          "La gravité comprime le cœur des étoiles.",
+          "La fusion transforme l’hydrogène en hélium et libère de l’énergie.",
+          "La lumière d’une étoile est l’expression d’un équilibre interne.",
+          "La couleur d’une étoile révèle en partie sa température."
+        ],
+        "cards": [
+          {
+            "heading": "La gravité allume la machine",
+            "body": "Une étoile naît quand un nuage de gaz s’effondre sous sa propre gravité. La matière se comprime, chauffe, et le cœur devient assez extrême pour déclencher la fusion."
+          },
+          {
+            "heading": "Fusion, pas combustion",
+            "body": "Une étoile ne brûle pas comme du bois. Dans son cœur, des noyaux atomiques fusionnent. Une petite partie de la masse devient énergie, selon la célèbre relation E = mc²."
+          },
+          {
+            "heading": "L’équilibre qui dure",
+            "body": "La gravité veut écraser l’étoile. L’énergie produite au centre pousse vers l’extérieur. Une étoile stable est un compromis entre ces deux forces."
+          },
+          {
+            "heading": "La lumière sort lentement puis vite",
+            "body": "Les photons produits au cœur rebondissent longtemps dans la matière stellaire avant d’atteindre la surface. Une fois sortis, ils voyagent à la vitesse de la lumière jusqu’à nos yeux ou nos télescopes."
+          },
+          {
+            "heading": "La couleur parle",
+            "body": "Les étoiles bleutées sont généralement plus chaudes ; les rouges plus froides. Le ciel nocturne est donc aussi une carte de températures."
+          }
+        ],
+        "key_figures": [
+          {
+            "label": "Carburant principal",
+            "value": "Hydrogène",
+            "note": "Il fusionne en hélium dans beaucoup d’étoiles stables."
+          },
+          {
+            "label": "Moteur",
+            "value": "Fusion nucléaire",
+            "note": "Source de l’énergie stellaire."
+          },
+          {
+            "label": "Équilibre",
+            "value": "Gravité vs pression",
+            "note": "La stabilité d’une étoile vient de cette tension."
+          }
+        ],
+        "anecdote": "La lumière du Soleil met environ huit minutes à atteindre la Terre, mais l’énergie qui l’a produite a pu passer un temps immense à se frayer un chemin depuis le cœur solaire.",
+        "sources": [
+          {
+            "title": "NASA — Stars",
+            "url": "https://science.nasa.gov/universe/stars/",
+            "description": "Ressource pédagogique sur les étoiles."
+          },
+          {
+            "title": "ESA — Stars",
+            "url": "https://www.esa.int/Science_Exploration/Space_Science/Stars",
+            "description": "Présentation de l’Agence spatiale européenne."
+          },
+          {
+            "title": "Encyclopaedia Britannica — Star",
+            "url": "https://www.britannica.com/science/star-astronomy",
+            "description": "Synthèse astronomique sur les étoiles."
+          }
+        ],
+        "image": {
+          "path": "",
+          "original_url": null,
+          "author": null,
+          "license": null,
+          "alt_text": "Illustration d’une étoile produisant de la lumière par fusion."
+        },
+        "estimated_reading_minutes": 5
+      },
+      "manifest": {}
+    },
+    {
+      "day": 11,
+      "country": {
+        "day": 11,
+        "lesson_type": "country",
+        "topic_id": "mexico",
+        "topic_name": "Mexico",
+        "language": "fr",
+        "title": "Mexique : là où l’Amérique se rencontre avec elle-même",
+        "hook": "Le Mexique n’est pas seulement voisin des États-Unis : c’est une civilisation ancienne, une puissance culturelle et un pays-charnière.",
+        "summary": "Le Mexique relie Amérique du Nord, monde hispanique, héritages autochtones et routes du Pacifique comme de l’Atlantique. Son identité vient d’un métissage profond, mais aussi de tensions : centralisation, inégalités, frontière, violence, puissance culturelle et mémoire des civilisations mésoaméricaines.",
+        "takeaways": [
+          "Le Mexique possède un héritage mésoaméricain majeur, notamment maya et mexica.",
+          "La conquête espagnole a créé une société métisse et profondément hiérarchisée.",
+          "La frontière avec les États-Unis structure économie, migrations et politique.",
+          "La culture mexicaine rayonne mondialement par la cuisine, la musique, le cinéma et les fêtes."
+        ],
+        "cards": [
+          {
+            "heading": "Le fil rouge",
+            "body": "Le Mexique est un pays de superpositions : pyramides, cathédrales, marchés, mégapoles, usines frontalières, villages autochtones, plages touristiques. Cette épaisseur rend le pays fascinant : chaque époque n’efface pas la précédente, elle s’ajoute."
+          },
+          {
+            "heading": "Ce que la carte raconte",
+            "body": "Le territoire relie deux océans, des hauts plateaux, des déserts, des volcans, des jungles et la péninsule du Yucatán. Mexico se trouve en altitude, sur l’ancien site de Tenochtitlan. Au nord, la frontière avec les États-Unis est l’une des plus importantes lignes économiques et migratoires du monde."
+          },
+          {
+            "heading": "Une histoire en couches",
+            "body": "Avant l’arrivée des Espagnols, la Mésoamérique abritait des sociétés urbaines, agricoles et savantes. La conquête du XVIe siècle bouleverse tout : pouvoir, religion, langues, maladies, propriété. L’indépendance, puis la Révolution mexicaine, donnent au pays moderne une forte culture politique nationale."
+          },
+          {
+            "heading": "Pourquoi cela compte aujourd’hui",
+            "body": "Le Mexique est une grande économie manufacturière, un partenaire majeur des États-Unis et une puissance culturelle. Il fait face à des défis de sécurité liés aux cartels, à la corruption, aux inégalités et à la gestion de l’eau. Sa jeunesse et sa créativité restent des forces impressionnantes."
+          },
+          {
+            "heading": "À regarder autrement",
+            "body": "Pour regarder le Mexique autrement, ne le réduisez ni à la frontière ni au folklore. Pensez-le comme un pays qui négocie sans cesse entre mémoire autochtone, héritage colonial, modernité industrielle et puissance populaire."
+          }
+        ],
+        "key_figures": [
+          {
+            "label": "Capitale",
+            "value": "Mexico",
+            "note": "Mégalopole construite sur l’ancien monde lacustre de Tenochtitlan."
+          },
+          {
+            "label": "Océans",
+            "value": "2",
+            "note": "Pacifique et Atlantique via le golfe du Mexique."
+          },
+          {
+            "label": "Révolution",
+            "value": "1910",
+            "note": "Moment fondateur du Mexique politique moderne."
+          }
+        ],
+        "anecdote": "Mexico s’enfonce par endroits parce qu’elle a été bâtie sur un ancien lac. La capitale porte physiquement la mémoire de Tenochtitlan et des choix coloniaux qui ont transformé l’eau en sol.",
+        "sources": [
+          {
+            "title": "Encyclopaedia Britannica — Mexico",
+            "url": "https://www.britannica.com/place/Mexico",
+            "description": "Repères historiques et géographiques."
+          },
+          {
+            "title": "CIA World Factbook — Mexico",
+            "url": "https://www.cia.gov/the-world-factbook/countries/mexico/",
+            "description": "Données synthétiques sur le pays."
+          },
+          {
+            "title": "UNESCO — Historic Centre of Mexico City",
+            "url": "https://whc.unesco.org/en/list/412/",
+            "description": "Contexte patrimonial sur Mexico et Xochimilco."
+          }
+        ],
+        "image": {
+          "path": "",
+          "original_url": null,
+          "author": null,
+          "license": null,
+          "alt_text": "Paysage mexicain entre ville, volcan et héritage mésoaméricain."
+        },
+        "estimated_reading_minutes": 5
+      },
+      "question": {
+        "day": 11,
+        "lesson_type": "question",
+        "topic_id": "how-do-oceans-regulate-climate",
+        "topic_name": "How do oceans regulate climate?",
+        "language": "fr",
+        "title": "Comment les océans régulent-ils le climat ?",
+        "hook": "L’océan est le grand amortisseur de la planète : il absorbe chaleur, carbone et excès, mais il n’est pas infini.",
+        "summary": "Les océans régulent le climat en stockant une immense quantité de chaleur, en transportant cette chaleur par les courants, en échangeant du carbone avec l’atmosphère et en alimentant le cycle de l’eau. Sans eux, les températures seraient plus extrêmes. Mais leur rôle d’amortisseur provoque aussi réchauffement, acidification et montée du niveau marin.",
+        "takeaways": [
+          "L’eau stocke beaucoup de chaleur, ce qui adoucit les variations de température.",
+          "Les courants redistribuent l’énergie autour du globe.",
+          "L’océan absorbe une partie du CO₂ émis par les activités humaines.",
+          "Cette absorption a des coûts : acidification, dilatation thermique, stress pour les écosystèmes."
+        ],
+        "cards": [
+          {
+            "heading": "Une mémoire thermique",
+            "body": "L’eau chauffe et refroidit plus lentement que l’air ou la roche. L’océan absorbe donc de la chaleur et la relâche progressivement, ce qui stabilise le climat."
+          },
+          {
+            "heading": "Les courants déplacent l’énergie",
+            "body": "Les courants de surface et profonds transportent de la chaleur. Ils expliquent pourquoi certaines régions sont plus douces ou plus humides que leur latitude ne le laisserait penser."
+          },
+          {
+            "heading": "Un puits de carbone",
+            "body": "Le CO₂ se dissout dans l’eau et entre dans des cycles biologiques et chimiques. Le plancton, les coquilles, les profondeurs et les échanges air-mer participent à ce stockage."
+          },
+          {
+            "heading": "L’amortisseur se fatigue",
+            "body": "Absorber du CO₂ modifie la chimie de l’eau : c’est l’acidification. Absorber de la chaleur dilate l’eau et contribue à la montée du niveau de la mer."
+          },
+          {
+            "heading": "Le climat est une circulation",
+            "body": "Atmosphère et océan ne sont pas deux systèmes séparés. Vents, évaporation, nuages, pluies, glace de mer et courants forment une seule machine climatique."
+          }
+        ],
+        "key_figures": [
+          {
+            "label": "Rôle clé",
+            "value": "Stockage de chaleur",
+            "note": "L’océan absorbe une grande partie de l’excès de chaleur climatique."
+          },
+          {
+            "label": "Cycle majeur",
+            "value": "Carbone",
+            "note": "Le CO₂ circule entre air, eau et vivant."
+          },
+          {
+            "label": "Signal visible",
+            "value": "Niveau marin",
+            "note": "Il monte notamment avec la dilatation thermique et la fonte des glaces."
+          }
+        ],
+        "anecdote": "Le Gulf Stream contribue à adoucir le climat d’une partie de l’Europe occidentale. C’est un rappel spectaculaire : une région peut dépendre d’une chaleur venue de très loin.",
+        "sources": [
+          {
+            "title": "NOAA — Ocean and Climate",
+            "url": "https://www.noaa.gov/education/resource-collections/ocean-coasts/ocean-and-climate",
+            "description": "Ressource pédagogique sur le rôle climatique de l’océan."
+          },
+          {
+            "title": "NASA — Global Climate Change",
+            "url": "https://climate.nasa.gov/",
+            "description": "Données et explications sur le climat."
+          },
+          {
+            "title": "IPCC",
+            "url": "https://www.ipcc.ch/",
+            "description": "Référence scientifique internationale sur le changement climatique."
+          }
+        ],
+        "image": {
+          "path": "",
+          "original_url": null,
+          "author": null,
+          "license": null,
+          "alt_text": "Illustration des courants océaniques transportant chaleur et carbone."
+        },
+        "estimated_reading_minutes": 5
+      },
+      "manifest": {}
+    },
+    {
+      "day": 12,
+      "country": {
+        "day": 12,
+        "lesson_type": "country",
+        "topic_id": "australia",
+        "topic_name": "Australia",
+        "language": "fr",
+        "title": "Australie : l’île-continent qui regarde l’Asie",
+        "hook": "L’Australie semble isolée sur la carte, mais son histoire et son avenir sont connectés aux océans, aux peuples autochtones et à l’Asie.",
+        "summary": "L’Australie est à la fois continent, État riche, société d’immigration et territoire autochtone ancien. Sa géographie est dominée par les littoraux habités, l’intérieur aride et des écosystèmes uniques. Elle doit penser ensemble mémoire coloniale, climat, ressources et position stratégique dans l’Indo-Pacifique.",
+        "takeaways": [
+          "La population vit surtout sur les côtes, loin de l’intérieur aride.",
+          "Les cultures aborigènes comptent parmi les plus anciennes traditions continues du monde.",
+          "L’économie est liée aux ressources, aux services et aux échanges avec l’Asie.",
+          "Le changement climatique menace fortement récifs, feux de brousse et ressources en eau."
+        ],
+        "cards": [
+          {
+            "heading": "Le fil rouge",
+            "body": "L’Australie est un paradoxe géographique : immense, mais très urbanisée ; isolée, mais très connectée ; jeune comme État, mais habitée depuis des dizaines de millénaires. Cette tension rend son identité particulièrement intéressante."
+          },
+          {
+            "heading": "Ce que la carte raconte",
+            "body": "Le centre, souvent appelé Outback, est sec et peu peuplé. Les grandes villes, Sydney, Melbourne, Brisbane, Perth, Adélaïde, se situent surtout sur les marges côtières. Au nord, l’Australie se rapproche de l’Indonésie et du Pacifique ; au large, la Grande Barrière de corail est un joyau vulnérable."
+          },
+          {
+            "heading": "Une histoire en couches",
+            "body": "Les peuples aborigènes et insulaires du détroit de Torres ont développé des liens profonds avec le territoire. La colonisation britannique à partir de 1788 transforme brutalement ces sociétés. L’Australie moderne s’est ensuite construite comme fédération, démocratie parlementaire et pays d’immigration."
+          },
+          {
+            "heading": "Pourquoi cela compte aujourd’hui",
+            "body": "L’Australie est riche, stable et influente dans l’Indo-Pacifique. Elle exporte minerais, énergie, produits agricoles et éducation. Ses débats majeurs portent sur les droits autochtones, l’eau, les incendies, le logement, la Chine, la sécurité régionale et la transition énergétique."
+          },
+          {
+            "heading": "À regarder autrement",
+            "body": "Pour regarder l’Australie autrement, partez de la profondeur autochtone plutôt que de la colonisation. Le pays moderne est récent ; l’histoire humaine du continent, elle, est vertigineusement longue."
+          }
+        ],
+        "key_figures": [
+          {
+            "label": "Forme géographique",
+            "value": "Île-continent",
+            "note": "Un État qui occupe la masse continentale australienne."
+          },
+          {
+            "label": "Habitat",
+            "value": "Côtier",
+            "note": "La population se concentre sur les marges tempérées."
+          },
+          {
+            "label": "Récif emblématique",
+            "value": "Grande Barrière",
+            "note": "Écosystème majeur menacé par le réchauffement."
+          }
+        ],
+        "anecdote": "Le “Dreaming” ou Temps du rêve n’est pas un simple folklore : il relie récits, loi, lieux et responsabilités. Pour beaucoup de peuples autochtones, le paysage est aussi une archive vivante.",
+        "sources": [
+          {
+            "title": "Encyclopaedia Britannica — Australia",
+            "url": "https://www.britannica.com/place/Australia",
+            "description": "Repères historiques et géographiques."
+          },
+          {
+            "title": "CIA World Factbook — Australia",
+            "url": "https://www.cia.gov/the-world-factbook/countries/australia/",
+            "description": "Données synthétiques sur le pays."
+          },
+          {
+            "title": "Australian Institute of Aboriginal and Torres Strait Islander Studies",
+            "url": "https://aiatsis.gov.au/",
+            "description": "Ressource sur les cultures et histoires autochtones."
+          }
+        ],
+        "image": {
+          "path": "",
+          "original_url": null,
+          "author": null,
+          "license": null,
+          "alt_text": "Paysage australien entre littoral, désert et récif."
+        },
+        "estimated_reading_minutes": 5
+      },
+      "question": {
+        "day": 12,
+        "lesson_type": "question",
+        "topic_id": "why-do-financial-markets-crash",
+        "topic_name": "Why do financial markets crash?",
+        "language": "fr",
+        "title": "Pourquoi les marchés financiers s’effondrent-ils parfois ?",
+        "hook": "Un krach n’est pas seulement une baisse des prix : c’est un moment où la confiance disparaît plus vite que les vendeurs ne trouvent des acheteurs.",
+        "summary": "Les marchés chutent brutalement quand trop d’acteurs veulent vendre en même temps, souvent après une bulle, un choc économique, une hausse des taux, une crise bancaire ou une panique. Les prix financiers reposent sur des anticipations ; quand le récit commun se casse, la chute peut devenir auto-entretenue.",
+        "takeaways": [
+          "Les marchés valorisent des attentes sur le futur, pas seulement le présent.",
+          "Une bulle se forme quand les prix montent surtout parce qu’on espère les revendre plus cher.",
+          "L’endettement amplifie les chutes.",
+          "La liquidité disparaît quand les acheteurs se retirent."
+        ],
+        "cards": [
+          {
+            "heading": "Les prix sont des histoires chiffrées",
+            "body": "Acheter une action, c’est croire à des profits futurs. Acheter une obligation, c’est croire à un remboursement. Les marchés sont donc sensibles aux récits collectifs sur l’avenir."
+          },
+          {
+            "heading": "La bulle gonfle par imitation",
+            "body": "Quand les prix montent, ils attirent de nouveaux acheteurs. La hausse semble confirmer qu’il faut acheter. Peu à peu, le prix peut s’éloigner de la réalité économique."
+          },
+          {
+            "heading": "L’endettement accélère la panique",
+            "body": "Si des investisseurs ont emprunté pour acheter, une baisse les force parfois à vendre pour rembourser. Ces ventes font encore baisser les prix : le mécanisme s’auto-alimente."
+          },
+          {
+            "heading": "La liquidité peut s’évaporer",
+            "body": "En temps normal, il y a des acheteurs et vendeurs. En crise, tout le monde veut sortir en même temps. Le problème n’est plus seulement le prix, mais l’absence de contrepartie."
+          },
+          {
+            "heading": "Les institutions tentent de casser la spirale",
+            "body": "Banques centrales, régulateurs et États peuvent fournir de la liquidité, garantir des dépôts, suspendre certaines règles ou rassurer. Leur objectif : éviter qu’une panique financière devienne une dépression économique."
+          }
+        ],
+        "key_figures": [
+          {
+            "label": "Amplificateur",
+            "value": "Dette",
+            "note": "Elle transforme une baisse en ventes forcées."
+          },
+          {
+            "label": "Ressource rare",
+            "value": "Liquidité",
+            "note": "Possibilité de vendre sans effondrer le prix."
+          },
+          {
+            "label": "Point faible",
+            "value": "Confiance",
+            "note": "Elle soutient les marchés tant qu’elle tient."
+          }
+        ],
+        "anecdote": "Lors du krach de 1929, les téléscripteurs boursiers avaient du retard tant les échanges étaient nombreux. Les investisseurs lisaient parfois des prix déjà dépassés, ce qui ajoutait à la confusion.",
+        "sources": [
+          {
+            "title": "Federal Reserve History — Stock Market Crash of 1929",
+            "url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929",
+            "description": "Ressource historique sur le krach de 1929."
+          },
+          {
+            "title": "IMF — Financial Crises",
+            "url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Financial-Crisis",
+            "description": "Explication des crises financières."
+          },
+          {
+            "title": "SEC — Investor.gov",
+            "url": "https://www.investor.gov/",
+            "description": "Ressource pédagogique sur les marchés et les risques."
+          }
+        ],
+        "image": {
+          "path": "",
+          "original_url": null,
+          "author": null,
+          "license": null,
+          "alt_text": "Illustration d’un graphique financier chutant et d’une foule d’ordres de vente."
+        },
+        "estimated_reading_minutes": 5
+      },
+      "manifest": {}
+    },
+    {
+      "day": 13,
+      "country": {
+        "day": 13,
+        "lesson_type": "country",
+        "topic_id": "vietnam",
+        "topic_name": "Vietnam",
+        "language": "fr",
+        "title": "Vietnam : un long pays, une mémoire tenace",
+        "hook": "Le Vietnam a souvent été vu à travers la guerre. Il faut aussi le voir comme un pays de fleuves, de riz, de villes et d’endurance politique.",
+        "summary": "Le Vietnam est un pays étiré entre montagnes, littoral et deltas. Son histoire combine influences chinoises, dynamiques d’Asie du Sud-Est, colonisation française, guerres du XXe siècle et développement rapide. Sa géographie longue et étroite explique beaucoup : vulnérabilité, diversité régionale et ouverture maritime.",
+        "takeaways": [
+          "Le pays est structuré par deux grands deltas : fleuve Rouge au nord et Mékong au sud.",
+          "L’histoire vietnamienne est marquée par la relation avec la Chine et la résistance aux dominations extérieures.",
+          "La guerre du Vietnam ne résume pas le pays, mais elle pèse dans sa mémoire mondiale.",
+          "L’économie s’est fortement ouverte depuis les réformes du Đổi Mới."
+        ],
+        "cards": [
+          {
+            "heading": "Le fil rouge",
+            "body": "Le Vietnam est une leçon d’endurance. Son territoire long et étroit a souvent été difficile à défendre et à unifier, mais il a aussi permis une forte relation à la mer, aux rizières et aux échanges régionaux."
+          },
+          {
+            "heading": "Ce que la carte raconte",
+            "body": "Au nord, le delta du fleuve Rouge porte Hanoï et une longue histoire politique. Au sud, le delta du Mékong nourrit une région agricole et commerçante. Entre les deux, montagnes, plateaux et littoral créent un pays en forme de colonne vertébrale."
+          },
+          {
+            "heading": "Une histoire en couches",
+            "body": "Pendant des siècles, le Vietnam a été influencé par la Chine tout en affirmant sa propre identité. La colonisation française, l’occupation japonaise, puis les guerres d’indépendance et de réunification ont marqué le XXe siècle. Depuis 1986, les réformes économiques ont transformé le pays."
+          },
+          {
+            "heading": "Pourquoi cela compte aujourd’hui",
+            "body": "Le Vietnam est devenu un acteur industriel important, intégré aux chaînes de production mondiales. Il combine régime communiste, économie ouverte, population jeune et position stratégique en mer de Chine méridionale. Le climat et la montée des eaux menacent particulièrement le delta du Mékong."
+          },
+          {
+            "heading": "À regarder autrement",
+            "body": "Pour regarder le Vietnam autrement, remplacez l’image d’un champ de bataille par celle d’un pays-delta : eau, riz, villes, migrations, mémoire et adaptation."
+          }
+        ],
+        "key_figures": [
+          {
+            "label": "Réformes économiques",
+            "value": "Đổi Mới",
+            "note": "Ouverture engagée à partir de 1986."
+          },
+          {
+            "label": "Deltas majeurs",
+            "value": "2",
+            "note": "Fleuve Rouge et Mékong structurent le pays."
+          },
+          {
+            "label": "Forme",
+            "value": "Longue et étroite",
+            "note": "Une géographie qui complique l’unité et favorise l’ouverture maritime."
+          }
+        ],
+        "anecdote": "La soupe phở raconte une partie de l’histoire vietnamienne : influences locales, bouillon longuement travaillé, viande, nouilles de riz, herbes fraîches. Un plat simple en apparence, mais très sophistiqué.",
+        "sources": [
+          {
+            "title": "Encyclopaedia Britannica — Vietnam",
+            "url": "https://www.britannica.com/place/Vietnam",
+            "description": "Repères historiques et géographiques."
+          },
+          {
+            "title": "CIA World Factbook — Vietnam",
+            "url": "https://www.cia.gov/the-world-factbook/countries/vietnam/",
+            "description": "Données synthétiques sur le pays."
+          },
+          {
+            "title": "World Bank — Vietnam",
+            "url": "https://www.worldbank.org/en/country/vietnam",
+            "description": "Contexte économique récent."
+          }
+        ],
+        "image": {
+          "path": "",
+          "original_url": null,
+          "author": null,
+          "license": null,
+          "alt_text": "Paysage vietnamien autour de rizières, fleuves et villes."
+        },
+        "estimated_reading_minutes": 5
+      },
+      "question": {
+        "day": 13,
+        "lesson_type": "question",
+        "topic_id": "what-is-photosynthesis",
+        "topic_name": "What is photosynthesis?",
+        "language": "fr",
+        "title": "Qu’est-ce que la photosynthèse ?",
+        "hook": "La photosynthèse est peut-être le tour de magie le plus important de la Terre : transformer la lumière en nourriture.",
+        "summary": "La photosynthèse permet aux plantes, algues et certaines bactéries d’utiliser l’énergie lumineuse pour fabriquer des sucres à partir d’eau et de dioxyde de carbone. Elle libère aussi de l’oxygène. Ce processus nourrit la plupart des chaînes alimentaires et a transformé l’atmosphère terrestre.",
+        "takeaways": [
+          "La photosynthèse convertit l’énergie lumineuse en énergie chimique.",
+          "Elle utilise CO₂ et eau pour produire des sucres.",
+          "L’oxygène libéré a rendu possible une grande partie de la vie complexe.",
+          "Les plantes sont des producteurs primaires : elles fabriquent de la matière vivante à partir de ressources simples."
+        ],
+        "cards": [
+          {
+            "heading": "Capturer la lumière",
+            "body": "La chlorophylle absorbe certaines longueurs d’onde de la lumière. Cette énergie excite des électrons et lance une chaîne de réactions chimiques."
+          },
+          {
+            "heading": "Casser l’eau",
+            "body": "Dans les réactions lumineuses, l’eau fournit des électrons. L’oxygène que nous respirons est en grande partie un sous-produit de cette étape."
+          },
+          {
+            "heading": "Fixer le carbone",
+            "body": "Le CO₂ de l’air est intégré dans des molécules organiques. Le carbone devient alors sucre, bois, feuille, fruit, racine : de la matière vivante."
+          },
+          {
+            "heading": "Nourrir presque tout le monde",
+            "body": "Même les animaux carnivores dépendent indirectement de la photosynthèse, car leur proie dépend d’une chaîne alimentaire qui commence souvent par des plantes ou du plancton."
+          },
+          {
+            "heading": "Un événement planétaire",
+            "body": "Quand la photosynthèse oxygénique s’est répandue, l’atmosphère s’est enrichie en oxygène. Cela a ouvert la voie à des formes de vie beaucoup plus énergivores."
+          }
+        ],
+        "key_figures": [
+          {
+            "label": "Entrées",
+            "value": "Lumière + CO₂ + eau",
+            "note": "Les ingrédients de base du processus."
+          },
+          {
+            "label": "Sorties",
+            "value": "Sucres + O₂",
+            "note": "Énergie chimique stockée et oxygène libéré."
+          },
+          {
+            "label": "Pigment clé",
+            "value": "Chlorophylle",
+            "note": "Elle capte l’énergie lumineuse."
+          }
+        ],
+        "anecdote": "Le bois d’un arbre vient en grande partie du carbone capté dans l’air, pas directement du sol. Un tronc est donc, d’une certaine manière, de l’air solidifié par la lumière.",
+        "sources": [
+          {
+            "title": "Encyclopaedia Britannica — Photosynthesis",
+            "url": "https://www.britannica.com/science/photosynthesis",
+            "description": "Synthèse claire du processus."
+          },
+          {
+            "title": "Khan Academy — Photosynthesis",
+            "url": "https://www.khanacademy.org/science/biology/photosynthesis-in-plants",
+            "description": "Cours pédagogique sur les étapes de la photosynthèse."
+          },
+          {
+            "title": "UC Berkeley — Understanding Evolution",
+            "url": "https://evolution.berkeley.edu/",
+            "description": "Contexte sur l’importance évolutive des producteurs primaires."
+          }
+        ],
+        "image": {
+          "path": "",
+          "original_url": null,
+          "author": null,
+          "license": null,
+          "alt_text": "Illustration d’une feuille transformant lumière, eau et dioxyde de carbone en sucres."
+        },
+        "estimated_reading_minutes": 5
+      },
+      "manifest": {}
+    },
+    {
+      "day": 14,
+      "country": {
+        "day": 14,
+        "lesson_type": "country",
+        "topic_id": "morocco",
+        "topic_name": "Morocco",
+        "language": "fr",
+        "title": "Maroc : le royaume des passages",
+        "hook": "Le Maroc regarde à la fois l’Atlantique, la Méditerranée, l’Europe, l’Afrique et le Sahara.",
+        "summary": "Le Maroc est un pays de carrefours : montagnes de l’Atlas, villes impériales, monde amazigh, héritage arabe et andalou, ouverture atlantique et proximité européenne. Sa position lui donne une identité très riche et un rôle stratégique entre Afrique, Méditerranée et Sahara.",
+        "takeaways": [
+          "L’Atlas structure les paysages, le climat et les circulations.",
+          "Les cultures amazighes sont fondamentales pour comprendre le pays.",
+          "Le Maroc est lié à la fois au monde arabe, à l’Afrique, à l’Europe et à l’Atlantique.",
+          "La question du Sahara occidental doit être abordée avec neutralité."
+        ],
+        "cards": [
+          {
+            "heading": "Le fil rouge",
+            "body": "Le Maroc est un pays de seuils. On y passe de la Méditerranée à l’Atlantique, des plaines aux montagnes, des villes impériales aux oasis, du Maghreb au Sahara. Cette position a fait du pays un espace de commerce, de pouvoir et de mélanges."
+          },
+          {
+            "heading": "Ce que la carte raconte",
+            "body": "Le détroit de Gibraltar place le Maroc face à l’Espagne. Les montagnes de l’Atlas arrêtent les masses d’air et créent des contrastes forts. Les côtes ouvrent vers l’Europe et l’Atlantique, tandis que le sud mène vers le Sahara et l’Afrique subsaharienne."
+          },
+          {
+            "heading": "Une histoire en couches",
+            "body": "Les dynasties marocaines ont contrôlé des routes commerciales, fondé des villes savantes et négocié avec l’Europe comme avec le Sahara. Les héritages amazigh, arabe, africain, juif et andalou se lisent dans les langues, l’architecture, la musique et la cuisine."
+          },
+          {
+            "heading": "Pourquoi cela compte aujourd’hui",
+            "body": "Le Maroc mise sur les infrastructures, les énergies renouvelables, l’automobile, le tourisme et sa position logistique. Il joue un rôle diplomatique en Afrique et en Méditerranée. La monarchie demeure l’axe central du système politique."
+          },
+          {
+            "heading": "À regarder autrement",
+            "body": "Pour regarder le Maroc autrement, ne choisissez pas entre “Afrique”, “monde arabe” ou “Méditerranée”. Le pays est précisément intéressant parce qu’il tient ces appartenances ensemble."
+          }
+        ],
+        "key_figures": [
+          {
+            "label": "Détroit stratégique",
+            "value": "Gibraltar",
+            "note": "Un passage entre Atlantique et Méditerranée."
+          },
+          {
+            "label": "Chaîne majeure",
+            "value": "Atlas",
+            "note": "Elle structure climats, routes et identités régionales."
+          },
+          {
+            "label": "Langues officielles",
+            "value": "Arabe et amazigh",
+            "note": "Reconnaissance d’une pluralité ancienne."
+          }
+        ],
+        "anecdote": "La place Jemaa el-Fna à Marrakech fonctionne comme une scène ouverte : conteurs, musiciens, stands, passants. Elle rappelle que le patrimoine peut être vivant, bruyant et quotidien, pas seulement monumental.",
+        "sources": [
+          {
+            "title": "Encyclopaedia Britannica — Morocco",
+            "url": "https://www.britannica.com/place/Morocco",
+            "description": "Repères historiques et géographiques."
+          },
+          {
+            "title": "CIA World Factbook — Morocco",
+            "url": "https://www.cia.gov/the-world-factbook/countries/morocco/",
+            "description": "Données synthétiques sur le pays."
+          },
+          {
+            "title": "UNESCO — Medina of Marrakesh",
+            "url": "https://whc.unesco.org/en/list/331/",
+            "description": "Contexte patrimonial sur Marrakech."
+          }
+        ],
+        "image": {
+          "path": "",
+          "original_url": null,
+          "author": null,
+          "license": null,
+          "alt_text": "Paysage marocain entre Atlas, médina et désert."
+        },
+        "estimated_reading_minutes": 5
+      },
+      "question": {
+        "day": 14,
+        "lesson_type": "question",
+        "topic_id": "why-do-religions-shape-societies",
+        "topic_name": "Why do religions shape societies?",
+        "language": "fr",
+        "title": "Pourquoi les religions façonnent-elles les sociétés ?",
+        "hook": "Une religion n’est pas seulement une croyance privée. C’est souvent une manière d’organiser le temps, l’espace, la morale et l’appartenance.",
+        "summary": "Les religions façonnent les sociétés parce qu’elles donnent des récits d’origine, des rites, des calendriers, des normes, des institutions, des lieux sacrés et des communautés. Elles peuvent soutenir la solidarité, l’art et l’éducation, mais aussi légitimer des pouvoirs ou des conflits. Leur influence dépend toujours du contexte historique.",
+        "takeaways": [
+          "Les religions proposent des récits qui donnent sens au monde et à la mort.",
+          "Les rites créent de l’appartenance par des gestes répétés ensemble.",
+          "Les institutions religieuses peuvent organiser éducation, aide sociale, droit ou pouvoir.",
+          "La religion peut unir, diviser, inspirer l’art ou structurer la politique."
+        ],
+        "cards": [
+          {
+            "heading": "Donner un récit commun",
+            "body": "Les sociétés ont besoin d’histoires pour répondre aux grandes questions : d’où venons-nous, que devons-nous faire, que devient-on après la mort ? Les religions offrent souvent ces cadres de sens."
+          },
+          {
+            "heading": "Rendre le temps habitable",
+            "body": "Fêtes, jeûnes, sabbats, pèlerinages, prières : la religion organise le calendrier. Elle transforme le temps abstrait en moments partagés."
+          },
+          {
+            "heading": "Créer des communautés",
+            "body": "Un rite répété ensemble fabrique un “nous”. Chanter, manger, se recueillir, marcher vers un lieu sacré : ces gestes lient les individus au-delà de leurs intérêts immédiats."
+          },
+          {
+            "heading": "Influencer la morale et le droit",
+            "body": "Les religions proposent des normes : mariage, alimentation, justice, charité, sexualité, dette, hospitalité. Selon les sociétés, ces normes restent spirituelles ou deviennent juridiques."
+          },
+          {
+            "heading": "Une force ambivalente",
+            "body": "La religion peut inspirer soins, art, paix et résistance. Elle peut aussi être utilisée pour exclure, dominer ou justifier la violence. Il faut donc l’étudier comme une force sociale, pas comme un bloc unique."
+          }
+        ],
+        "key_figures": [
+          {
+            "label": "Outil social",
+            "value": "Rite",
+            "note": "Un geste répété qui crée de l’appartenance."
+          },
+          {
+            "label": "Espace symbolique",
+            "value": "Lieu sacré",
+            "note": "Un territoire chargé de mémoire et de présence."
+          },
+          {
+            "label": "Force durable",
+            "value": "Institution",
+            "note": "Les religions organisent parfois écoles, tribunaux, archives et aide sociale."
+          }
+        ],
+        "anecdote": "Le calendrier grégorien, utilisé internationalement, vient d’une réforme portée par le pape Grégoire XIII en 1582. Même des sociétés très sécularisées vivent encore dans un temps partiellement hérité d’institutions religieuses.",
+        "sources": [
+          {
+            "title": "Pew Research Center — Religion",
+            "url": "https://www.pewresearch.org/topic/religion/",
+            "description": "Données et analyses sur les religions dans le monde."
+          },
+          {
+            "title": "Encyclopaedia Britannica — Religion",
+            "url": "https://www.britannica.com/topic/religion",
+            "description": "Synthèse générale sur le fait religieux."
+          },
+          {
+            "title": "Harvard Pluralism Project",
+            "url": "https://pluralism.org/",
+            "description": "Ressource sur pluralisme religieux et sociétés contemporaines."
+          }
+        ],
+        "image": {
+          "path": "",
+          "original_url": null,
+          "author": null,
+          "license": null,
+          "alt_text": "Illustration de rites, calendriers et lieux sacrés dans plusieurs sociétés."
+        },
+        "estimated_reading_minutes": 5
+      },
+      "manifest": {}
+    }
+  ]
+}

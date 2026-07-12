@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Culture365">
+  <rect width="512" height="512" rx="96" fill="#0f766e"/>
+  <circle cx="256" cy="218" r="116" fill="#f8fafc"/>
+  <path d="M119 337c67-61 207-61 274 0" fill="none" stroke="#f59e0b" stroke-width="36" stroke-linecap="round"/>
+  <path d="M196 177h120M176 233h160M205 289h102" stroke="#0f766e" stroke-width="26" stroke-linecap="round"/>
+</svg>

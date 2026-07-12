@@ -1,0 +1,81 @@
+{
+  "day": 8,
+  "lesson_type": "question",
+  "topic_id": "why-do-languages-change",
+  "topic_name": "Why do languages change?",
+  "language": "fr",
+  "title": "Pourquoi les langues changent-elles ?",
+  "hook": "Une langue vivante est une ville : tout le monde l’habite, personne ne la contrôle entièrement.",
+  "summary": "Les langues changent parce que les humains changent : sons simplifiés, mots empruntés, nouvelles technologies, migrations, prestige social, erreurs devenues habitudes. Le changement linguistique n’est pas une décadence. C’est le fonctionnement normal d’un outil collectif transmis de bouche en bouche.",
+  "takeaways": [
+    "Toutes les langues vivantes changent avec le temps.",
+    "Les sons, la grammaire, le vocabulaire et le sens des mots peuvent évoluer.",
+    "Les contacts entre populations accélèrent emprunts et mélanges.",
+    "Les normes scolaires ralentissent certains changements, mais ne les arrêtent jamais complètement."
+  ],
+  "cards": [
+    {
+      "heading": "La transmission n’est jamais parfaite",
+      "body": "Chaque génération apprend la langue des précédentes, mais avec ses propres usages, accents, groupes et besoins. De petites différences deviennent visibles avec le temps."
+    },
+    {
+      "heading": "Les sons se déplacent",
+      "body": "Prononcer demande de l’effort. Les sons peuvent se simplifier, se rapprocher ou disparaître. Des changements minuscules, répétés pendant des siècles, transforment profondément une langue."
+    },
+    {
+      "heading": "Les mots voyagent",
+      "body": "Commerce, conquêtes, migrations, religion, cuisine, science : chaque contact apporte des mots. “Café”, “algèbre”, “kimono” ou “internet” racontent des circulations culturelles."
+    },
+    {
+      "heading": "Le prestige change la norme",
+      "body": "Les façons de parler associées au pouvoir, à la ville, à la jeunesse ou aux médias peuvent se diffuser. Une forme jugée incorrecte peut devenir normale plus tard."
+    },
+    {
+      "heading": "Écrire ralentit, parler accélère",
+      "body": "L’école, les dictionnaires et l’administration stabilisent la langue écrite. Mais la langue parlée continue d’innover, souvent avant que les règles officielles ne suivent."
+    }
+  ],
+  "key_figures": [
+    {
+      "label": "Moteur quotidien",
+      "value": "Usage",
+      "note": "Ce que les locuteurs répètent finit par compter."
+    },
+    {
+      "label": "Accélérateur",
+      "value": "Contact",
+      "note": "Les langues empruntent quand les groupes interagissent."
+    },
+    {
+      "label": "Frein relatif",
+      "value": "Norme écrite",
+      "note": "Elle stabilise sans figer totalement."
+    }
+  ],
+  "anecdote": "Le français vient du latin, mais aucun enfant n’a un jour décidé de “parler français au lieu de latin”. La transformation s’est faite par milliers de petits glissements accumulés.",
+  "sources": [
+    {
+      "title": "Linguistic Society of America — Language Change",
+      "url": "https://www.linguisticsociety.org/resource/language-change",
+      "description": "Explication claire des mécanismes de changement linguistique."
+    },
+    {
+      "title": "Encyclopaedia Britannica — Language",
+      "url": "https://www.britannica.com/topic/language",
+      "description": "Synthèse générale sur les langues humaines."
+    },
+    {
+      "title": "Académie française — Dire, ne pas dire",
+      "url": "https://www.academie-francaise.fr/dire-ne-pas-dire",
+      "description": "Exemple institutionnel de réflexion sur la norme française."
+    }
+  ],
+  "image": {
+    "path": "/media/images/default-question.svg",
+    "original_url": null,
+    "author": null,
+    "license": null,
+    "alt_text": "Illustration de mots qui voyagent et se transforment."
+  },
+  "estimated_reading_minutes": 5
+}

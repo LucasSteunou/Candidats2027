@@ -1,0 +1,35 @@
+{
+  "day": 1,
+  "assets": {
+    "country": {
+      "image": {
+        "path": "/media/images/default-country.svg",
+        "original_url": null,
+        "author": null,
+        "license": null,
+        "alt_text": "Paysage symbolique du Japon, entre montagne, ville et mer."
+      }
+    },
+    "question": {
+      "image": {
+        "path": "/media/images/default-question.svg",
+        "original_url": null,
+        "author": null,
+        "license": null,
+        "alt_text": "Illustration d’un volcan en éruption et de la pression du magma."
+      }
+    }
+  },
+  "topics": {
+    "country": {
+      "id": "japan",
+      "name": "Japan",
+      "type": "country"
+    },
+    "question": {
+      "id": "why-do-volcanoes-erupt",
+      "name": "Why do volcanoes erupt?",
+      "type": "question"
+    }
+  }
+}

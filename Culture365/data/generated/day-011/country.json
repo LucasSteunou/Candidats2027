@@ -1,0 +1,81 @@
+{
+  "day": 11,
+  "lesson_type": "country",
+  "topic_id": "mexico",
+  "topic_name": "Mexico",
+  "language": "fr",
+  "title": "Mexique : là où l’Amérique se rencontre avec elle-même",
+  "hook": "Le Mexique n’est pas seulement voisin des États-Unis : c’est une civilisation ancienne, une puissance culturelle et un pays-charnière.",
+  "summary": "Le Mexique relie Amérique du Nord, monde hispanique, héritages autochtones et routes du Pacifique comme de l’Atlantique. Son identité vient d’un métissage profond, mais aussi de tensions : centralisation, inégalités, frontière, violence, puissance culturelle et mémoire des civilisations mésoaméricaines.",
+  "takeaways": [
+    "Le Mexique possède un héritage mésoaméricain majeur, notamment maya et mexica.",
+    "La conquête espagnole a créé une société métisse et profondément hiérarchisée.",
+    "La frontière avec les États-Unis structure économie, migrations et politique.",
+    "La culture mexicaine rayonne mondialement par la cuisine, la musique, le cinéma et les fêtes."
+  ],
+  "cards": [
+    {
+      "heading": "Le fil rouge",
+      "body": "Le Mexique est un pays de superpositions : pyramides, cathédrales, marchés, mégapoles, usines frontalières, villages autochtones, plages touristiques. Cette épaisseur rend le pays fascinant : chaque époque n’efface pas la précédente, elle s’ajoute."
+    },
+    {
+      "heading": "Ce que la carte raconte",
+      "body": "Le territoire relie deux océans, des hauts plateaux, des déserts, des volcans, des jungles et la péninsule du Yucatán. Mexico se trouve en altitude, sur l’ancien site de Tenochtitlan. Au nord, la frontière avec les États-Unis est l’une des plus importantes lignes économiques et migratoires du monde."
+    },
+    {
+      "heading": "Une histoire en couches",
+      "body": "Avant l’arrivée des Espagnols, la Mésoamérique abritait des sociétés urbaines, agricoles et savantes. La conquête du XVIe siècle bouleverse tout : pouvoir, religion, langues, maladies, propriété. L’indépendance, puis la Révolution mexicaine, donnent au pays moderne une forte culture politique nationale."
+    },
+    {
+      "heading": "Pourquoi cela compte aujourd’hui",
+      "body": "Le Mexique est une grande économie manufacturière, un partenaire majeur des États-Unis et une puissance culturelle. Il fait face à des défis de sécurité liés aux cartels, à la corruption, aux inégalités et à la gestion de l’eau. Sa jeunesse et sa créativité restent des forces impressionnantes."
+    },
+    {
+      "heading": "À regarder autrement",
+      "body": "Pour regarder le Mexique autrement, ne le réduisez ni à la frontière ni au folklore. Pensez-le comme un pays qui négocie sans cesse entre mémoire autochtone, héritage colonial, modernité industrielle et puissance populaire."
+    }
+  ],
+  "key_figures": [
+    {
+      "label": "Capitale",
+      "value": "Mexico",
+      "note": "Mégalopole construite sur l’ancien monde lacustre de Tenochtitlan."
+    },
+    {
+      "label": "Océans",
+      "value": "2",
+      "note": "Pacifique et Atlantique via le golfe du Mexique."
+    },
+    {
+      "label": "Révolution",
+      "value": "1910",
+      "note": "Moment fondateur du Mexique politique moderne."
+    }
+  ],
+  "anecdote": "Mexico s’enfonce par endroits parce qu’elle a été bâtie sur un ancien lac. La capitale porte physiquement la mémoire de Tenochtitlan et des choix coloniaux qui ont transformé l’eau en sol.",
+  "sources": [
+    {
+      "title": "Encyclopaedia Britannica — Mexico",
+      "url": "https://www.britannica.com/place/Mexico",
+      "description": "Repères historiques et géographiques."
+    },
+    {
+      "title": "CIA World Factbook — Mexico",
+      "url": "https://www.cia.gov/the-world-factbook/countries/mexico/",
+      "description": "Données synthétiques sur le pays."
+    },
+    {
+      "title": "UNESCO — Historic Centre of Mexico City",
+      "url": "https://whc.unesco.org/en/list/412/",
+      "description": "Contexte patrimonial sur Mexico et Xochimilco."
+    }
+  ],
+  "image": {
+    "path": "/media/images/default-country.svg",
+    "original_url": null,
+    "author": null,
+    "license": null,
+    "alt_text": "Paysage mexicain entre ville, volcan et héritage mésoaméricain."
+  },
+  "estimated_reading_minutes": 5
+}

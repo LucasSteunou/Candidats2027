@@ -1,0 +1,81 @@
+{
+  "day": 9,
+  "lesson_type": "question",
+  "topic_id": "how-does-democracy-work",
+  "topic_name": "How does democracy work?",
+  "language": "fr",
+  "title": "Comment fonctionne la démocratie ?",
+  "hook": "La démocratie n’est pas seulement voter. C’est organiser pacifiquement le désaccord.",
+  "summary": "Une démocratie fonctionne quand le pouvoir politique dépend du consentement des citoyens, directement ou par représentants, et quand des règles empêchent les gagnants d’écraser les perdants. Élections, droits, séparation des pouvoirs, presse libre, justice indépendante et culture du compromis forment un écosystème fragile.",
+  "takeaways": [
+    "Le vote est central, mais insuffisant à lui seul.",
+    "Les droits protègent les minorités et les opposants.",
+    "La séparation des pouvoirs limite les abus.",
+    "Une démocratie a besoin de confiance dans les règles du jeu."
+  ],
+  "cards": [
+    {
+      "heading": "Le principe : consentir au pouvoir",
+      "body": "Dans une démocratie, les gouvernants ne sont légitimes que parce que les citoyens peuvent les choisir, les critiquer et les remplacer selon des règles connues."
+    },
+    {
+      "heading": "Pourquoi les élections ne suffisent pas",
+      "body": "Une élection sans liberté d’expression, sans opposition réelle ou sans dépouillement crédible peut devenir une façade. Le vote compte parce qu’il s’inscrit dans un ensemble de garanties."
+    },
+    {
+      "heading": "Limiter les vainqueurs",
+      "body": "La démocratie accepte qu’une majorité décide, mais elle refuse que cette majorité puisse tout faire. Les constitutions, juges, droits fondamentaux et contre-pouvoirs protègent l’espace commun."
+    },
+    {
+      "heading": "Accepter de perdre",
+      "body": "Le moment le plus démocratique n’est pas seulement la victoire : c’est la défaite reconnue. Quand les perdants acceptent le résultat parce qu’ils pourront rejouer plus tard, le système respire."
+    },
+    {
+      "heading": "Une culture, pas seulement une machine",
+      "body": "Les institutions ne marchent pas seules. Il faut des citoyens informés, des médias crédibles, des partis responsables et une certaine confiance dans le fait que l’adversaire n’est pas un ennemi absolu."
+    }
+  ],
+  "key_figures": [
+    {
+      "label": "Outil visible",
+      "value": "Élection",
+      "note": "Mécanisme régulier de choix et de sanction."
+    },
+    {
+      "label": "Protection",
+      "value": "Droits",
+      "note": "Ils limitent ce que la majorité peut imposer."
+    },
+    {
+      "label": "Condition fragile",
+      "value": "Confiance",
+      "note": "Sans confiance minimale, les règles perdent leur force."
+    }
+  ],
+  "anecdote": "Dans l’Athènes antique, certaines charges publiques étaient tirées au sort. L’idée était radicale : empêcher qu’une petite élite monopolise toujours la décision.",
+  "sources": [
+    {
+      "title": "International IDEA — Democracy",
+      "url": "https://www.idea.int/",
+      "description": "Ressource institutionnelle sur les systèmes démocratiques."
+    },
+    {
+      "title": "Encyclopaedia Britannica — Democracy",
+      "url": "https://www.britannica.com/topic/democracy",
+      "description": "Synthèse historique et conceptuelle."
+    },
+    {
+      "title": "Freedom House",
+      "url": "https://freedomhouse.org/",
+      "description": "Données comparatives sur libertés politiques et droits civils."
+    }
+  ],
+  "image": {
+    "path": "/media/images/default-question.svg",
+    "original_url": null,
+    "author": null,
+    "license": null,
+    "alt_text": "Illustration de citoyens, vote et institutions démocratiques."
+  },
+  "estimated_reading_minutes": 5
+}

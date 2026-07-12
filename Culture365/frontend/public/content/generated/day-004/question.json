@@ -1,0 +1,81 @@
+{
+  "day": 4,
+  "lesson_type": "question",
+  "topic_id": "why-do-deserts-exist",
+  "topic_name": "Why do deserts exist?",
+  "language": "fr",
+  "title": "Pourquoi les déserts existent-ils ?",
+  "hook": "Un désert n’est pas défini par le sable, mais par le manque d’eau. Certains sont brûlants, d’autres glacés.",
+  "summary": "Les déserts apparaissent quand l’air apporte très peu d’humidité ou quand les conditions empêchent les pluies régulières. Circulation atmosphérique, montagnes, courants océaniques froids, éloignement de la mer et zones polaires peuvent tous créer de l’aridité. Le désert est donc une histoire d’air, pas seulement de sol.",
+  "takeaways": [
+    "Un désert reçoit très peu de précipitations.",
+    "Les grandes cellules de circulation atmosphérique créent des zones sèches vers les tropiques.",
+    "Les montagnes peuvent bloquer l’humidité et produire une ombre pluviométrique.",
+    "Il existe des déserts froids, notamment en Antarctique."
+  ],
+  "cards": [
+    {
+      "heading": "Le vrai critère : l’eau",
+      "body": "On imagine les dunes, mais un désert est d’abord une région aride. Le sol peut être sableux, rocheux, salé ou gelé. Ce qui manque, c’est l’eau disponible pour la vie."
+    },
+    {
+      "heading": "L’air qui descend s’assèche",
+      "body": "Vers les latitudes subtropicales, de grandes masses d’air descendent. En descendant, l’air se réchauffe et retient mieux l’humidité : les nuages se forment moins facilement. Résultat : beaucoup de grands déserts se situent près des tropiques."
+    },
+    {
+      "heading": "Les montagnes font écran",
+      "body": "Quand l’air humide rencontre une montagne, il monte, refroidit et perd sa pluie. De l’autre côté, l’air redescend plus sec : c’est l’ombre pluviométrique. Elle explique des déserts comme l’Atacama ou des zones arides derrière de grandes chaînes."
+    },
+    {
+      "heading": "Les océans peuvent assécher",
+      "body": "Un courant océanique froid refroidit l’air au-dessus de lui et limite l’évaporation. Près de certaines côtes, cela crée du brouillard, mais très peu de pluie."
+    },
+    {
+      "heading": "Les déserts vivent quand même",
+      "body": "Plantes, insectes, reptiles, mammifères et humains s’adaptent : racines profondes, activité nocturne, stockage d’eau, mobilité. Le désert n’est pas vide ; il est exigeant."
+    }
+  ],
+  "key_figures": [
+    {
+      "label": "Définition simple",
+      "value": "Aridité",
+      "note": "Peu de précipitations, quelle que soit la température."
+    },
+    {
+      "label": "Mécanisme clé",
+      "value": "Air descendant",
+      "note": "Il limite la formation de nuages dans les zones subtropicales."
+    },
+    {
+      "label": "Désert froid",
+      "value": "Antarctique",
+      "note": "Très sec malgré la glace."
+    }
+  ],
+  "anecdote": "Le désert d’Atacama est si sec que certaines zones servent d’analogue terrestre pour tester des instruments destinés à Mars.",
+  "sources": [
+    {
+      "title": "National Geographic — Desert",
+      "url": "https://education.nationalgeographic.org/resource/desert/",
+      "description": "Présentation pédagogique des déserts et de leurs formes."
+    },
+    {
+      "title": "NASA Earth Observatory",
+      "url": "https://earthobservatory.nasa.gov/",
+      "description": "Ressources sur climat, aridité et observation de la Terre."
+    },
+    {
+      "title": "Encyclopaedia Britannica — Desert",
+      "url": "https://www.britannica.com/science/desert",
+      "description": "Synthèse sur les mécanismes et types de déserts."
+    }
+  ],
+  "image": {
+    "path": "/media/images/default-question.svg",
+    "original_url": null,
+    "author": null,
+    "license": null,
+    "alt_text": "Illustration de désert, montagnes et air sec."
+  },
+  "estimated_reading_minutes": 5
+}

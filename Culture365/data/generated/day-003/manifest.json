@@ -1,0 +1,35 @@
+{
+  "day": 3,
+  "assets": {
+    "country": {
+      "image": {
+        "path": "/media/images/default-country.svg",
+        "original_url": null,
+        "author": null,
+        "license": null,
+        "alt_text": "Paysage brésilien évoquant l’Amazonie et les grandes villes."
+      }
+    },
+    "question": {
+      "image": {
+        "path": "/media/images/default-question.svg",
+        "original_url": null,
+        "author": null,
+        "license": null,
+        "alt_text": "Illustration d’une carte impériale qui se fragmente."
+      }
+    }
+  },
+  "topics": {
+    "country": {
+      "id": "brazil",
+      "name": "Brazil",
+      "type": "country"
+    },
+    "question": {
+      "id": "why-do-empires-collapse",
+      "name": "Why do empires collapse?",
+      "type": "question"
+    }
+  }
+}

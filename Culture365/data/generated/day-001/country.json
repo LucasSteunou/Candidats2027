@@ -1,0 +1,81 @@
+{
+  "day": 1,
+  "lesson_type": "country",
+  "topic_id": "japan",
+  "topic_name": "Japan",
+  "language": "fr",
+  "title": "Japon : l’archipel qui transforme les contraintes en art",
+  "hook": "Un pays montagneux, pauvre en espace, exposé aux séismes, mais devenu l’un des grands laboratoires de la modernité.",
+  "summary": "Le Japon se comprend comme un dialogue permanent entre îles, montagnes, mer et villes très denses. Sa force vient d’une capacité rare à absorber des influences extérieures, puis à les transformer en formes très japonaises : institutions, industrie, cuisine, design, culture populaire.",
+  "takeaways": [
+    "Le relief montagneux concentre la population sur des plaines côtières étroites.",
+    "Le pays a longtemps alterné ouverture sélective et protection de son identité.",
+    "Tokyo illustre une urbanisation dense mais étonnamment organisée.",
+    "La culture japonaise marie souvent discipline collective et goût du détail."
+  ],
+  "cards": [
+    {
+      "heading": "Le fil rouge",
+      "body": "Le Japon n’est pas seulement un pays insulaire : c’est un pays d’îles volcaniques, de couloirs côtiers et de risques naturels. Cette géographie force à composer avec le manque d’espace, les typhons, les séismes et la mer. Beaucoup de traits célèbres, de la précision ferroviaire à l’architecture légère, prennent du sens quand on voit cette contrainte de départ."
+    },
+    {
+      "heading": "Ce que la carte raconte",
+      "body": "Les quatre grandes îles, Honshu, Hokkaido, Kyushu et Shikoku, forment une longue courbe au bord du Pacifique. Les montagnes occupent une grande partie du territoire ; les métropoles se serrent donc sur les plaines, surtout autour de Tokyo, Osaka et Nagoya. La mer n’est pas un décor : elle nourrit, protège, menace et relie."
+    },
+    {
+      "heading": "Une histoire en couches",
+      "body": "Pendant des siècles, le Japon a emprunté à la Chine et à la Corée l’écriture, le bouddhisme, des modèles politiques, puis a développé ses propres formes. L’époque d’Edo a limité les contacts extérieurs, avant que l’ère Meiji transforme le pays à grande vitesse au XIXe siècle. Après 1945, il reconstruit une puissance économique sans empire militaire."
+    },
+    {
+      "heading": "Pourquoi cela compte aujourd’hui",
+      "body": "Le Japon compte dans l’industrie, la robotique, l’automobile, les jeux vidéo, le cinéma d’animation et les objets du quotidien. Mais il affronte aussi un défi majeur : une population vieillissante et une natalité basse. C’est l’un des pays où l’on observe le plus concrètement ce que peut devenir une société très avancée et très âgée."
+    },
+    {
+      "heading": "À regarder autrement",
+      "body": "Pour regarder le Japon autrement, évitez l’image d’un pays “entre tradition et modernité”, trop facile. La vraie question est plus intéressante : comment une société rend-elle compatibles le changement rapide, le respect des formes, la mémoire des catastrophes et une vie urbaine extrêmement dense ?"
+    }
+  ],
+  "key_figures": [
+    {
+      "label": "Îles principales",
+      "value": "4",
+      "note": "Elles structurent l’essentiel du territoire habité."
+    },
+    {
+      "label": "Part montagneuse",
+      "value": "≈ 3/4",
+      "note": "Le relief explique la densité des plaines côtières."
+    },
+    {
+      "label": "Mégalopole de Tokyo",
+      "value": "> 35 M",
+      "note": "L’une des plus grandes régions urbaines du monde."
+    }
+  ],
+  "anecdote": "À Tokyo, beaucoup de rues n’ont pas de nom au sens européen. On s’oriente souvent par blocs et bâtiments. Ce détail dit beaucoup : la ville japonaise ne se lit pas toujours comme une grille, mais comme un tissu vivant de quartiers.",
+  "sources": [
+    {
+      "title": "Encyclopaedia Britannica — Japan",
+      "url": "https://www.britannica.com/place/Japan",
+      "description": "Vue d’ensemble historique et géographique."
+    },
+    {
+      "title": "CIA World Factbook — Japan",
+      "url": "https://www.cia.gov/the-world-factbook/countries/japan/",
+      "description": "Données synthétiques sur le territoire, la population et l’économie."
+    },
+    {
+      "title": "Japan Meteorological Agency",
+      "url": "https://www.jma.go.jp/jma/indexe.html",
+      "description": "Référence utile sur les risques naturels et le climat."
+    }
+  ],
+  "image": {
+    "path": "/media/images/default-country.svg",
+    "original_url": null,
+    "author": null,
+    "license": null,
+    "alt_text": "Paysage symbolique du Japon, entre montagne, ville et mer."
+  },
+  "estimated_reading_minutes": 5
+}

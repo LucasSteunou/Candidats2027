@@ -1,0 +1,81 @@
+{
+  "day": 12,
+  "lesson_type": "country",
+  "topic_id": "australia",
+  "topic_name": "Australia",
+  "language": "fr",
+  "title": "Australie : l’île-continent qui regarde l’Asie",
+  "hook": "L’Australie semble isolée sur la carte, mais son histoire et son avenir sont connectés aux océans, aux peuples autochtones et à l’Asie.",
+  "summary": "L’Australie est à la fois continent, État riche, société d’immigration et territoire autochtone ancien. Sa géographie est dominée par les littoraux habités, l’intérieur aride et des écosystèmes uniques. Elle doit penser ensemble mémoire coloniale, climat, ressources et position stratégique dans l’Indo-Pacifique.",
+  "takeaways": [
+    "La population vit surtout sur les côtes, loin de l’intérieur aride.",
+    "Les cultures aborigènes comptent parmi les plus anciennes traditions continues du monde.",
+    "L’économie est liée aux ressources, aux services et aux échanges avec l’Asie.",
+    "Le changement climatique menace fortement récifs, feux de brousse et ressources en eau."
+  ],
+  "cards": [
+    {
+      "heading": "Le fil rouge",
+      "body": "L’Australie est un paradoxe géographique : immense, mais très urbanisée ; isolée, mais très connectée ; jeune comme État, mais habitée depuis des dizaines de millénaires. Cette tension rend son identité particulièrement intéressante."
+    },
+    {
+      "heading": "Ce que la carte raconte",
+      "body": "Le centre, souvent appelé Outback, est sec et peu peuplé. Les grandes villes, Sydney, Melbourne, Brisbane, Perth, Adélaïde, se situent surtout sur les marges côtières. Au nord, l’Australie se rapproche de l’Indonésie et du Pacifique ; au large, la Grande Barrière de corail est un joyau vulnérable."
+    },
+    {
+      "heading": "Une histoire en couches",
+      "body": "Les peuples aborigènes et insulaires du détroit de Torres ont développé des liens profonds avec le territoire. La colonisation britannique à partir de 1788 transforme brutalement ces sociétés. L’Australie moderne s’est ensuite construite comme fédération, démocratie parlementaire et pays d’immigration."
+    },
+    {
+      "heading": "Pourquoi cela compte aujourd’hui",
+      "body": "L’Australie est riche, stable et influente dans l’Indo-Pacifique. Elle exporte minerais, énergie, produits agricoles et éducation. Ses débats majeurs portent sur les droits autochtones, l’eau, les incendies, le logement, la Chine, la sécurité régionale et la transition énergétique."
+    },
+    {
+      "heading": "À regarder autrement",
+      "body": "Pour regarder l’Australie autrement, partez de la profondeur autochtone plutôt que de la colonisation. Le pays moderne est récent ; l’histoire humaine du continent, elle, est vertigineusement longue."
+    }
+  ],
+  "key_figures": [
+    {
+      "label": "Forme géographique",
+      "value": "Île-continent",
+      "note": "Un État qui occupe la masse continentale australienne."
+    },
+    {
+      "label": "Habitat",
+      "value": "Côtier",
+      "note": "La population se concentre sur les marges tempérées."
+    },
+    {
+      "label": "Récif emblématique",
+      "value": "Grande Barrière",
+      "note": "Écosystème majeur menacé par le réchauffement."
+    }
+  ],
+  "anecdote": "Le “Dreaming” ou Temps du rêve n’est pas un simple folklore : il relie récits, loi, lieux et responsabilités. Pour beaucoup de peuples autochtones, le paysage est aussi une archive vivante.",
+  "sources": [
+    {
+      "title": "Encyclopaedia Britannica — Australia",
+      "url": "https://www.britannica.com/place/Australia",
+      "description": "Repères historiques et géographiques."
+    },
+    {
+      "title": "CIA World Factbook — Australia",
+      "url": "https://www.cia.gov/the-world-factbook/countries/australia/",
+      "description": "Données synthétiques sur le pays."
+    },
+    {
+      "title": "Australian Institute of Aboriginal and Torres Strait Islander Studies",
+      "url": "https://aiatsis.gov.au/",
+      "description": "Ressource sur les cultures et histoires autochtones."
+    }
+  ],
+  "image": {
+    "path": "/media/images/default-country.svg",
+    "original_url": null,
+    "author": null,
+    "license": null,
+    "alt_text": "Paysage australien entre littoral, désert et récif."
+  },
+  "estimated_reading_minutes": 5
+}

@@ -1,0 +1,35 @@
+{
+  "day": 7,
+  "assets": {
+    "country": {
+      "image": {
+        "path": "/media/images/default-country.svg",
+        "original_url": null,
+        "author": null,
+        "license": null,
+        "alt_text": "Paysage canadien entre forêt, ville et immensité nordique."
+      }
+    },
+    "question": {
+      "image": {
+        "path": "/media/images/default-question.svg",
+        "original_url": null,
+        "author": null,
+        "license": null,
+        "alt_text": "Illustration d’un modèle d’intelligence artificielle reliant données et prédictions."
+      }
+    }
+  },
+  "topics": {
+    "country": {
+      "id": "canada",
+      "name": "Canada",
+      "type": "country"
+    },
+    "question": {
+      "id": "what-is-artificial-intelligence",
+      "name": "What is artificial intelligence?",
+      "type": "question"
+    }
+  }
+}

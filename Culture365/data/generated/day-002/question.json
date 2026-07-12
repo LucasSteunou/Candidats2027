@@ -1,0 +1,81 @@
+{
+  "day": 2,
+  "lesson_type": "question",
+  "topic_id": "how-does-the-internet-work",
+  "topic_name": "How does the Internet work?",
+  "language": "fr",
+  "title": "Comment fonctionne Internet ?",
+  "hook": "Internet paraît immatériel. En réalité, c’est une gigantesque chorégraphie de câbles, d’adresses, de paquets et d’accords entre réseaux.",
+  "summary": "Internet est un réseau de réseaux. Quand vous ouvrez une page, votre appareil découpe et reçoit des données en petits paquets, les fait circuler par des routeurs, utilise des adresses IP et s’appuie sur le DNS pour traduire les noms de sites. Sa magie vient d’une idée simple : aucun centre unique ne doit tout contrôler.",
+  "takeaways": [
+    "Internet relie des réseaux différents grâce à des protocoles communs.",
+    "Les données voyagent en paquets, pas comme un bloc unique.",
+    "Le DNS transforme un nom lisible en adresse utilisable par les machines.",
+    "La résilience vient de la multiplicité des routes possibles."
+  ],
+  "cards": [
+    {
+      "heading": "Un réseau de réseaux",
+      "body": "Votre téléphone n’est pas connecté à “un nuage”. Il parle à un fournisseur d’accès, qui parle à d’autres réseaux, qui parlent à des centres de données. Internet est l’ensemble de ces interconnexions."
+    },
+    {
+      "heading": "Les paquets font le voyage",
+      "body": "Un message, une vidéo ou une page web est découpé en paquets. Chaque paquet porte une adresse de destination et peut emprunter un chemin différent. À l’arrivée, l’ensemble est réassemblé."
+    },
+    {
+      "heading": "Le DNS, l’annuaire discret",
+      "body": "Vous tapez un nom comme example.com, mais les machines utilisent des adresses IP. Le DNS sert d’annuaire : il trouve l’adresse numérique correspondant au nom demandé."
+    },
+    {
+      "heading": "Les protocoles évitent le chaos",
+      "body": "TCP/IP, HTTP, TLS et d’autres règles communes permettent à des machines très différentes de se comprendre. Internet fonctionne parce que tout le monde accepte un minimum de grammaire partagée."
+    },
+    {
+      "heading": "Pourquoi c’est robuste",
+      "body": "Internet n’a pas besoin d’un chemin unique. Si une route est saturée ou coupée, les paquets peuvent passer ailleurs. Cette logique distribuée explique sa résistance, mais aussi sa complexité."
+    }
+  ],
+  "key_figures": [
+    {
+      "label": "Unité de voyage",
+      "value": "Paquet",
+      "note": "Petit morceau de donnée adressé et routé."
+    },
+    {
+      "label": "Annuaire",
+      "value": "DNS",
+      "note": "Traduit les noms de domaine en adresses IP."
+    },
+    {
+      "label": "Principe",
+      "value": "Réseau de réseaux",
+      "note": "Internet relie des réseaux autonomes."
+    }
+  ],
+  "anecdote": "Le symbole “@” existait bien avant les emails. Il a été choisi parce qu’il indiquait naturellement qu’un utilisateur se trouvait “chez” un serveur donné.",
+  "sources": [
+    {
+      "title": "Internet Society — How does the Internet work?",
+      "url": "https://www.internetsociety.org/internet/how-it-works/",
+      "description": "Explication accessible des principes d’Internet."
+    },
+    {
+      "title": "ICANN — Beginner’s Guides",
+      "url": "https://www.icann.org/resources/pages/beginners-guides-2012-03-06-en",
+      "description": "Ressources sur les noms de domaine et la gouvernance technique."
+    },
+    {
+      "title": "Cloudflare Learning Center — What is the Internet?",
+      "url": "https://www.cloudflare.com/learning/network-layer/what-is-the-internet/",
+      "description": "Présentation pédagogique du réseau de réseaux."
+    }
+  ],
+  "image": {
+    "path": "/media/images/default-question.svg",
+    "original_url": null,
+    "author": null,
+    "license": null,
+    "alt_text": "Illustration de paquets de données circulant entre réseaux."
+  },
+  "estimated_reading_minutes": 5
+}

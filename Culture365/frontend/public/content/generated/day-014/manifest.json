@@ -1,0 +1,35 @@
+{
+  "day": 14,
+  "assets": {
+    "country": {
+      "image": {
+        "path": "/media/images/default-country.svg",
+        "original_url": null,
+        "author": null,
+        "license": null,
+        "alt_text": "Paysage marocain entre Atlas, médina et désert."
+      }
+    },
+    "question": {
+      "image": {
+        "path": "/media/images/default-question.svg",
+        "original_url": null,
+        "author": null,
+        "license": null,
+        "alt_text": "Illustration de rites, calendriers et lieux sacrés dans plusieurs sociétés."
+      }
+    }
+  },
+  "topics": {
+    "country": {
+      "id": "morocco",
+      "name": "Morocco",
+      "type": "country"
+    },
+    "question": {
+      "id": "why-do-religions-shape-societies",
+      "name": "Why do religions shape societies?",
+      "type": "question"
+    }
+  }
+}

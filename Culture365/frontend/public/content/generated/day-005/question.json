@@ -1,0 +1,81 @@
+{
+  "day": 5,
+  "lesson_type": "question",
+  "topic_id": "how-do-vaccines-train-the-immune-system",
+  "topic_name": "How do vaccines train the immune system?",
+  "language": "fr",
+  "title": "Comment les vaccins entraînent-ils le système immunitaire ?",
+  "hook": "Un vaccin est une répétition générale : il montre le danger sans laisser la maladie jouer la vraie scène.",
+  "summary": "Un vaccin présente au système immunitaire une version inoffensive d’un microbe, un fragment ou une instruction pour fabriquer un fragment. Le corps apprend à reconnaître l’ennemi, produit des anticorps et surtout garde des cellules mémoire. Si le vrai pathogène arrive, la réponse est plus rapide et plus forte.",
+  "takeaways": [
+    "Le vaccin déclenche un apprentissage immunitaire sans provoquer la maladie complète.",
+    "Les cellules mémoire permettent une réaction plus rapide lors d’une vraie infection.",
+    "La vaccination protège l’individu et peut réduire la transmission dans une population.",
+    "Les vaccins sont testés pour mesurer sécurité, efficacité et effets indésirables."
+  ],
+  "cards": [
+    {
+      "heading": "Reconnaître avant de combattre",
+      "body": "Le système immunitaire fonctionne comme une équipe de surveillance. Il doit distinguer ce qui appartient au corps de ce qui peut être dangereux. Un vaccin lui donne une cible à apprendre."
+    },
+    {
+      "heading": "Antigène : le signal d’entraînement",
+      "body": "Le vaccin contient ou fait produire un antigène, c’est-à-dire un élément reconnaissable du microbe. Il ne s’agit pas de “donner la maladie”, mais de montrer une signature."
+    },
+    {
+      "heading": "La mémoire immunitaire",
+      "body": "Après la première rencontre, certaines cellules restent prêtes. Lors d’une exposition future, elles réagissent plus vite. C’est cette mémoire qui rend la vaccination si puissante."
+    },
+    {
+      "heading": "Pourquoi plusieurs doses ?",
+      "body": "Un rappel renforce la mémoire, augmente la quantité ou la qualité des anticorps et prolonge la protection. C’est comme réviser avant un examen important."
+    },
+    {
+      "heading": "Une protection collective",
+      "body": "Quand beaucoup de personnes sont immunisées, un pathogène circule moins facilement. Les personnes fragiles ou non vaccinables bénéficient alors indirectement de cette barrière."
+    }
+  ],
+  "key_figures": [
+    {
+      "label": "Acteur clé",
+      "value": "Cellules mémoire",
+      "note": "Elles accélèrent la réponse lors d’une future exposition."
+    },
+    {
+      "label": "Signal appris",
+      "value": "Antigène",
+      "note": "Fragment ou signature reconnue par l’immunité."
+    },
+    {
+      "label": "Effet population",
+      "value": "Immunité collective",
+      "note": "Réduction de la circulation quand beaucoup sont protégés."
+    }
+  ],
+  "anecdote": "Le mot vaccin vient de “vacca”, la vache en latin, car Edward Jenner a utilisé la vaccine, maladie bovine proche de la variole, pour protéger contre la variole humaine.",
+  "sources": [
+    {
+      "title": "WHO — Vaccines and immunization",
+      "url": "https://www.who.int/health-topics/vaccines-and-immunization",
+      "description": "Référence mondiale sur la vaccination."
+    },
+    {
+      "title": "CDC — How Vaccines Work",
+      "url": "https://www.cdc.gov/vaccines/basics/index.html",
+      "description": "Explication pédagogique du fonctionnement des vaccins."
+    },
+    {
+      "title": "Institut Pasteur — Vaccins",
+      "url": "https://www.pasteur.fr/fr/centre-medical/fiches-maladies/vaccins",
+      "description": "Ressource francophone sur les vaccins."
+    }
+  ],
+  "image": {
+    "path": "/media/images/default-question.svg",
+    "original_url": null,
+    "author": null,
+    "license": null,
+    "alt_text": "Illustration du système immunitaire apprenant à reconnaître un antigène."
+  },
+  "estimated_reading_minutes": 5
+}

@@ -1,0 +1,81 @@
+{
+  "day": 1,
+  "lesson_type": "question",
+  "topic_id": "why-do-volcanoes-erupt",
+  "topic_name": "Why do volcanoes erupt?",
+  "language": "fr",
+  "title": "Pourquoi les volcans entrent-ils en éruption ?",
+  "hook": "Un volcan n’est pas une montagne en colère : c’est une soupape entre l’intérieur chaud de la Terre et sa surface fragile.",
+  "summary": "Les éruptions arrivent quand du magma, des gaz et de la pression trouvent un chemin vers la surface. Elles sont liées à la tectonique des plaques, mais aussi à la composition du magma et à la quantité de gaz piégée. Un volcan peut construire des sols fertiles, détruire des villes et révéler que notre planète est encore active.",
+  "takeaways": [
+    "Le magma remonte parce qu’il est moins dense que les roches qui l’entourent.",
+    "Les gaz dissous jouent un rôle majeur dans l’explosivité.",
+    "Beaucoup de volcans se trouvent aux limites des plaques tectoniques.",
+    "Une éruption peut être fluide ou explosive selon la viscosité du magma."
+  ],
+  "cards": [
+    {
+      "heading": "La Terre n’est pas froide à l’intérieur",
+      "body": "Sous la croûte, la chaleur reste intense. À certains endroits, les roches fondent partiellement et forment du magma. Ce magma cherche à remonter, un peu comme une bulle plus légère dans un liquide épais."
+    },
+    {
+      "heading": "La pression fait monter le danger",
+      "body": "Le magma contient des gaz dissous. Tant qu’il reste en profondeur, la pression les maintient mélangés. En remontant, la pression baisse : les gaz se dilatent, comme dans une bouteille de soda que l’on ouvre trop vite."
+    },
+    {
+      "heading": "La viscosité change tout",
+      "body": "Un magma fluide laisse les gaz s’échapper plus facilement : l’éruption peut produire des coulées. Un magma visqueux bloque les gaz : la pression monte, et l’explosion peut être violente."
+    },
+    {
+      "heading": "Les plaques dessinent la carte",
+      "body": "Aux zones de subduction, une plaque plonge sous une autre et favorise la fusion partielle. Aux dorsales, les plaques s’écartent et le magma remonte. Certains volcans naissent aussi de points chauds, loin des frontières de plaques."
+    },
+    {
+      "heading": "Des catastrophes, mais aussi de la fertilité",
+      "body": "Les volcans détruisent, mais ils construisent aussi : îles, montagnes, sols riches en minéraux. C’est pourquoi des populations vivent parfois près d’eux malgré le risque."
+    }
+  ],
+  "key_figures": [
+    {
+      "label": "Moteur principal",
+      "value": "Pression + gaz",
+      "note": "La détente des gaz rend certaines éruptions explosives."
+    },
+    {
+      "label": "Carte volcanique",
+      "value": "Plaques",
+      "note": "Les limites de plaques concentrent de nombreux volcans."
+    },
+    {
+      "label": "Style d’éruption",
+      "value": "Viscosité",
+      "note": "Plus le magma est visqueux, plus les gaz restent piégés."
+    }
+  ],
+  "anecdote": "L’éruption du Tambora en 1815 a projeté assez de particules dans l’atmosphère pour perturber le climat mondial. L’année suivante fut surnommée “l’année sans été” dans plusieurs régions.",
+  "sources": [
+    {
+      "title": "USGS — Volcano Hazards Program",
+      "url": "https://www.usgs.gov/programs/VHP",
+      "description": "Référence scientifique sur les volcans et leurs risques."
+    },
+    {
+      "title": "Smithsonian — Global Volcanism Program",
+      "url": "https://volcano.si.edu/",
+      "description": "Base de données mondiale sur l’activité volcanique."
+    },
+    {
+      "title": "Encyclopaedia Britannica — Volcano",
+      "url": "https://www.britannica.com/science/volcano",
+      "description": "Synthèse pédagogique sur les volcans."
+    }
+  ],
+  "image": {
+    "path": "/media/images/default-question.svg",
+    "original_url": null,
+    "author": null,
+    "license": null,
+    "alt_text": "Illustration d’un volcan en éruption et de la pression du magma."
+  },
+  "estimated_reading_minutes": 5
+}

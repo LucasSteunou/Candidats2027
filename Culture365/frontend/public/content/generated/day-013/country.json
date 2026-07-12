@@ -1,0 +1,81 @@
+{
+  "day": 13,
+  "lesson_type": "country",
+  "topic_id": "vietnam",
+  "topic_name": "Vietnam",
+  "language": "fr",
+  "title": "Vietnam : un long pays, une mémoire tenace",
+  "hook": "Le Vietnam a souvent été vu à travers la guerre. Il faut aussi le voir comme un pays de fleuves, de riz, de villes et d’endurance politique.",
+  "summary": "Le Vietnam est un pays étiré entre montagnes, littoral et deltas. Son histoire combine influences chinoises, dynamiques d’Asie du Sud-Est, colonisation française, guerres du XXe siècle et développement rapide. Sa géographie longue et étroite explique beaucoup : vulnérabilité, diversité régionale et ouverture maritime.",
+  "takeaways": [
+    "Le pays est structuré par deux grands deltas : fleuve Rouge au nord et Mékong au sud.",
+    "L’histoire vietnamienne est marquée par la relation avec la Chine et la résistance aux dominations extérieures.",
+    "La guerre du Vietnam ne résume pas le pays, mais elle pèse dans sa mémoire mondiale.",
+    "L’économie s’est fortement ouverte depuis les réformes du Đổi Mới."
+  ],
+  "cards": [
+    {
+      "heading": "Le fil rouge",
+      "body": "Le Vietnam est une leçon d’endurance. Son territoire long et étroit a souvent été difficile à défendre et à unifier, mais il a aussi permis une forte relation à la mer, aux rizières et aux échanges régionaux."
+    },
+    {
+      "heading": "Ce que la carte raconte",
+      "body": "Au nord, le delta du fleuve Rouge porte Hanoï et une longue histoire politique. Au sud, le delta du Mékong nourrit une région agricole et commerçante. Entre les deux, montagnes, plateaux et littoral créent un pays en forme de colonne vertébrale."
+    },
+    {
+      "heading": "Une histoire en couches",
+      "body": "Pendant des siècles, le Vietnam a été influencé par la Chine tout en affirmant sa propre identité. La colonisation française, l’occupation japonaise, puis les guerres d’indépendance et de réunification ont marqué le XXe siècle. Depuis 1986, les réformes économiques ont transformé le pays."
+    },
+    {
+      "heading": "Pourquoi cela compte aujourd’hui",
+      "body": "Le Vietnam est devenu un acteur industriel important, intégré aux chaînes de production mondiales. Il combine régime communiste, économie ouverte, population jeune et position stratégique en mer de Chine méridionale. Le climat et la montée des eaux menacent particulièrement le delta du Mékong."
+    },
+    {
+      "heading": "À regarder autrement",
+      "body": "Pour regarder le Vietnam autrement, remplacez l’image d’un champ de bataille par celle d’un pays-delta : eau, riz, villes, migrations, mémoire et adaptation."
+    }
+  ],
+  "key_figures": [
+    {
+      "label": "Réformes économiques",
+      "value": "Đổi Mới",
+      "note": "Ouverture engagée à partir de 1986."
+    },
+    {
+      "label": "Deltas majeurs",
+      "value": "2",
+      "note": "Fleuve Rouge et Mékong structurent le pays."
+    },
+    {
+      "label": "Forme",
+      "value": "Longue et étroite",
+      "note": "Une géographie qui complique l’unité et favorise l’ouverture maritime."
+    }
+  ],
+  "anecdote": "La soupe phở raconte une partie de l’histoire vietnamienne : influences locales, bouillon longuement travaillé, viande, nouilles de riz, herbes fraîches. Un plat simple en apparence, mais très sophistiqué.",
+  "sources": [
+    {
+      "title": "Encyclopaedia Britannica — Vietnam",
+      "url": "https://www.britannica.com/place/Vietnam",
+      "description": "Repères historiques et géographiques."
+    },
+    {
+      "title": "CIA World Factbook — Vietnam",
+      "url": "https://www.cia.gov/the-world-factbook/countries/vietnam/",
+      "description": "Données synthétiques sur le pays."
+    },
+    {
+      "title": "World Bank — Vietnam",
+      "url": "https://www.worldbank.org/en/country/vietnam",
+      "description": "Contexte économique récent."
+    }
+  ],
+  "image": {
+    "path": "/media/images/default-country.svg",
+    "original_url": null,
+    "author": null,
+    "license": null,
+    "alt_text": "Paysage vietnamien autour de rizières, fleuves et villes."
+  },
+  "estimated_reading_minutes": 5
+}

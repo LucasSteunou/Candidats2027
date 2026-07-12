@@ -1,0 +1,35 @@
+{
+  "day": 8,
+  "assets": {
+    "country": {
+      "image": {
+        "path": "/media/images/default-country.svg",
+        "original_url": null,
+        "author": null,
+        "license": null,
+        "alt_text": "Paysage indonésien entre îles, volcans et mer."
+      }
+    },
+    "question": {
+      "image": {
+        "path": "/media/images/default-question.svg",
+        "original_url": null,
+        "author": null,
+        "license": null,
+        "alt_text": "Illustration de mots qui voyagent et se transforment."
+      }
+    }
+  },
+  "topics": {
+    "country": {
+      "id": "indonesia",
+      "name": "Indonesia",
+      "type": "country"
+    },
+    "question": {
+      "id": "why-do-languages-change",
+      "name": "Why do languages change?",
+      "type": "question"
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "day": 10,
+  "lesson_type": "question",
+  "topic_id": "why-do-stars-shine",
+  "topic_name": "Why do stars shine?",
+  "language": "fr",
+  "title": "Pourquoi les étoiles brillent-elles ?",
+  "hook": "Une étoile brille parce qu’elle mène, en silence, une bataille entre gravité et énergie nucléaire.",
+  "summary": "Les étoiles brillent grâce à la fusion nucléaire dans leur cœur. La gravité comprime la matière à des températures et pressions extrêmes ; des noyaux d’hydrogène fusionnent pour former de l’hélium, libérant de l’énergie. Cette énergie met parfois très longtemps à sortir, puis voyage dans l’espace sous forme de lumière.",
+  "takeaways": [
+    "La gravité comprime le cœur des étoiles.",
+    "La fusion transforme l’hydrogène en hélium et libère de l’énergie.",
+    "La lumière d’une étoile est l’expression d’un équilibre interne.",
+    "La couleur d’une étoile révèle en partie sa température."
+  ],
+  "cards": [
+    {
+      "heading": "La gravité allume la machine",
+      "body": "Une étoile naît quand un nuage de gaz s’effondre sous sa propre gravité. La matière se comprime, chauffe, et le cœur devient assez extrême pour déclencher la fusion."
+    },
+    {
+      "heading": "Fusion, pas combustion",
+      "body": "Une étoile ne brûle pas comme du bois. Dans son cœur, des noyaux atomiques fusionnent. Une petite partie de la masse devient énergie, selon la célèbre relation E = mc²."
+    },
+    {
+      "heading": "L’équilibre qui dure",
+      "body": "La gravité veut écraser l’étoile. L’énergie produite au centre pousse vers l’extérieur. Une étoile stable est un compromis entre ces deux forces."
+    },
+    {
+      "heading": "La lumière sort lentement puis vite",
+      "body": "Les photons produits au cœur rebondissent longtemps dans la matière stellaire avant d’atteindre la surface. Une fois sortis, ils voyagent à la vitesse de la lumière jusqu’à nos yeux ou nos télescopes."
+    },
+    {
+      "heading": "La couleur parle",
+      "body": "Les étoiles bleutées sont généralement plus chaudes ; les rouges plus froides. Le ciel nocturne est donc aussi une carte de températures."
+    }
+  ],
+  "key_figures": [
+    {
+      "label": "Carburant principal",
+      "value": "Hydrogène",
+      "note": "Il fusionne en hélium dans beaucoup d’étoiles stables."
+    },
+    {
+      "label": "Moteur",
+      "value": "Fusion nucléaire",
+      "note": "Source de l’énergie stellaire."
+    },
+    {
+      "label": "Équilibre",
+      "value": "Gravité vs pression",
+      "note": "La stabilité d’une étoile vient de cette tension."
+    }
+  ],
+  "anecdote": "La lumière du Soleil met environ huit minutes à atteindre la Terre, mais l’énergie qui l’a produite a pu passer un temps immense à se frayer un chemin depuis le cœur solaire.",
+  "sources": [
+    {
+      "title": "NASA — Stars",
+      "url": "https://science.nasa.gov/universe/stars/",
+      "description": "Ressource pédagogique sur les étoiles."
+    },
+    {
+      "title": "ESA — Stars",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Stars",
+      "description": "Présentation de l’Agence spatiale européenne."
+    },
+    {
+      "title": "Encyclopaedia Britannica — Star",
+      "url": "https://www.britannica.com/science/star-astronomy",
+      "description": "Synthèse astronomique sur les étoiles."
+    }
+  ],
+  "image": {
+    "path": "/media/images/default-question.svg",
+    "original_url": null,
+    "author": null,
+    "license": null,
+    "alt_text": "Illustration d’une étoile produisant de la lumière par fusion."
+  },
+  "estimated_reading_minutes": 5
+}

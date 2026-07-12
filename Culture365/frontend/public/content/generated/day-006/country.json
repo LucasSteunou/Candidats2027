@@ -1,0 +1,81 @@
+{
+  "day": 6,
+  "lesson_type": "country",
+  "topic_id": "nigeria",
+  "topic_name": "Nigeria",
+  "language": "fr",
+  "title": "Nigeria : le géant africain aux mille équilibres",
+  "hook": "Le Nigeria concentre une question essentielle : comment faire tenir une puissance immense, jeune, diverse et inégalement développée ?",
+  "summary": "Le Nigeria est le pays le plus peuplé d’Afrique et l’un de ses grands moteurs culturels et économiques. Sa richesse vient du pétrole, des villes, de l’entrepreneuriat et d’une créativité puissante. Ses fragilités viennent des inégalités régionales, des tensions politiques, de la sécurité et de la dépendance aux hydrocarbures.",
+  "takeaways": [
+    "Le Nigeria est un poids lourd démographique et culturel du continent africain.",
+    "Sa diversité ethnique, linguistique et religieuse exige des compromis politiques constants.",
+    "Le pétrole a apporté des revenus majeurs, mais aussi dépendance et tensions.",
+    "Lagos illustre l’énergie urbaine, économique et culturelle du pays."
+  ],
+  "cards": [
+    {
+      "heading": "Le fil rouge",
+      "body": "Le Nigeria est souvent appelé “géant de l’Afrique”. Ce n’est pas seulement une formule : population, cinéma, musique, finance, pétrole, diaspora et diplomatie lui donnent une présence considérable. Mais un géant doit aussi apprendre à coordonner ses forces internes."
+    },
+    {
+      "heading": "Ce que la carte raconte",
+      "body": "Le pays relie le golfe de Guinée au Sahel. Le sud est plus humide, côtier et fortement urbanisé ; le nord est plus sec et tourné vers les réseaux sahéliens. Cette géographie recoupe partiellement des différences économiques, religieuses et historiques, ce qui rend le fédéralisme crucial."
+    },
+    {
+      "heading": "Une histoire en couches",
+      "body": "Le territoire actuel rassemble d’anciens royaumes, cités commerçantes, califats, sociétés agricoles et réseaux atlantiques. La colonisation britannique a réuni ces espaces dans un même cadre. Depuis l’indépendance, le pays cherche un équilibre entre régions, ressources et pouvoir central."
+    },
+    {
+      "heading": "Pourquoi cela compte aujourd’hui",
+      "body": "Le Nigeria rayonne par Nollywood, l’afrobeats, ses entrepreneurs et sa diaspora. Il doit aussi répondre à des défis sérieux : accès à l’électricité, corruption, inflation, violences armées, chômage des jeunes. Son avenir comptera pour toute l’Afrique de l’Ouest."
+    },
+    {
+      "heading": "À regarder autrement",
+      "body": "Pour regarder le Nigeria autrement, ne le réduisez ni au pétrole ni aux crises. Regardez aussi la capacité d’invention sociale : marchés, musique, technologies financières, mode, cinéma et humour politique."
+    }
+  ],
+  "key_figures": [
+    {
+      "label": "Population africaine",
+      "value": "1er rang",
+      "note": "Le Nigeria est le pays le plus peuplé du continent."
+    },
+    {
+      "label": "Ville symbole",
+      "value": "Lagos",
+      "note": "Métropole créative, économique et démographique majeure."
+    },
+    {
+      "label": "Ressource clé",
+      "value": "Pétrole",
+      "note": "Une force économique, mais aussi une dépendance."
+    }
+  ],
+  "anecdote": "Nollywood produit énormément de films avec des budgets souvent modestes. Son succès montre qu’une industrie culturelle peut naître d’un public local immense avant de conquérir une diaspora mondiale.",
+  "sources": [
+    {
+      "title": "Encyclopaedia Britannica — Nigeria",
+      "url": "https://www.britannica.com/place/Nigeria",
+      "description": "Repères historiques et géographiques."
+    },
+    {
+      "title": "CIA World Factbook — Nigeria",
+      "url": "https://www.cia.gov/the-world-factbook/countries/nigeria/",
+      "description": "Données synthétiques sur le pays."
+    },
+    {
+      "title": "World Bank — Nigeria",
+      "url": "https://www.worldbank.org/en/country/nigeria",
+      "description": "Contexte économique et social."
+    }
+  ],
+  "image": {
+    "path": "/media/images/default-country.svg",
+    "original_url": null,
+    "author": null,
+    "license": null,
+    "alt_text": "Paysage nigérian évoquant ville, fleuve et énergie urbaine."
+  },
+  "estimated_reading_minutes": 5
+}

@@ -1,0 +1,81 @@
+{
+  "day": 7,
+  "lesson_type": "country",
+  "topic_id": "canada",
+  "topic_name": "Canada",
+  "language": "fr",
+  "title": "Canada : l’immensité comme défi politique",
+  "hook": "Le Canada est si vaste que sa géographie ressemble à une épreuve : comment gouverner, relier et habiter un espace pareil ?",
+  "summary": "Le Canada se comprend par l’immensité, le climat, les ressources naturelles, la relation avec les peuples autochtones, le bilinguisme et la proximité des États-Unis. C’est un pays riche, stable et urbain, mais construit sur des distances énormes et des mémoires difficiles.",
+  "takeaways": [
+    "La majorité des Canadiens vit près de la frontière sud.",
+    "Le bilinguisme anglais-français structure l’identité politique du pays.",
+    "Les peuples autochtones sont centraux pour comprendre le territoire et ses injustices historiques.",
+    "Les ressources naturelles et l’Arctique donnent au Canada une importance stratégique."
+  ],
+  "cards": [
+    {
+      "heading": "Le fil rouge",
+      "body": "Le Canada est un pays où la carte impressionne plus que la densité. L’immense nord, les forêts, les lacs, les Prairies, les Rocheuses et l’Arctique créent un territoire difficile à relier. Le pays moderne s’est bâti en négociant cette distance."
+    },
+    {
+      "heading": "Ce que la carte raconte",
+      "body": "Le sud concentre villes, industries et population : Toronto, Montréal, Vancouver, Ottawa, Calgary. Le nord représente une grande partie du territoire, mais avec des densités très faibles. L’Arctique canadien devient de plus en plus important avec le changement climatique et les routes polaires."
+    },
+    {
+      "heading": "Une histoire en couches",
+      "body": "La rencontre entre peuples autochtones, colonisation française, puis domination britannique a créé une histoire à plusieurs couches. Le Québec garde une place particulière par sa langue et son droit civil. L’histoire des pensionnats autochtones rappelle aussi que la construction du pays a eu un coût humain profond."
+    },
+    {
+      "heading": "Pourquoi cela compte aujourd’hui",
+      "body": "Le Canada est associé à l’immigration, aux ressources, à la stabilité institutionnelle et à un modèle social relativement protecteur. Mais il doit gérer le logement cher, la dépendance à certains secteurs, la réconciliation autochtone et l’équilibre entre provinces."
+    },
+    {
+      "heading": "À regarder autrement",
+      "body": "Pour regarder le Canada autrement, pensez-le comme une fédération de distances : distance entre langues, entre sud et nord, entre villes et ressources, entre mémoire coloniale et projet multiculturel."
+    }
+  ],
+  "key_figures": [
+    {
+      "label": "Océans bordiers",
+      "value": "3",
+      "note": "Atlantique, Pacifique et Arctique."
+    },
+    {
+      "label": "Langues officielles",
+      "value": "2",
+      "note": "Anglais et français structurent la vie fédérale."
+    },
+    {
+      "label": "Territoire",
+      "value": "Immense",
+      "note": "Le deuxième plus vaste État du monde par superficie."
+    }
+  ],
+  "anecdote": "La frontière entre le Canada et les États-Unis est souvent présentée comme la plus longue frontière non militarisée du monde. Elle rappelle que la sécurité peut aussi venir d’une relation politique durable.",
+  "sources": [
+    {
+      "title": "Encyclopaedia Britannica — Canada",
+      "url": "https://www.britannica.com/place/Canada",
+      "description": "Repères historiques et géographiques."
+    },
+    {
+      "title": "CIA World Factbook — Canada",
+      "url": "https://www.cia.gov/the-world-factbook/countries/canada/",
+      "description": "Données synthétiques sur le pays."
+    },
+    {
+      "title": "Government of Canada",
+      "url": "https://www.canada.ca/en.html",
+      "description": "Portail officiel du gouvernement canadien."
+    }
+  ],
+  "image": {
+    "path": "/media/images/default-country.svg",
+    "original_url": null,
+    "author": null,
+    "license": null,
+    "alt_text": "Paysage canadien entre forêt, ville et immensité nordique."
+  },
+  "estimated_reading_minutes": 5
+}

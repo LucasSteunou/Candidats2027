@@ -1,0 +1,81 @@
+{
+  "day": 2,
+  "lesson_type": "country",
+  "topic_id": "france",
+  "topic_name": "France",
+  "language": "fr",
+  "title": "France : un carrefour devenu État très centralisé",
+  "hook": "La France ressemble à une évidence sur la carte. En réalité, c’est une construction patiente : langues, régions, pouvoir royal, révolutions et République.",
+  "summary": "Comprendre la France, c’est comprendre comment un carrefour européen est devenu un État centralisé, puis une République attachée à l’égalité civique. Son influence vient autant de sa géographie que de ses institutions, de sa langue, de ses révolutions et de sa capacité à projeter une certaine idée de la culture.",
+  "takeaways": [
+    "La France est placée entre Europe du Nord, Méditerranée et Atlantique.",
+    "Paris concentre depuis longtemps pouvoir politique, culturel et économique.",
+    "La Révolution française a transformé la manière moderne de penser citoyenneté et droits.",
+    "Le pays reste marqué par la tension entre diversité régionale et unité républicaine."
+  ],
+  "cards": [
+    {
+      "heading": "Le fil rouge",
+      "body": "La France s’est bâtie autour d’un centre politique très fort. Cette centralisation n’était pas inévitable : le territoire abritait des langues, des droits et des identités régionales variées. Le projet français a longtemps consisté à relier tout cela à une capitale, une administration, une école, puis une idée commune de la citoyenneté."
+    },
+    {
+      "heading": "Ce que la carte raconte",
+      "body": "La carte française est presque un résumé d’Europe : Manche, Atlantique, Méditerranée, Alpes, Pyrénées, plaines agricoles, grands fleuves. Cette position a favorisé échanges, invasions, commerce et puissance agricole. Elle explique aussi pourquoi le pays s’est souvent pensé comme un pont, mais aussi comme une frontière."
+    },
+    {
+      "heading": "Une histoire en couches",
+      "body": "Royaume capétien, monarchie absolue, Révolution, Empire, Républiques : l’histoire politique française est une suite de ruptures fortes. L’État a appris à durer en changeant de forme. La Révolution de 1789 reste centrale car elle a donné un vocabulaire mondial : citoyen, droits, souveraineté nationale, égalité devant la loi."
+    },
+    {
+      "heading": "Pourquoi cela compte aujourd’hui",
+      "body": "La France pèse par son siège permanent au Conseil de sécurité de l’ONU, son économie, sa langue, son réseau diplomatique et sa culture. Elle doit aussi gérer des débats profonds : rapport à la laïcité, mémoire coloniale, place de Paris, fractures sociales, transition écologique."
+    },
+    {
+      "heading": "À regarder autrement",
+      "body": "Pour regarder la France autrement, observez la tension entre l’universel et le local. Le pays aime parler au nom de principes généraux, mais il est fait de terroirs, d’accents, de paysages et de mémoires très différents."
+    }
+  ],
+  "key_figures": [
+    {
+      "label": "Façades maritimes",
+      "value": "3",
+      "note": "Manche, Atlantique et Méditerranée ouvrent le pays sur plusieurs mondes."
+    },
+    {
+      "label": "Révolution fondatrice",
+      "value": "1789",
+      "note": "Date pivot de la citoyenneté moderne française."
+    },
+    {
+      "label": "Langue française",
+      "value": "5 continents",
+      "note": "Présente grâce à l’histoire, la diplomatie et la francophonie."
+    }
+  ],
+  "anecdote": "Le découpage des départements après la Révolution voulait que l’on puisse, en théorie, rejoindre le chef-lieu en une journée de cheval. Même la carte administrative portait une idée politique : rapprocher l’État du citoyen.",
+  "sources": [
+    {
+      "title": "Encyclopaedia Britannica — France",
+      "url": "https://www.britannica.com/place/France",
+      "description": "Repères géographiques et historiques."
+    },
+    {
+      "title": "CIA World Factbook — France",
+      "url": "https://www.cia.gov/the-world-factbook/countries/france/",
+      "description": "Données de synthèse sur le pays."
+    },
+    {
+      "title": "Vie publique — Institutions françaises",
+      "url": "https://www.vie-publique.fr/",
+      "description": "Ressource institutionnelle sur la République et l’administration."
+    }
+  ],
+  "image": {
+    "path": "/media/images/default-country.svg",
+    "original_url": null,
+    "author": null,
+    "license": null,
+    "alt_text": "Paysage français mêlant ville, fleuve et patrimoine."
+  },
+  "estimated_reading_minutes": 5
+}

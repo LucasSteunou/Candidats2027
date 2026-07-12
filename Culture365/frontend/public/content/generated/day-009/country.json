@@ -1,0 +1,81 @@
+{
+  "day": 9,
+  "lesson_type": "country",
+  "topic_id": "turkey",
+  "topic_name": "Turkey",
+  "language": "fr",
+  "title": "Turquie : le pont qui est aussi une puissance",
+  "hook": "La Turquie est souvent appelée pont entre Europe et Asie. Mais un pont peut aussi contrôler le passage.",
+  "summary": "La Turquie occupe une position exceptionnelle entre mer Noire, Méditerranée, Balkans, Caucase et Moyen-Orient. Héritière de l’Empire ottoman et de la République fondée par Atatürk, elle combine identité nationale forte, mémoire impériale, ambitions régionales et rôle stratégique dans les détroits.",
+  "takeaways": [
+    "Istanbul est une ville-monde entre deux continents.",
+    "Les détroits turcs relient mer Noire et Méditerranée.",
+    "La République turque s’est construite sur une modernisation laïque et nationaliste.",
+    "Le pays joue un rôle clé entre Europe, Russie, Caucase et Moyen-Orient."
+  ],
+  "cards": [
+    {
+      "heading": "Le fil rouge",
+      "body": "La Turquie est un espace de passage, mais aussi de contrôle. Qui tient l’Anatolie et les détroits peut influencer les routes, les armées, les grains, l’énergie et les diplomaties régionales. Cette position donne au pays une densité stratégique rare."
+    },
+    {
+      "heading": "Ce que la carte raconte",
+      "body": "L’Anatolie forme le cœur du territoire. À l’ouest, la Thrace touche les Balkans. Istanbul et les détroits du Bosphore et des Dardanelles relient deux mers et séparent deux continents. Au sud et à l’est, la Turquie touche la Syrie, l’Irak, l’Iran, le Caucase et la Méditerranée."
+    },
+    {
+      "heading": "Une histoire en couches",
+      "body": "Byzance, Constantinople, Empire ottoman, puis République turque : peu de lieux accumulent autant de couches. Après la Première Guerre mondiale, Mustafa Kemal Atatürk fonde une République tournée vers la souveraineté nationale, la réforme de l’État et une rupture partielle avec l’ordre ottoman."
+    },
+    {
+      "heading": "Pourquoi cela compte aujourd’hui",
+      "body": "La Turquie est membre de l’OTAN, partenaire difficile de l’Union européenne, puissance militaire régionale et acteur diplomatique entre plusieurs mondes. Elle est aussi traversée par des débats sur la religion, la laïcité, la question kurde, la liberté politique et l’économie."
+    },
+    {
+      "heading": "À regarder autrement",
+      "body": "Pour regarder la Turquie autrement, ne demandez pas seulement si elle est européenne ou asiatique. Demandez plutôt comment un pays transforme une position intermédiaire en marge de manœuvre."
+    }
+  ],
+  "key_figures": [
+    {
+      "label": "Ville pivot",
+      "value": "Istanbul",
+      "note": "Métropole située de part et d’autre du Bosphore."
+    },
+    {
+      "label": "Détroits",
+      "value": "2",
+      "note": "Bosphore et Dardanelles structurent la stratégie maritime."
+    },
+    {
+      "label": "République",
+      "value": "1923",
+      "note": "Date fondatrice de la Turquie moderne."
+    }
+  ],
+  "anecdote": "Sainte-Sophie a été basilique, mosquée, musée, puis à nouveau mosquée. Son histoire architecturale raconte à elle seule les changements de pouvoir, de religion et de mémoire à Istanbul.",
+  "sources": [
+    {
+      "title": "Encyclopaedia Britannica — Turkey",
+      "url": "https://www.britannica.com/place/Turkey",
+      "description": "Repères historiques et géographiques."
+    },
+    {
+      "title": "CIA World Factbook — Turkey",
+      "url": "https://www.cia.gov/the-world-factbook/countries/turkey-turkiye/",
+      "description": "Données synthétiques sur le pays."
+    },
+    {
+      "title": "UNESCO — Historic Areas of Istanbul",
+      "url": "https://whc.unesco.org/en/list/356/",
+      "description": "Contexte patrimonial sur Istanbul."
+    }
+  ],
+  "image": {
+    "path": "/media/images/default-country.svg",
+    "original_url": null,
+    "author": null,
+    "license": null,
+    "alt_text": "Paysage turc évoquant Istanbul, détroits et Anatolie."
+  },
+  "estimated_reading_minutes": 5
+}

@@ -1,0 +1,81 @@
+{
+  "day": 3,
+  "lesson_type": "question",
+  "topic_id": "why-do-empires-collapse",
+  "topic_name": "Why do empires collapse?",
+  "language": "fr",
+  "title": "Pourquoi les empires s’effondrent-ils ?",
+  "hook": "Un empire ne tombe presque jamais pour une seule raison. Il se fissure quand trop de tensions deviennent impossibles à coordonner.",
+  "summary": "Les empires s’effondrent quand leur capacité à gouverner un espace très vaste diminue : coûts militaires, crises fiscales, rivalités internes, pressions extérieures, pertes de légitimité, maladies, climat ou mutations commerciales. Le plus intéressant n’est pas la chute spectaculaire, mais l’accumulation lente des fragilités.",
+  "takeaways": [
+    "Un empire doit transformer la distance en administration.",
+    "Les coûts de défense peuvent dépasser les bénéfices de l’expansion.",
+    "La légitimité compte autant que la force militaire.",
+    "Beaucoup d’effondrements sont des transformations plutôt que des disparitions instantanées."
+  ],
+  "cards": [
+    {
+      "heading": "La distance coûte cher",
+      "body": "Plus un empire grandit, plus il doit payer routes, soldats, fonctionnaires, relais, alliances et garnisons. La grandeur devient une charge autant qu’un avantage."
+    },
+    {
+      "heading": "La périphérie teste le centre",
+      "body": "Les provinces lointaines obéissent tant que le centre protège, paie, arbitre et impressionne. Quand il paraît faible, les élites locales cherchent plus d’autonomie."
+    },
+    {
+      "heading": "La crise fiscale est un poison lent",
+      "body": "Armées, monuments, bureaucratie et crises exigent des ressources. Si l’impôt devient trop lourd ou inefficace, le pacte impérial se fragilise."
+    },
+    {
+      "heading": "Les ennemis sentent les failles",
+      "body": "Les pressions extérieures ne suffisent pas toujours à détruire un empire solide. Elles deviennent décisives quand elles rencontrent des divisions internes."
+    },
+    {
+      "heading": "Tomber peut vouloir dire changer",
+      "body": "Après la chute d’un empire, ses langues, ses lois, ses routes, ses religions ou ses élites survivent souvent. Rome disparaît politiquement en Occident, mais reste partout dans les institutions et les imaginaires."
+    }
+  ],
+  "key_figures": [
+    {
+      "label": "Risque structurel",
+      "value": "Surextension",
+      "note": "Quand l’espace contrôlé devient trop coûteux à tenir."
+    },
+    {
+      "label": "Ressource invisible",
+      "value": "Légitimité",
+      "note": "Les sujets doivent croire que l’ordre impérial vaut encore la peine."
+    },
+    {
+      "label": "Forme fréquente",
+      "value": "Transformation",
+      "note": "Un empire laisse souvent des héritages durables."
+    }
+  ],
+  "anecdote": "L’Empire romain d’Orient, que nous appelons souvent byzantin, a survécu près de mille ans après la fin de l’Empire romain d’Occident. Cela rappelle qu’une “chute” dépend beaucoup de l’endroit où l’on regarde.",
+  "sources": [
+    {
+      "title": "Encyclopaedia Britannica — Roman Empire",
+      "url": "https://www.britannica.com/place/Roman-Empire",
+      "description": "Exemple majeur d’expansion, transformation et héritage impérial."
+    },
+    {
+      "title": "World History Encyclopedia — Empire",
+      "url": "https://www.worldhistory.org/empire/",
+      "description": "Repères généraux sur les formes impériales."
+    },
+    {
+      "title": "Khan Academy — Fall of Rome",
+      "url": "https://www.khanacademy.org/humanities/world-history/ancient-medieval/roman-empire/a/the-fall-of-rome",
+      "description": "Synthèse pédagogique sur les facteurs de chute romaine."
+    }
+  ],
+  "image": {
+    "path": "/media/images/default-question.svg",
+    "original_url": null,
+    "author": null,
+    "license": null,
+    "alt_text": "Illustration d’une carte impériale qui se fragmente."
+  },
+  "estimated_reading_minutes": 5
+}

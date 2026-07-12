@@ -1,0 +1,35 @@
+{
+  "day": 6,
+  "assets": {
+    "country": {
+      "image": {
+        "path": "/media/images/default-country.svg",
+        "original_url": null,
+        "author": null,
+        "license": null,
+        "alt_text": "Paysage nigérian évoquant ville, fleuve et énergie urbaine."
+      }
+    },
+    "question": {
+      "image": {
+        "path": "/media/images/default-question.svg",
+        "original_url": null,
+        "author": null,
+        "license": null,
+        "alt_text": "Illustration de monnaies reliées par des taux de change."
+      }
+    }
+  },
+  "topics": {
+    "country": {
+      "id": "nigeria",
+      "name": "Nigeria",
+      "type": "country"
+    },
+    "question": {
+      "id": "why-are-some-currencies-stronger-than-others",
+      "name": "Why are some currencies stronger than others?",
+      "type": "question"
+    }
+  }
+}
