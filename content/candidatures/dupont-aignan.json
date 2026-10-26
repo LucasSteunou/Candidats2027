@@ -1,0 +1,197 @@
+{
+  "id": "dupont-aignan",
+  "nom": "Nicolas Dupont-Aignan",
+  "maj": "2026-10-26",
+  "parti": {
+    "nom": "Debout la France",
+    "sigle": "DLF",
+    "fondation": "2008",
+    "positionnement": {
+      "auto_definition": {
+        "texte": "Le site du parti a pour devise « Une France indépendante, des Français libres ». Nicolas Dupont-Aignan se présente comme gaulliste : « comme gaulliste, j'ai choisi d'emprunter le chemin le plus escarpé, le seul qui peut sauver la France ».",
+        "sources": ["dlf-accueil", "nda-rentree-2026-09-19"]
+      },
+      "nuance_ministere": {
+        "texte": "Dans la grille des nuances des législatives de 2024, le ministère de l'Intérieur range Debout la France dans la nuance « DSV », « Droite souverainiste ». Avant les municipales de 2020, le Conseil d'État avait suspendu le classement de la nuance « Debout la France » dans le bloc « extrême droite », jugeant qu'il ne « s'appuyait pas sur des indices objectifs ».",
+        "sources": ["grille-nuances-2024", "bdt-nuances-2026"]
+      }
+    }
+  },
+  "resume": {
+    "texte": "Député de l'Essonne de 1997 à 2024 et de nouveau maire de Yerres depuis mars 2026, Nicolas Dupont-Aignan préside Debout la France, qu'il a fondé en 2008 sous le nom de Debout la République. Candidat à la présidentielle pour la quatrième fois, il a annoncé sa candidature le 8 mars 2025. Il propose de sortir de l'Union européenne, un « protectionnisme intelligent », une paix négociée en Ukraine et une démocratie directe sur le modèle suisse.",
+    "sources": ["sudradio-bio-nda", "nda-rentree-2026-09-19"]
+  },
+  "histoire": {
+    "parti": [
+      { "date": "2008", "titre": "Création de Debout la République", "texte": "Après avoir quitté l'UMP en 2007, Nicolas Dupont-Aignan fonde Debout la République, renommé Debout la France en 2014.", "sources": ["sudradio-bio-nda"] },
+      { "date": "2017-04", "titre": "Accord avec Marine Le Pen", "texte": "Entre les deux tours de la présidentielle, il signe un accord de gouvernement avec Marine Le Pen, qui promet de le nommer Premier ministre si elle est élue.", "sources": ["sudradio-bio-nda"] },
+      { "date": "2026-09-19", "titre": "Première « Fête de la Liberté »", "texte": "À Yerres, devant près de 1 000 personnes selon le parti, il présente les quatre axes de son projet : indépendance, protectionnisme, paix et démocratie directe.", "sources": ["nda-rentree-2026-09-19"] }
+    ],
+    "candidat": [
+      { "date": "1961-03-07", "titre": "Naissance", "texte": "Naît le 7 mars 1961 à Paris. Diplômé de Sciences Po Paris, ancien élève de l'ENA (1987-1989), il est haut fonctionnaire puis conseiller ministériel de 1993 à 1995.", "sources": ["sudradio-bio-nda"] },
+      { "date": "1995", "titre": "Maire de Yerres", "texte": "Maire de Yerres de 1995 à 2017, puis député de la 8e circonscription de l'Essonne de 1997 à 2024.", "sources": ["sudradio-bio-nda"] },
+      { "date": "2012", "titre": "Trois candidatures présidentielles", "texte": "Il obtient 1,79 % des voix en 2012, 4,70 % en 2017 et 2,06 % en 2022.", "sources": ["sudradio-bio-nda", "cc-2022"] },
+      { "date": "2024-07", "titre": "Battu aux législatives", "texte": "Il perd son siège de député au second tour face au candidat de La France insoumise, Bérenger Cernon.", "sources": ["sudradio-bio-nda"] },
+      { "date": "2026-03", "titre": "De nouveau maire de Yerres", "texte": "Élu maire de Yerres avec 79,95 % des voix aux municipales de 2026.", "sources": ["sudradio-bio-nda"] },
+      { "date": "2025-03-08", "titre": "Candidature pour 2027", "texte": "Annonce sa quatrième candidature à l'élection présidentielle.", "sources": ["sudradio-bio-nda"] }
+    ]
+  },
+  "popularite": {
+    "chiffres_cles": [
+      { "libelle": "Score au premier tour de la présidentielle 2022", "valeur": "2,06 %", "date": "2022-04-10", "sources": ["cc-2022"] },
+      { "libelle": "Score au premier tour de la présidentielle 2017", "valeur": "4,70 %", "date": "2017-04-23", "sources": ["sudradio-bio-nda"] }
+    ],
+    "series": []
+  },
+  "perception": [],
+  "controverses": [
+    {
+      "titre": "Sanction de l'Assemblée pour « fraude au scrutin »",
+      "date": "2021-10-13",
+      "faits": "En juillet 2021, pendant l'examen du projet de loi sur la gestion de la crise sanitaire, il vote avec le boîtier électronique de José Évrard, député de son parti. Le Bureau de l'Assemblée nationale le sanctionne le 13 octobre 2021 pour « fraude au scrutin » : retrait d'un quart de son indemnité parlementaire pendant un mois. José Évrard reçoit la même sanction. Il s'agit d'une sanction interne à l'Assemblée, pas d'une procédure pénale.",
+      "statut_judiciaire": "aucune-procedure",
+      "reponse": "Il admet « une erreur » mais conteste le terme de fraude : José Évrard lui avait donné une délégation de vote, dont une pièce administrative manquait. Il parle d'un « quiproquo administratif ».",
+      "sources": ["lcp-sanction-2021-10-14", "franceinfo-sanction-2021-10"]
+    },
+    {
+      "titre": "Tweet sur l'« invasion migratoire »",
+      "date": "2017-01-17",
+      "faits": "Candidat à la présidentielle, il écrit le 17 janvier 2017 : « En 2016, les socialistes compensent la baisse de natalité par l'invasion migratoire. » Poursuivi pour provocation à la haine ou à la discrimination après un signalement de la Licra, partie civile, il est relaxé sur le fond le 6 juin 2018 par la 17e chambre du tribunal correctionnel de Paris. Le parquet avait requis 5 000 € d'amende avec sursis.",
+      "statut_judiciaire": "relaxe-ou-non-lieu",
+      "reponse": "« Ce n'est pas être haineux que de dire simplement qu'il y a un problème migratoire en France. » Il dénonce un « parquet politisé ».",
+      "sources": ["ps-relaxe-2018-06-06", "e1-relaxe-2018-06-06"]
+    }
+  ],
+  "programme": {
+    "etat": {
+      "texte": "Pas de programme complet publié. Le candidat a présenté les grands axes de son projet dans son discours de rentrée du 19 septembre 2026, puis « 20 mesures pour rétablir l'ordre et défendre la justice sociale » le 23 octobre 2026, sur son site de campagne. Les réponses viennent de ces deux textes ; il affirme avoir « précisément chiffré » ses propositions, sans publier ce chiffrage.",
+      "sources": ["nda-rentree-2026-09-19", "nda-20-mesures-2026-10-23"]
+    },
+    "themes": {
+      "economie": {
+        "mesures": [
+          { "sous_theme": "industrie-commerce", "intitule": "Relocaliser deux millions d'emplois par le protectionnisme", "detail": "Baisse du prix de l'énergie et des impôts de production, réduction des normes, fonds d'aide à la relocalisation. Protectionnisme « sélectif, temporaire, réactif » : étiquette indiquant la part de fabrication française, 50 % puis 75 % d'achats publics français, droits de douane européens ou nationaux, blocage des investissements étrangers dans les entreprises de pointe.", "origine": "declaration", "date": "2026-09", "sources": ["nda-rentree-2026-09-19"] },
+          { "sous_theme": "pouvoir-achat", "intitule": "Baisser les prix de l'énergie et des produits de première nécessité", "detail": "Baisse de 40 centimes du prix du litre de carburant, réduction de 50 % du prix de l'électricité par la sortie du marché européen, TVA à 0 % pour les produits de première nécessité.", "origine": "declaration", "date": "2026-10", "sources": ["nda-20-mesures-2026-10-23"] },
+          { "sous_theme": "retraites", "intitule": "10 000 € à chaque naissance pour la retraite", "detail": "Un capital de 10 000 € versé à chaque naissance et placé dans un fonds souverain, financé par la moitié de la contribution nette de la France à l'UE, pour garantir « un minimum retraite par capitalisation à 60 ans » ; maintien de l'indexation des pensions sur l'inflation.", "origine": "declaration", "date": "2026-09", "sources": ["nda-rentree-2026-09-19", "nda-20-mesures-2026-10-23"] },
+          { "sous_theme": "travail-emploi", "intitule": "Récompenser le travail", "detail": "Défiscaliser les heures supplémentaires, supprimer tout droit de succession sur la résidence principale, renforcer l'intéressement et la participation, plafonner le cumul des aides sociales en dessous du SMIC, exonérer de charges sociales pendant un an le premier emploi d'un jeune de moins de 26 ans.", "origine": "declaration", "date": "2026-09", "sources": ["nda-rentree-2026-09-19", "nda-20-mesures-2026-10-23"] }
+        ],
+        "reponses": {
+          "cout-net-programme": { "non_communique": "2026-10-26", "precision": "Dit avoir « précisément chiffré » ses propositions, sans publier ce chiffrage.", "sources": ["nda-rentree-2026-09-19"] },
+          "objectif-deficit": { "non_communique": "2026-10-26" },
+          "economies-depenses": { "non_communique": "2026-10-26" },
+          "impot-revenu": { "non_communique": "2026-10-26" },
+          "impot-patrimoine": { "non_communique": "2026-10-26" },
+          "droits-succession": { "valeur": "Baisse", "origine": "declaration", "date": "2026-09", "precision": "« Supprimer tout droit de successions sur la résidence principale ».", "sources": ["nda-rentree-2026-09-19"] },
+          "taux-is": { "non_communique": "2026-10-26" },
+          "impots-production": { "valeur": "Baisse", "origine": "declaration", "date": "2026-09", "sources": ["nda-rentree-2026-09-19"] },
+          "age-legal": { "non_communique": "2026-10-26" },
+          "duree-cotisation": { "non_communique": "2026-10-26" },
+          "financement-retraites": { "valeur": "Capital de 10 000 € à chaque naissance placé dans un fonds souverain, financé par la moitié de la contribution nette de la France à l'UE, pour un minimum de retraite par capitalisation à 60 ans.", "origine": "declaration", "date": "2026-09", "sources": ["nda-rentree-2026-09-19"] },
+          "smic": { "non_communique": "2026-10-26" },
+          "duree-travail": { "non_communique": "2026-10-26", "precision": "Pas de changement de la durée légale annoncé ; heures supplémentaires défiscalisées.", "sources": ["nda-rentree-2026-09-19"] },
+          "assurance-chomage": { "non_communique": "2026-10-26" },
+          "prix-energie": { "valeur": "Sortir du marché européen de l'électricité pour en réduire le prix de 50 %, et baisser de 40 centimes le prix du litre de carburant.", "origine": "declaration", "date": "2026-10", "sources": ["nda-20-mesures-2026-10-23"] },
+          "encadrement-prix": { "non_communique": "2026-10-26", "precision": "Propose une TVA à 0 % pour les produits de première nécessité.", "sources": ["nda-20-mesures-2026-10-23"] },
+          "libre-echange": { "valeur": "Opposition", "origine": "declaration", "date": "2026-09", "precision": "« Protectionnisme intelligent », opposition à l'accord avec le Mercosur et aux « accords déloyaux de libre échange ».", "sources": ["nda-rentree-2026-09-19"] },
+          "reindustrialisation": { "valeur": "Relocaliser deux millions d'emplois : baisse du prix de l'énergie et des impôts de production, moins de normes, fonds d'aide à la relocalisation et protectionnisme ciblé.", "origine": "declaration", "date": "2026-09", "sources": ["nda-rentree-2026-09-19"] }
+        }
+      },
+      "ecologie": {
+        "mesures": [],
+        "reponses": {
+          "nucleaire": { "non_communique": "2026-10-26", "precision": "Veut « baisser le prix de l'électricité en s'appuyant sur nos centrales nucléaires », sans position sur de nouveaux réacteurs.", "sources": ["nda-rentree-2026-09-19"] },
+          "renouvelables": { "non_communique": "2026-10-26" },
+          "neutralite-2050": { "non_communique": "2026-10-26" },
+          "thermique-2035": { "non_communique": "2026-10-26" }
+        }
+      },
+      "social": {
+        "mesures": [
+          { "sous_theme": "education", "intitule": "Supprimer Parcoursup et rétablir un bac exigeant", "detail": "Suppression de Parcoursup, rétablissement d'un « bac égalitaire », une école « des savoirs et du mérite avec des programmes exigeants », retour aux avantages de l'alternance et priorité aux étudiants français pour les aides universitaires.", "origine": "declaration", "date": "2026-10", "sources": ["nda-20-mesures-2026-10-23"] }
+        ],
+        "reponses": {
+          "acces-soins": { "non_communique": "2026-10-26" },
+          "installation-medecins": { "non_communique": "2026-10-26" },
+          "mesure-ecole": { "valeur": "Supprimer Parcoursup, rétablir un « bac égalitaire » et une école « des savoirs et du mérite » avec des programmes exigeants.", "origine": "declaration", "date": "2026-10", "sources": ["nda-20-mesures-2026-10-23"] },
+          "remuneration-enseignants": { "non_communique": "2026-10-26" },
+          "encadrement-loyers": { "non_communique": "2026-10-26" },
+          "logements-sociaux": { "non_communique": "2026-10-26" },
+          "rsa": { "valeur": "Plus strictes", "origine": "declaration", "date": "2026-09", "precision": "Plafonner le cumul des aides sociales en dessous du SMIC et supprimer les aides sociales non contributives aux étrangers.", "sources": ["nda-rentree-2026-09-19", "nda-20-mesures-2026-10-23"] }
+        }
+      },
+      "securite": {
+        "mesures": [
+          { "sous_theme": "justice", "intitule": "40 000 places de prison et peines planchers", "detail": "Construction de 40 000 places de prison, peine plancher de prison pour agression de policiers, prison ferme pour les multirécidivistes, majorité pénale abaissée à 16 ans, loi anti-casseurs, expulsion des délinquants étrangers.", "origine": "declaration", "date": "2026-10", "sources": ["nda-20-mesures-2026-10-23"] }
+        ],
+        "reponses": {
+          "effectifs-forces-ordre": { "non_communique": "2026-10-26" },
+          "places-prison": { "valeur": 40000, "origine": "declaration", "date": "2026-10", "sources": ["nda-20-mesures-2026-10-23"] },
+          "peines-minimales": { "valeur": "Pour", "origine": "declaration", "date": "2026-10", "precision": "Peine plancher de prison pour agression de policiers ; prison ferme pour les multirécidivistes.", "sources": ["nda-20-mesures-2026-10-23"] },
+          "justice-mineurs": { "valeur": "Abaisser la majorité pénale à 16 ans.", "origine": "declaration", "date": "2026-10", "sources": ["nda-20-mesures-2026-10-23"] },
+          "cannabis": { "non_communique": "2026-10-26" }
+        }
+      },
+      "immigration": {
+        "mesures": [
+          { "sous_theme": "nationalite-droits", "intitule": "Fin du droit du sol et des aides non contributives aux étrangers", "detail": "Rétablissement des frontières nationales, fin du droit du sol, suppression des aides sociales non contributives aux étrangers, expulsion des délinquants étrangers et primauté du droit français sur le droit européen.", "origine": "declaration", "date": "2026-10", "sources": ["nda-20-mesures-2026-10-23"] }
+        ],
+        "reponses": {
+          "titres-sejour": { "valeur": "Baisse", "origine": "declaration", "date": "2026-09", "precision": "« Bloquer l'immigration » et rétablir les contrôles aux frontières nationales.", "sources": ["nda-rentree-2026-09-19"] },
+          "regularisations": { "non_communique": "2026-10-26" },
+          "demandes-asile": { "non_communique": "2026-10-26" },
+          "droit-du-sol": { "valeur": "Suppression", "origine": "declaration", "date": "2026-10", "sources": ["nda-20-mesures-2026-10-23"] },
+          "ame": { "non_communique": "2026-10-26" },
+          "priorite-nationale": { "valeur": "Pour", "origine": "declaration", "date": "2026-10", "precision": "Suppression des aides sociales non contributives aux étrangers ; priorité aux étudiants français pour les aides universitaires.", "sources": ["nda-20-mesures-2026-10-23"] },
+          "referendum-immigration": { "non_communique": "2026-10-26", "precision": "Propose le référendum de l'article 11 « dans tous les domaines », sans référendum annoncé sur l'immigration.", "sources": ["nda-rentree-2026-09-19"] }
+        }
+      },
+      "institutions": {
+        "mesures": [
+          { "sous_theme": "democratie", "intitule": "Une démocratie directe sur le modèle suisse", "detail": "Référendum de l'article 11 « dans tous les domaines », RIC à partir d'un million de signatures, RIC constituant, reconnaissance du vote blanc, suppression des régions et des intercommunalités « forcées » pour tout réorganiser autour de la commune et du département, médias réorganisés autour de fondations.", "origine": "declaration", "date": "2026-09", "sources": ["nda-rentree-2026-09-19"] }
+        ],
+        "reponses": {
+          "mode-scrutin": { "non_communique": "2026-10-26" },
+          "ric": { "valeur": "Pour", "origine": "declaration", "date": "2026-09", "precision": "À partir d'un million de signatures, y compris en matière constitutionnelle.", "sources": ["nda-rentree-2026-09-19"] },
+          "constitution": { "valeur": "Révisions ciblées", "origine": "declaration", "date": "2026-09", "precision": "Référendum de l'article 11 dans tous les domaines, RIC constituant et primauté du droit français sur le droit européen.", "sources": ["nda-rentree-2026-09-19", "nda-20-mesures-2026-10-23"] },
+          "mandat-presidentiel": { "non_communique": "2026-10-26" }
+        }
+      },
+      "international": {
+        "mesures": [
+          { "sous_theme": "europe", "intitule": "Sortir de l'Union européenne", "detail": "Quitter l'Union européenne et proposer une « Europe des nations libres » : « Chacun chez soi, avec nos frontières, nos lois nationales, nos budgets et nos monnaies », avec des coopérations « à la carte, projet par projet, à l'exemple d'Airbus ».", "origine": "declaration", "date": "2026-09", "sources": ["nda-rentree-2026-09-19"] },
+          { "sous_theme": "diplomatie", "intitule": "Une paix négociée en Ukraine et la sortie de l'OTAN", "detail": "Plan de paix : neutralité et démilitarisation de l'Ukraine, référendum au Donbass, forces de l'ONU autour des centrales nucléaires, fin des sanctions contre la Russie. Retrait du commandement intégré de l'OTAN et coopérations « de l'Atlantique à l'Oural ».", "origine": "declaration", "date": "2026-09", "sources": ["nda-rentree-2026-09-19"] }
+        ],
+        "reponses": {
+          "relation-ue": { "valeur": "Quitter l'UE", "origine": "declaration", "date": "2026-09", "precision": "Pour bâtir une « Europe des nations libres » fondée sur des coopérations à la carte.", "sources": ["nda-rentree-2026-09-19"] },
+          "euro": { "valeur": "Quitter l'euro", "origine": "declaration", "date": "2026-09", "precision": "« Chacun chez soi, avec […] nos budgets et nos monnaies » ; « La baisse de notre monnaie dopera nos exportations. »", "sources": ["nda-rentree-2026-09-19"] },
+          "budget-defense": { "non_communique": "2026-10-26" },
+          "otan": { "valeur": "En sortir", "origine": "declaration", "date": "2026-09", "precision": "Retrait du commandement intégré de l'OTAN.", "sources": ["nda-rentree-2026-09-19"] },
+          "service-national": { "non_communique": "2026-10-26" },
+          "ukraine": { "valeur": "Paix négociée : neutralité et démilitarisation de l'Ukraine, référendum au Donbass, forces de l'ONU autour des centrales nucléaires et fin des sanctions contre la Russie.", "origine": "declaration", "date": "2026-09", "sources": ["nda-rentree-2026-09-19"] },
+          "proche-orient": { "non_communique": "2026-10-26", "precision": "Veut « renouer les fils du dialogue au Moyen-Orient et garantir la survie des Chrétiens d'Orient et du Liban », sans mesure détaillée.", "sources": ["nda-rentree-2026-09-19"] }
+        }
+      },
+      "agriculture": {
+        "mesures": [],
+        "reponses": {
+          "revenu-agricole": { "non_communique": "2026-10-26", "precision": "Veut protéger les éleveurs des importations de viandes traitées aux hormones et aux antibiotiques interdits en Europe, sans mesure de revenu détaillée.", "sources": ["nda-rentree-2026-09-19"] },
+          "pesticides": { "non_communique": "2026-10-26" },
+          "pac": { "non_communique": "2026-10-26" }
+        }
+      }
+    }
+  },
+  "sources": {
+    "dlf-accueil": { "titre": "Debout la France, page d'accueil", "editeur": "Debout la France", "date": null, "consulte": "2026-10-26", "url": "https://www.debout-la-france.fr/", "type": "parti" },
+    "nda-rentree-2026-09-19": { "titre": "Libérons la France ! Discours de rentrée de Nicolas Dupont-Aignan", "editeur": "Dupont-Aignan 2027", "auteur": "Nicolas Dupont-Aignan", "date": "2026-09-19", "consulte": "2026-10-26", "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%c2%b7-discours-de-rentree-de-nicolas-dupont-aignan/", "type": "parti" },
+    "nda-20-mesures-2026-10-23": { "titre": "20 mesures pour rétablir l'ordre et défendre la justice sociale !", "editeur": "Dupont-Aignan 2027", "auteur": "Nicolas Dupont-Aignan", "date": "2026-10-23", "consulte": "2026-10-26", "url": "https://www.dupontaignan.fr/actualite/20-mesures-pour-retablir-lordre-et-defendre-la-justice-sociale/", "type": "parti" },
+    "grille-nuances-2024": { "titre": "Annexe 1 : Grille des nuances individuelles, élections législatives 2024", "editeur": "Préfecture du Calvados (ministère de l'Intérieur)", "date": null, "consulte": "2026-10-26", "url": "https://calvados.gouv.fr/contenu/telechargement/24610/181062/file/Annexe%201-Grille%20nuance%20-l%C3%A9gislatives%202024.pdf", "type": "officiel" },
+    "bdt-nuances-2026": { "titre": "Municipales : les nuances politiques attribuées aux candidats dans les communes de 3.500 habitants et plus", "editeur": "Banque des Territoires", "date": null, "consulte": "2026-10-26", "url": "https://www.banquedesterritoires.fr/municipales-les-nuances-politiques-attribuees-aux-candidats-dans-les-communes-de-3500-habitants-et", "type": "presse" },
+    "sudradio-bio-nda": { "titre": "Nicolas Dupont-Aignan : biographie et CV politique", "editeur": "Sud Radio", "date": null, "consulte": "2026-10-26", "url": "https://www.sudradio.fr/la-biographie-et-le-cv-de-nicolas-dupont-aignan", "type": "presse" },
+    "cc-2022": { "titre": "Annonce par Laurent Fabius, Président du Conseil constitutionnel, des résultats officiels du premier tour de l'élection présidentielle", "editeur": "Conseil constitutionnel", "date": "2022-04-13", "consulte": "2026-10-26", "url": "https://presidentielle2022.conseil-constitutionnel.fr/les-communiques/resultats-du-premier-tour.html", "type": "officiel" },
+    "lcp-sanction-2021-10-14": { "titre": "Nicolas Dupont-Aignan sanctionné par l'Assemblée : le député récuse la \"fraude\" et concède une \"erreur\"", "editeur": "LCP", "auteur": "Soizic Bonvarlet", "date": "2021-10-14", "consulte": "2026-10-26", "url": "https://lcp.fr/actualites/nicolas-dupont-aignan-sanctionne-par-l-assemblee-le-depute-recuse-la-fraude-et-concede", "type": "presse" },
+    "franceinfo-sanction-2021-10": { "titre": "Nicolas Dupont-Aignan sanctionné pour fraude au scrutin à l'Assemblée nationale", "editeur": "franceinfo", "date": null, "consulte": "2026-10-26", "url": "https://www.franceinfo.fr/politique/nicolas-dupont-aignan/nicolas-dupont-aignan-sanctionne-pour-fraude-au-scrutin-a-l-assemblee-nationale_4806343.html", "type": "presse" },
+    "ps-relaxe-2018-06-06": { "titre": "Dupont-Aignan relaxé pour ses propos sur l'« invasion migratoire » en France", "editeur": "Public Sénat", "date": "2018-06-06", "consulte": "2026-10-26", "url": "https://www.publicsenat.fr/actualites/politique/dupont-aignan-relaxe-pour-ses-propos-sur-l-invasion-migratoire-en-france-86680", "type": "presse" },
+    "e1-relaxe-2018-06-06": { "titre": "Nicolas Dupont-Aignan relaxé pour ses propos sur l'\"invasion migratoire\" en France", "editeur": "Europe 1", "date": "2018-06-06", "consulte": "2026-10-26", "url": "https://www.europe1.fr/societe/nicolas-dupont-aignan-relaxe-pour-ses-propos-sur-linvasion-migratoire-en-france-3673592", "type": "presse" }
+  }
+}
