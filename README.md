@@ -26,7 +26,7 @@ cd frontend && npm run dev              # app at http://localhost:5173
 cd frontend && npm test && npm run build
 ```
 
-Pushing to `main` deploys `frontend/dist` to GitHub Pages (`.github/workflows/deploy-culture365.yml`).
+Pushing to `main` deploys `frontend/dist` to GitHub Pages (`.github/workflows/deploy.yml`).
 
 ## Adding or updating a fiche
 

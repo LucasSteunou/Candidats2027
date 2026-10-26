@@ -4,7 +4,7 @@ import { createContext, useContext, useEffect, useRef, useState } from "react";
 import { fmtDate } from "./content.js";
 
 // Error reports land in RETOURS.md; the link stays hidden until an address is set.
-const REPORT_EMAIL = "steunoulucas@gmail.com";
+const REPORT_EMAIL = "lulu.steun@gmail.com";
 
 export function go(path) {
   window.location.hash = path;
