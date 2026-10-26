@@ -1,0 +1,186 @@
+{
+  "id": "roussel",
+  "nom": "Fabien Roussel",
+  "maj": "2026-10-26",
+  "parti": {
+    "nom": "Parti communiste français",
+    "sigle": "PCF",
+    "fondation": "1920-12",
+    "positionnement": {
+      "auto_definition": {
+        "texte": "« Parti de la paix, le PCF prône une politique de paix, portant l'exigence de rupture avec les logiques capitalistes et impérialistes qui entraînent l'humanité dans la guerre. » Le candidat résume son projet par le mot « Vivre ! » : « Vivre mieux, ensemble, heureux, à égalité et en paix ».",
+        "sources": ["pcf-cahier-paix-2026", "roussel2027-accueil"]
+      },
+      "nuance_ministere": {
+        "texte": "Dans la grille des nuances des législatives de 2024, le ministère de l'Intérieur attribue aux candidats du PCF la nuance « COM ». Pour les municipales de 2026, les candidats et listes investis ou soutenus par le Parti communiste sont classés dans le bloc « gauche ».",
+        "sources": ["grille-nuances-2024", "bdt-nuances-2026"]
+      }
+    }
+  },
+  "resume": {
+    "texte": "Secrétaire national du PCF depuis 2018 et maire de Saint-Amand-les-Eaux depuis janvier 2025, Fabien Roussel a été député du Nord de 2017 à 2024. Candidat en 2022 (2,28 %), il a été désigné candidat pour 2027 par les militants communistes avec 72 % des voix, le 6 septembre 2026. Il défend une candidature autonome à gauche et « un projet de rupture » autour du mot « vivre », avec « un travail qui paie correctement », la lutte contre la fraude fiscale et un plan climat lié à la réindustrialisation.",
+    "sources": ["sudradio-bio-roussel", "lcp-candidature-2026-09-06"]
+  },
+  "histoire": {
+    "parti": [
+      { "date": "2018-11", "titre": "Fabien Roussel secrétaire national", "texte": "Élu secrétaire national du PCF en novembre 2018, réélu en 2023 et reconduit au congrès de juillet 2026.", "sources": ["sudradio-bio-roussel"] },
+      { "date": "2022-04-10", "titre": "Présidentielle de 2022", "texte": "Fabien Roussel obtient 2,28 % des suffrages exprimés, soit un peu plus de 800 000 voix.", "sources": ["cc-2022", "lcp-candidature-2026-09-06"] },
+      { "date": "2026-05", "titre": "Cahier « Paix et défense nationale »", "texte": "Le PCF publie, dans sa série de « cahiers thématiques des Jours heureux », ses propositions de politique étrangère et de défense.", "sources": ["pcf-cahier-paix-2026"] },
+      { "date": "2026-09-06", "titre": "Vote des militants", "texte": "Consultés du 3 au 6 septembre, les militants approuvent à 72 % la candidature de Fabien Roussel, après un texte en faveur d'une candidature communiste adopté à 61,4 % en juin.", "sources": ["lcp-candidature-2026-09-06"] }
+    ],
+    "candidat": [
+      { "date": "1969-04-16", "titre": "Naissance", "texte": "Naît le 16 avril 1969 à Béthune. Formé au métier de journaliste reporter d'images, il travaille notamment pour France 3.", "sources": ["sudradio-bio-roussel"] },
+      { "date": "2017", "titre": "Député du Nord", "texte": "Élu député de la 20e circonscription du Nord en 2017, réélu en 2022, battu au premier tour en 2024.", "sources": ["sudradio-bio-roussel"] },
+      { "date": "2025-01", "titre": "Maire de Saint-Amand-les-Eaux", "texte": "Conseiller municipal depuis 2014, il devient maire en janvier 2025 et est réélu au premier tour en mars 2026.", "sources": ["sudradio-bio-roussel"] },
+      { "date": "2026-09-06", "titre": "Candidature pour 2027", "texte": "Il annonce sa candidature au journal de 20 heures de TF1, un « choix largement réfléchi et soutenu » : « Je ne souhaite en prendre à personne à gauche. »", "sources": ["lcp-candidature-2026-09-06"] }
+    ]
+  },
+  "popularite": {
+    "chiffres_cles": [
+      { "libelle": "Score au premier tour de la présidentielle 2022", "valeur": "2,28 %", "date": "2022-04-10", "sources": ["cc-2022"] },
+      { "libelle": "Vote des militants communistes sur sa candidature", "valeur": "72 %", "date": "2026-09-06", "sources": ["lcp-candidature-2026-09-06"] },
+      { "libelle": "Bonne image auprès des électeurs de gauche (Elabe)", "valeur": "41 % (stable)", "date": "2026-07", "sources": ["elabe-observatoire-2026-08"] }
+    ],
+    "series": []
+  },
+  "perception": [
+    { "type": "sondage", "auteur": "Elabe pour Les Échos", "texte": "Auprès des électeurs de gauche, Fabien Roussel recueille 41 % de bonne image (stable), au troisième rang derrière François Ruffin (45 %) et Jean-Luc Mélenchon (42 %).", "date": "2026-07", "sources": ["elabe-observatoire-2026-08"] }
+  ],
+  "controverses": [
+    {
+      "titre": "Soupçons d'emploi fictif d'assistant parlementaire",
+      "date": "2022-02",
+      "faits": "Mediapart affirme qu'il a été rémunéré de 2009 à 2014 comme assistant parlementaire du député du Nord Jean-Jacques Candelier, alors qu'il dirigeait la fédération du Nord du PCF, sans trace de son travail. Le Parquet national financier ouvre une enquête, confiée à l'Office central de lutte contre la corruption et les infractions financières et fiscales. Aucune issue de cette procédure n'a été trouvée à la date de mise à jour de la fiche.",
+      "statut_judiciaire": "enquete",
+      "reponse": "Il conteste, se dit « surpris et indigné » et affirme disposer de « documents » prouvant son activité auprès de Jean-Jacques Candelier. Il conteste aussi le montant avancé : « J'ai commencé à 2.460 nets, j'ai fini à 2.700. »",
+      "sources": ["lalibre-enquete-2022-03-11", "e1-emploi-2022-02-21"]
+    }
+  ],
+  "programme": {
+    "etat": {
+      "texte": "Pas de programme 2027 publié en un seul document. Le candidat a présenté les grandes lignes de son projet en annonçant sa candidature, le 6 septembre 2026. Le PCF publie depuis 2025 des « cahiers thématiques des Jours heureux » (logement, paix et défense, etc.), badgés « Projet du parti ». Les autres réponses viennent du programme présidentiel de 2022, « La France des jours heureux » (badge « Ancien programme »).",
+      "sources": ["lcp-candidature-2026-09-06", "pcf-cahier-paix-2026", "pcf-cahier-logement-2025", "montaigne-roussel-2022"]
+    },
+    "themes": {
+      "economie": {
+        "mesures": [
+          { "sous_theme": "finances-publiques", "intitule": "Sanctionner la fraude et l'évasion fiscales", "detail": "Peines de prison, déchéance des droits civiques ou travaux d'intérêt général pour les fraudeurs. En 2022, il proposait aussi de supprimer le « verrou de Bercy » pour pouvoir poursuivre les fraudeurs fiscaux.", "origine": "declaration", "date": "2026-09", "sources": ["lcp-candidature-2026-09-06", "montaigne-roussel-2022"] },
+          { "sous_theme": "travail-emploi", "intitule": "SMIC à 1 500 € nets et retraite à 60 ans", "detail": "Programme 2022 : SMIC revalorisé à 1 500 € nets, retraite à 60 ans à taux plein avec une pension égale à 75 % du revenu net des dix meilleures années, financée par une cotisation additionnelle sur les revenus financiers des entreprises ; abrogation de la loi El Khomri, des ordonnances Macron et de la réforme Borne de l'assurance chômage.", "origine": "ancien-programme", "date": "2022", "sources": ["montaigne-roussel-2022"] }
+        ],
+        "reponses": {
+          "cout-net-programme": { "non_communique": "2026-10-26" },
+          "objectif-deficit": { "non_communique": "2026-10-26" },
+          "economies-depenses": { "non_communique": "2026-10-26" },
+          "impot-revenu": { "valeur": "Refonte du barème", "origine": "ancien-programme", "date": "2022", "precision": "Barème à 15 tranches et baisse pour les tranches inférieures.", "sources": ["montaigne-roussel-2022"] },
+          "impot-patrimoine": { "valeur": "Rétablissement d'un ISF", "origine": "ancien-programme", "date": "2022", "precision": "« Tripler l'impôt sur la fortune ».", "sources": ["montaigne-roussel-2022"] },
+          "droits-succession": { "valeur": "Baisse", "origine": "ancien-programme", "date": "2022", "precision": "Exonération jusqu'à 170 000 € et suppression des niches fiscales.", "sources": ["montaigne-roussel-2022"] },
+          "taux-is": { "non_communique": "2026-10-26", "precision": "Programme 2022 : majorer l'impôt sur les sociétés pour les groupes « qui spéculent et délocalisent », sans taux.", "sources": ["montaigne-roussel-2022"] },
+          "impots-production": { "non_communique": "2026-10-26" },
+          "age-legal": { "valeur": 60, "origine": "ancien-programme", "date": "2022", "precision": "À taux plein.", "sources": ["montaigne-roussel-2022"] },
+          "duree-cotisation": { "non_communique": "2026-10-26" },
+          "financement-retraites": { "valeur": "Cotisation additionnelle sur les revenus financiers des entreprises.", "origine": "ancien-programme", "date": "2022", "sources": ["montaigne-roussel-2022"] },
+          "smic": { "valeur": 1500, "origine": "ancien-programme", "date": "2022", "sources": ["montaigne-roussel-2022"] },
+          "duree-travail": { "non_communique": "2026-10-26" },
+          "assurance-chomage": { "valeur": "Conditions plus favorables aux demandeurs d'emploi", "origine": "ancien-programme", "date": "2022", "precision": "Abroger la loi El Khomri, les ordonnances Macron et la réforme Borne de l'assurance chômage.", "sources": ["montaigne-roussel-2022"] },
+          "prix-energie": { "valeur": "Porter le chèque énergie à 700 € minimum.", "origine": "ancien-programme", "date": "2022", "sources": ["montaigne-roussel-2022"] },
+          "encadrement-prix": { "non_communique": "2026-10-26" },
+          "libre-echange": { "valeur": "Opposition", "origine": "ancien-programme", "date": "2022", "precision": "Remettre en cause les traités de libre-échange « au profit de nouveaux traités de coopération ».", "sources": ["montaigne-roussel-2022"] },
+          "reindustrialisation": { "non_communique": "2026-10-26", "precision": "Associe en 2026 un « plan climat » avec trajectoire carbone à la réindustrialisation, sans mesure détaillée publiée.", "sources": ["lcp-candidature-2026-09-06"] }
+        }
+      },
+      "ecologie": {
+        "mesures": [
+          { "sous_theme": "energie", "intitule": "Nucléaire et renouvelables", "detail": "Programme 2022 : investir dans les énergies renouvelables et le nucléaire avec la construction d'au moins six EPR.", "origine": "ancien-programme", "date": "2022", "sources": ["montaigne-roussel-2022"] }
+        ],
+        "reponses": {
+          "nucleaire": { "valeur": "Nouveaux réacteurs", "origine": "ancien-programme", "date": "2022", "precision": "Au moins six EPR.", "sources": ["montaigne-roussel-2022"] },
+          "renouvelables": { "non_communique": "2026-10-26" },
+          "neutralite-2050": { "non_communique": "2026-10-26" },
+          "thermique-2035": { "non_communique": "2026-10-26" }
+        }
+      },
+      "social": {
+        "mesures": [
+          { "sous_theme": "logement", "intitule": "200 000 logements sociaux par an", "detail": "Créer 200 000 nouveaux logements sociaux par an, un « acte 2 » de la loi SRU, généraliser l'encadrement des loyers et le permis de louer dans le secteur privé.", "origine": "projet-parti", "date": "2025-09", "sources": ["pcf-cahier-logement-2025"] }
+        ],
+        "reponses": {
+          "acces-soins": { "valeur": "Ouvrir 12 000 places d'étudiants en médecine au lieu de 8 000 et recruter 100 000 personnes à l'hôpital.", "origine": "ancien-programme", "date": "2022", "sources": ["montaigne-roussel-2022"] },
+          "installation-medecins": { "non_communique": "2026-10-26" },
+          "mesure-ecole": { "valeur": "Augmenter de 45 % le budget de l'Éducation nationale, à 80 Md€, recruter 90 000 personnels et rétablir un examen national commun pour le baccalauréat.", "origine": "ancien-programme", "date": "2022", "sources": ["montaigne-roussel-2022"] },
+          "remuneration-enseignants": { "non_communique": "2026-10-26" },
+          "encadrement-loyers": { "valeur": "Généralisation", "origine": "projet-parti", "date": "2025-09", "sources": ["pcf-cahier-logement-2025"] },
+          "logements-sociaux": { "valeur": 200000, "origine": "projet-parti", "date": "2025-09", "sources": ["pcf-cahier-logement-2025"] },
+          "rsa": { "valeur": "Plus larges", "origine": "ancien-programme", "date": "2022", "precision": "Ouvrir le RSA aux jeunes de moins de 25 ans.", "sources": ["montaigne-roussel-2022"] }
+        }
+      },
+      "securite": {
+        "mesures": [],
+        "reponses": {
+          "effectifs-forces-ordre": { "valeur": 30000, "origine": "ancien-programme", "date": "2022", "precision": "Pour une police nationale de proximité.", "sources": ["montaigne-roussel-2022"] },
+          "places-prison": { "non_communique": "2026-10-26" },
+          "peines-minimales": { "non_communique": "2026-10-26" },
+          "justice-mineurs": { "non_communique": "2026-10-26" },
+          "cannabis": { "non_communique": "2026-10-26" }
+        }
+      },
+      "immigration": {
+        "mesures": [],
+        "reponses": {
+          "titres-sejour": { "non_communique": "2026-10-26" },
+          "regularisations": { "non_communique": "2026-10-26" },
+          "demandes-asile": { "valeur": "Accueillir dignement les migrants et respecter le droit d'asile par une coordination nouvelle à l'échelle européenne.", "origine": "ancien-programme", "date": "2022", "sources": ["montaigne-roussel-2022"] },
+          "droit-du-sol": { "non_communique": "2026-10-26" },
+          "ame": { "non_communique": "2026-10-26" },
+          "priorite-nationale": { "non_communique": "2026-10-26" },
+          "referendum-immigration": { "non_communique": "2026-10-26" }
+        }
+      },
+      "institutions": {
+        "mesures": [],
+        "reponses": {
+          "mode-scrutin": { "valeur": "Autre", "origine": "ancien-programme", "date": "2022", "precision": "« Mettre en place la proportionnelle », sans préciser si elle serait intégrale ou partielle.", "sources": ["montaigne-roussel-2022"] },
+          "ric": { "valeur": "Pour", "origine": "ancien-programme", "date": "2022", "precision": "« Mettre en place le référendum d'initiative populaire ».", "sources": ["montaigne-roussel-2022"] },
+          "constitution": { "non_communique": "2026-10-26" },
+          "mandat-presidentiel": { "non_communique": "2026-10-26" }
+        }
+      },
+      "international": {
+        "mesures": [
+          { "sous_theme": "defense", "intitule": "Sortir de l'OTAN", "detail": "Sortir immédiatement du commandement intégré de l'OTAN et dénoncer l'article 5 du traité de l'Atlantique nord, en appelant les pays européens à construire un espace de sécurité collective, puis viser la dissolution de l'OTAN.", "origine": "projet-parti", "date": "2026-05", "sources": ["pcf-cahier-paix-2026"] },
+          { "sous_theme": "diplomatie", "intitule": "Une paix négociée en Ukraine, un État de Palestine", "detail": "En Ukraine : souveraineté dans les frontières internationalement reconnues, neutralité (pas d'adhésion à l'OTAN) sous garanties de l'ONU et de l'OSCE, consultation des populations concernées sous contrôle international. Au Proche-Orient : un État de Palestine sur les frontières de 1967 avec Jérusalem-Est pour capitale, aux côtés de l'État d'Israël, et la fin de la colonisation.", "origine": "projet-parti", "date": "2026-05", "sources": ["pcf-cahier-paix-2026"] }
+        ],
+        "reponses": {
+          "relation-ue": { "valeur": "Renégocier les traités", "origine": "ancien-programme", "date": "2022", "precision": "« Ouvrir des négociations pour rompre avec les traités européens néolibéraux » et construire une Europe « à géométrie choisie ».", "sources": ["montaigne-roussel-2022"] },
+          "euro": { "non_communique": "2026-10-26" },
+          "budget-defense": { "non_communique": "2026-10-26" },
+          "otan": { "valeur": "En sortir", "origine": "projet-parti", "date": "2026-05", "precision": "Sortie immédiate du commandement intégré, puis dissolution de l'OTAN.", "sources": ["pcf-cahier-paix-2026"] },
+          "service-national": { "non_communique": "2026-10-26" },
+          "ukraine": { "valeur": "Paix fondée sur la souveraineté de l'Ukraine dans ses frontières internationalement reconnues et sur sa neutralité, sans adhésion à l'OTAN, sous garanties de sécurité de l'ONU et de l'OSCE.", "origine": "projet-parti", "date": "2026-05", "sources": ["pcf-cahier-paix-2026"] },
+          "proche-orient": { "valeur": "Un État de Palestine sur les frontières de 1967 avec Jérusalem-Est pour capitale, aux côtés de l'État d'Israël, et la fin de la colonisation et de l'occupation.", "origine": "projet-parti", "date": "2026-05", "sources": ["pcf-cahier-paix-2026"] }
+        }
+      },
+      "agriculture": {
+        "mesures": [],
+        "reponses": {
+          "revenu-agricole": { "non_communique": "2026-10-26", "precision": "Programme 2022 : sortir l'agriculture des négociations commerciales de l'Organisation mondiale du commerce.", "sources": ["montaigne-roussel-2022"] },
+          "pesticides": { "non_communique": "2026-10-26" },
+          "pac": { "valeur": "Remplacer l'aide à l'hectare par une aide à l'actif agricole.", "origine": "ancien-programme", "date": "2022", "sources": ["montaigne-roussel-2022"] }
+        }
+      }
+    }
+  },
+  "sources": {
+    "roussel2027-accueil": { "titre": "Fabien Roussel 2027 : Vivre !", "editeur": "Campagne Fabien Roussel 2027 (PCF)", "date": null, "consulte": "2026-10-26", "url": "https://www.fabienroussel2027.fr/", "type": "parti" },
+    "pcf-cahier-paix-2026": { "titre": "Les cahiers thématiques des Jours heureux : Paix et défense nationale", "editeur": "Parti communiste français", "date": "2026-05-21", "consulte": "2026-10-26", "url": "https://assets.nationbuilder.com/pcf/pages/41211/attachments/original/1779954906/document_cahier_paix_ppp_stc.pdf?1779954906", "type": "parti" },
+    "pcf-cahier-logement-2025": { "titre": "Les cahiers thématiques des Jours heureux : Logement", "editeur": "Parti communiste français", "date": "2025-09-05", "consulte": "2026-10-26", "url": "https://assets.nationbuilder.com/pcf/pages/36197/attachments/original/1766073372/document_-_cahier_logement_ppp.pdf?1766073372", "type": "parti" },
+    "montaigne-roussel-2022": { "titre": "Présidentielle 2022 : Fabien Roussel, propositions", "editeur": "Institut Montaigne", "date": null, "consulte": "2026-10-26", "url": "https://www.institutmontaigne.org/presidentielle-2022/fabien-roussel", "type": "think-tank" },
+    "grille-nuances-2024": { "titre": "Annexe 1 : Grille des nuances individuelles, élections législatives 2024", "editeur": "Préfecture du Calvados (ministère de l'Intérieur)", "date": null, "consulte": "2026-10-26", "url": "https://calvados.gouv.fr/contenu/telechargement/24610/181062/file/Annexe%201-Grille%20nuance%20-l%C3%A9gislatives%202024.pdf", "type": "officiel" },
+    "bdt-nuances-2026": { "titre": "Municipales : les nuances politiques attribuées aux candidats dans les communes de 3.500 habitants et plus", "editeur": "Banque des Territoires", "date": null, "consulte": "2026-10-26", "url": "https://www.banquedesterritoires.fr/municipales-les-nuances-politiques-attribuees-aux-candidats-dans-les-communes-de-3500-habitants-et", "type": "presse" },
+    "sudradio-bio-roussel": { "titre": "Fabien Roussel : biographie et CV politique", "editeur": "Sud Radio", "date": null, "consulte": "2026-10-26", "url": "https://www.sudradio.fr/la-biographie-et-le-cv-de-fabien-roussel", "type": "presse" },
+    "lcp-candidature-2026-09-06": { "titre": "Fabien Roussel officiellement candidat du PCF à l'élection présidentielle de 2027", "editeur": "LCP", "auteur": "Ivan Valerio", "date": "2026-09-06", "consulte": "2026-10-26", "url": "https://lcp.fr/actualites/fabien-roussel-officiellement-candidat-du-pcf-a-l-election-presidentielle-de-2027-441389", "type": "presse" },
+    "cc-2022": { "titre": "Annonce par Laurent Fabius, Président du Conseil constitutionnel, des résultats officiels du premier tour de l'élection présidentielle", "editeur": "Conseil constitutionnel", "date": "2022-04-13", "consulte": "2026-10-26", "url": "https://presidentielle2022.conseil-constitutionnel.fr/les-communiques/resultats-du-premier-tour.html", "type": "officiel" },
+    "elabe-observatoire-2026-08": { "titre": "L'Observatoire politique, août 2026 (terrain du 28 au 29 juillet 2026)", "editeur": "Elabe pour Les Échos", "date": null, "consulte": "2026-10-26", "url": "https://elabe.fr/fichier-pdf/13180-lobservatoire-politique-aout-2026/", "type": "sondage" },
+    "lalibre-enquete-2022-03-11": { "titre": "Le candidat à la présidentielle Fabien Roussel visé par une enquête sur des soupçons d'emploi fictif", "editeur": "La Libre Belgique (AFP)", "date": "2022-03-11", "consulte": "2026-10-26", "url": "https://www.lalibre.be/international/europe/elections-france/2022/03/11/le-candidat-a-la-presidentielle-fabien-roussel-vise-par-une-enquete-sur-des-soupcons-demploi-fictif-SCMUPWG3O5FDXIIA5WOGIU7NW4/", "type": "presse" },
+    "e1-emploi-2022-02-21": { "titre": "Soupçons d'emploi fictif : Fabien Roussel répond aux accusations de Mediapart", "editeur": "Europe 1", "date": "2022-02-21", "consulte": "2026-10-26", "url": "https://www.europe1.fr/politique/soupcons-demploi-fictif-fabien-roussel-repond-aux-accusations-de-mediapart-4095078", "type": "presse" }
+  }
+}
