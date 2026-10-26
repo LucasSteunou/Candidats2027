@@ -5,6 +5,7 @@ import sys
 import time
 import urllib.error
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -29,21 +30,28 @@ def status(url: str) -> int | str:
         return str(error)
 
 
+def check_host(urls: list[str]) -> int:
+    """Check one host's URLs one by one, DELAY_SECONDS apart; return how many failed."""
+    broken = 0
+    for i, url in enumerate(urls):
+        if i:
+            time.sleep(DELAY_SECONDS)
+        code = status(url)
+        if code != 200:
+            broken += 1
+            print(f"{code}\t{url}", flush=True)
+    return broken
+
+
 def main() -> int:
     docs = [Path(arg) for arg in sys.argv[1:]] or [CONTENT_DIR / "perimetre.json", CONTENT_DIR / "sondages.json", *fiche_paths()]
     urls = sorted({s["url"] for path in docs for s in load_json(path)["sources"].values()})
-    last_hit: dict[str, float] = {}
-    broken = 0
+    by_host: dict[str, list[str]] = {}
     for url in urls:
-        host = urlparse(url).netloc
-        wait = last_hit.get(host, 0) + DELAY_SECONDS - time.monotonic()
-        if wait > 0:
-            time.sleep(wait)
-        code = status(url)
-        last_hit[host] = time.monotonic()
-        if code != 200:
-            broken += 1
-            print(f"{code}\t{url}")
+        by_host.setdefault(urlparse(url).netloc, []).append(url)
+    # Hosts are checked in parallel (the politeness delay is per host), so a full run takes minutes, not a quarter of an hour.
+    with ThreadPoolExecutor(max_workers=16) as pool:
+        broken = sum(pool.map(check_host, by_host.values()))
     print(f"{len(urls) - broken}/{len(urls)} liens OK")
     return 1 if broken else 0
 
