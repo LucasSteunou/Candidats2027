@@ -1,5 +1,5 @@
 {
-  "maj": "2026-10-23",
+  "maj": "2026-10-26",
   "regle": "Fiche si la personne a formellement déclaré sa candidature (ou a été désignée par son parti) ET a été testée dans au moins un sondage de premier tour réalisé dans les 60 derniers jours, dont la notice est publiée par la Commission des sondages.",
   "fenetre_sondages_jours": 60,
   "scrutin": {

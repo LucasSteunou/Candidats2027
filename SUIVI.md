@@ -2,7 +2,7 @@
 
 Tenu à jour par la passe hebdomadaire (`/maj-hebdo`) et par chaque mise à jour de fiche (`/maj-fiche`).
 
-Dernière veille : 2026-10-26 (manuelle).
+Dernière veille : 2026-10-26 (passe hebdomadaire automatique, veille web limitée : aucun événement nouveau confirmé par une source primaire depuis le 2026-10-23).
 
 ## Échéances connues
 
@@ -25,5 +25,7 @@ Programme absent ou partiel ; le nombre indique les questions clés renseignées
 
 ## Points à vérifier
 
+- liens · passe du 2026-10-26 : `tools.check_links` n'a produit aucun résultat en 10 minutes dans l'environnement automatique (réseau restreint) ; liens non vérifiés cette semaine.
 - roussel · l'enquête du PNF ouverte en 2022 est affichée « en cours » faute d'issue trouvée.
-- sondages · seulement 3 sondages transcrits dans `content/sondages.json`.
+- sondages · seulement 3 sondages transcrits dans `content/sondages.json`. Passe du 2026-10-26 : le site de la Commission des sondages était injoignable depuis l'environnement automatique ; aucun sondage ajouté, notices de la fin octobre (dont n° 10333 OpinionWay, terrain du 21 au 22 octobre, déjà citée dans le périmètre) à saisir à la main.
+- le-pen · la Cour de cassation a indiqué pouvoir statuer sur le pourvoi « au plus tard début avril 2027 » (Club des juristes, LCP, juillet 2026) : échéance à ajouter si elle n'est pas déjà dans la fiche.
