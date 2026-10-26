@@ -1,0 +1,192 @@
+{
+  "id": "ruffin",
+  "nom": "François Ruffin",
+  "maj": "2026-10-26",
+  "parti": {
+    "nom": "Debout !",
+    "sigle": null,
+    "fondation": "2017",
+    "positionnement": {
+      "auto_definition": {
+        "texte": "« Debout! est une plateforme nationale présidée par François Ruffin avec inscription libre facilitant l'engagement politique de militantes, sympathisants, citoyens, de tous horizons. » Le mouvement se dit « une force collective qui n'exclut pas mais qui rassemble ».",
+        "sources": ["debout-mouvement"]
+      },
+      "nuance_ministere": {
+        "texte": "Pour les municipales de 2026, la circulaire du ministère de l'Intérieur regroupe les nuances politiques en six blocs : « extrême gauche », « gauche », « divers », « centre », « droite » et « extrême droite ». Les documents publics consultés ne précisent pas la nuance attribuée aux candidats de Debout !.",
+        "sources": ["ce-nuances-2026-02-27"]
+      }
+    }
+  },
+  "resume": {
+    "texte": "Fondateur du journal Fakir et réalisateur de « Merci Patron ! », François Ruffin est député de la Somme depuis 2017, avec La France insoumise jusqu'en 2024 puis au sein du groupe Écologiste et social. Il préside le mouvement Debout ! et s'est déclaré candidat en janvier 2026, d'abord à une primaire de la gauche. Sa campagne « Nous Président ! » publie son programme en cahiers thématiques : statut des travailleurs essentiels, relocalisation industrielle, logement, agriculture, écologie et finances publiques.",
+    "sources": ["sudradio-bio-ruffin", "nous-programme"]
+  },
+  "histoire": {
+    "parti": [
+      { "date": "2017", "titre": "Picardie Debout !", "texte": "François Ruffin fonde le mouvement Picardie Debout ! ; il préside depuis juin 2025 le mouvement national Debout !.", "sources": ["sudradio-bio-ruffin"] },
+      { "date": "2026-04-13", "titre": "Premier cahier de campagne", "texte": "Publication du cahier « Pour les travailleurs essentiels », premier d'une série de sept cahiers thématiques et trois plans d'action.", "sources": ["nous-travailleurs-essentiels", "nous-programme"] }
+    ],
+    "candidat": [
+      { "date": "1975-10-18", "titre": "Naissance", "texte": "Naît le 18 octobre 1975 à Calais. Diplômé du Centre de formation des journalistes en 2002.", "sources": ["sudradio-bio-ruffin"] },
+      { "date": "1999", "titre": "Fondateur de Fakir", "texte": "Fonde à Amiens le journal Fakir ; collabore au Monde diplomatique et à l'émission « Là-bas si j'y suis ». Son documentaire « Merci Patron ! » obtient le César du meilleur film documentaire en 2017.", "sources": ["sudradio-bio-ruffin"] },
+      { "date": "2017", "titre": "Député de la Somme", "texte": "Élu député de la 1re circonscription de la Somme, réélu en 2022 et 2024 ; membre du groupe La France insoumise jusqu'en 2024, puis du groupe Écologiste et social.", "sources": ["sudradio-bio-ruffin"] },
+      { "date": "2026-01", "titre": "Candidature pour 2027", "texte": "Se déclare candidat à une primaire de la gauche pour la présidentielle de 2027.", "sources": ["sudradio-bio-ruffin"] }
+    ]
+  },
+  "popularite": {
+    "chiffres_cles": [
+      { "libelle": "Bonne image (Elabe pour Les Échos)", "valeur": "19 % (+1 point)", "date": "2026-07", "sources": ["elabe-observatoire-2026-08"] },
+      { "libelle": "Bonne image auprès des électeurs de gauche (Elabe)", "valeur": "45 %, premier", "date": "2026-07", "sources": ["elabe-observatoire-2026-08"] }
+    ],
+    "series": []
+  },
+  "perception": [
+    { "type": "sondage", "auteur": "Elabe pour Les Échos", "texte": "19 % des Français ont une bonne image de François Ruffin (+1 point). Auprès des électeurs de gauche, il retrouve la première place avec 45 % (stable).", "date": "2026-07", "sources": ["elabe-observatoire-2026-08"] }
+  ],
+  "controverses": [
+    {
+      "titre": "Bande dessinée « Picardie Splendor »",
+      "date": "2026-05-07",
+      "faits": "Dans sa bande dessinée parue le 7 mai 2026, une scène se déroule lors d'un contrôle dans un TER : une femme noire verbalisée, un passager présenté comme maghrébin qui intervient, puis François Ruffin qui propose de payer l'amende, le passager le remerciant à la fin. Des élus de gauche l'accusent de reproduire des clichés racistes et une posture de « sauveur blanc » ; la députée écologiste Sabrina Sebaihi écrit : « François, le temps des colonies, c'est fini. » Le passager représenté affirme dans une vidéo que la scène ne correspond pas à la réalité. Aucune procédure judiciaire n'a été engagée.",
+      "statut_judiciaire": "aucune-procedure",
+      "reponse": "Il défend son livre et se réclame d'un antiracisme « marqué années 90 », tout en reconnaissant « des passages ratés » : « C'est ma pleine et entière responsabilité de l'avoir laissée passer, j'en suis navré pour les personnes que j'ai blessées. »",
+      "sources": ["f3-bd-2026-05-20", "lcp-probite-2026-07-02"]
+    }
+  ],
+  "programme": {
+    "etat": {
+      "texte": "Le programme est publié par étapes sur le site de campagne « Nous Président ! » : sept cahiers thématiques (travailleurs essentiels, probité, loisirs, agriculture, écologie, logement, industrie) et trois plans d'action (data centers, urgence climat, redressement des finances publiques), d'avril à octobre 2026. Il ne couvre pas encore la sécurité, l'immigration, la santé, l'école, l'Europe, la défense ni la diplomatie ; sur ces sujets, la fiche ne retient que des déclarations sourcées.",
+      "sources": ["nous-programme", "nous-plans"]
+    },
+    "themes": {
+      "economie": {
+        "mesures": [
+          { "sous_theme": "finances-publiques", "intitule": "Plan de redressement des finances publiques", "detail": "Pour le budget 2027, entre 48 et 62 Md€ de mesures par rapport à 2026 : 22 Md€ d'économies (niches fiscales, aides aux entreprises, prix des produits de santé) et 26 à 44,5 Md€ de recettes nouvelles. Taxe Zucman de 2 % par an sur les patrimoines supérieurs à 100 M€ (18,5 Md€ selon le plan), droits de succession alourdis pour les plus grosses transmissions, « dividende climatique » de 2 % prélevé sur les entreprises qui versent des dividendes (plus de 6 Md€), contribution exceptionnelle sur les surprofits pétroliers.", "origine": "programme-2027", "date": "2026-10", "sources": ["nous-redressement"] },
+          { "sous_theme": "travail-emploi", "intitule": "Un statut des travailleurs essentiels", "detail": "Pour les femmes de ménage, AVS, caristes, agriculteurs et autres métiers « qui ont tenu le pays debout » : heures avant 8 h et après 18 h payées double, coupures de plus de deux heures rémunérées, fin des temps partiels subis, salaires indexés sur l'inflation et un trimestre de retraite supplémentaire pour quatre trimestres cotisés dans un métier pénible.", "origine": "programme-2027", "date": "2026-04", "sources": ["nous-travailleurs-essentiels"] },
+          { "sous_theme": "industrie-commerce", "intitule": "Relocaliser 100 produits stratégiques", "detail": "Barrières douanières, taxes aux frontières et quotas d'importation ciblés sur 100 produits (acier, médicaments, armement, technologies vertes, numérique), « Buy French Act » réservant 80 % des commandes et aides publiques aux produits français, électricité plafonnée au coût de production pour l'industrie, pôle public du médicament, fin des négociations d'accords de libre-échange et refus du CETA.", "origine": "programme-2027", "date": "2026-10", "sources": ["nous-industrie"] },
+          { "sous_theme": "pouvoir-achat", "intitule": "Leasing social pour 3 millions de « gros rouleurs »", "detail": "Une flotte publique de 3 millions de voitures électriques en cinq ans, louées 100 à 200 € par mois, et un crédit d'impôt couvrant environ 30 % des trajets domicile-travail en voiture.", "origine": "programme-2027", "date": "2026-10", "sources": ["nous-redressement"] }
+        ],
+        "reponses": {
+          "cout-net-programme": { "non_communique": "2026-10-26", "precision": "Le plan présente un solde : 48 à 62 Md€ de mesures pour le budget 2027, pour environ 12,6 Md€ de dépenses nouvelles par an en moyenne sur cinq ans.", "sources": ["nous-redressement"] },
+          "objectif-deficit": { "non_communique": "2026-10-26", "precision": "Aucune cible chiffrée ; le plan estime que « stabiliser simplement la dette autour de 120 % du PIB nécessite plus de 100 Md€ d'ajustement ».", "sources": ["nous-redressement"] },
+          "economies-depenses": { "valeur": 22, "origine": "programme-2027", "date": "2026-10", "precision": "22 Md€ d'économies en 2027 par rapport à 2026 (niches fiscales, aides aux entreprises, prix des produits de santé), à côté de 26 à 44,5 Md€ de recettes nouvelles.", "sources": ["nous-redressement"] },
+          "impot-revenu": { "non_communique": "2026-10-26" },
+          "impot-patrimoine": { "valeur": "Autre impôt sur le patrimoine", "origine": "programme-2027", "date": "2026-10", "precision": "Taxe Zucman : 2 % par an sur les patrimoines supérieurs à 100 M€.", "sources": ["nous-redressement"] },
+          "droits-succession": { "valeur": "Hausse", "origine": "programme-2027", "date": "2026-10", "precision": "Taux marginal de 50 % au-delà de 6 M€ et taxation des plus-values latentes à la transmission pour le 1 % le plus riche ; abattement porté de 100 000 à 200 000 €.", "sources": ["nous-redressement"] },
+          "taux-is": { "non_communique": "2026-10-26" },
+          "impots-production": { "non_communique": "2026-10-26", "precision": "Juge que leur baisse « a principalement bénéficié aux services et à la grande distribution », sans proposition chiffrée.", "sources": ["nous-industrie"] },
+          "age-legal": { "valeur": 60, "origine": "programme-2027", "date": "2026-04", "precision": "Citée comme une mesure « ancrée dans la continuité des acquis du Nouveau Front Populaire », sans détail sur sa mise en œuvre.", "sources": ["nous-travailleurs-essentiels"] },
+          "duree-cotisation": { "non_communique": "2026-10-26" },
+          "financement-retraites": { "non_communique": "2026-10-26" },
+          "smic": { "valeur": "Autre", "origine": "programme-2027", "date": "2026-04", "precision": "« Le SMIC à 1 600€ », sans préciser s'il s'agit d'un montant brut ou net.", "sources": ["nous-travailleurs-essentiels"] },
+          "duree-travail": { "non_communique": "2026-10-26" },
+          "assurance-chomage": { "non_communique": "2026-10-26" },
+          "prix-energie": { "valeur": "Supprimer la concurrence sur la vente d'électricité aux consommateurs pour revenir à un service public aux prix « basés sur les coûts réels de production ».", "origine": "programme-2027", "date": "2026-09", "sources": ["nous-travaillisme"] },
+          "encadrement-prix": { "non_communique": "2026-10-26" },
+          "libre-echange": { "valeur": "Opposition", "origine": "programme-2027", "date": "2026-10", "precision": "Fin des négociations d'accords de libre-échange, refus de ratifier le CETA et clauses de sauvegarde contre l'accord UE-Mercosur.", "sources": ["nous-industrie"] },
+          "reindustrialisation": { "valeur": "Relocaliser 100 produits stratégiques par des barrières douanières ciblées, un « Buy French Act » et une électricité plafonnée au coût de production.", "origine": "programme-2027", "date": "2026-10", "sources": ["nous-industrie"] }
+        }
+      },
+      "ecologie": {
+        "mesures": [
+          { "sous_theme": "energie", "intitule": "Électricité au coût de production et nucléaire prolongé", "detail": "Fin de la concurrence sur la vente d'électricité aux particuliers, prolongation des centrales nucléaires existantes après validation de l'ASN, construction de six EPR2 et décision sur huit autres selon le devis d'EDF, poursuite de l'éolien ; 800 000 rénovations d'ampleur par an et davantage de trains sur le réseau existant.", "origine": "programme-2027", "date": "2026-09", "sources": ["nous-travaillisme"] },
+          { "sous_theme": "climat", "intitule": "Plan urgence climat et « Sécurité climatique »", "detail": "Renforcer les pompiers et la sécurité civile (flotte portée à 16 Canadair), soutenir les victimes et les agriculteurs, et créer à terme une « Sécurité climatique », nouvelle branche de la Sécurité sociale. Soumettre à référendum des mesures de la Convention citoyenne pour le climat, dont l'interdiction des vols intérieurs remplaçables par moins de 4 heures de train.", "origine": "programme-2027", "date": "2026-10", "sources": ["nous-urgence-climat", "nous-redressement", "nous-travaillisme"] }
+        ],
+        "reponses": {
+          "nucleaire": { "valeur": "Nouveaux réacteurs", "origine": "programme-2027", "date": "2026-09", "precision": "Prolongation des centrales existantes et six EPR2 ; huit EPR2 supplémentaires selon le devis d'EDF.", "sources": ["nous-travaillisme"] },
+          "renouvelables": { "non_communique": "2026-10-26", "precision": "« Nous poursuivrons le développement de l'énergie éolienne », sans objectif chiffré.", "sources": ["nous-travaillisme"] },
+          "neutralite-2050": { "non_communique": "2026-10-26" },
+          "thermique-2035": { "non_communique": "2026-10-26" }
+        }
+      },
+      "social": {
+        "mesures": [
+          { "sous_theme": "logement", "intitule": "Encadrer les loyers partout et produire 200 000 logements publics par an", "detail": "Généraliser l'encadrement des loyers à tout le territoire et encadrer les compléments de loyer ; produire chaque année 200 000 logements publics à loyer réglementé, dont 40 000 pour les étudiants et les jeunes travailleurs ; un million de rénovations par an dont 600 000 d'ampleur ; fin des passoires thermiques d'ici 2032 ; abrogation de la loi « Kasbarian-Bergé ».", "origine": "programme-2027", "date": "2026-09", "sources": ["nous-logement"] }
+        ],
+        "reponses": {
+          "acces-soins": { "non_communique": "2026-10-26" },
+          "installation-medecins": { "non_communique": "2026-10-26" },
+          "mesure-ecole": { "non_communique": "2026-10-26" },
+          "remuneration-enseignants": { "non_communique": "2026-10-26" },
+          "encadrement-loyers": { "valeur": "Généralisation", "origine": "programme-2027", "date": "2026-09", "precision": "« Nous encadrerons les loyers partout. »", "sources": ["nous-logement"] },
+          "logements-sociaux": { "valeur": 200000, "origine": "programme-2027", "date": "2026-09", "precision": "Logements publics à loyer réglementé, dont 40 000 pour les étudiants et les jeunes travailleurs.", "sources": ["nous-logement"] },
+          "rsa": { "non_communique": "2026-10-26" }
+        }
+      },
+      "securite": {
+        "mesures": [],
+        "reponses": {
+          "effectifs-forces-ordre": { "non_communique": "2026-10-26" },
+          "places-prison": { "non_communique": "2026-10-26" },
+          "peines-minimales": { "non_communique": "2026-10-26" },
+          "justice-mineurs": { "non_communique": "2026-10-26" },
+          "cannabis": { "non_communique": "2026-10-26" }
+        }
+      },
+      "immigration": {
+        "mesures": [],
+        "reponses": {
+          "titres-sejour": { "non_communique": "2026-10-26", "precision": "« Moi, je suis hostile à l'immigration pour le travail » (France 2, 28 avril 2026), sans objectif chiffré.", "sources": ["ps-immigration-2026-05-11"] },
+          "regularisations": { "valeur": "Facilitée", "origine": "declaration", "date": "2022-11", "precision": "En 2022, favorable à une régularisation « de ceux qui sont sur le territoire et qui travaillent » dans les secteurs en tension.", "sources": ["sudradio-immigration-2022-11-03"] },
+          "demandes-asile": { "non_communique": "2026-10-26" },
+          "droit-du-sol": { "non_communique": "2026-10-26" },
+          "ame": { "non_communique": "2026-10-26" },
+          "priorite-nationale": { "non_communique": "2026-10-26" },
+          "referendum-immigration": { "non_communique": "2026-10-26" }
+        }
+      },
+      "institutions": {
+        "mesures": [
+          { "sous_theme": "democratie", "intitule": "Séparer l'argent et l'État", "detail": "Haute Autorité à la probité, interdiction du « rétro-pantouflage », dix ans d'interdiction de lobbying pour les ministres sortants dans leur ancien domaine, fin de la nomination des magistrats du parquet par le gouvernement, fin de l'inviolabilité pénale du président et suppression de la Cour de justice de la République, ministre mis en examen tenu de quitter le gouvernement, référendums et RIC.", "origine": "programme-2027", "date": "2026-07", "sources": ["nous-probite", "lcp-probite-2026-07-02", "nous-travaillisme"] }
+        ],
+        "reponses": {
+          "mode-scrutin": { "non_communique": "2026-10-26" },
+          "ric": { "valeur": "Pour", "origine": "programme-2027", "date": "2026-09", "precision": "« Les idées de référendum devront aussi et surtout venir des citoyens, avec le Référendum d'initiative citoyenne (RIC), enfin. »", "sources": ["nous-travaillisme"] },
+          "constitution": { "valeur": "Révisions ciblées", "origine": "programme-2027", "date": "2026-07", "precision": "Révision « rééquilibrant les pouvoirs au profit du législatif », parquet indépendant, fin de l'inviolabilité pénale du président.", "sources": ["nous-probite"] },
+          "mandat-presidentiel": { "non_communique": "2026-10-26" }
+        }
+      },
+      "international": {
+        "mesures": [],
+        "reponses": {
+          "relation-ue": { "non_communique": "2026-10-26", "precision": "Pas de position d'ensemble publiée ; le cahier industrie prévoit un rapport de force avec la Commission européenne sur les aides d'État et le commerce.", "sources": ["nous-industrie"] },
+          "euro": { "non_communique": "2026-10-26" },
+          "budget-defense": { "non_communique": "2026-10-26" },
+          "otan": { "non_communique": "2026-10-26" },
+          "service-national": { "non_communique": "2026-10-26" },
+          "ukraine": { "non_communique": "2026-10-26" },
+          "proche-orient": { "non_communique": "2026-10-26" }
+        }
+      },
+      "agriculture": {
+        "mesures": [
+          { "sous_theme": "agriculture", "intitule": "Une « exception agriculturelle française »", "detail": "Prix minimums fixés pour les principales denrées, fondés sur les coûts de production et la rémunération du travail ; interdiction des importations sous ces prix planchers ; encadrement des marges ; quotas d'importation et barrières douanières ; aides de la PAC orientées vers le travail et les premiers hectares, plafonnées pour les plus grandes exploitations ; 30 % de bio en restauration collective en 2030 et 50 % en 2035 ; sortie « pas à pas » des intrants de synthèse.", "origine": "programme-2027", "date": "2026-10", "sources": ["nous-agriculture"] }
+        ],
+        "reponses": {
+          "revenu-agricole": { "valeur": "Prix minimums pour les principales denrées, fondés sur les coûts de production et la rémunération du travail, et interdiction d'importer en dessous de ces prix planchers.", "origine": "programme-2027", "date": "2026-10", "sources": ["nous-agriculture"] },
+          "pesticides": { "valeur": "Plus strictes", "origine": "programme-2027", "date": "2026-10", "precision": "« Sortir pas à pas des intrants de synthèse », sans objectif chiffré.", "sources": ["nous-agriculture"] },
+          "pac": { "valeur": "Attribuer les aides selon le travail présent sur les fermes et les premiers hectares plutôt que selon la seule surface, et plafonner ce qui va aux plus grandes exploitations.", "origine": "programme-2027", "date": "2026-10", "sources": ["nous-agriculture"] }
+        }
+      }
+    }
+  },
+  "sources": {
+    "debout-mouvement": { "titre": "Debout! : un mouvement, une force, une organisation", "editeur": "Debout !", "date": null, "consulte": "2026-10-26", "url": "https://debout.fr/notre-mouvement/", "type": "parti" },
+    "nous-programme": { "titre": "Notre programme", "editeur": "Campagne François Ruffin 2027 (Nous Président !)", "date": "2026-10-12", "consulte": "2026-10-26", "url": "https://nouspresident.fr/notre-programme/", "type": "parti" },
+    "nous-plans": { "titre": "Nos plans d'action", "editeur": "Campagne François Ruffin 2027 (Nous Président !)", "date": "2026-10-08", "consulte": "2026-10-26", "url": "https://nouspresident.fr/nos-plans-daction/", "type": "parti" },
+    "nous-travailleurs-essentiels": { "titre": "Cahier de campagne n° 1 : pour les travailleurs essentiels", "editeur": "Campagne François Ruffin 2027 (Nous Président !)", "date": "2026-04-13", "consulte": "2026-10-26", "url": "https://nouspresident.fr/statut-travailleurs-essentiels/", "type": "parti" },
+    "nous-probite": { "titre": "Cahier de campagne n° 2 : pour séparer l'argent de l'État", "editeur": "Campagne François Ruffin 2027 (Nous Président !)", "date": "2026-07-02", "consulte": "2026-10-26", "url": "https://nouspresident.fr/separation-argent-etat/", "type": "parti" },
+    "nous-agriculture": { "titre": "Cahier de campagne n° 4 : pour une exception agriculturelle française", "editeur": "Campagne François Ruffin 2027 (Nous Président !)", "date": "2026-10-07", "consulte": "2026-10-26", "url": "https://nouspresident.fr/pour-une-exception-agriculturelle-francaise/", "type": "parti" },
+    "nous-travaillisme": { "titre": "Cahier de campagne n° 5 : pour un travaillisme écologique", "editeur": "Campagne François Ruffin 2027 (Nous Président !)", "date": "2026-09-09", "consulte": "2026-10-26", "url": "https://nouspresident.fr/travaillisme-ecologique/", "type": "parti" },
+    "nous-logement": { "titre": "Cahier de campagne n° 6 : face à la crise du logement, faire sauter le verrou", "editeur": "Campagne François Ruffin 2027 (Nous Président !)", "date": "2026-09-24", "consulte": "2026-10-26", "url": "https://nouspresident.fr/face-a-la-crise-du-logement-faire-sauter-le-verrou/", "type": "parti" },
+    "nous-industrie": { "titre": "Cahier de campagne n° 7 : pour protéger notre industrie, relocaliser 100 produits stratégiques", "editeur": "Campagne François Ruffin 2027 (Nous Président !)", "date": "2026-10-15", "consulte": "2026-10-26", "url": "https://nouspresident.fr/pour-proteger-notre-industrie-relocaliser-100-produits-strategiques/", "type": "parti" },
+    "nous-urgence-climat": { "titre": "Plan urgence climat", "editeur": "Campagne François Ruffin 2027 (Nous Président !)", "date": "2026-10-12", "consulte": "2026-10-26", "url": "https://nouspresident.fr/plan-urgence-climat/", "type": "parti" },
+    "nous-redressement": { "titre": "Plan de redressement : répondre aux urgences de l'été et retrouver les moyens d'agir", "editeur": "Campagne François Ruffin 2027 (Nous Président !)", "date": "2026-10-21", "consulte": "2026-10-26", "url": "https://nouspresident.fr/plan-de-redressement/", "type": "parti" },
+    "ce-nuances-2026-02-27": { "titre": "Décision n° 512694 sur la circulaire relative aux nuances politiques des élections municipales de 2026", "editeur": "Conseil d'État", "date": "2026-02-27", "consulte": "2026-10-26", "url": "https://conseil-etat.fr/Media/actualites/documents/2026/fevrier-2026/512694.pdf", "type": "justice" },
+    "sudradio-bio-ruffin": { "titre": "François Ruffin : biographie et CV politique", "editeur": "Sud Radio", "date": null, "consulte": "2026-10-26", "url": "https://www.sudradio.fr/la-biographie-et-le-cv-de-francois-ruffin", "type": "presse" },
+    "elabe-observatoire-2026-08": { "titre": "L'Observatoire politique, août 2026 (terrain du 28 au 29 juillet 2026)", "editeur": "Elabe pour Les Échos", "date": null, "consulte": "2026-10-26", "url": "https://elabe.fr/fichier-pdf/13180-lobservatoire-politique-aout-2026/", "type": "sondage" },
+    "ps-immigration-2026-05-11": { "titre": "Présidentielle : l'immigration, nouveau clivage à gauche ?", "editeur": "Public Sénat", "auteur": "Louis Mollier-Sabet", "date": "2026-05-11", "consulte": "2026-10-26", "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-limmigration-nouveau-clivage-a-gauche", "type": "presse" },
+    "sudradio-immigration-2022-11-03": { "titre": "« Je refuse une immigration choisie qui vienne combler les manques » estime François Ruffin", "editeur": "Sud Radio", "date": "2022-11-03", "consulte": "2026-10-26", "url": "https://www.sudradio.fr/linvite-politique/je-refuse-une-immigration-choisie-qui-vienne-combler-les-manques-estime-francois-ruffin", "type": "presse" },
+    "f3-bd-2026-05-20": { "titre": "Accusé de racisme à la suite de la sortie de sa bande dessinée, François Ruffin répond à la polémique", "editeur": "France 3 Hauts-de-France", "auteur": "Romane Idres", "date": "2026-05-20", "consulte": "2026-10-26", "url": "https://france3-regions.franceinfo.fr/hauts-de-france/somme/amiens/accuse-de-racisme-suite-a-la-sortie-de-sa-bande-dessinee-francois-ruffin-repond-a-la-polemique-3353929.html", "type": "presse" },
+    "lcp-probite-2026-07-02": { "titre": "Présidentielle 2027: après la polémique sur sa BD, François Ruffin à la relance sur le thème de la probité", "editeur": "LCP", "auteur": "Maxence Kagni", "date": "2026-07-02", "consulte": "2026-10-26", "url": "https://lcp.fr/actualites/presidentielle-2027-apres-la-polemique-sur-sa-bd-francois-ruffin-a-la-relance-sur-le", "type": "presse" }  }
+}

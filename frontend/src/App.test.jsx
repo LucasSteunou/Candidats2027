@@ -36,7 +36,7 @@ test("a fiche shows the programme and opens a source sheet", () => {
 test("the comparator answers key questions with units and origin", () => {
   at("/comparer/economie");
   expect(screen.getByRole("heading", { name: "Âge légal de départ visé" })).toBeInTheDocument();
-  expect(screen.getByText("60 ans")).toBeInTheDocument();
+  expect(screen.getAllByText("60 ans").length).toBeGreaterThan(0);
   expect(screen.getAllByText(/Programme 2027 ·/).length).toBeGreaterThan(0);
 });
 
