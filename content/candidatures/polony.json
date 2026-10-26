@@ -1,0 +1,158 @@
+{
+  "id": "polony",
+  "nom": "Natacha Polony",
+  "maj": "2026-10-26",
+  "parti": {
+    "nom": "Nous sommes la France",
+    "sigle": null,
+    "fondation": "2026-08",
+    "positionnement": {
+      "auto_definition": {
+        "texte": "Le mouvement s'adresse à « tous les orphelins de la politique ». Natacha Polony se dit attachée à la République, à la laïcité et à l'école, veut dépasser le clivage gauche-droite et rejette l'étiquette « souverainiste », qu'elle décrit comme l'« anathème préféré » du « système ».",
+        "sources": ["euronews-2026-10-14"]
+      },
+      "nuance_ministere": {
+        "texte": "Pour les municipales de 2026, la circulaire du ministère de l'Intérieur regroupe les nuances politiques en six blocs : « extrême gauche », « gauche », « divers », « centre », « droite » et « extrême droite ». Le mouvement Nous sommes la France, lancé en août 2026, n'existait pas lors de ces élections.",
+        "sources": ["ce-nuances-2026-02-27", "euronews-2026-10-14"]
+      }
+    }
+  },
+  "resume": {
+    "texte": "Essayiste et journaliste, ancienne directrice de la rédaction de Marianne (2018-2024), Natacha Polony a lancé fin août 2026 le mouvement Nous sommes la France, puis annoncé sa candidature le 14 octobre 2026 sur France Inter : « Je ne peux pas continuer à regarder mon pays s'effondrer. » Elle défend une « politique de production » et la souveraineté économique, énergétique et alimentaire. Son programme n'est pas encore détaillé.",
+    "sources": ["lcp-candidature-2026-10-14", "euronews-2026-10-14", "afp-candidature-2026-10-14"]
+  },
+  "histoire": {
+    "parti": [
+      { "date": "2026-08", "titre": "Lancement de Nous sommes la France", "texte": "Natacha Polony lance son mouvement, destiné à « tous les orphelins de la politique ». Elle revendique 60 000 sympathisants en octobre 2026.", "sources": ["euronews-2026-10-14", "afp-candidature-2026-10-14"] }
+    ],
+    "candidat": [
+      { "date": "2002", "titre": "Engagement aux côtés de Jean-Pierre Chevènement", "texte": "Agrégée de lettres modernes, brièvement enseignante, elle se présente aux législatives de 2002 à Paris aux côtés de Jean-Pierre Chevènement et obtient 2,24 %.", "sources": ["afp-candidature-2026-10-14"] },
+      { "date": "2002", "titre": "Journaliste", "texte": "Journaliste à la rubrique éducation de Marianne de 2002 à 2009, puis au Figaro. Elle fonde le Comité Orwell en 2015 et dirige la revue L'Audace !.", "sources": ["afp-candidature-2026-10-14"] },
+      { "date": "2018", "titre": "Directrice de la rédaction de Marianne", "texte": "Prend la tête de la rédaction de l'hebdomadaire en 2018 ; elle est remplacée par Frédéric Taddeï fin 2024.", "sources": ["afp-candidature-2026-10-14", "lcp-candidature-2026-10-14"] },
+      { "date": "2026-10-14", "titre": "Candidature pour 2027", "texte": "« Oui, je suis candidate à la présidentielle », annonce-t-elle sur France Inter, présentant « une candidature de rassemblement ». Elle doit encore réunir 500 parrainages, une règle qu'elle juge « aberrante ».", "sources": ["lcp-candidature-2026-10-14"] }
+    ]
+  },
+  "popularite": {
+    "chiffres_cles": [
+      { "libelle": "Sympathisants revendiqués par Nous sommes la France", "valeur": "60 000", "date": "2026-10-14", "sources": ["afp-candidature-2026-10-14"] }
+    ],
+    "series": []
+  },
+  "perception": [],
+  "controverses": [],
+  "programme": {
+    "etat": {
+      "texte": "Pas de programme publié. Candidate depuis le 14 octobre 2026, Natacha Polony a présenté ses premières orientations sur France Inter : « politique de production », hausse des salaires, souveraineté économique, énergétique et alimentaire, agriculture. La plupart des questions de la grille restent donc sans réponse à ce stade.",
+      "sources": ["lcp-candidature-2026-10-14", "euronews-2026-10-14", "pleinchamp-2026-10-14"]
+    },
+    "themes": {
+      "economie": {
+        "mesures": [
+          { "sous_theme": "industrie-commerce", "intitule": "Une « politique de production »", "detail": "Créer un « état d'urgence de la production », donner la priorité aux productions françaises dans la commande publique et supprimer les aides aux entreprises qui ne sont pas conditionnées à la production sur le sol français : « Il faut produire chez nous, selon nos conditions. »", "origine": "declaration", "date": "2026-10", "sources": ["lcp-candidature-2026-10-14", "euronews-2026-10-14"] },
+          { "sous_theme": "travail-emploi", "intitule": "Augmenter les salaires de 20 à 30 %", "detail": "Hausse des salaires de 20 à 30 %, sans précision publiée sur les modalités ni sur le financement.", "origine": "declaration", "date": "2026-10", "sources": ["lcp-candidature-2026-10-14"] }
+        ],
+        "reponses": {
+          "cout-net-programme": { "non_communique": "2026-10-26" },
+          "objectif-deficit": { "non_communique": "2026-10-26" },
+          "economies-depenses": { "non_communique": "2026-10-26" },
+          "impot-revenu": { "non_communique": "2026-10-26" },
+          "impot-patrimoine": { "non_communique": "2026-10-26" },
+          "droits-succession": { "non_communique": "2026-10-26" },
+          "taux-is": { "non_communique": "2026-10-26" },
+          "impots-production": { "non_communique": "2026-10-26" },
+          "age-legal": { "non_communique": "2026-10-26" },
+          "duree-cotisation": { "non_communique": "2026-10-26" },
+          "financement-retraites": { "non_communique": "2026-10-26" },
+          "smic": { "non_communique": "2026-10-26", "precision": "Propose d'augmenter les salaires de 20 à 30 %, sans montant de SMIC précisé.", "sources": ["lcp-candidature-2026-10-14"] },
+          "duree-travail": { "non_communique": "2026-10-26" },
+          "assurance-chomage": { "non_communique": "2026-10-26" },
+          "prix-energie": { "non_communique": "2026-10-26" },
+          "encadrement-prix": { "non_communique": "2026-10-26" },
+          "libre-echange": { "non_communique": "2026-10-26", "precision": "Dénonce la mise en concurrence des agriculteurs avec des pays à faibles coûts et veut des clauses miroirs, sans position publiée sur les accords en cours.", "sources": ["pleinchamp-2026-10-14"] },
+          "reindustrialisation": { "valeur": "Priorité aux productions françaises dans la commande publique, suppression des aides aux entreprises non conditionnées à la production en France et « état d'urgence de la production ».", "origine": "declaration", "date": "2026-10", "sources": ["lcp-candidature-2026-10-14"] }
+        }
+      },
+      "ecologie": {
+        "mesures": [],
+        "reponses": {
+          "nucleaire": { "non_communique": "2026-10-26" },
+          "renouvelables": { "non_communique": "2026-10-26" },
+          "neutralite-2050": { "non_communique": "2026-10-26" },
+          "thermique-2035": { "non_communique": "2026-10-26" }
+        }
+      },
+      "social": {
+        "mesures": [],
+        "reponses": {
+          "acces-soins": { "non_communique": "2026-10-26" },
+          "installation-medecins": { "non_communique": "2026-10-26" },
+          "mesure-ecole": { "non_communique": "2026-10-26" },
+          "remuneration-enseignants": { "non_communique": "2026-10-26" },
+          "encadrement-loyers": { "non_communique": "2026-10-26" },
+          "logements-sociaux": { "non_communique": "2026-10-26" },
+          "rsa": { "non_communique": "2026-10-26" }
+        }
+      },
+      "securite": {
+        "mesures": [],
+        "reponses": {
+          "effectifs-forces-ordre": { "non_communique": "2026-10-26" },
+          "places-prison": { "non_communique": "2026-10-26" },
+          "peines-minimales": { "non_communique": "2026-10-26" },
+          "justice-mineurs": { "non_communique": "2026-10-26" },
+          "cannabis": { "non_communique": "2026-10-26" }
+        }
+      },
+      "immigration": {
+        "mesures": [],
+        "reponses": {
+          "titres-sejour": { "non_communique": "2026-10-26" },
+          "regularisations": { "non_communique": "2026-10-26" },
+          "demandes-asile": { "non_communique": "2026-10-26" },
+          "droit-du-sol": { "non_communique": "2026-10-26" },
+          "ame": { "non_communique": "2026-10-26" },
+          "priorite-nationale": { "non_communique": "2026-10-26" },
+          "referendum-immigration": { "non_communique": "2026-10-26" }
+        }
+      },
+      "institutions": {
+        "mesures": [],
+        "reponses": {
+          "mode-scrutin": { "non_communique": "2026-10-26" },
+          "ric": { "non_communique": "2026-10-26" },
+          "constitution": { "non_communique": "2026-10-26" },
+          "mandat-presidentiel": { "non_communique": "2026-10-26" }
+        }
+      },
+      "international": {
+        "mesures": [],
+        "reponses": {
+          "relation-ue": { "non_communique": "2026-10-26", "precision": "Reproche au gouvernement de « fantasmer » sur l'unité européenne au risque de sacrifier des intérêts français, sans proposition publiée sur les traités.", "sources": ["euronews-2026-10-14"] },
+          "euro": { "non_communique": "2026-10-26" },
+          "budget-defense": { "non_communique": "2026-10-26" },
+          "otan": { "non_communique": "2026-10-26" },
+          "service-national": { "non_communique": "2026-10-26" },
+          "ukraine": { "non_communique": "2026-10-26" },
+          "proche-orient": { "non_communique": "2026-10-26" }
+        }
+      },
+      "agriculture": {
+        "mesures": [
+          { "sous_theme": "agriculture", "intitule": "Souveraineté alimentaire et clauses miroirs", "detail": "Refuser la renationalisation de la PAC, une « ligne rouge » ; appliquer aux produits importés les normes environnementales françaises plutôt que les assouplir, par des clauses miroirs, une traçabilité obligatoire dans les plats préparés et des contrôles aux frontières ; plan de soutien aux revenus et rapport de force avec les centrales d'achat ; planification publique de la gestion de l'eau.", "origine": "declaration", "date": "2026-10", "sources": ["pleinchamp-2026-10-14"] }
+        ],
+        "reponses": {
+          "revenu-agricole": { "valeur": "Plan de soutien aux revenus et rapport de force avec les grandes centrales d'achat, les lois Egalim étant jugées insuffisantes.", "origine": "declaration", "date": "2026-10", "sources": ["pleinchamp-2026-10-14"] },
+          "pesticides": { "valeur": "Inchangées", "origine": "declaration", "date": "2026-10", "precision": "Ne pas assouplir les normes environnementales, mais les appliquer aux produits importés.", "sources": ["pleinchamp-2026-10-14"] },
+          "pac": { "valeur": "S'opposer à la renationalisation de la PAC, une « ligne rouge », et défendre plus fermement les intérêts français à Bruxelles.", "origine": "declaration", "date": "2026-10", "sources": ["pleinchamp-2026-10-14"] }
+        }
+      }
+    }
+  },
+  "sources": {
+    "lcp-candidature-2026-10-14": { "titre": "Natacha Polony annonce sa candidature à l'élection présidentielle", "editeur": "LCP", "auteur": "Anne-Charlotte Dusseaulx", "date": "2026-10-14", "consulte": "2026-10-26", "url": "https://lcp.fr/actualites/natacha-polony-annonce-sa-candidature-a-l-election-presidentielle-443808", "type": "presse" },
+    "euronews-2026-10-14": { "titre": "France : Natacha Polony officialise sa candidature à la présidentielle", "editeur": "Euronews", "auteur": "Alexander Kazakevich et Jean-Philippe Liabot", "date": "2026-10-14", "consulte": "2026-10-26", "url": "https://fr.euronews.com/2026/10/14/france-natacha-polony-officialise-sa-candidature-a-la-presidentielle", "type": "presse" },
+    "afp-candidature-2026-10-14": { "titre": "L'essayiste Natacha Polony se lance dans la course à l'Elysée", "editeur": "La Gazette France (AFP)", "date": "2026-10-14", "consulte": "2026-10-26", "url": "https://www.lagazettefrance.fr/article/l-essayiste-natacha-polony-se-lance-dans-la-course-a-l-elysee", "type": "presse" },
+    "pleinchamp-2026-10-14": { "titre": "Natacha Polony candidate à l'Élysée avec l'agriculture comme champ de bataille", "editeur": "Pleinchamp", "auteur": "Louise Delaroa", "date": "2026-10-14", "consulte": "2026-10-26", "url": "https://www.pleinchamp.com/actualite/natacha-polony-candidate-a-l-elysee-avec-l-agriculture-comme-champ-de-bataille", "type": "presse" },
+    "ce-nuances-2026-02-27": { "titre": "Décision n° 512694 sur la circulaire relative aux nuances politiques des élections municipales de 2026", "editeur": "Conseil d'État", "date": "2026-02-27", "consulte": "2026-10-26", "url": "https://conseil-etat.fr/Media/actualites/documents/2026/fevrier-2026/512694.pdf", "type": "justice" }
+  }
+}
