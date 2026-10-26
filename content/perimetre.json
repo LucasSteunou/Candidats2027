@@ -1,5 +1,5 @@
 {
-  "maj": "2026-10-23",
+  "maj": "2026-10-26",
   "regle": "Fiche si la personne a formellement déclaré sa candidature (ou a été désignée par son parti) ET a été testée dans au moins un sondage de premier tour réalisé dans les 60 derniers jours, dont la notice est publiée par la Commission des sondages.",
   "fenetre_sondages_jours": 60,
   "scrutin": {
@@ -15,7 +15,7 @@
       "statut": "declare",
       "precision": "Candidate pour la quatrième fois ; candidature annoncée en décembre 2025.",
       "sources_candidature": ["f3-arthaud-2026-10-21"],
-      "sources_sondage": ["cds-10324-elabe"]
+      "sources_sondage": ["cds-10338-ipsos"]
     },
     {
       "id": "attal",
@@ -24,7 +24,7 @@
       "statut": "declare",
       "precision": "Candidature officialisée le 22 mai 2026.",
       "sources_candidature": ["lcp-attal-2026-05-22"],
-      "sources_sondage": ["cds-10324-elabe"]
+      "sources_sondage": ["cds-10338-ipsos"]
     },
     {
       "id": "bouamrane",
@@ -42,7 +42,7 @@
       "statut": "declare",
       "precision": "Candidat à une quatrième élection présidentielle.",
       "sources_candidature": ["ps-candidats-2026-10-14"],
-      "sources_sondage": ["cds-10324-elabe"]
+      "sources_sondage": ["cds-10338-ipsos"]
     },
     {
       "id": "glucksmann",
@@ -51,7 +51,7 @@
       "statut": "investi",
       "precision": "Désigné par la primaire sociale-démocrate du 11 octobre 2026, avec 66,17 % des suffrages exprimés.",
       "sources_candidature": ["lcp-primaire-2026-10-11"],
-      "sources_sondage": ["cds-10324-elabe"]
+      "sources_sondage": ["cds-10338-ipsos"]
     },
     {
       "id": "le-pen",
@@ -60,7 +60,7 @@
       "statut": "declare",
       "precision": "Candidature confirmée après l'arrêt de la cour d'appel de Paris du 7 juillet 2026.",
       "sources_candidature": ["ps-candidats-2026-10-14", "ps-lepen-appel-2026-07-07"],
-      "sources_sondage": ["cds-10324-elabe"]
+      "sources_sondage": ["cds-10338-ipsos"]
     },
     {
       "id": "lisnard",
@@ -69,7 +69,7 @@
       "statut": "declare",
       "precision": "Candidat après avoir quitté Les Républicains.",
       "sources_candidature": ["ps-candidats-2026-10-14"],
-      "sources_sondage": ["cds-10324-elabe"]
+      "sources_sondage": ["cds-10338-ipsos"]
     },
     {
       "id": "melenchon",
@@ -78,7 +78,7 @@
       "statut": "declare",
       "precision": "Candidat pour la quatrième fois.",
       "sources_candidature": ["ps-candidats-2026-10-14"],
-      "sources_sondage": ["cds-10324-elabe"]
+      "sources_sondage": ["cds-10338-ipsos"]
     },
     {
       "id": "philippe",
@@ -87,7 +87,7 @@
       "statut": "declare",
       "precision": "Candidature annoncée le 3 septembre 2024 dans Le Point.",
       "sources_candidature": ["f3-philippe-2024-09-03"],
-      "sources_sondage": ["cds-10324-elabe"]
+      "sources_sondage": ["cds-10338-ipsos"]
     },
     {
       "id": "polony",
@@ -96,7 +96,7 @@
       "statut": "declare",
       "precision": "Candidature déclarée le 14 octobre 2026 sur France Inter.",
       "sources_candidature": ["ps-candidats-2026-10-14"],
-      "sources_sondage": ["cds-10324-elabe"]
+      "sources_sondage": ["cds-10327-ifop"]
     },
     {
       "id": "retailleau",
@@ -105,7 +105,7 @@
       "statut": "investi",
       "precision": "Désigné candidat par les militants LR en avril 2026.",
       "sources_candidature": ["ps-candidats-2026-10-14"],
-      "sources_sondage": ["cds-10324-elabe"]
+      "sources_sondage": ["cds-10338-ipsos"]
     },
     {
       "id": "roussel",
@@ -114,7 +114,7 @@
       "statut": "declare",
       "precision": "Candidature annoncée le 6 septembre 2026.",
       "sources_candidature": ["ps-candidats-2026-10-14"],
-      "sources_sondage": ["cds-10324-elabe"]
+      "sources_sondage": ["cds-10338-ipsos"]
     },
     {
       "id": "ruffin",
@@ -123,7 +123,7 @@
       "statut": "declare",
       "precision": "Candidat.",
       "sources_candidature": ["ps-candidats-2026-10-14"],
-      "sources_sondage": ["cds-10324-elabe"]
+      "sources_sondage": ["cds-10327-ifop"]
     },
     {
       "id": "tondelier",
@@ -132,7 +132,7 @@
       "statut": "investi",
       "precision": "Conserve l'investiture des Écologistes jusqu'au vote des adhérents du 10 au 13 décembre 2026 sur la stratégie présidentielle.",
       "sources_candidature": ["ps-ecologistes-2026-09-21"],
-      "sources_sondage": ["cds-10324-elabe"]
+      "sources_sondage": ["cds-10338-ipsos"]
     },
     {
       "id": "zemmour",
@@ -141,7 +141,7 @@
       "statut": "declare",
       "precision": "Candidature confirmée le 17 septembre 2026.",
       "sources_candidature": ["ps-candidats-2026-10-14"],
-      "sources_sondage": ["cds-10324-elabe"]
+      "sources_sondage": ["cds-10338-ipsos"]
     }
   ],
   "testes_sans_fiche": [
@@ -198,6 +198,8 @@
     "cds-10323-yougov": { "titre": "Notice n° 10323 - YouGov pour Le HuffPost (terrain du 12 au 15 octobre 2026)", "editeur": "Commission des sondages", "auteur": null, "date": "2026-10-18", "consulte": "2026-10-23", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10323-pres-iv-yougov-le-huffpost-18-octobre.pdf", "type": "sondage" },
     "cds-10270-yougov": { "titre": "Notice n° 10270 - YouGov pour Le HuffPost (terrain du 17 au 21 septembre 2026)", "editeur": "Commission des sondages", "auteur": null, "date": "2026-09-23", "consulte": "2026-10-23", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10270-pres-iv-yougov-huffpost-23-septembre.pdf", "type": "sondage" },
     "cds-10260-opinionway": { "titre": "Notice n° 10260 - OpinionWay pour CNews (terrain du 9 au 10 septembre 2026)", "editeur": "Commission des sondages", "auteur": null, "date": "2026-09-11", "consulte": "2026-10-23", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10260-pres-iv-opinionway-cnews-11-septembre.pdf", "type": "sondage" },
-    "cds-10250-ipsos": { "titre": "Notice n° 10250 - Ipsos BVA pour Le Parisien (terrain du 31 août au 2 septembre 2026)", "editeur": "Commission des sondages", "auteur": null, "date": "2026-09-05", "consulte": "2026-10-23", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10250-pres-iv-ipsos-bva-le-parisien-5-septembre.pdf", "type": "sondage" }
+    "cds-10250-ipsos": { "titre": "Notice n° 10250 - Ipsos BVA pour Le Parisien (terrain du 31 août au 2 septembre 2026)", "editeur": "Commission des sondages", "auteur": null, "date": "2026-09-05", "consulte": "2026-10-23", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10250-pres-iv-ipsos-bva-le-parisien-5-septembre.pdf", "type": "sondage" },
+    "cds-10327-ifop": { "titre": "Notice n° 10327 - Ifop-Fiducial pour LCI, Le Figaro et Sud Radio (terrain du 17 au 19 octobre 2026)", "editeur": "Commission des sondages", "auteur": null, "date": "2026-10-20", "consulte": "2026-10-26", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10327-pres-barometre-election-v7-ifop-20-octobre.pdf", "type": "sondage" },
+    "cds-10338-ipsos": { "titre": "Notice n° 10338 - Ipsos BVA pour Le Parisien (terrain du 21 au 22 octobre 2026)", "editeur": "Commission des sondages", "auteur": null, "date": "2026-10-24", "consulte": "2026-10-26", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10338-pres-iv-ipsos-bva-le-parisien-24-octobre.pdf", "type": "sondage" }
   }
 }

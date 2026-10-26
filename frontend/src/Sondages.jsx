@@ -60,8 +60,8 @@ export function TrendChart({ points, line, yMax, xDomain, label, describe }) {
         ))}
         {active ? <line className="crosshair" x1={x(active.date)} x2={x(active.date)} y1={M.top} y2={H - M.bottom} /> : null}
         {line.length > 1 ? <path className="trend-line" d={path} /> : null}
-        {points.flatMap((p) =>
-          (p.scores ?? [p.value]).map((s, i) => <circle key={`${p.date}-${i}`} className="trend-dot" cx={x(p.date)} cy={y(s)} r="4" />),
+        {points.flatMap((p, pi) =>
+          (p.scores ?? [p.value]).map((s, i) => <circle key={`${pi}-${p.date}-${i}`} className="trend-dot" cx={x(p.date)} cy={y(s)} r="4" />),
         )}
         {last ? (
           <>
@@ -71,9 +71,9 @@ export function TrendChart({ points, line, yMax, xDomain, label, describe }) {
             </text>
           </>
         ) : null}
-        {points.map((p) => (
+        {points.map((p, pi) => (
           <rect
-            key={p.date}
+            key={`${pi}-${p.date}`}
             className="hit"
             x={x(p.date) - 12}
             y={M.top}
