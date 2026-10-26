@@ -10,6 +10,7 @@ Dernière veille : 2026-10-26 (manuelle).
 - 2026-11-17 · le-pen · présentation de sa réforme des retraites ; programme 2027 « en cours de finalisation ».
 - 2026-12-10 → 13 · tondelier · vote des adhérents des Écologistes : candidature propre ou ralliement à un autre candidat de gauche.
 - 2027-03 · toutes · liste officielle du Conseil constitutionnel, qui remplacera le critère du périmètre.
+- 2027-04 (au plus tard début) · le-pen · arrêt de la Cour de cassation sur son pourvoi, selon le communiqué de la Cour cité par le [Club des juristes](https://www.leclubdesjuristes.com/?p=16873) (8 juillet 2026) ; calendrier susceptible de changer. La fiche indique le pourvoi mais pas ce délai.
 
 ## Fiches à étoffer
 
