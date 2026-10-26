@@ -1,0 +1,207 @@
+{
+  "id": "tondelier",
+  "nom": "Marine Tondelier",
+  "maj": "2026-10-26",
+  "parti": {
+    "nom": "Les Écologistes",
+    "sigle": null,
+    "fondation": "2010-11-13",
+    "positionnement": {
+      "auto_definition": {
+        "texte": "« Avec la prospérité écologique, nous protégeons chacune et chacun face aux crises et construisons une société plus juste, plus solidaire et plus démocratique. » Le parti affiche le mot d'ordre « Pour l'écologie, pour l'union ! ».",
+        "sources": ["eco-accueil"]
+      },
+      "nuance_ministere": {
+        "texte": "Pour les municipales de 2026, le ministère de l'Intérieur classe dans le bloc « gauche » les candidats et listes investis ou soutenus par Les Écologistes.",
+        "sources": ["bdt-nuances-2026"]
+      }
+    }
+  },
+  "resume": {
+    "texte": "Secrétaire nationale des Écologistes depuis décembre 2022 et conseillère municipale d'opposition à Hénin-Beaumont depuis 2014, Marine Tondelier a annoncé sa candidature le 22 octobre 2025. Choisie par les adhérents en décembre 2025 avec 86 % des voix pour représenter le parti à une primaire de la gauche finalement abandonnée, elle reste la candidate des Écologistes jusqu'au vote des adhérents du 10 au 13 décembre 2026 : ils choisiront entre une candidature du parti et le ralliement à un candidat d'une autre formation de gauche. Le parti a publié son programme en juillet 2026.",
+    "sources": ["sudradio-bio-tondelier", "reporterre-candidature-2025-10-22", "reporterre-primaire-2025-12-08", "ps-ecologistes-2026-09-21", "eco-programme-2026"]
+  },
+  "histoire": {
+    "parti": [
+      { "date": "2010-11-13", "titre": "Naissance d'Europe Écologie-Les Verts", "texte": "Les Verts, créés en 1984, et Europe Écologie s'unissent lors d'un rassemblement à Lyon, après l'approbation par référendum des militants.", "sources": ["politis-eelv-2010-11-11"] },
+      { "date": "2023-10-14", "titre": "EELV devient Les Écologistes", "texte": "Le parti entérine son changement de nom lors d'un rassemblement à Pantin.", "sources": ["reporterre-nom-2023-10-16"] },
+      { "date": "2025-12-08", "titre": "Désignation pour la primaire de la gauche", "texte": "Les adhérents choisissent Marine Tondelier avec 86 % des voix (5 341 voix) face à Waleed Mouhali (14 %), pour représenter le parti à une primaire de la gauche.", "sources": ["reporterre-primaire-2025-12-08", "brut-primaire-2025-12"] },
+      { "date": "2026-07-13", "titre": "Programme « Pour une prospérité écologique »", "texte": "Le parti publie son programme, issu de dix mois de travail et d'une consultation qui a reçu 50 000 contributions. Il propose une « Première République écologique et citoyenne ».", "sources": ["gazette-programme-2026-07-13", "eco-programme-2026"] },
+      { "date": "2026-09-21", "titre": "Report du choix stratégique", "texte": "Faute d'accord avec les socialistes sur une primaire, le Conseil fédéral adopte avec 69,44 % des voix une motion qui maintient Marine Tondelier comme candidate jusqu'à un vote des adhérents du 10 au 13 décembre.", "sources": ["ps-ecologistes-2026-09-21"] }
+    ],
+    "candidat": [
+      { "date": "1986-08-23", "titre": "Naissance", "texte": "Naît le 23 août 1986 à Bois-Bernard (Pas-de-Calais). Diplômée de Sciences Po Lille en 2009.", "sources": ["sudradio-bio-tondelier"] },
+      { "date": "2011", "titre": "Collaboratrice parlementaire", "texte": "Collaboratrice parlementaire de la sénatrice Aline Archimbaud puis de Cécile Duflot de 2011 à 2017, puis déléguée générale de la fédération Atmo France (surveillance de la qualité de l'air) de 2017 à 2022.", "sources": ["sudradio-bio-tondelier"] },
+      { "date": "2014", "titre": "Élue d'opposition à Hénin-Beaumont", "texte": "Conseillère municipale d'opposition à Hénin-Beaumont depuis 2014, puis conseillère régionale des Hauts-de-France depuis 2021.", "sources": ["sudradio-bio-tondelier"] },
+      { "date": "2022-12", "titre": "Secrétaire nationale d'EELV", "texte": "Élue avec 90,8 % des voix, réélue en 2025.", "sources": ["sudradio-bio-tondelier"] },
+      { "date": "2025-10-22", "titre": "Candidature pour 2027", "texte": "Annonce sa candidature dans L'Obs, avant le vote interne de son parti : un « acte d'amour pour la France, parce qu'on ne peut pas aimer son pays et accepter qu'il s'abîme ainsi ».", "sources": ["reporterre-candidature-2025-10-22"] }
+    ]
+  },
+  "popularite": {
+    "chiffres_cles": [
+      { "libelle": "Bonne image (Elabe pour Les Échos)", "valeur": "16 % (+2 points)", "date": "2026-07", "sources": ["elabe-observatoire-2026-08"] },
+      { "libelle": "Vote interne des Écologistes", "valeur": "86 %", "date": "2025-12-08", "sources": ["reporterre-primaire-2025-12-08"] }
+    ],
+    "series": []
+  },
+  "perception": [
+    { "type": "sondage", "auteur": "Elabe pour Les Échos", "texte": "16 % des Français ont une bonne image de Marine Tondelier (+2 points). Auprès des électeurs de gauche, elle obtient 39 % (+3 points), en sixième position.", "date": "2026-07", "sources": ["elabe-observatoire-2026-08"] }
+  ],
+  "controverses": [
+    {
+      "titre": "Plainte de deux présentateurs de CNews",
+      "date": "2023-05-14",
+      "faits": "Sur France 3, dans « Dimanche en politique », après des manifestations d'ultradroite à Paris, elle affirme que CNews et Valeurs actuelles laissent une idéologie qu'elle qualifie de néonazie « prospérer en ne respectant pas les règles du pluralisme ». Christine Kelly et Marc Menant, présentateurs de CNews, portent plainte contre elle à titre personnel en juillet 2023. Le 17 février 2026, le tribunal judiciaire de Nanterre les déboute.",
+      "statut_judiciaire": "relaxe-ou-non-lieu",
+      "reponse": "Elle maintient ses propos, « encore plus vrais aujourd'hui qu'hier », et écrit : « J'espère que ça leur passera l'envie de bâillonner les critiques par la voie judiciaire. »",
+      "citation": "« Ce n'est pas l'extrême droite, c'est néonazi, leur idéologie a fait des millions de morts en Europe. »",
+      "sources": ["ozap-plainte-2023-07-06", "morandini-plainte-2023-07-07", "ozap-jugement-2026-03-12"]
+    }
+  ],
+  "programme": {
+    "etat": {
+      "texte": "Le programme des Écologistes, « Pour une prospérité écologique », est publié en juillet 2026. Une plateforme de plus de 500 propositions avait été mise en consultation en décembre 2025 ; selon le parti, 50 000 contributions ont été reçues, 87 % des propositions modifiées et 68 ajoutées. C'est le programme du parti : les réponses portent donc le badge « Projet du parti ». Le vote des adhérents de décembre 2026 dira si le parti garde sa propre candidature.",
+      "sources": ["eco-programme-2026", "cf-plateforme-2025-12", "ps-ecologistes-2026-09-21"]
+    },
+    "themes": {
+      "economie": {
+        "mesures": [
+          { "sous_theme": "impots-menages", "intitule": "Rétablir l'ISF et taxer les très grandes fortunes", "detail": "Rétablir l'ISF « en lui ajoutant une composante climatique », taxe Zucman de 2 % au-delà de 100 millions d'euros de patrimoine, exit tax élargie. Impôt sur le revenu baissé pour les tranches les plus basses, nouvelle tranche à 60 % au-delà de 250 000 € annuels et niches fiscales plafonnées par foyer. Droits de succession rendus progressifs avec deux tranches supplémentaires au-delà de 4 et de 13 millions d'euros.", "origine": "projet-parti", "date": "2026-07", "sources": ["eco-programme-2026"] },
+          { "sous_theme": "impots-entreprises", "intitule": "Un impôt minimal sur les grandes entreprises", "detail": "Impôt minimal sur les bénéfices des sociétés réalisant plus d'un milliard d'euros de chiffre d'affaires, à proportion de leur activité en France ; taux modulé selon l'affectation des bénéfices pour dissuader les rachats d'actions ; taxe sur les services numériques relevée de 3 à 5 %.", "origine": "projet-parti", "date": "2026-07", "sources": ["eco-programme-2026"] },
+          { "sous_theme": "retraites", "intitule": "Retour à 62 ans", "detail": "Abroger la retraite à 64 ans pour « revenir immédiatement à un âge minimum à 62 ans et viser une retraite à 60 ans », d'abord pour les personnes ayant travaillé tôt et dans des conditions pénibles. Conférence travail-retraite visant l'équilibre du régime général en 2050 ; refus de toute évolution vers la capitalisation.", "origine": "projet-parti", "date": "2026-07", "sources": ["eco-programme-2026"] },
+          { "sous_theme": "travail-emploi", "intitule": "SMIC à 2 000 € brut et 32 heures dans les métiers pénibles", "detail": "« Passer le salaire minimum à 2000€ brut par mois dès 2027 », avec un soutien ciblé aux TPE, PME et associations. Passer aux 32 heures sans perte de salaire dans les métiers pénibles ou de nuit. Abroger les réformes de l'assurance chômage des deux derniers quinquennats et indexer les allocations sur l'inflation.", "origine": "projet-parti", "date": "2026-07", "sources": ["eco-programme-2026"] }
+        ],
+        "reponses": {
+          "cout-net-programme": { "non_communique": "2026-10-26" },
+          "objectif-deficit": { "non_communique": "2026-10-26", "precision": "Renégocier la trajectoire de baisse des déficits et exclure les investissements de transition écologique du calcul du déficit autorisé, sans objectif chiffré.", "sources": ["eco-programme-2026"] },
+          "economies-depenses": { "non_communique": "2026-10-26" },
+          "impot-revenu": { "valeur": "Refonte du barème", "origine": "projet-parti", "date": "2026-07", "precision": "Baisse pour les tranches les plus basses, nouvelle tranche à 60 % au-delà de 250 000 € annuels, plafonnement des niches fiscales par foyer.", "sources": ["eco-programme-2026"] },
+          "impot-patrimoine": { "valeur": "Rétablissement d'un ISF", "origine": "projet-parti", "date": "2026-07", "precision": "ISF avec une « composante climatique » et taxe Zucman de 2 % au-delà de 100 millions d'euros de patrimoine.", "sources": ["eco-programme-2026"] },
+          "droits-succession": { "valeur": "Hausse", "origine": "projet-parti", "date": "2026-07", "precision": "Barème progressif unique avec deux tranches supplémentaires pour le 1 % le plus riche (au-delà de 4 millions d'euros) et le 0,1 % (au-delà de 13 millions) ; abattement spécifique aux assurances-vie supprimé.", "sources": ["eco-programme-2026"] },
+          "taux-is": { "non_communique": "2026-10-26", "precision": "Pas de taux normal chiffré : impôt minimal pour les sociétés de plus d'un milliard d'euros de chiffre d'affaires et soutien à un taux minimum mondial de 25 % pour les multinationales.", "sources": ["eco-programme-2026"] },
+          "impots-production": { "non_communique": "2026-10-26" },
+          "age-legal": { "valeur": 62, "origine": "projet-parti", "date": "2026-07", "precision": "Retour « immédiat » à 62 ans en visant 60 ans, en priorité pour les personnes ayant travaillé tôt et dans des conditions pénibles.", "sources": ["eco-programme-2026"] },
+          "duree-cotisation": { "non_communique": "2026-10-26" },
+          "financement-retraites": { "non_communique": "2026-10-26", "precision": "Une conférence travail-retraite doit viser l'équilibre du régime général en 2050 ; le programme refuse toute évolution vers la capitalisation.", "sources": ["eco-programme-2026"] },
+          "smic": { "valeur": "Autre", "origine": "projet-parti", "date": "2026-07", "precision": "2 000 € brut par mois dès 2027 ; le montant net n'est pas précisé.", "sources": ["eco-programme-2026"] },
+          "duree-travail": { "valeur": "Autre", "origine": "projet-parti", "date": "2026-07", "precision": "« Franchir une nouvelle étape pour la diminution du temps de travail » : 32 heures sans perte de salaire dans les métiers pénibles ou de nuit.", "sources": ["eco-programme-2026"] },
+          "assurance-chomage": { "valeur": "Conditions plus favorables aux demandeurs d'emploi", "origine": "projet-parti", "date": "2026-07", "precision": "Abroger les réformes des deux derniers quinquennats et indexer les allocations sur l'inflation.", "sources": ["eco-programme-2026"] },
+          "prix-energie": { "valeur": "Découpler le prix de l'électricité de celui des énergies fossiles et baisser la fiscalité sur l'électricité (accise unifiée avec le gaz, TVA réduite sur l'abonnement).", "origine": "projet-parti", "date": "2026-07", "sources": ["eco-programme-2026"] },
+          "encadrement-prix": { "valeur": "Pour", "origine": "projet-parti", "date": "2026-07", "precision": "Encadrer les prix d'un panier de biens essentiels (logement, énergie, eau, transport, alimentation, biens culturels) ; blocage des prix alimentaires en cas d'inflation anormale.", "sources": ["eco-programme-2026"] },
+          "libre-echange": { "valeur": "Opposition", "origine": "projet-parti", "date": "2026-07", "precision": "Ne pas ratifier les accords en attente, dont ceux avec le Canada (CETA) et le Mercosur ; clauses miroirs sur le climat et les droits humains dans les futurs traités.", "sources": ["eco-programme-2026"] },
+          "reindustrialisation": { "valeur": "Fonds souverain financé par un « livret industrie » rémunéré comme le livret A, et Grenelle de l'industrie préparant une loi de programmation industrielle.", "origine": "projet-parti", "date": "2026-07", "sources": ["eco-programme-2026"] }
+        }
+      },
+      "ecologie": {
+        "mesures": [
+          { "sous_theme": "energie", "intitule": "Planifier la sortie du nucléaire", "detail": "Mettre fin aux programmes EPR2 et SMR, planifier l'arrêt progressif des centrales sur une vingtaine d'années en étudiant la prolongation de certaines « sous condition stricte de sûreté », et amplifier les filières françaises et européennes d'énergies renouvelables (éolien en mer et terrestre, solaire, géothermie, biogaz, hydraulique).", "origine": "projet-parti", "date": "2026-07", "sources": ["eco-programme-2026"] }
+        ],
+        "reponses": {
+          "nucleaire": { "valeur": "Sortie du nucléaire", "origine": "projet-parti", "date": "2026-07", "precision": "Fin des programmes EPR2 et SMR ; arrêt progressif du parc étalé sur une vingtaine d'années.", "sources": ["eco-programme-2026"] },
+          "renouvelables": { "valeur": "Accélération", "origine": "projet-parti", "date": "2026-07", "sources": ["eco-programme-2026"] },
+          "neutralite-2050": { "valeur": "Maintenu", "origine": "projet-parti", "date": "2026-07", "precision": "Loi de programmation climatique pour atteindre la neutralité carbone en 2050.", "sources": ["eco-programme-2026"] },
+          "thermique-2035": { "valeur": "Maintien", "origine": "projet-parti", "date": "2026-07", "precision": "« Maintenir l'objectif de 100 % de véhicules zéro émission en 2035 » pour les ventes de véhicules neufs.", "sources": ["eco-programme-2026"] }
+        }
+      },
+      "social": {
+        "mesures": [
+          { "sous_theme": "sante", "intitule": "2 000 centres de santé et installation des médecins régulée", "detail": "Créer 2 000 centres de santé d'ici 2030, notamment dans les zones rurales et les quartiers prioritaires ; autorisation d'installation des médecins libéraux délivrée par l'ARS ; remboursement à 100 % des soins essentiels par l'Assurance maladie et suppression des franchises.", "origine": "projet-parti", "date": "2026-07", "sources": ["eco-programme-2026"] },
+          { "sous_theme": "education", "intitule": "Des classes plus petites et des enseignants mieux payés", "detail": "Réduire la taille des classes à 19 élèves en 2032 et à 12 en éducation prioritaire (REP et REP+), et augmenter les salaires des enseignants de 15 % en cinq ans.", "origine": "projet-parti", "date": "2026-07", "sources": ["eco-programme-2026"] },
+          { "sous_theme": "solidarite", "intitule": "Une « garantie d'autonomie » à la place du RSA", "detail": "Remplacer le RSA par une garantie d'autonomie portée à 50 % du SMIC net, accessible dès 18 ans pour les personnes indépendantes fiscalement, sans la contrepartie de 15 heures d'activité hebdomadaire.", "origine": "projet-parti", "date": "2026-07", "sources": ["eco-programme-2026"] }
+        ],
+        "reponses": {
+          "acces-soins": { "valeur": "Créer 2 000 centres de santé d'ici 2030, notamment dans les zones rurales et les quartiers prioritaires.", "origine": "projet-parti", "date": "2026-07", "sources": ["eco-programme-2026"] },
+          "installation-medecins": { "valeur": "Obligation", "origine": "projet-parti", "date": "2026-07", "precision": "Autorisation d'installation délivrée par l'ARS, de droit dans les zones sous-dotées et liée ailleurs à la cessation d'activité d'un praticien.", "sources": ["eco-programme-2026"] },
+          "mesure-ecole": { "valeur": "Réduire la taille des classes à 19 élèves en 2032 et à 12 en éducation prioritaire.", "origine": "projet-parti", "date": "2026-07", "sources": ["eco-programme-2026"] },
+          "remuneration-enseignants": { "valeur": "Hausse des salaires de 15 % en cinq ans.", "origine": "projet-parti", "date": "2026-07", "sources": ["eco-programme-2026"] },
+          "encadrement-loyers": { "valeur": "Généralisation", "origine": "projet-parti", "date": "2026-07", "precision": "Généraliser, améliorer et pérenniser l'encadrement, avec des amendes plus fortes en cas de dépassement.", "sources": ["eco-programme-2026"] },
+          "logements-sociaux": { "non_communique": "2026-10-26", "precision": "Pas d'objectif annuel : sanctions renforcées contre les communes qui ne respectent pas la loi SRU et objectif de 30 % de logements sociaux d'ici 2035 dans les marchés les plus tendus.", "sources": ["eco-programme-2026"] },
+          "rsa": { "valeur": "Plus larges", "origine": "projet-parti", "date": "2026-07", "precision": "RSA remplacé par une « garantie d'autonomie » à 50 % du SMIC net, accessible dès 18 ans pour les personnes indépendantes fiscalement.", "sources": ["eco-programme-2026"] }
+        }
+      },
+      "securite": {
+        "mesures": [
+          { "sous_theme": "police", "intitule": "Une police de proximité et une nouvelle doctrine de maintien de l'ordre", "detail": "Créer une police nationale de proximité, allonger la formation des policiers, interdire les lanceurs de balles de défense (LBD40) et les grenades mutilantes, démanteler les unités de type BRAV-M et remplacer l'IGPN et l'IGGN par un organisme indépendant rattaché à la Défenseure des droits.", "origine": "projet-parti", "date": "2026-07", "sources": ["eco-programme-2026"] },
+          { "sous_theme": "justice", "intitule": "Un numerus clausus en prison", "detail": "Limiter la surpopulation carcérale à 100 % des capacités (133 % aujourd'hui selon le programme) et adopter un moratoire sur les nouvelles places de prison, hors remplacement des établissements insalubres ; développer la probation, la semi-liberté et le travail d'intérêt général.", "origine": "projet-parti", "date": "2026-07", "sources": ["eco-programme-2026"] },
+          { "sous_theme": "drogues", "intitule": "Légaliser le cannabis", "detail": "Légaliser et encadrer la production, la vente et la consommation de cannabis, avec une distribution réservée à des structures à but non lucratif et une interdiction de la publicité ; dépénaliser, sur le modèle portugais, l'usage et la détention de petites quantités pour consommation personnelle, sans légaliser la production ni le trafic.", "origine": "projet-parti", "date": "2026-07", "sources": ["eco-programme-2026"] }
+        ],
+        "reponses": {
+          "effectifs-forces-ordre": { "non_communique": "2026-10-26", "precision": "Priorité au « renforcement des effectifs de terrain, formés à la médiation et à la prévention », sans chiffre.", "sources": ["eco-programme-2026"] },
+          "places-prison": { "non_communique": "2026-10-26", "precision": "Moratoire sur les nouvelles places, hors remplacement des prisons insalubres.", "sources": ["eco-programme-2026"] },
+          "peines-minimales": { "non_communique": "2026-10-26" },
+          "justice-mineurs": { "non_communique": "2026-10-26" },
+          "cannabis": { "valeur": "Légalisation encadrée", "origine": "projet-parti", "date": "2026-07", "sources": ["eco-programme-2026"] }
+        }
+      },
+      "immigration": {
+        "mesures": [
+          { "sous_theme": "immigration-legale", "intitule": "Régulariser et simplifier le droit au séjour", "detail": "Régulariser les travailleurs, les étudiants et les parents d'enfants scolarisés sur des critères objectifs ; supprimer les OQTF automatiques ou inapplicables ; renouvellement automatique et pluriannuel des titres de séjour ; abroger les lois asile et immigration adoptées sous Emmanuel Macron ; en finir avec la rétention administrative.", "origine": "projet-parti", "date": "2026-07", "sources": ["eco-programme-2026"] },
+          { "sous_theme": "nationalite-droits", "intitule": "Droit du sol pour tous les enfants nés en France", "detail": "Appliquer le droit du sol aux enfants nés en France « indépendamment de la situation des parents », supprimer le régime dérogatoire à Mayotte, faciliter l'accès à la nationalité ; ouvrir le droit de vote aux élections locales aux étrangers extra-communautaires après cinq ans de résidence.", "origine": "projet-parti", "date": "2026-07", "sources": ["eco-programme-2026"] }
+        ],
+        "reponses": {
+          "titres-sejour": { "non_communique": "2026-10-26", "precision": "Pas d'objectif chiffré ; renouvellement automatique et pluriannuel des titres et droit effectif au regroupement familial.", "sources": ["eco-programme-2026"] },
+          "regularisations": { "valeur": "Facilitée", "origine": "projet-parti", "date": "2026-07", "precision": "Régulariser les travailleurs, les étudiants et les parents d'enfants scolarisés.", "sources": ["eco-programme-2026"] },
+          "demandes-asile": { "valeur": "Procédure accélérée réservée aux demandes ultérieures, droit au travail dès la délivrance de l'attestation de demande d'asile, allocation pour demandeur d'asile augmentée et indexée sur l'inflation.", "origine": "projet-parti", "date": "2026-07", "sources": ["eco-programme-2026"] },
+          "droit-du-sol": { "valeur": "Extension", "origine": "projet-parti", "date": "2026-07", "precision": "Pour les enfants nés en France « indépendamment de la situation des parents », y compris à Mayotte.", "sources": ["eco-programme-2026"] },
+          "ame": { "valeur": "Extension", "origine": "projet-parti", "date": "2026-07", "precision": "Garantir l'accès à l'AME et à la PUMa et supprimer les délais de carence.", "sources": ["eco-programme-2026"] },
+          "priorite-nationale": { "non_communique": "2026-10-26", "precision": "Pas de mesure explicite ; le programme prévoit un accès aux guichets des services publics « sans condition de nationalité ».", "sources": ["eco-programme-2026"] },
+          "referendum-immigration": { "non_communique": "2026-10-26" }
+        }
+      },
+      "institutions": {
+        "mesures": [
+          { "sous_theme": "democratie", "intitule": "Une « Première République écologique et citoyenne »", "detail": "Processus constituant pour « abolir la monarchie présidentielle » : septennat unique, suppression des pouvoirs de l'article 16, parquet indépendant, Conseil constitutionnel transformé en Cour constitutionnelle, proportionnelle intégrale aux législatives, RIC, droit de vote à 16 ans et limites planétaires inscrites dans la Constitution.", "origine": "projet-parti", "date": "2026-07", "sources": ["eco-programme-2026", "gazette-programme-2026-07-13"] }
+        ],
+        "reponses": {
+          "mode-scrutin": { "valeur": "Proportionnelle intégrale", "origine": "projet-parti", "date": "2026-07", "precision": "Sans prime majoritaire, à partir de circonscriptions régionales.", "sources": ["eco-programme-2026"] },
+          "ric": { "valeur": "Pour", "origine": "projet-parti", "date": "2026-07", "precision": "RIC propositionnel ou abrogatif, sous contrôle de constitutionnalité préalable.", "sources": ["eco-programme-2026"] },
+          "constitution": { "valeur": "Nouvelle Constitution", "origine": "projet-parti", "date": "2026-07", "precision": "Processus constituant vers une « Première République écologique et citoyenne ».", "sources": ["eco-programme-2026"] },
+          "mandat-presidentiel": { "valeur": "Septennat unique.", "origine": "projet-parti", "date": "2026-07", "sources": ["eco-programme-2026"] }
+        }
+      },
+      "international": {
+        "mesures": [
+          { "sous_theme": "europe", "intitule": "Un « saut fédéral européen »", "detail": "Remplacer les vetos nationaux par la majorité qualifiée (droits fondamentaux, protection sociale, fiscalité, politique étrangère), donner l'initiative législative au Parlement européen, porter le budget de l'UE à 2 % du PIB européen en 2035 et 5 % en 2050, emprunt commun pour des « Grands Travaux Européens Écologiques ».", "origine": "projet-parti", "date": "2026-07", "sources": ["eco-programme-2026"] },
+          { "sous_theme": "diplomatie", "intitule": "Soutenir l'Ukraine militairement et économiquement", "detail": "Livrer du matériel militaire, y compris des capacités de frappe à longue portée et de défense antiaérienne ; arrêter immédiatement les importations de gaz, d'uranium et d'engrais russes et biélorusses ; consacrer les 140 milliards d'avoirs russes gelés aux réparations de guerre.", "origine": "projet-parti", "date": "2026-07", "sources": ["eco-programme-2026"] }
+        ],
+        "reponses": {
+          "relation-ue": { "valeur": "Approfondir l'intégration", "origine": "projet-parti", "date": "2026-07", "precision": "« Faire un saut fédéral européen » : majorité qualifiée à la place des vetos nationaux et budget de l'UE porté à 2 % du PIB européen en 2035.", "sources": ["eco-programme-2026"] },
+          "euro": { "valeur": "Rester dans l'euro", "origine": "projet-parti", "date": "2026-07", "precision": "Le programme soutient la mise en œuvre de l'euro numérique.", "sources": ["eco-programme-2026"] },
+          "budget-defense": { "non_communique": "2026-10-26", "precision": "Nouvelle loi de programmation militaire « prenant en compte nos moyens budgétaires », sans objectif en % du PIB.", "sources": ["eco-programme-2026"] },
+          "otan": { "valeur": "Y rester", "origine": "projet-parti", "date": "2026-07", "precision": "« Nous ne pouvons pas nous priver de l'Alliance atlantique à court terme » ; développer un pilier européen de l'OTAN capable d'opérer sans les États-Unis.", "sources": ["eco-programme-2026"] },
+          "service-national": { "non_communique": "2026-10-26" },
+          "ukraine": { "valeur": "Soutien militaire, dont des capacités de frappe à longue portée, arrêt des importations russes de gaz, d'uranium et d'engrais, et 140 milliards d'avoirs russes gelés consacrés aux réparations de guerre.", "origine": "projet-parti", "date": "2026-07", "sources": ["eco-programme-2026"] },
+          "proche-orient": { "valeur": "Souveraineté palestinienne, retrait total d'Israël de Gaza et démantèlement des colonies en Cisjordanie, suspension de l'accord d'association UE-Israël et embargo sur les livraisons d'armes.", "origine": "projet-parti", "date": "2026-07", "sources": ["eco-programme-2026"] }
+        }
+      },
+      "agriculture": {
+        "mesures": [
+          { "sous_theme": "agriculture", "intitule": "Prix planchers et sortie des pesticides de synthèse", "detail": "Faire du revenu des agriculteurs une priorité par des prix planchers, l'affichage obligatoire de la répartition des marges et un blocage des prix en cas d'inflation anormale ; 21 % d'agriculture biologique en 2030 et 25 % en 2032 ; sortie progressive des pesticides de synthèse d'ici 2050 et interdiction immédiate des pesticides cancérigènes, mutagènes ou toxiques (CMR) ; abrogation de la loi Duplomb.", "origine": "projet-parti", "date": "2026-07", "sources": ["eco-programme-2026"] }
+        ],
+        "reponses": {
+          "revenu-agricole": { "valeur": "Prix planchers, affichage obligatoire de la répartition des marges et blocage des prix en cas d'inflation anormale.", "origine": "projet-parti", "date": "2026-07", "sources": ["eco-programme-2026"] },
+          "pesticides": { "valeur": "Plus strictes", "origine": "projet-parti", "date": "2026-07", "precision": "Sortie progressive des pesticides de synthèse d'ici 2050, interdiction immédiate des pesticides CMR, plan Ecophyto rétabli.", "sources": ["eco-programme-2026"] },
+          "pac": { "valeur": "Orienter la PAC vers l'agroécologie, fonder les subventions sur le nombre d'actifs plutôt qu'à l'hectare et plafonner davantage les aides aux grandes exploitations.", "origine": "projet-parti", "date": "2026-07", "sources": ["eco-programme-2026"] }
+        }
+      }
+    }
+  },
+  "sources": {
+    "eco-accueil": { "titre": "Les Écologistes, page d'accueil", "editeur": "Les Écologistes", "date": null, "consulte": "2026-10-26", "url": "https://www.lesecologistes.fr/", "type": "parti" },
+    "eco-programme-2026": { "titre": "Pour une prospérité écologique : le nouveau programme des Écologistes (juillet 2026)", "editeur": "Les Écologistes", "date": null, "consulte": "2026-10-26", "url": "https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf", "type": "parti" },
+    "cf-plateforme-2025-12": { "titre": "Mise en consultation de la plateforme programmatique des Écologistes (Conseil fédéral des 13 et 14 décembre 2025)", "editeur": "Les Écologistes", "date": "2025-12-14", "consulte": "2026-10-26", "url": "https://cf.eelv.fr/wp-content/uploads/sites/6/2025/12/CF-2025-112-1314-MM-Urgence-programme-BP.pdf", "type": "parti" },
+    "bdt-nuances-2026": { "titre": "Municipales : les nuances politiques attribuées aux candidats dans les communes de 3.500 habitants et plus", "editeur": "Banque des Territoires", "date": null, "consulte": "2026-10-26", "url": "https://www.banquedesterritoires.fr/municipales-les-nuances-politiques-attribuees-aux-candidats-dans-les-communes-de-3500-habitants-et", "type": "presse" },
+    "politis-eelv-2010-11-11": { "titre": "La fête et le chantier", "editeur": "Politis", "date": "2010-11-11", "consulte": "2026-10-26", "url": "https://www.politis.fr/articles/2010/11/la-fete-et-le-chantier-12111/", "type": "presse" },
+    "reporterre-nom-2023-10-16": { "titre": "EELV devient Les Écologistes : ça va changer quoi ?", "editeur": "Reporterre", "auteur": "Justine Guitton-Boussion", "date": "2023-10-16", "consulte": "2026-10-26", "url": "https://reporterre.net/EELV-devient-Les-Ecologistes-ca-va-changer-quoi", "type": "presse" },
+    "sudradio-bio-tondelier": { "titre": "Marine Tondelier : biographie et CV politique", "editeur": "Sud Radio", "date": null, "consulte": "2026-10-26", "url": "https://www.sudradio.fr/la-biographie-et-le-cv-de-marine-tondelier", "type": "presse" },
+    "reporterre-candidature-2025-10-22": { "titre": "Marine Tondelier officiellement candidate à la présidentielle", "editeur": "Reporterre", "date": "2025-10-22", "consulte": "2026-10-26", "url": "https://reporterre.net/Presidentielle-2027-Marine-Tondelier-candidate-a-une-primaire-de-la-gauche", "type": "presse" },
+    "reporterre-primaire-2025-12-08": { "titre": "Présidentielle 2027 : Marine Tondelier représentera Les Écologistes à la primaire de la gauche", "editeur": "Reporterre", "date": "2025-12-08", "consulte": "2026-10-26", "url": "https://reporterre.net/Presidentielle-2027-Marine-Tondelier-representera-Les-Ecologistes-a-la-primaire-de-la-gauche", "type": "presse" },
+    "brut-primaire-2025-12": { "titre": "Sans surprise, Marine Tondelier représentera les Ecologistes à la primaire de la gauche", "editeur": "Brut (AFP)", "date": null, "consulte": "2026-10-26", "url": "https://www.brut.media/fr/articles/sans-surprise-marine-tondelier-representera-les-ecologistes-a-la-primaire-de-la-gauche", "type": "presse" },
+    "gazette-programme-2026-07-13": { "titre": "2027 : les Écologistes veulent instaurer la « Première République écologique et citoyenne »", "editeur": "La Gazette France (AFP)", "date": "2026-07-13", "consulte": "2026-10-26", "url": "https://www.lagazettefrance.fr/article/2027-les-ecologistes-veulent-instaurer-la-premiere-republique-ecologique-et-citoyenne", "type": "presse" },
+    "ps-ecologistes-2026-09-21": { "titre": "Présidentielle 2027 : les Écologistes reportent l'heure du choix à décembre, Marine Tondelier toujours en lice", "editeur": "Public Sénat", "auteur": "Emma Bador-Fritche", "date": "2026-09-21", "consulte": "2026-10-26", "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-les-ecologistes-reportent-lheure-du-choix-a-decembre-marine-tondelier-toujours-en-lice", "type": "presse" },
+    "elabe-observatoire-2026-08": { "titre": "L'Observatoire politique, août 2026 (terrain du 28 au 29 juillet 2026)", "editeur": "Elabe pour Les Échos", "date": null, "consulte": "2026-10-26", "url": "https://elabe.fr/fichier-pdf/13180-lobservatoire-politique-aout-2026/", "type": "sondage" },
+    "ozap-plainte-2023-07-06": { "titre": "« CNews laisse prospérer une idéologie néonazie » : Christine Kelly et Marc Menant portent plainte contre Marine Tondelier (EELV)", "editeur": "Puremédias", "auteur": "Ludovic Galtier Lloret", "date": "2023-07-06", "consulte": "2026-10-26", "url": "https://www.ozap.com/actu/-cnews-laisse-prosperer-une-ideologie-neonazie-christine-kelly-et-marc-menant-portent-plainte-contre-marine-tondelier-eelv/634309", "type": "presse" },
+    "morandini-plainte-2023-07-07": { "titre": "Deux présentateurs vedettes de CNews, Christine Kelly et Marc Menant, annoncent porter plainte contre Marine Tondelier", "editeur": "jeanmarcmorandini.com", "date": "2023-07-07", "consulte": "2026-10-26", "url": "https://www.jeanmarcmorandini.com/article-540762-deux-presentateurs-vedettes-de-cnews-christine-kelly-et-marc-menant-annoncent-porter-plainte-contre-marine-tondelier-secretaire-nationale-d-europe-ecologie-les-verts.html", "type": "presse" },
+    "ozap-jugement-2026-03-12": { "titre": "« J'espère que ça leur passera l'envie de bâillonner les critiques » : Marine Tondelier annonce avoir gagné son procès contre Christine Kelly", "editeur": "Puremédias", "date": "2026-03-12", "consulte": "2026-10-26", "url": "https://www.ozap.com/actu/j-espere-que-ca-leur-passera-l-envie-de-baillonner-les-critiques-marine-tondelier-annonce-avoir-gagne-son-proces-contre-christine-kelly/654117", "type": "presse" }
+  }
+}
