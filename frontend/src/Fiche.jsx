@@ -111,7 +111,12 @@ function Programme({ fiche }) {
                 <dl className="questions">
                   {st.questions.map((q) => (
                     <div key={q.id} className="question">
-                      <dt>{q.intitule}</dt>
+                      <dt>
+                        <span className="question-index">
+                          {questions.indexOf(q) + 1}/{questions.length}
+                        </span>
+                        {q.intitule}
+                      </dt>
                       <dd>
                         <AnswerValue question={q} reponse={prog.reponses[q.id]} registry={registry} />
                       </dd>

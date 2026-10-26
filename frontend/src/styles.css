@@ -167,15 +167,21 @@ summary:focus-visible,
 }
 
 .card p {
-  margin: 0 0 8px;
+  margin: 0 0 12px;
+}
+
+.card p,
+.theme p {
+  max-width: 70ch;
+  line-height: 1.6;
 }
 
 .card h4 {
-  margin: 16px 0 6px;
+  margin: 20px 0 8px;
 }
 
 blockquote {
-  margin: 8px 0;
+  margin: 12px 0;
   padding-left: 12px;
   border-left: 3px solid var(--border);
   color: var(--soft-ink);
@@ -334,6 +340,11 @@ blockquote {
   gap: 10px;
 }
 
+.plain-list li + li {
+  padding-top: 10px;
+  border-top: 1px solid var(--grid);
+}
+
 .cand-card {
   width: 100%;
   display: flex;
@@ -442,39 +453,58 @@ blockquote {
 .theme > p,
 .sous-theme {
   margin: 0;
-  padding: 0 16px 12px;
+  padding: 0 16px 16px;
+}
+
+.theme > blockquote {
+  margin: 0 16px 16px;
+  padding: 0 0 0 12px;
+}
+
+.sous-theme {
+  display: grid;
+  gap: 14px;
 }
 
 .sous-theme h4 {
-  margin: 8px 0;
-  padding-top: 12px;
-  border-top: 1px solid var(--border);
+  margin: 8px 0 0;
+  padding-top: 18px;
+  border-top: 2px solid var(--border);
+  font-size: 1.05rem;
 }
 
 .mesure {
-  margin: 0 0 12px;
-  padding: 12px;
+  padding: 14px;
   border-radius: 8px;
   background: var(--bg);
 }
 
 .mesure h5 {
-  margin: 0 0 4px;
+  margin: 0 0 8px;
   font-size: 1rem;
+  line-height: 1.35;
 }
 
 .mesure p {
-  margin: 0 0 6px;
+  margin: 0 0 10px;
 }
 
 .chiffrage {
+  margin: 10px 0 0;
+  padding-top: 10px;
+  border-top: 1px dashed var(--border);
   font-size: 0.92rem;
 }
 
 .questions {
   display: grid;
-  gap: 12px;
+  gap: 0;
   margin: 0;
+}
+
+.question {
+  padding: 12px 0;
+  border-top: 1px solid var(--grid);
 }
 
 .question dt {
@@ -483,12 +513,25 @@ blockquote {
   font-size: 0.92rem;
 }
 
+.question dt {
+  display: flex;
+  gap: 8px;
+}
+
+.question-index {
+  flex: none;
+  min-width: 3.2ch;
+  color: var(--accent-strong);
+  font-variant-numeric: tabular-nums;
+  font-weight: 800;
+}
+
 .question dd {
-  margin: 2px 0 0;
+  margin: 6px 0 0;
 }
 
 .answer p {
-  margin: 0 0 4px;
+  margin: 0 0 6px;
 }
 
 .answer-value {
@@ -776,12 +819,16 @@ blockquote {
 }
 
 /* Méthodo */
-.prose h3 {
-  margin-top: 18px;
+.prose li {
+  max-width: 70ch;
+  margin-bottom: 8px;
+  line-height: 1.6;
 }
 
-.prose li {
-  margin-bottom: 4px;
+.prose ul,
+.prose ol {
+  margin: 0 0 8px;
+  padding-left: 22px;
 }
 
 /* Bottom navigation */

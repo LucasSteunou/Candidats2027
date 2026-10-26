@@ -63,7 +63,9 @@ export default function Methodo() {
           1er tour le {fmtDate(perimetre.scrutin.premier_tour)}, 2nd tour le {fmtDate(perimetre.scrutin.second_tour)}.{" "}
           <SourceChips ids={perimetre.scrutin.sources} registry={registry} />
         </p>
-        <h4>Candidatures retenues ({perimetre.candidatures.length})</h4>
+      </Card>
+
+      <Card title={`Candidatures retenues (${perimetre.candidatures.length})`}>
         <ul className="plain-list">
           {perimetre.candidatures.map((c) => (
             <li key={c.id}>
@@ -72,7 +74,9 @@ export default function Methodo() {
             </li>
           ))}
         </ul>
-        <h4>Testés en sondage, sans fiche</h4>
+      </Card>
+
+      <Card title="Testés en sondage, sans fiche">
         <ul className="plain-list">
           {perimetre.testes_sans_fiche.map((t) => (
             <li key={t.nom}>
@@ -80,17 +84,22 @@ export default function Methodo() {
             </li>
           ))}
         </ul>
-        <h4>Cités sans sondage</h4>
+      </Card>
+
+      <Card title="Cités sans sondage">
         <p>
           {perimetre.cites_sans_sondage.noms.join(", ")}. {perimetre.cites_sans_sondage.precision}{" "}
           <SourceChips ids={perimetre.cites_sans_sondage.sources} registry={registry} />
         </p>
       </Card>
 
-      <Card className="prose">
-        <Markdown source={methodologie} />
-        <ReportLink subject="Méthodologie" />
-      </Card>
+      {/* One card per ## section; the leading intro paragraph gets its own card too. */}
+      {methodologie.split(/^(?=## )/m).map((section) => (
+        <Card key={section} className="prose">
+          <Markdown source={section} />
+        </Card>
+      ))}
+      <ReportLink subject="Méthodologie" />
     </section>
   );
 }
