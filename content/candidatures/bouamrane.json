@@ -1,0 +1,161 @@
+{
+  "id": "bouamrane",
+  "nom": "Karim Bouamrane",
+  "maj": "2026-10-26",
+  "parti": {
+    "nom": "La France humaine et forte",
+    "sigle": null,
+    "fondation": "2024-10",
+    "positionnement": {
+      "auto_definition": {
+        "texte": "Le mouvement porte la candidature de Karim Bouamrane pour « une France humaine, une France forte » : « Une France forte ne peut être durablement forte que si elle est humaine. Une France humaine ne peut protéger ses citoyens que si elle est forte. » Le candidat reste membre du Parti socialiste : « Je combats de l'intérieur. »",
+        "sources": ["kb-manifeste", "kb-accueil", "sudradio-recours-2026-08-31"]
+      },
+      "nuance_ministere": {
+        "texte": "Le mouvement La France humaine et forte n'a pas de nuance propre dans les documents publics consultés. Pour les municipales de 2026, le ministère de l'Intérieur classe dans le bloc « gauche » les candidats et listes investis ou soutenus par le Parti socialiste, dont Karim Bouamrane est membre.",
+        "sources": ["bdt-nuances-2026", "sudradio-recours-2026-08-31"]
+      }
+    }
+  },
+  "resume": {
+    "texte": "Maire socialiste de Saint-Ouen depuis 2020, réélu en 2026, Karim Bouamrane a annoncé sa candidature le 9 juin 2026 sur France Inter : « J'y vais pour gagner. » Il refuse de passer par la primaire socialiste, se présente comme « le recours à gauche » face à La France insoumise et au Rassemblement national, et défend « une France humaine, une France forte ». Son manifeste fixe des orientations sans mesures chiffrées.",
+    "sources": ["lcp-portrait-2026-06-09", "sudradio-recours-2026-08-31", "kb-manifeste"]
+  },
+  "histoire": {
+    "parti": [
+      { "date": "2024-10", "titre": "Lancement de La France humaine et forte", "texte": "Karim Bouamrane lance son mouvement en présence de François Hollande, Raphaël Glucksmann et Olivier Faure.", "sources": ["brut-candidature-2026-06"] },
+      { "date": "2026-06-09", "titre": "Lancement de la candidature", "texte": "Karim Bouamrane annonce sa candidature hors de la primaire socialiste ; le mouvement recueille les soutiens et les dons de la campagne.", "sources": ["lcp-portrait-2026-06-09", "kb-accueil"] }
+    ],
+    "candidat": [
+      { "date": "1995", "titre": "Élu à Saint-Ouen", "texte": "Ancien cadre informatique, conseiller municipal de Saint-Ouen à partir de 1995, puis adjoint au maire au titre du Parti communiste, qu'il quitte pour rejoindre le Parti socialiste en 2014. Il devient porte-parole du PS en 2016.", "sources": ["lcp-portrait-2026-06-09", "brut-candidature-2026-06"] },
+      { "date": "2020", "titre": "Maire de Saint-Ouen", "texte": "Battu en 2014, il est élu maire en 2020. Il développe la police municipale et instaure en juillet 2025 un couvre-feu pour les mineurs non accompagnés de moins de 16 ans.", "sources": ["lcp-portrait-2026-06-09"] },
+      { "date": "2026-03", "titre": "Réélu maire", "texte": "Sa liste arrive en tête au premier tour des municipales avec 46,63 % des voix ; il est réélu au second tour, dans une triangulaire.", "sources": ["lcp-portrait-2026-06-09"] },
+      { "date": "2026-06-09", "titre": "Candidature pour 2027", "texte": "« J'y vais pour gagner », déclare-t-il sur France Inter, en se présentant comme un rempart à la fois contre LFI et contre le RN.", "sources": ["lcp-portrait-2026-06-09", "brut-candidature-2026-06"] }
+    ]
+  },
+  "popularite": {
+    "chiffres_cles": [
+      { "libelle": "Premier tour des municipales de Saint-Ouen", "valeur": "46,63 %", "date": "2026-03", "sources": ["lcp-portrait-2026-06-09"] }
+    ],
+    "series": []
+  },
+  "perception": [],
+  "controverses": [],
+  "programme": {
+    "etat": {
+      "texte": "Pas de programme détaillé publié. Le candidat a publié un manifeste en cinq fondements (protéger, loger, soigner, éduquer, redonner de l'espoir) qui fixe des orientations sans mesures chiffrées. La grande majorité des questions de la grille restent donc sans réponse à ce stade.",
+      "sources": ["kb-manifeste"]
+    },
+    "themes": {
+      "economie": {
+        "mesures": [
+          { "sous_theme": "finances-publiques", "intitule": "Simplifier l'action publique", "detail": "« Nous simplifierons l'action publique. Nous réduirons les doublons administratifs. Nous mettrons fin aux superpositions inutiles. Nous allégerons les normes qui paralysent l'initiative et l'efficacité. »", "origine": "declaration", "date": "2026", "sources": ["kb-manifeste"] }
+        ],
+        "reponses": {
+          "cout-net-programme": { "non_communique": "2026-10-26" },
+          "objectif-deficit": { "non_communique": "2026-10-26" },
+          "economies-depenses": { "non_communique": "2026-10-26" },
+          "impot-revenu": { "non_communique": "2026-10-26" },
+          "impot-patrimoine": { "non_communique": "2026-10-26" },
+          "droits-succession": { "non_communique": "2026-10-26" },
+          "taux-is": { "non_communique": "2026-10-26" },
+          "impots-production": { "non_communique": "2026-10-26" },
+          "age-legal": { "non_communique": "2026-10-26" },
+          "duree-cotisation": { "non_communique": "2026-10-26" },
+          "financement-retraites": { "non_communique": "2026-10-26" },
+          "smic": { "non_communique": "2026-10-26", "precision": "« Je veux que travailler paye et permette de vivre dignement », sans montant.", "sources": ["kb-manifeste"] },
+          "duree-travail": { "non_communique": "2026-10-26" },
+          "assurance-chomage": { "non_communique": "2026-10-26" },
+          "prix-energie": { "non_communique": "2026-10-26" },
+          "encadrement-prix": { "non_communique": "2026-10-26" },
+          "libre-echange": { "non_communique": "2026-10-26", "precision": "Veut protéger les agriculteurs « sans leur imposer des règles que nous refusons d'exiger de ceux qui nous nourrissent depuis l'étranger », sans position sur les accords en cours.", "sources": ["kb-manifeste"] },
+          "reindustrialisation": { "non_communique": "2026-10-26" }
+        }
+      },
+      "ecologie": {
+        "mesures": [],
+        "reponses": {
+          "nucleaire": { "non_communique": "2026-10-26" },
+          "renouvelables": { "non_communique": "2026-10-26" },
+          "neutralite-2050": { "non_communique": "2026-10-26" },
+          "thermique-2035": { "non_communique": "2026-10-26" }
+        }
+      },
+      "social": {
+        "mesures": [
+          { "sous_theme": "solidarite", "intitule": "Grande cause nationale : protéger les enfants et les femmes", "detail": "Faire de la protection des enfants victimes de violences la grande cause nationale, « indissociable de celle de la protection des femmes victimes des violences conjugales ou sexuelles » : « nous devons ouvrir l'ère de la protection des victimes ».", "origine": "declaration", "date": "2026", "sources": ["kb-manifeste"] }
+        ],
+        "reponses": {
+          "acces-soins": { "non_communique": "2026-10-26" },
+          "installation-medecins": { "non_communique": "2026-10-26" },
+          "mesure-ecole": { "non_communique": "2026-10-26" },
+          "remuneration-enseignants": { "non_communique": "2026-10-26" },
+          "encadrement-loyers": { "non_communique": "2026-10-26" },
+          "logements-sociaux": { "non_communique": "2026-10-26" },
+          "rsa": { "non_communique": "2026-10-26" }
+        }
+      },
+      "securite": {
+        "mesures": [],
+        "reponses": {
+          "effectifs-forces-ordre": { "non_communique": "2026-10-26" },
+          "places-prison": { "non_communique": "2026-10-26" },
+          "peines-minimales": { "non_communique": "2026-10-26" },
+          "justice-mineurs": { "non_communique": "2026-10-26" },
+          "cannabis": { "non_communique": "2026-10-26" }
+        }
+      },
+      "immigration": {
+        "mesures": [],
+        "reponses": {
+          "titres-sejour": { "non_communique": "2026-10-26" },
+          "regularisations": { "non_communique": "2026-10-26" },
+          "demandes-asile": { "valeur": "« La France est de longue date une terre d'asile et elle doit le rester » : accueillir dignement ceux qui ont le droit de rester et reconduire ceux qui se maintiennent irrégulièrement sur le territoire.", "origine": "declaration", "date": "2026", "sources": ["kb-manifeste"] },
+          "droit-du-sol": { "non_communique": "2026-10-26" },
+          "ame": { "non_communique": "2026-10-26" },
+          "priorite-nationale": { "non_communique": "2026-10-26" },
+          "referendum-immigration": { "non_communique": "2026-10-26" }
+        }
+      },
+      "institutions": {
+        "mesures": [],
+        "reponses": {
+          "mode-scrutin": { "non_communique": "2026-10-26" },
+          "ric": { "non_communique": "2026-10-26" },
+          "constitution": { "non_communique": "2026-10-26" },
+          "mandat-presidentiel": { "non_communique": "2026-10-26" }
+        }
+      },
+      "international": {
+        "mesures": [
+          { "sous_theme": "defense", "intitule": "Augmenter l'effort de défense", "detail": "« La dissuasion ne dissuade que si elle est crédible et nos soldats méritent les moyens de leur mission. J'augmenterai l'effort de défense. »", "origine": "declaration", "date": "2026", "sources": ["kb-manifeste"] }
+        ],
+        "reponses": {
+          "relation-ue": { "non_communique": "2026-10-26", "precision": "« Une France forte, c'est une France qui croit en l'Europe » ; l'Europe est « notre bien commun le plus précieux », sans proposition sur les traités.", "sources": ["kb-manifeste"] },
+          "euro": { "non_communique": "2026-10-26" },
+          "budget-defense": { "non_communique": "2026-10-26", "precision": "« J'augmenterai l'effort de défense », sans objectif en % du PIB.", "sources": ["kb-manifeste"] },
+          "otan": { "non_communique": "2026-10-26" },
+          "service-national": { "non_communique": "2026-10-26" },
+          "ukraine": { "non_communique": "2026-10-26" },
+          "proche-orient": { "non_communique": "2026-10-26" }
+        }
+      },
+      "agriculture": {
+        "mesures": [],
+        "reponses": {
+          "revenu-agricole": { "non_communique": "2026-10-26" },
+          "pesticides": { "non_communique": "2026-10-26" },
+          "pac": { "non_communique": "2026-10-26" }
+        }
+      }
+    }
+  },
+  "sources": {
+    "kb-accueil": { "titre": "Karim Bouamrane 2027 : La France humaine et forte", "editeur": "Campagne Karim Bouamrane 2027", "date": null, "consulte": "2026-10-26", "url": "https://www.karimbouamrane2027.org/", "type": "parti" },
+    "kb-manifeste": { "titre": "Le manifeste de Karim Bouamrane : une France humaine, une France forte", "editeur": "Campagne Karim Bouamrane 2027", "auteur": "Karim Bouamrane", "date": null, "consulte": "2026-10-26", "url": "https://www.karimbouamrane2027.org/manifeste.html", "type": "parti" },
+    "bdt-nuances-2026": { "titre": "Municipales : les nuances politiques attribuées aux candidats dans les communes de 3.500 habitants et plus", "editeur": "Banque des Territoires", "date": null, "consulte": "2026-10-26", "url": "https://www.banquedesterritoires.fr/municipales-les-nuances-politiques-attribuees-aux-candidats-dans-les-communes-de-3500-habitants-et", "type": "presse" },
+    "lcp-portrait-2026-06-09": { "titre": "Présidentielle 2027 : qui est Karim Bouamrane, le maire socialiste de Saint-Ouen et nouveau candidat à l'élection ?", "editeur": "LCP", "auteur": "Soizic Bonvarlet", "date": "2026-06-09", "consulte": "2026-10-26", "url": "https://lcp.fr/actualites/presidentielle-2027-qui-est-karim-bouamrane-le-maire-socialiste-de-saint-ouen-et-nouveau", "type": "presse" },
+    "brut-candidature-2026-06": { "titre": "Le maire de Saint-Ouen Karim Bouamrane (PS), \"candidat pour être le prochain président de la République\"", "editeur": "Brut (AFP)", "date": null, "consulte": "2026-10-26", "url": "https://www.brut.media/fr/articles/le-maire-de-saint-ouen-karim-bouamrane-ps-candidat-pour-etre-le-prochain-president-de-la-republique", "type": "presse" },
+    "sudradio-recours-2026-08-31": { "titre": "Karim Bouamrane (PS) : « C'est moi le recours à gauche »", "editeur": "Sud Radio", "date": "2026-08-31", "consulte": "2026-10-26", "url": "https://www.sudradio.fr/sud-radio/karim-bouamrane-ps-cest-moi-le-recours-a-gauche", "type": "presse" }
+  }
+}

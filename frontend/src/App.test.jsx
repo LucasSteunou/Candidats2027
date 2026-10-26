@@ -14,11 +14,10 @@ beforeEach(() => {
   window.scrollTo = () => {}; // not implemented by jsdom
 });
 
-test("lists every candidature, with pending fiches marked", () => {
+test("lists every candidature with a link to its fiche", () => {
   at("/");
   expect(screen.getByRole("button", { name: /Jean-Luc Mélenchon/ })).toBeInTheDocument();
-  expect(screen.getByText("Marine Le Pen")).toBeInTheDocument();
-  expect(screen.getAllByText("Fiche en préparation").length).toBeGreaterThan(0);
+  expect(screen.getByRole("button", { name: /Karim Bouamrane/ })).toBeInTheDocument();
 });
 
 test("a fiche shows the programme and opens a source sheet", () => {
