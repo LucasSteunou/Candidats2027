@@ -1,4 +1,4 @@
-const CACHE_NAME = "culture365-v2";
+const CACHE_NAME = "presidentielle2027-v1";
 
 function scoped(path) {
   if (/^https?:\/\//.test(path)) return path;
@@ -16,15 +16,8 @@ self.addEventListener("install", (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then(async (cache) => {
       await cache.addAll(APP_SHELL);
+      // Content JSON is bundled into the build assets, so this caches everything needed offline.
       await cacheBuildAssets(cache);
-      try {
-        const response = await fetch(scoped("offline-assets.json"));
-        if (!response.ok) return;
-        const assets = await response.json();
-        await cache.addAll(assets.map(scoped));
-      } catch {
-        // Offline export is optional in backend development mode.
-      }
     }),
   );
   self.skipWaiting();
@@ -69,7 +62,7 @@ self.addEventListener("fetch", (event) => {
         caches.match(request).then(
           (cached) =>
             cached ||
-            new Response("Cette leçon n'est pas disponible hors ligne.", {
+            new Response("Contenu indisponible hors ligne.", {
               status: 503,
               headers: { "Content-Type": "text/plain; charset=utf-8" },
             }),

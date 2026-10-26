@@ -1,0 +1,203 @@
+{
+  "maj": "2026-10-23",
+  "regle": "Fiche si la personne a formellement déclaré sa candidature (ou a été désignée par son parti) ET a été testée dans au moins un sondage de premier tour réalisé dans les 60 derniers jours, dont la notice est publiée par la Commission des sondages.",
+  "fenetre_sondages_jours": 60,
+  "scrutin": {
+    "premier_tour": "2027-04-18",
+    "second_tour": "2027-05-02",
+    "sources": ["sp-dates-2027"]
+  },
+  "candidatures": [
+    {
+      "id": "arthaud",
+      "nom": "Nathalie Arthaud",
+      "etiquette_sondeurs": "Lutte Ouvrière",
+      "statut": "declare",
+      "precision": "Candidate pour la quatrième fois ; candidature annoncée en décembre 2025.",
+      "sources_candidature": ["f3-arthaud-2026-10-21"],
+      "sources_sondage": ["cds-10324-elabe"]
+    },
+    {
+      "id": "attal",
+      "nom": "Gabriel Attal",
+      "etiquette_sondeurs": "Renaissance",
+      "statut": "declare",
+      "precision": "Candidature officialisée le 22 mai 2026.",
+      "sources_candidature": ["lcp-attal-2026-05-22"],
+      "sources_sondage": ["cds-10324-elabe"]
+    },
+    {
+      "id": "bouamrane",
+      "nom": "Karim Bouamrane",
+      "etiquette_sondeurs": null,
+      "statut": "declare",
+      "precision": "Candidat ; a refusé de participer à la primaire socialiste.",
+      "sources_candidature": ["ps-candidats-2026-10-14"],
+      "sources_sondage": ["cds-10333-opinionway"]
+    },
+    {
+      "id": "dupont-aignan",
+      "nom": "Nicolas Dupont-Aignan",
+      "etiquette_sondeurs": "Debout la France",
+      "statut": "declare",
+      "precision": "Candidat à une quatrième élection présidentielle.",
+      "sources_candidature": ["ps-candidats-2026-10-14"],
+      "sources_sondage": ["cds-10324-elabe"]
+    },
+    {
+      "id": "glucksmann",
+      "nom": "Raphaël Glucksmann",
+      "etiquette_sondeurs": "Place Publique",
+      "statut": "investi",
+      "precision": "Désigné par la primaire sociale-démocrate du 11 octobre 2026, avec 66,17 % des suffrages exprimés.",
+      "sources_candidature": ["lcp-primaire-2026-10-11"],
+      "sources_sondage": ["cds-10324-elabe"]
+    },
+    {
+      "id": "le-pen",
+      "nom": "Marine Le Pen",
+      "etiquette_sondeurs": "Rassemblement National",
+      "statut": "declare",
+      "precision": "Candidature confirmée après l'arrêt de la cour d'appel de Paris du 7 juillet 2026.",
+      "sources_candidature": ["ps-candidats-2026-10-14", "ps-lepen-appel-2026-07-07"],
+      "sources_sondage": ["cds-10324-elabe"]
+    },
+    {
+      "id": "lisnard",
+      "nom": "David Lisnard",
+      "etiquette_sondeurs": "Nouvelle Énergie",
+      "statut": "declare",
+      "precision": "Candidat après avoir quitté Les Républicains.",
+      "sources_candidature": ["ps-candidats-2026-10-14"],
+      "sources_sondage": ["cds-10324-elabe"]
+    },
+    {
+      "id": "melenchon",
+      "nom": "Jean-Luc Mélenchon",
+      "etiquette_sondeurs": "La France Insoumise",
+      "statut": "declare",
+      "precision": "Candidat pour la quatrième fois.",
+      "sources_candidature": ["ps-candidats-2026-10-14"],
+      "sources_sondage": ["cds-10324-elabe"]
+    },
+    {
+      "id": "philippe",
+      "nom": "Édouard Philippe",
+      "etiquette_sondeurs": "Horizons",
+      "statut": "declare",
+      "precision": "Candidature annoncée le 3 septembre 2024 dans Le Point.",
+      "sources_candidature": ["f3-philippe-2024-09-03"],
+      "sources_sondage": ["cds-10324-elabe"]
+    },
+    {
+      "id": "polony",
+      "nom": "Natacha Polony",
+      "etiquette_sondeurs": null,
+      "statut": "declare",
+      "precision": "Candidature déclarée le 14 octobre 2026 sur France Inter.",
+      "sources_candidature": ["ps-candidats-2026-10-14"],
+      "sources_sondage": ["cds-10324-elabe"]
+    },
+    {
+      "id": "retailleau",
+      "nom": "Bruno Retailleau",
+      "etiquette_sondeurs": "Les Républicains",
+      "statut": "investi",
+      "precision": "Désigné candidat par les militants LR en avril 2026.",
+      "sources_candidature": ["ps-candidats-2026-10-14"],
+      "sources_sondage": ["cds-10324-elabe"]
+    },
+    {
+      "id": "roussel",
+      "nom": "Fabien Roussel",
+      "etiquette_sondeurs": "Parti Communiste Français",
+      "statut": "declare",
+      "precision": "Candidature annoncée le 6 septembre 2026.",
+      "sources_candidature": ["ps-candidats-2026-10-14"],
+      "sources_sondage": ["cds-10324-elabe"]
+    },
+    {
+      "id": "ruffin",
+      "nom": "François Ruffin",
+      "etiquette_sondeurs": "Debout !",
+      "statut": "declare",
+      "precision": "Candidat.",
+      "sources_candidature": ["ps-candidats-2026-10-14"],
+      "sources_sondage": ["cds-10324-elabe"]
+    },
+    {
+      "id": "tondelier",
+      "nom": "Marine Tondelier",
+      "etiquette_sondeurs": "Les Écologistes",
+      "statut": "investi",
+      "precision": "Conserve l'investiture des Écologistes jusqu'au vote des adhérents du 10 au 13 décembre 2026 sur la stratégie présidentielle.",
+      "sources_candidature": ["ps-ecologistes-2026-09-21"],
+      "sources_sondage": ["cds-10324-elabe"]
+    },
+    {
+      "id": "zemmour",
+      "nom": "Éric Zemmour",
+      "etiquette_sondeurs": "Reconquête",
+      "statut": "declare",
+      "precision": "Candidature confirmée le 17 septembre 2026.",
+      "sources_candidature": ["ps-candidats-2026-10-14"],
+      "sources_sondage": ["cds-10324-elabe"]
+    }
+  ],
+  "testes_sans_fiche": [
+    {
+      "nom": "Xavier Bertrand",
+      "raison": "Intention annoncée (« Je le serai », 27 août 2026), mais pas de déclaration formelle : « le moment n'est pas venu ».",
+      "sources": ["f3-bertrand-2026-08-27", "cds-10270-yougov"]
+    },
+    {
+      "nom": "Olivier Faure",
+      "raison": "Battu à la primaire sociale-démocrate du 11 octobre 2026 (14,46 %).",
+      "sources": ["lcp-primaire-2026-10-11", "cds-10250-ipsos"]
+    },
+    {
+      "nom": "François Hollande",
+      "raison": "N'a pas déclaré sa candidature.",
+      "sources": ["ps-candidats-2026-10-14", "cds-10323-yougov"]
+    },
+    {
+      "nom": "Bruno Le Maire",
+      "raison": "N'a pas déclaré sa candidature ; avait annoncé une décision en octobre 2026.",
+      "sources": ["lcp-lemaire", "cds-10270-yougov"]
+    },
+    {
+      "nom": "Ségolène Royal",
+      "raison": "Battue à la primaire sociale-démocrate du 11 octobre 2026 (7,62 %).",
+      "sources": ["lcp-primaire-2026-10-11", "cds-10260-opinionway"]
+    },
+    {
+      "nom": "Dominique de Villepin",
+      "raison": "Intention annoncée (« Je veux être candidat », 30 août 2026), mais pas de déclaration formelle.",
+      "sources": ["fi-villepin-2026-08-30", "cds-10324-elabe"]
+    }
+  ],
+  "cites_sans_sondage": {
+    "noms": ["François Asselineau", "Delphine Batho", "Olivier Becht", "Anasse Kazib", "Selma Labib", "Jean Lassalle", "Florian Philippot", "Gilles Platret"],
+    "precision": "Cités comme candidats ou prétendants, mais testés dans aucun sondage de la fenêtre.",
+    "sources": ["ps-candidats-2026-10-14"]
+  },
+  "sources": {
+    "sp-dates-2027": { "titre": "Élection 2027 - Les dates de l'élection présidentielle de 2027 sont annoncées", "editeur": "Service Public", "auteur": null, "date": "2026-07-02", "consulte": "2026-10-23", "url": "https://www.service-public.gouv.fr/particuliers/actualites/A15053", "type": "officiel" },
+    "ps-candidats-2026-10-14": { "titre": "Élection présidentielle 2027 : qui sont les candidats déclarés ou presque ?", "editeur": "Public Sénat", "auteur": "Henri Clavier", "date": "2026-10-14", "consulte": "2026-10-23", "url": "https://www.publicsenat.fr/actualites/politique/election-presidentielle-2027-qui-sont-les-candidats-declares-ou-presque", "type": "presse" },
+    "ps-lepen-appel-2026-07-07": { "titre": "Marine Le Pen condamnée à 1 an ferme sous bracelet électronique, et à 45 mois d'inéligibilité, dont 30 mois avec sursis : le fil de la journée et les réactions politiques", "editeur": "Public Sénat", "auteur": null, "date": "2026-07-07", "consulte": "2026-10-23", "url": "https://www.publicsenat.fr/actualites/politique/direct-suivez-le-delibere-du-proces-en-appel-de-marine-le-pen", "type": "presse" },
+    "ps-ecologistes-2026-09-21": { "titre": "Présidentielle 2027 : les Écologistes reportent l'heure du choix à décembre, Marine Tondelier toujours en lice", "editeur": "Public Sénat", "auteur": "Emma Bador-Fritche", "date": "2026-09-21", "consulte": "2026-10-23", "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-les-ecologistes-reportent-lheure-du-choix-a-decembre-marine-tondelier-toujours-en-lice", "type": "presse" },
+    "lcp-attal-2026-05-22": { "titre": "Présidentielle 2027: Gabriel Attal officialise sa candidature", "editeur": "LCP", "auteur": "Raphaël Marchal", "date": "2026-05-22", "consulte": "2026-10-23", "url": "https://lcp.fr/actualites/presidentielle-2027-gabriel-attal-officialise-sa-candidature-436721", "type": "presse" },
+    "lcp-primaire-2026-10-11": { "titre": "Primaire socialiste: vainqueur dès le 1er tour, Raphaël Glucksmann sera le candidat de la gauche sociale-démocrate à la présidentielle", "editeur": "LCP", "auteur": "Soizic Bonvarlet", "date": "2026-10-11", "consulte": "2026-10-23", "url": "https://lcp.fr/actualites/primaire-socialiste-vainqueur-des-le-1er-tour-raphael-glucksmann-sera-le-candidat-de-la", "type": "presse" },
+    "lcp-lemaire": { "titre": "Présidentielle 2027: Bruno Le Maire dira \"en octobre\" s'il est candidat", "editeur": "LCP", "auteur": null, "date": null, "consulte": "2026-10-23", "url": "https://lcp.fr/actualites/presidentielle-2027-bruno-le-maire-dira-en-octobre-s-il-est-candidat-437967", "type": "presse" },
+    "f3-philippe-2024-09-03": { "titre": "\"Je serai candidat à la prochaine élection présidentielle\": Édouard Philippe, le maire du Havre et l'ancien Premier ministre, officialise sa candidature", "editeur": "France 3 Normandie", "auteur": "AFP et Manon Loubet", "date": "2024-09-03", "consulte": "2026-10-23", "url": "https://france3-regions.franceinfo.fr/normandie/seine-maritime/havre/je-serai-candidat-a-la-prochaine-election-presidentielle-edouard-philippe-l-ancien-premier-ministre-et-maire-du-havre-officialise-sa-candidature-3026366.html", "type": "presse" },
+    "f3-bertrand-2026-08-27": { "titre": "\"Je le serai\" : Xavier Bertrand annonce être candidat à l'élection présidentielle et s'exprime sur d'éventuelles primaires", "editeur": "France 3 Hauts-de-France", "auteur": "Emmanuel Pall", "date": "2026-08-27", "consulte": "2026-10-23", "url": "https://france3-regions.franceinfo.fr/hauts-de-france/nord-0/lille/je-le-serai-xavier-bertrand-annonce-sa-candidature-a-l-election-presidentielle-et-s-exprime-sur-d-eventuelles-primaires-3407339.html", "type": "presse" },
+    "f3-arthaud-2026-10-21": { "titre": "INTERVIEW. L'extrême gauche pointée du doigt après le 17 octobre : \"la casse, ce n'est pas une politique pour les travailleurs\", répond Nathalie Arthaud", "editeur": "France 3 Bourgogne-Franche-Comté", "auteur": null, "date": "2026-10-21", "consulte": "2026-10-23", "url": "https://france3-regions.franceinfo.fr/bourgogne-franche-comte/cote-d-or/dijon/interview-l-extreme-gauche-pointee-du-doigt-apres-le-17-octobre-la-casse-ce-n-est-pas-une-politique-pour-les-travailleurs-repond-nathalie-arthaud-3437109.html", "type": "presse" },
+    "fi-villepin-2026-08-30": { "titre": "Présidentielle 2027 : \"Je me bats pour être candidat\", déclare Dominique de Villepin, qui revendique \"plusieurs centaines\" de parrainages", "editeur": "franceinfo", "auteur": "franceinfo avec AFP", "date": "2026-08-30", "consulte": "2026-10-23", "url": "https://www.franceinfo.fr/elections/presidentielle/presidentielle-2027-je-me-bats-pour-etre-candidat-declare-dominique-de-villepin-qui-revendique-plusieurs-centaines-de-parrainages_8169629.html", "type": "presse" },
+    "cds-10324-elabe": { "titre": "Notice n° 10324 - Elabe pour BFMTV et La Tribune Dimanche (terrain du 14 au 16 octobre 2026)", "editeur": "Commission des sondages", "auteur": null, "date": "2026-10-17", "consulte": "2026-10-23", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10324-pres-iv-elabe-17-octobre.pdf", "type": "sondage" },
+    "cds-10333-opinionway": { "titre": "Notice n° 10333 - OpinionWay pour CNews (terrain du 21 au 22 octobre 2026)", "editeur": "Commission des sondages", "auteur": null, "date": "2026-10-22", "consulte": "2026-10-23", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10333-pres-iv-opinionway-cnews-22-octobre.pdf", "type": "sondage" },
+    "cds-10323-yougov": { "titre": "Notice n° 10323 - YouGov pour Le HuffPost (terrain du 12 au 15 octobre 2026)", "editeur": "Commission des sondages", "auteur": null, "date": "2026-10-18", "consulte": "2026-10-23", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10323-pres-iv-yougov-le-huffpost-18-octobre.pdf", "type": "sondage" },
+    "cds-10270-yougov": { "titre": "Notice n° 10270 - YouGov pour Le HuffPost (terrain du 17 au 21 septembre 2026)", "editeur": "Commission des sondages", "auteur": null, "date": "2026-09-23", "consulte": "2026-10-23", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10270-pres-iv-yougov-huffpost-23-septembre.pdf", "type": "sondage" },
+    "cds-10260-opinionway": { "titre": "Notice n° 10260 - OpinionWay pour CNews (terrain du 9 au 10 septembre 2026)", "editeur": "Commission des sondages", "auteur": null, "date": "2026-09-11", "consulte": "2026-10-23", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10260-pres-iv-opinionway-cnews-11-septembre.pdf", "type": "sondage" },
+    "cds-10250-ipsos": { "titre": "Notice n° 10250 - Ipsos BVA pour Le Parisien (terrain du 31 août au 2 septembre 2026)", "editeur": "Commission des sondages", "auteur": null, "date": "2026-09-05", "consulte": "2026-10-23", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10250-pres-iv-ipsos-bva-le-parisien-5-septembre.pdf", "type": "sondage" }
+  }
+}

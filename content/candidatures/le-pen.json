@@ -1,0 +1,247 @@
+{
+  "id": "le-pen",
+  "nom": "Marine Le Pen",
+  "maj": "2026-10-25",
+  "parti": {
+    "nom": "Rassemblement national",
+    "sigle": "RN",
+    "fondation": "1972-10-05",
+    "positionnement": {
+      "auto_definition": {
+        "texte": "Le RN récuse l'étiquette « extrême droite », qu'il présente comme une accusation de ses adversaires. Un communiqué du parti de 2016 reprend la description de Marine Le Pen comme représentante d'« une droite nationaliste, mais pas l'extrême droite ». En 2018, elle parle de « notre mouvement national ».",
+        "sources": ["rn-girard-2016", "ps-rn-2018"]
+      },
+      "nuance_ministere": {
+        "texte": "Le ministère de l'Intérieur rattache la nuance « RN » au bloc « extrême droite ». Saisi par le RN, le Conseil d'État a rejeté sa requête contre ce classement le 11 mars 2024 (élections sénatoriales de 2023) et n'a pas suspendu la circulaire des municipales de 2026.",
+        "sources": ["cdj-rn-ce-2024", "landot-nuancage-2026"]
+      }
+    }
+  },
+  "resume": {
+    "texte": "Députée du Pas-de-Calais, à la tête du Front national (devenu Rassemblement national) depuis 2011, Marine Le Pen est candidate à l'élection présidentielle pour la quatrième fois. Elle a obtenu 17,90 % en 2012, puis atteint le second tour en 2017 (33,90 %) et en 2022 (41,45 %). Elle a annoncé sa candidature le 7 juillet 2026, jour de sa condamnation en appel dans l'affaire des assistants parlementaires du FN, contre laquelle elle s'est pourvue en cassation. Son programme 2027 est en cours de finalisation.",
+    "sources": ["ps-140md-2026-10-06", "ps-50ans-fn-2022", "cc-2012", "cc-2017-t2", "cc-2022-t2", "cdj-appel-2026-07-08"]
+  },
+  "histoire": {
+    "parti": [
+      { "date": "1972-10-05", "titre": "Création du Front national", "texte": "Le Front national naît lors d'un congrès, comme vitrine politique du mouvement Ordre nouveau. Il est cofondé par Jean-Marie Le Pen.", "sources": ["ps-50ans-fn-2022"] },
+      { "date": "2011", "titre": "Marine Le Pen succède à son père", "texte": "Jean-Marie Le Pen cède la direction du parti à sa fille, qui engage une politique dite de « dédiabolisation ».", "sources": ["ps-50ans-fn-2022"] },
+      { "date": "2018-06-01", "titre": "Le FN devient le Rassemblement national", "texte": "Le nouveau nom est adopté par 80,81 % des adhérents votants (participation : 53 %). Le logo garde la flamme bleu blanc rouge.", "sources": ["ps-rn-2018"] },
+      { "date": "2026-10-06", "titre": "Trajectoire budgétaire", "texte": "Marine Le Pen et Jordan Bardella présentent un plan de 140 milliards d'euros d'économies d'ici 2032 et un contre-budget pour 2027.", "sources": ["ps-140md-2026-10-06"] },
+      { "date": "2026-10-25", "titre": "Premier grand meeting", "texte": "La candidate appelle, en cas de victoire, à un « gouvernement d'Union nationale ». Elle a annoncé vouloir nommer Jordan Bardella à Matignon.", "sources": ["ps-union-nationale-2026-10-25", "ps-bardella-2026-09-28"] }
+    ],
+    "candidat": [
+      { "date": "1968-08-05", "titre": "Naissance", "texte": "Naît à Neuilly-sur-Seine.", "sources": ["pe-lepen-8"] },
+      { "date": "2004-07-20", "titre": "Députée européenne", "texte": "Entre au Parlement européen, où elle siège jusqu'en juin 2017.", "sources": ["pe-lepen-6", "pe-lepen-8"] },
+      { "date": "2012-04-22", "titre": "Première candidature présidentielle", "texte": "Obtient 6 421 426 voix au premier tour, soit 17,90 % des suffrages exprimés.", "sources": ["cc-2012"] },
+      { "date": "2017-04-23", "titre": "Deuxième candidature présidentielle", "texte": "Obtient 7 678 491 voix au premier tour, soit 21,30 % des suffrages exprimés. Au second tour, le 7 mai, elle obtient 10 638 475 voix, soit 33,90 %, face à Emmanuel Macron.", "sources": ["cc-2017", "cc-2017-t2"] },
+      { "date": "2022-04-10", "titre": "Troisième candidature présidentielle", "texte": "Obtient 8 133 828 voix au premier tour, soit 23,15 %. Au second tour, le 24 avril, elle obtient 13 288 686 voix, soit 41,45 %, face à Emmanuel Macron.", "sources": ["cc-2022", "cc-2022-t2"] },
+      { "date": "2026-07-07", "titre": "Candidature pour 2027", "texte": "Annonce sa candidature après l'arrêt de la cour d'appel de Paris, qui juge sa peine d'inéligibilité déjà purgée (voir Controverses).", "sources": ["cdj-appel-2026-07-08"] }
+    ]
+  },
+  "popularite": {
+    "chiffres_cles": [
+      { "libelle": "Opinions favorables (Odoxa pour Public Sénat)", "valeur": "35 %", "date": "2026-09", "sources": ["ps-odoxa-2026-09-29"] },
+      { "libelle": "Bonne image (Elabe pour Les Échos)", "valeur": "34 % (−4 points)", "date": "2026-07", "sources": ["elabe-observatoire-2026-08"] },
+      { "libelle": "Groupe RN à l'Assemblée nationale", "valeur": "118 membres", "date": "2026-10-08", "sources": ["an-groupes-2026"] },
+      { "libelle": "Score au premier tour de la présidentielle 2022", "valeur": "23,15 %", "date": "2022-04-10", "sources": ["cc-2022"] }
+    ],
+    "series": []
+  },
+  "perception": [
+    { "type": "sondage", "auteur": "Elabe pour Les Échos", "texte": "34 % des Français ont une bonne image de Marine Le Pen, en baisse de 4 points après sa condamnation en appel ; elle se classe deuxième derrière Jordan Bardella (36 %). Auprès des électeurs de Marine Le Pen et d'Éric Zemmour en 2022, elle obtient 87 %.", "date": "2026-07", "sources": ["elabe-observatoire-2026-08"] },
+    { "type": "sondage", "auteur": "Odoxa pour Public Sénat", "texte": "35 % d'opinions favorables, contre 27 % pour Édouard Philippe et 15 % pour Jean-Luc Mélenchon dans la même enquête.", "date": "2026-09", "sources": ["ps-odoxa-2026-09-29"] }
+  ],
+  "controverses": [
+    {
+      "titre": "Assistants des eurodéputés du FN",
+      "date": "2026-07-07",
+      "faits": "Selon la justice, entre 2004 et 2016, des assistants payés par le Parlement européen travaillaient en réalité pour le parti. Condamnée le 31 mars 2025 en première instance à quatre ans de prison dont deux ferme, 100 000 € d'amende et cinq ans d'inéligibilité, Marine Le Pen est condamnée en appel le 7 juillet 2026 pour détournement de fonds publics : trois ans de prison dont deux avec sursis (un an ferme sous bracelet électronique), 100 000 € d'amende et 45 mois d'inéligibilité dont 30 avec sursis. La cour juge la période d'inéligibilité ferme déjà purgée, ce qui lui permet de se présenter.",
+      "statut_judiciaire": "pourvoi-en-cassation",
+      "reponse": "Elle forme un pourvoi en cassation pour « contester l'applicabilité de ce texte qui réprime le détournement de fonds publics », selon son avocat.",
+      "sources": ["cdj-appel-bouchet-2026-07-07", "cdj-appel-2026-07-08", "ps-appel-2026-07-07"]
+    },
+    {
+      "titre": "« Kits de campagne » des législatives de 2012",
+      "date": "2024-06-19",
+      "faits": "Le matériel électoral vendu aux candidats du Front national aux législatives de 2012 par l'association Jeanne, micro-parti de Marine Le Pen, est au cœur d'une affaire jugée en appel en mars 2023 : le RN, Jeanne, la société Riwal et sept proches de Marine Le Pen étaient poursuivis. Le RN est condamné le 15 mars 2023 à 250 000 € d'amende pour recel d'abus de biens sociaux ; la Cour de cassation rejette son pourvoi le 19 juin 2024.",
+      "statut_judiciaire": "condamnation-definitive",
+      "reponse": "Pas de réponse publique trouvée.",
+      "sources": ["mdd-kits-2024-06-21", "24m-kits-2023-03-15"]
+    },
+    {
+      "titre": "Prêt d'une banque russe",
+      "date": "2014-09",
+      "faits": "En septembre 2014, le Front national emprunte 9 millions d'euros à la First Czech Russian Bank, ce qui suscite des soupçons de soutien du Kremlin. En 2019, Jordan Bardella déclare que le prêt n'a « pas été remboursé intégralement ». En 2020, la société russe Aviazaptchast, qui a repris la créance, poursuit le RN devant la Cour d'arbitrage de Moscou. Depuis 2017, les partis français ne peuvent plus emprunter auprès de banques non européennes.",
+      "statut_judiciaire": "aucune-procedure",
+      "reponse": "Marine Le Pen qualifie le prêt de « légal », rendu nécessaire selon elle par le refus des banques françaises : « Je ne me sens aucune obligation à l'égard de la banque qui m'a prêté cet argent ». En 2020, le trésorier du RN déclare : « Nous sommes en train de le rembourser ».",
+      "sources": ["moneyvox-pret-2019-05-21", "ps-pret-2020-02-04"]
+    },
+    {
+      "titre": "Écrits antisémites attribués à Jordan Bardella",
+      "date": "2026-09-28",
+      "faits": "Mediapart publie des propos antisémites qu'il attribue à Jordan Bardella, président du RN, issus de conversations privées de l'été 2013, quand il avait 17 ou 18 ans. Le journal affirme avoir authentifié ces conversations.",
+      "statut_judiciaire": "aucune-procedure",
+      "reponse": "Jordan Bardella « conteste formellement » ces accusations, dénonce des « faux grossiers » et charge son avocat d'engager « les procédures nécessaires ». Marine Le Pen estime que « ça ne peut être qu'un faux ».",
+      "sources": ["ps-bardella-2026-09-28", "lcp-bardella-2026-09-28"]
+    }
+  ],
+  "programme": {
+    "etat": {
+      "texte": "Programme 2027 en cours de finalisation. La candidate a présenté sa trajectoire budgétaire le 6 octobre 2026 et doit détailler sa réforme des retraites le 17 novembre 2026. Les autres positions viennent de ses déclarations de 2026 ou de son programme de 2022 (badge « Ancien programme »). Un livret économique du RN présenté comme « la version 2022 du programme présidentiel de Marine Le Pen mis à jour » sert de « base de travail ».",
+      "sources": ["ps-140md-2026-10-06", "ps-union-nationale-2026-10-25", "rn-livret-entreprise"]
+    },
+    "themes": {
+      "economie": {
+        "mesures": [
+          { "sous_theme": "finances-publiques", "intitule": "Plan d'économies d'ici 2032", "detail": "Économies portant sur l'immigration, la réorganisation de l'État (fin de « la quasi-totalité des agences »), les collectivités locales (suppression des EPCI et des métropoles), la contribution française à l'UE et les retraites. Montants selon le RN.", "origine": "declaration", "date": "2026-10",
+            "chiffrages": [
+              { "auteur": "Rassemblement national", "montant": 140, "unite": "Md€ d'économies par an atteintes en 2032", "sources": ["ps-140md-2026-10-06"] },
+              { "auteur": "Rassemblement national", "montant": 29, "unite": "Md€ d'économies sur l'immigration en année pleine", "precision": "15 Md€ en 2027", "sources": ["ps-140md-2026-10-06"] },
+              { "auteur": "Rassemblement national", "montant": 20.7, "unite": "Md€ (réorganisation de l'État, dès 2027)", "sources": ["ps-140md-2026-10-06"] },
+              { "auteur": "Rassemblement national", "montant": 9, "unite": "Md€ (contribution française à l'UE)", "sources": ["ps-140md-2026-10-06"] }
+            ],
+            "sources": ["ps-140md-2026-10-06"] },
+          { "sous_theme": "finances-publiques", "intitule": "Règle d'or budgétaire par référendum", "detail": "Inscrire dans la Constitution un déficit maximal « systématiquement inférieur au seuil stabilisant de la dette », jusqu'à ce que la dette repasse durablement sous 60 % du PIB. Dérogations possibles à la majorité des trois cinquièmes du Parlement. Référendum « dans les douze mois » après l'élection.", "origine": "declaration", "date": "2026-10", "sources": ["lcp-regle-or-2026-10-02", "ps-140md-2026-10-06"] },
+          { "sous_theme": "travail-emploi", "intitule": "Hausse des salaires exonérée de cotisations", "detail": "Permettre aux entreprises d'augmenter les salaires de 10 % en les exonérant de cotisations patronales, pour les salaires jusqu'à trois SMIC.", "origine": "ancien-programme", "date": "2022", "sources": ["mlp-22mesures-2022", "rn-livret-entreprise"] },
+          { "sous_theme": "pouvoir-achat", "intitule": "TVA à 5,5 % sur l'énergie", "detail": "Baisser la TVA de 20 % à 5,5 % sur les carburants, le fioul, le gaz et l'électricité, considérés comme biens de première nécessité.", "origine": "ancien-programme", "date": "2022", "sources": ["mlp-22mesures-2022"] }
+        ],
+        "reponses": {
+          "cout-net-programme": { "non_communique": "2026-10-25", "precision": "Pas de coût net publié ; le plan budgétaire présenté le 6 octobre 2026 porte sur les économies.", "sources": ["ps-140md-2026-10-06"] },
+          "objectif-deficit": { "valeur": 2.9, "origine": "declaration", "date": "2026-10", "precision": "Trajectoire annoncée : 4,9 % du PIB en 2027, 4,4 % en 2028, 3,9 % en 2030, 3,4 % en 2031, 2,9 % en 2032.", "sources": ["lcp-regle-or-2026-10-02"] },
+          "economies-depenses": { "valeur": 140, "origine": "declaration", "date": "2026-10", "precision": "Niveau d'économies visé « d'ici 2032 », soit « au moins 4 % du PIB ».", "sources": ["ps-140md-2026-10-06", "lcp-regle-or-2026-10-02"] },
+          "impot-revenu": { "valeur": "Baisse", "origine": "ancien-programme", "date": "2022", "precision": "Exonération d'impôt sur le revenu pour les actifs de moins de 30 ans ; part fiscale complète dès le deuxième enfant.", "sources": ["mlp-22mesures-2022"] },
+          "impot-patrimoine": { "valeur": "Autre impôt sur le patrimoine", "origine": "ancien-programme", "date": "2022", "precision": "Supprimer l'IFI et créer un impôt sur la fortune financière (IFF).", "sources": ["mlp-22mesures-2022"] },
+          "droits-succession": { "valeur": "Baisse", "origine": "ancien-programme", "date": "2022", "precision": "Supprimer les droits sur l'héritage direct pour les familles modestes et les classes moyennes ; donations exonérées jusqu'à 100 000 € par enfant tous les dix ans.", "sources": ["mlp-22mesures-2022"] },
+          "taux-is": { "non_communique": "2026-10-25", "precision": "Pas de taux national annoncé. Le RN plaide pour porter le taux minimal d'impôt sur les sociétés de 15 % à 25 % à l'OCDE et dans l'UE ; en 2022, suppression de l'IS pendant cinq ans pour les entrepreneurs de moins de 30 ans.", "sources": ["rn-livret-entreprise", "mlp-22mesures-2022"] },
+          "impots-production": { "valeur": "Baisse", "origine": "ancien-programme", "date": "2022", "precision": "Supprimer la cotisation foncière des entreprises (CFE) et les impôts de production « qui nuisent à la relocalisation ».", "sources": ["mlp-22mesures-2022", "rn-livret-entreprise"] },
+          "age-legal": { "non_communique": "2026-10-25", "precision": "Réforme annoncée pour le 17 novembre 2026. Programme 2022 : refus de tout allongement de l'âge de départ, et départ à 60 ans pour ceux qui ont commencé avant 20 ans et cotisé 40 annuités.", "sources": ["ps-union-nationale-2026-10-25", "mlp-22mesures-2022"] },
+          "duree-cotisation": { "non_communique": "2026-10-25", "precision": "Réforme annoncée pour le 17 novembre 2026.", "sources": ["ps-union-nationale-2026-10-25"] },
+          "financement-retraites": { "valeur": "Un « pilier de capitalisation » et 15 à 20 Md€ d'économies « à terme » grâce à « des corrections de mesures injustes ».", "origine": "declaration", "date": "2026-10", "sources": ["ps-140md-2026-10-06"] },
+          "smic": { "non_communique": "2026-10-25", "precision": "Pas de hausse du SMIC annoncée. En 2022 : exonération de cotisations patronales pour les entreprises qui augmentent les salaires de 10 %.", "sources": ["mlp-22mesures-2022"] },
+          "duree-travail": { "valeur": 35, "origine": "ancien-programme", "date": "2022", "precision": "« Stabiliser la législation relative au temps de travail », y compris la défiscalisation des heures supplémentaires.", "sources": ["rn-livret-entreprise"] },
+          "assurance-chomage": { "non_communique": "2026-10-25" },
+          "prix-energie": { "valeur": "Baisser la TVA de 20 % à 5,5 % sur les carburants, le fioul, le gaz et l'électricité.", "origine": "ancien-programme", "date": "2022", "sources": ["mlp-22mesures-2022"] },
+          "encadrement-prix": { "non_communique": "2026-10-25" },
+          "libre-echange": { "valeur": "Autre", "origine": "ancien-programme", "date": "2022", "precision": "« Revoir les accords de libre-échange qui ne respectent pas les intérêts de la France », au nom du « juste échange » et de la réciprocité.", "sources": ["mlp-22mesures-2022", "rn-livret-entreprise"] },
+          "reindustrialisation": { "valeur": "« Patriotisme économique » : priorité aux PME dans les marchés publics, subventions conditionnées à l'emploi, fonds souverain français et baisse des impôts de production.", "origine": "ancien-programme", "date": "2022", "sources": ["mlp-22mesures-2022"] }
+        }
+      },
+      "ecologie": {
+        "mesures": [
+          { "sous_theme": "energie", "intitule": "Arrêt de l'éolien et relance du nucléaire", "detail": "Arrêter les projets éoliens et démanteler progressivement les parcs existants, rendre aux ménages « les 5 milliards de subventions » versées notamment aux éoliennes, relancer les filières nucléaire et hydroélectrique et investir dans l'hydrogène.", "origine": "ancien-programme", "date": "2022", "sources": ["mlp-22mesures-2022"] }
+        ],
+        "reponses": {
+          "nucleaire": { "valeur": "Nouveaux réacteurs", "origine": "ancien-programme", "date": "2022", "precision": "« Relancer la filière nucléaire ».", "sources": ["mlp-22mesures-2022"] },
+          "renouvelables": { "valeur": "Ralentissement ou moratoire", "origine": "ancien-programme", "date": "2022", "precision": "Arrêter les projets éoliens et démanteler progressivement les parcs existants.", "sources": ["mlp-22mesures-2022"] },
+          "neutralite-2050": { "non_communique": "2026-10-25" },
+          "thermique-2035": { "non_communique": "2026-10-25" }
+        }
+      },
+      "social": {
+        "mesures": [
+          { "sous_theme": "logement", "intitule": "Plan logement", "detail": "Abroger la loi SRU (quotas de logements sociaux), supprimer l'objectif « zéro artificialisation nette », transformer des bureaux vacants en logements et financer la rénovation par un prêt à taux zéro (« 100 % Renov »), avec la priorité nationale dans le logement social.", "origine": "declaration", "date": "2026-09-21", "sources": ["rn-logement-2026-09-21"] }
+        ],
+        "reponses": {
+          "acces-soins": { "valeur": "Fortes incitations financières pour les soignants, plus de maisons de santé, et rémunération des médecins modulée selon leur lieu d'installation.", "origine": "ancien-programme", "date": "2022", "sources": ["mlp-22mesures-2022", "montaigne-2022"] },
+          "installation-medecins": { "valeur": "Incitations seulement", "origine": "ancien-programme", "date": "2022", "precision": "Incitations financières et modulation de la rémunération selon le lieu d'installation.", "sources": ["mlp-22mesures-2022", "montaigne-2022"] },
+          "mesure-ecole": { "valeur": "Recentrer les programmes sur le français, les mathématiques et l'histoire ; uniforme au primaire et au collège ; réduire les effectifs des classes.", "origine": "ancien-programme", "date": "2022", "sources": ["mlp-22mesures-2022"] },
+          "remuneration-enseignants": { "valeur": "Revaloriser les salaires des enseignants et refonder leur formation.", "origine": "ancien-programme", "date": "2022", "sources": ["mlp-22mesures-2022"] },
+          "encadrement-loyers": { "non_communique": "2026-10-25" },
+          "logements-sociaux": { "valeur": 100000, "origine": "ancien-programme", "date": "2022", "precision": "Dont 20 000 pour les étudiants et jeunes travailleurs. En septembre 2026, la candidate annonce l'abrogation de la loi SRU, qui impose des quotas de logements sociaux aux communes.", "sources": ["mlp-22mesures-2022", "rn-logement-2026-09-21"] },
+          "rsa": { "valeur": "Plus strictes", "origine": "ancien-programme", "date": "2022", "precision": "Réserver le RSA et les prestations de solidarité aux étrangers ayant travaillé au moins cinq ans en France.", "sources": ["mlp-22mesures-2022", "montaigne-2022"] }
+        }
+      },
+      "securite": {
+        "mesures": [
+          { "sous_theme": "justice", "intitule": "Peines et procédures", "detail": "Rétablir les peines planchers, supprimer les réductions et aménagements de peine, notamment pour les violences contre les personnes, instituer une présomption de légitime défense pour les forces de l'ordre et doubler le nombre de magistrats en cinq ans.", "origine": "ancien-programme", "date": "2022", "sources": ["mlp-22mesures-2022"] }
+        ],
+        "reponses": {
+          "effectifs-forces-ordre": { "non_communique": "2026-10-25" },
+          "places-prison": { "non_communique": "2026-10-25", "precision": "Objectif de 85 000 places de prison au total en 2027 (programme 2022), sans nombre de places supplémentaires.", "sources": ["mlp-22mesures-2022"] },
+          "peines-minimales": { "valeur": "Pour", "origine": "ancien-programme", "date": "2022", "precision": "« Rétablir les peines planchers ».", "sources": ["mlp-22mesures-2022"] },
+          "justice-mineurs": { "non_communique": "2026-10-25" },
+          "cannabis": { "non_communique": "2026-10-25" }
+        }
+      },
+      "immigration": {
+        "mesures": [
+          { "sous_theme": "immigration-legale", "intitule": "Référendum sur l'immigration", "detail": "« Arrêter l'immigration incontrôlée en donnant la parole aux Français par référendum » : fin du regroupement familial, aides sociales réservées aux Français, prestations de solidarité conditionnées à cinq ans de travail, retour des étrangers sans emploi depuis un an.", "origine": "ancien-programme", "date": "2022", "sources": ["mlp-22mesures-2022"] }
+        ],
+        "reponses": {
+          "titres-sejour": { "valeur": "Baisse", "origine": "ancien-programme", "date": "2022", "precision": "« Mettre fin à l'immigration de peuplement et au regroupement familial ». Le plan budgétaire d'octobre 2026 compte 29 Md€ d'économies sur l'immigration en année pleine.", "sources": ["mlp-22mesures-2022", "ps-140md-2026-10-06"] },
+          "regularisations": { "valeur": "Restreinte", "origine": "ancien-programme", "date": "2022", "precision": "« Expulser systématiquement clandestins, délinquants et criminels étrangers ».", "sources": ["mlp-22mesures-2022"] },
+          "demandes-asile": { "valeur": "Traiter les demandes d'asile « uniquement à l'étranger ».", "origine": "ancien-programme", "date": "2022", "sources": ["mlp-22mesures-2022"] },
+          "droit-du-sol": { "valeur": "Suppression", "origine": "ancien-programme", "date": "2022", "precision": "Accès à la nationalité par la seule naturalisation, « sur des critères de mérite et d'assimilation ».", "sources": ["mlp-22mesures-2022"] },
+          "ame": { "valeur": "Remplacement par une aide médicale d'urgence", "origine": "ancien-programme", "date": "2022", "precision": "Remplacer l'AME par une « aide d'urgence vitale ».", "sources": ["montaigne-2022"] },
+          "priorite-nationale": { "valeur": "Pour", "origine": "declaration", "date": "2026-09-21", "precision": "Priorité nationale d'accès au logement social et à l'emploi ; aides sociales réservées aux Français.", "sources": ["rn-logement-2026-09-21", "mlp-22mesures-2022"] },
+          "referendum-immigration": { "valeur": "Pour", "origine": "ancien-programme", "date": "2022", "sources": ["mlp-22mesures-2022"] }
+        }
+      },
+      "institutions": {
+        "mesures": [],
+        "reponses": {
+          "mode-scrutin": { "valeur": "Autre", "origine": "ancien-programme", "date": "2022", "precision": "« Mettre en place la proportionnelle », sans préciser s'il s'agit d'une proportionnelle intégrale ou d'une dose.", "sources": ["mlp-22mesures-2022"] },
+          "ric": { "valeur": "Pour", "origine": "ancien-programme", "date": "2022", "sources": ["mlp-22mesures-2022"] },
+          "constitution": { "valeur": "Révisions ciblées", "origine": "declaration", "date": "2026-10", "precision": "Inscrire une « règle d'or » budgétaire dans la Constitution par référendum.", "sources": ["lcp-regle-or-2026-10-02"] },
+          "mandat-presidentiel": { "non_communique": "2026-10-25" }
+        }
+      },
+      "international": {
+        "mesures": [],
+        "reponses": {
+          "relation-ue": { "valeur": "Autre", "origine": "declaration", "date": "2026-09", "precision": "Ne remet plus en cause l'appartenance à l'UE ; affirme la supériorité du droit français sur le droit européen et veut réduire la contribution française au budget européen.", "sources": ["lcp-europeens-2026-09-12", "ps-140md-2026-10-06"] },
+          "euro": { "valeur": "Rester dans l'euro", "origine": "declaration", "date": "2026-09", "precision": "Ne remet plus en cause la participation de la France à la zone euro.", "sources": ["lcp-europeens-2026-09-12"] },
+          "budget-defense": { "non_communique": "2026-10-25", "precision": "Programme 2022 : budget de la défense porté à 55 Md€ en 2027 (montant en euros, pas en % du PIB).", "sources": ["mlp-22mesures-2022"] },
+          "otan": { "valeur": "En sortir", "origine": "ancien-programme", "date": "2022", "precision": "Sortir du commandement intégré de l'OTAN.", "sources": ["montaigne-2022"] },
+          "service-national": { "non_communique": "2026-10-25" },
+          "ukraine": { "valeur": "Maintenir l'aide financière six mois après l'élection, puis la cesser ; continuer à former les soldats ukrainiens et à leur fournir du matériel « pour qu'ils puissent se défendre ».", "origine": "declaration", "date": "2026-10", "sources": ["kyiv-ukraine-2026-09-17", "pm-ukraine-2026-10-15"] },
+          "proche-orient": { "non_communique": "2026-10-25" }
+        }
+      },
+      "agriculture": {
+        "mesures": [],
+        "reponses": {
+          "revenu-agricole": { "valeur": "Garantir des prix « respectueux de leur travail », mettre fin aux « marges abusives de la grande distribution » et interdire les importations ne respectant pas les normes de production françaises.", "origine": "ancien-programme", "date": "2022", "sources": ["mlp-22mesures-2022"] },
+          "pesticides": { "non_communique": "2026-10-25" },
+          "pac": { "non_communique": "2026-10-25" }
+        }
+      }
+    }
+  },
+  "sources": {
+    "ps-140md-2026-10-06": { "titre": "140 milliards d'euros d'économies d'ici 2032 : « l'effort radical » proposé par Marine Le Pen pour « redresser » les finances publiques", "editeur": "Public Sénat", "date": "2026-10-06", "consulte": "2026-10-25", "url": "https://www.publicsenat.fr/actualites/politique/140-milliards-deuros-deconomies-dici-2032-leffort-radical-propose-par-marine-le-pen-pour-redresser-les-f", "type": "presse" },
+    "ps-union-nationale-2026-10-25": { "titre": "Si elle gagne en 2027, Marine Le Pen appelle à la formation d'un « gouvernement d'Union Nationale »", "editeur": "Public Sénat", "date": "2026-10-25", "consulte": "2026-10-25", "url": "https://www.publicsenat.fr/actualites/politique/si-elle-gagne-en-2027-marine-le-pen-appelle-a-la-formation-dun-gouvernement-dunion-nationale", "type": "presse" },
+    "lcp-regle-or-2026-10-02": { "titre": "Budget: comment fonctionnerait la \"règle d'or\" que Marine Le Pen veut faire adopter par référendum", "editeur": "LCP", "auteur": "Maxence Kagni", "date": "2026-10-02", "consulte": "2026-10-25", "url": "https://lcp.fr/actualites/budget-comment-fonctionnerait-la-regle-d-or-que-marine-le-pen-veut-faire-adopter-par", "type": "presse" },
+    "lcp-europeens-2026-09-12": { "titre": "Présidentielle 2027: pourquoi l'élection française inquiète déjà les Européens", "editeur": "LCP", "auteur": "Thibault Henocque", "date": "2026-09-12", "consulte": "2026-10-25", "url": "https://lcp.fr/actualites/presidentielle-2027-pourquoi-l-election-francaise-inquiete-deja-les-europeens-441539", "type": "presse" },
+    "rn-logement-2026-09-21": { "titre": "Lettre ouverte de Marine Le Pen aux professionnels de l'immobilier", "editeur": "Rassemblement national", "date": "2026-09-21", "consulte": "2026-10-25", "url": "https://rassemblementnational.fr/lettre-ouverte/lettre-ouverte-de-marine-le-pen-aux-professionnels-de-limmobilier", "type": "parti" },
+    "rn-livret-entreprise": { "titre": "Projet de Marine Le Pen : La France entreprend (version 2022 mise à jour)", "editeur": "Rassemblement national", "date": null, "consulte": "2026-10-25", "url": "https://rassemblementnational.fr/documents/WEB-GRN-LIVRET-ENTREPRISE.pdf", "type": "parti" },
+    "mlp-22mesures-2022": { "titre": "22 mesures pour 2022 (programme de Marine Le Pen, document de campagne hébergé par politique-animaux.fr)", "editeur": "Campagne Marine Le Pen 2022", "date": null, "consulte": "2026-10-25", "url": "https://www.politique-animaux.fr/sites/www.politique-animaux.fr/fichiers/prises-de-positions/pieces-jointes/programme-22-mesures-pour-2022.pdf", "type": "parti" },
+    "montaigne-2022": { "titre": "Présidentielle 2022 : Marine Le Pen, synthèse du chiffrage", "editeur": "Institut Montaigne", "date": null, "consulte": "2026-10-25", "url": "https://www.institutmontaigne.org/presidentielle-2022/marine-le-pen/synthese/", "type": "think-tank" },
+    "kyiv-ukraine-2026-09-17": { "titre": "France can provide defense aid to Ukraine but should scale back financial support, Le Pen says", "editeur": "The Kyiv Independent", "auteur": "Martin Fornusek", "date": "2026-09-17", "consulte": "2026-10-25", "url": "https://kyivindependent.com/france-can-provide-defense-aid-to-ukraine-but-should-scale-back-financial-support-le-pen-says/", "type": "presse" },
+    "pm-ukraine-2026-10-15": { "titre": "Présidentielle française : si elle arrive à l'Elysée, Marine Le Pen promet de couper l'aide à l'Ukraine : \"Je ne prends personne en traître\"", "editeur": "Paris Match Belgique", "date": "2026-10-15", "consulte": "2026-10-25", "url": "https://www.parismatch.be/actualites/monde/2026/10/15/presidentielle-francaise-si-elle-arrive-a-lelysee-marine-le-pen-promet-de-couper-laide-a-lukraine-je-ne-prends-personne-en-traitre-EKOIX7JLGZBBTPVJXNLDVDTVXY/", "type": "presse" },
+    "ps-50ans-fn-2022": { "titre": "De l'activisme radical à la normalisation, retour sur les 50 ans du FN", "editeur": "Public Sénat", "date": "2022-10-04", "consulte": "2026-10-25", "url": "https://www.publicsenat.fr/actualites/politique/de-l-activisme-radical-a-la-normalisation-retour-sur-les-50-ans-du-fn-222269", "type": "presse" },
+    "ps-rn-2018": { "titre": "Le Front national devient Rassemblement national, après un vote des militants", "editeur": "Public Sénat", "date": "2018-06-01", "consulte": "2026-10-25", "url": "https://www.publicsenat.fr/actualites/non-classe/le-front-national-devient-rassemblement-national-apres-un-vote-des-militants-86550", "type": "presse" },
+    "rn-girard-2016": { "titre": "Marine Le Pen est-elle d'extrême droite ? La réponse de Renaud Girard", "editeur": "Rassemblement national", "auteur": "Gilles Lebreton", "date": "2016-05-26", "consulte": "2026-10-25", "url": "https://rassemblementnational.fr/communiques/marine-le-pen-est-elle-dextreme-droite-la-reponse-de-renaud-girard", "type": "parti" },
+    "cdj-rn-ce-2024": { "titre": "Le Conseil d'Etat a-t-il qualifié le RN « d'extrême-droite » ?", "editeur": "Le Club des Juristes", "date": "2024-06-28", "consulte": "2026-10-25", "url": "https://www.leclubdesjuristes.com/justice/le-conseil-detat-a-t-il-qualifie-le-rn-dextreme-droite-6426/", "type": "presse" },
+    "landot-nuancage-2026": { "titre": "Nuançage politique et tâtonnements juridiques (mise à jour au 3 mars 2026)", "editeur": "Landot & associés (blog)", "date": "2026-03-03", "consulte": "2026-10-25", "url": "https://blog.landot-avocats.net/2026/03/03/nuancage-politique-et-tatonnements-juridiques-video-et-article-mise-a-jour-au-3-mars-2026-apres-la-non-censure-du-classement-du-rn-certes-mais-aussi-de-lfi-et-de-ludr-dans-les-extrem/", "type": "presse" },
+    "cc-2012": { "titre": "Résultats du premier tour de scrutin de l'élection du Président de la République 2012", "editeur": "Conseil constitutionnel", "date": null, "consulte": "2026-10-25", "url": "https://www.conseil-constitutionnel.fr/sites/default/files/as/root/bank_mm/decisions/2012premiertourPDR/resultats-departements.htm", "type": "officiel" },
+    "cc-2017": { "titre": "Décision n° 2017-169 PDR du 26 avril 2017", "editeur": "Conseil constitutionnel", "date": "2017-04-26", "consulte": "2026-10-25", "url": "https://www.conseil-constitutionnel.fr/decision/2017/2017169PDR.htm", "type": "officiel" },
+    "cc-2017-t2": { "titre": "Décision n° 2017-171 PDR du 10 mai 2017", "editeur": "Conseil constitutionnel", "date": "2017-05-10", "consulte": "2026-10-25", "url": "https://www.conseil-constitutionnel.fr/decision/2017/2017171PDR.htm", "type": "officiel" },
+    "cc-2022": { "titre": "Annonce par Laurent Fabius, Président du Conseil constitutionnel, des résultats officiels du premier tour de l'élection présidentielle", "editeur": "Conseil constitutionnel", "date": "2022-04-13", "consulte": "2026-10-25", "url": "https://presidentielle2022.conseil-constitutionnel.fr/les-communiques/resultats-du-premier-tour.html", "type": "officiel" },
+    "cc-2022-t2": { "titre": "Décision n° 2022-197 PDR du 27 avril 2022. Proclamation des résultats de l'élection du Président de la République", "editeur": "Conseil constitutionnel", "date": "2022-04-27", "consulte": "2026-10-25", "url": "https://presidentielle2022.conseil-constitutionnel.fr/les-communiques/proclamation-des-resultats-de-l-election-du-president-de-la-republique.html", "type": "officiel" },
+    "pe-lepen-6": { "titre": "Marine LE PEN, 6e législature", "editeur": "Parlement européen", "date": null, "consulte": "2026-10-25", "url": "https://www.europarl.europa.eu/meps/fr/28210/MARINE_LE+PEN/history/6", "type": "officiel" },
+    "pe-lepen-8": { "titre": "Marine LE PEN, 8e législature", "editeur": "Parlement européen", "date": null, "consulte": "2026-10-25", "url": "https://www.europarl.europa.eu/meps/fr/28210/MARINE_LE+PEN/history/8", "type": "officiel" },
+    "an-groupes-2026": { "titre": "Modifications à la composition des groupes, 2026", "editeur": "Assemblée nationale", "date": null, "consulte": "2026-10-25", "url": "https://www2.assemblee-nationale.fr/17/les-groupes-politiques/modifications-a-la-composition-des-groupes/2026", "type": "officiel" },
+    "ps-odoxa-2026-09-29": { "titre": "Sondage : les cotes de popularité de Marine Le Pen et d'Edouard Philippe reculent fortement, Raphaël Glucksmann progresse légèrement", "editeur": "Public Sénat", "date": "2026-09-29", "consulte": "2026-10-25", "url": "https://www.publicsenat.fr/actualites/politique/sondage-les-cotes-de-popularite-de-marine-le-pen-et-dedouard-philippe-reculent-fortement-raphael-glucksmann-progresse", "type": "presse" },
+    "elabe-observatoire-2026-08": { "titre": "L'Observatoire politique, août 2026 (terrain du 28 au 29 juillet 2026)", "editeur": "Elabe pour Les Échos", "date": null, "consulte": "2026-10-25", "url": "https://elabe.fr/fichier-pdf/13180-lobservatoire-politique-aout-2026/", "type": "sondage" },
+    "cdj-appel-2026-07-08": { "titre": "Marine Le Pen candidate à la présidentielle de 2027 malgré sa condamnation en appel", "editeur": "Le Club des Juristes", "date": "2026-07-08", "consulte": "2026-10-25", "url": "https://www.leclubdesjuristes.com/en-bref/marine-le-pen-candidate-a-la-presidentielle-de-2027-malgre-sa-condamnation-en-appel-16843/", "type": "presse" },
+    "cdj-appel-bouchet-2026-07-07": { "titre": "Marine Le Pen condamnée en appel : ce qu'il faut retenir de la décision de justice", "editeur": "Le Club des Juristes", "auteur": "Marthe Bouchet", "date": "2026-07-07", "consulte": "2026-10-25", "url": "https://www.leclubdesjuristes.com/justice/affaire-des-assistants-parlementaires-du-fn-coup-darret-a-la-candidature-de-marine-le-pen-16827/", "type": "presse" },
+    "ps-appel-2026-07-07": { "titre": "Marine Le Pen condamnée à 1 an ferme sous bracelet électronique, et à 45 mois d'inéligibilité, dont 30 mois avec sursis : le fil de la journée et les réactions politiques", "editeur": "Public Sénat", "date": "2026-07-07", "consulte": "2026-10-25", "url": "https://www.publicsenat.fr/actualites/politique/direct-suivez-le-delibere-du-proces-en-appel-de-marine-le-pen", "type": "presse" },
+    "mdd-kits-2024-06-21": { "titre": "Affaire des kits de campagne : condamnation définitive du RN", "editeur": "Le Monde du Droit", "date": "2024-06-21", "consulte": "2026-10-25", "url": "https://www.lemondedudroit.fr/public/282-droit-public-general/93446-affaire-des-kits-de-campagne-condamnation-definitive-du-rn.html", "type": "presse" },
+    "24m-kits-2023-03-15": { "titre": "Affaire des « kits de campagne » : le Rassemblement national condamné en appel", "editeur": "24matins", "auteur": "Gael Brulin", "date": "2023-03-15", "consulte": "2026-10-25", "url": "https://www.24matins.fr/affaire-des-kits-de-campagne-le-rassemblement-national-condamne-a-une-amende-1354772", "type": "presse" },
+    "moneyvox-pret-2019-05-21": { "titre": "RN : le prêt russe de 9 millions d'euros « n'a pas été remboursé intégralement »", "editeur": "Moneyvox", "date": "2019-05-21", "consulte": "2026-10-25", "url": "https://www.moneyvox.fr/actu/74115/rn-le-pret-russe-de-9-millions-euros-euros-n-a-pas-ete-rembourse-integralement", "type": "presse" },
+    "ps-pret-2020-02-04": { "titre": "Le RN attaqué en justice à Moscou pour un prêt non remboursé", "editeur": "Public Sénat", "date": "2020-02-04", "consulte": "2026-10-25", "url": "https://www.publicsenat.fr/actualites/politique/le-rn-attaque-en-justice-a-moscou-pour-un-pret-non-rembourse-180454", "type": "presse" },
+    "ps-bardella-2026-09-28": { "titre": "Écrits antisémites : Jordan Bardella conteste « formellement » les accusations, Marine Le Pen évoque « un faux dont Mediapart a le secret »", "editeur": "Public Sénat", "date": "2026-09-28", "consulte": "2026-10-25", "url": "https://www.publicsenat.fr/actualites/politique/ecrits-antisemites-jordan-bardella-conteste-formellement-les-accusations-marine-le-pen-evoque-un-faux-dont-mediapart-a-le-secret", "type": "presse" },
+    "lcp-bardella-2026-09-28": { "titre": "Mediapart exhume des écrits antisémites de Jordan Bardella, qui conteste et dénonce des \"faux grossiers\"", "editeur": "LCP", "auteur": "Raphaël Marchal", "date": "2026-09-28", "consulte": "2026-10-25", "url": "https://lcp.fr/actualites/mediapart-exhume-des-ecrits-antisemites-de-jordan-bardella-qui-conteste-et-denonce-des", "type": "presse" }
+  }
+}

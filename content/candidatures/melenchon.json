@@ -1,0 +1,251 @@
+{
+  "id": "melenchon",
+  "nom": "Jean-Luc Mélenchon",
+  "maj": "2026-10-23",
+  "parti": {
+    "nom": "La France insoumise",
+    "sigle": "LFI",
+    "fondation": "2016",
+    "positionnement": {
+      "auto_definition": {
+        "texte": "Le mouvement se définit comme de « gauche radicale ».",
+        "sources": ["bdt-nuancage-2026"]
+      },
+      "nuance_ministere": {
+        "texte": "Pour les municipales de 2026, le ministère de l'Intérieur classe LFI dans le bloc de nuances « extrême gauche », classement validé par le Conseil d'État. LFI était jusqu'alors classée à gauche, ce que le Conseil d'État avait confirmé en 2024.",
+        "sources": ["bdt-nuancage-2026"]
+      }
+    }
+  },
+  "resume": {
+    "texte": "Fondateur de La France insoumise, Jean-Luc Mélenchon est candidat à l'élection présidentielle pour la quatrième fois consécutive, après 2012 (11,10 %), 2017 (19,58 %) et 2022 (21,95 %). Il a annoncé sa candidature le 3 mai 2026 sur TF1. Son programme, L'Avenir en commun, est publié dans son édition 2025 ; une nouvelle édition est annoncée pour le 6 novembre 2026.",
+    "sources": ["lcp-candidature-2026-05-03", "cc-2012", "cc-2017", "cc-2022", "m2027-programme"]
+  },
+  "histoire": {
+    "parti": [
+      { "date": "2016", "titre": "Création du mouvement", "texte": "La France insoumise est créée en 2016.", "sources": ["bdt-nuancage-2026"] },
+      { "date": "2016-12-01", "titre": "Première version du programme", "texte": "Publication de la première version de L'Avenir en commun, déclinée en une quarantaine de livrets thématiques.", "sources": ["m2027-conception"] },
+      { "date": "2021-11-18", "titre": "Programme de la présidentielle 2022", "texte": "Troisième version de L'Avenir en commun, avec 694 propositions.", "sources": ["m2027-conception"] },
+      { "date": "2023-10", "titre": "Crise de la Nupes", "texte": "La réaction de LFI à l'attaque du Hamas contre Israël du 7 octobre 2023 déclenche une crise au sein de l'alliance de gauche (Nupes). Socialistes, communistes et écologistes demandent une modification de son fonctionnement (voir Controverses).", "sources": ["lcp-nupes-2023-10-16"] },
+      { "date": "2025-01", "titre": "Quatrième version du programme", "texte": "Nouvelle édition de L'Avenir en commun, nourrie par les groupes thématiques, le travail parlementaire et l'Institut La Boétie.", "sources": ["m2027-conception"] },
+      { "date": "2026", "titre": "Nouveau classement pour les municipales", "texte": "Le ministère de l'Intérieur change le bloc de nuances attribué à LFI pour les municipales de 2026. Saisi par LFI, le Conseil d'État valide ce classement (voir Positionnement).", "sources": ["bdt-nuancage-2026"] },
+      { "date": "2026-05-03", "titre": "Désignation du candidat", "texte": "Réunis à Paris, les élus de La France insoumise désignent Jean-Luc Mélenchon comme candidat pour 2027.", "sources": ["lcp-candidature-2026-05-03"] }
+    ],
+    "candidat": [
+      { "date": "1951-08-19", "titre": "Naissance", "texte": "Naît à Tanger.", "sources": ["pe-melenchon-8"] },
+      { "date": "1986-09-28", "titre": "Sénateur de l'Essonne", "texte": "Élu sénateur de l'Essonne, il est réélu en 1995 et en 2004. Son mandat prend fin le 7 janvier 2010, après son élection au Parlement européen.", "sources": ["senat-melenchon"] },
+      { "date": "2000-04-27", "titre": "Ministre délégué", "texte": "Quitte le Sénat pour entrer au gouvernement comme ministre délégué.", "sources": ["senat-melenchon"] },
+      { "date": "2009-07-14", "titre": "Député européen", "texte": "Siège au Parlement européen de juillet 2009 à juin 2017.", "sources": ["pe-melenchon-7", "pe-melenchon-8"] },
+      { "date": "2012-04-22", "titre": "Première candidature présidentielle", "texte": "Obtient 3 984 822 voix au premier tour, soit 11,10 % des suffrages exprimés.", "sources": ["cc-2012"] },
+      { "date": "2017-04-23", "titre": "Deuxième candidature présidentielle", "texte": "Obtient 7 059 951 voix au premier tour, soit 19,58 % des suffrages exprimés, en quatrième position.", "sources": ["cc-2017"] },
+      { "date": "2022-04-10", "titre": "Troisième candidature présidentielle", "texte": "Obtient 7 712 520 voix au premier tour, soit 21,95 % des suffrages exprimés, en troisième position derrière Emmanuel Macron et Marine Le Pen.", "sources": ["cc-2022"] },
+      { "date": "2026-05-03", "titre": "Candidature pour 2027", "texte": "Annonce au journal de 20 heures de TF1 : « Oui, je suis candidat ». Il désigne le Rassemblement national comme son « adversaire principal ».", "sources": ["lcp-candidature-2026-05-03"] }
+    ]
+  },
+  "popularite": {
+    "chiffres_cles": [
+      { "libelle": "Opinions favorables (Odoxa pour Public Sénat)", "valeur": "15 % (−1 point)", "date": "2026-09", "sources": ["ps-odoxa-2026-09-29"] },
+      { "libelle": "Bonne image (Elabe pour Les Échos)", "valeur": "16 % (+1 point)", "date": "2026-07", "sources": ["elabe-observatoire-2026-08"] },
+      { "libelle": "Groupe LFI-NFP à l'Assemblée nationale", "valeur": "69 membres et 2 apparentés", "date": "2026-04-08", "sources": ["an-groupes-2026"] },
+      { "libelle": "Score au premier tour de la présidentielle 2022", "valeur": "21,95 %", "date": "2022-04-10", "sources": ["cc-2022"] }
+    ],
+    "series": []
+  },
+  "perception": [
+    { "type": "sondage", "auteur": "Elabe pour Les Échos", "texte": "16 % des Français ont une bonne image de Jean-Luc Mélenchon. Auprès des électeurs de gauche, il obtient 42 % et se classe deuxième, derrière François Ruffin (45 %).", "date": "2026-07", "sources": ["elabe-observatoire-2026-08"] },
+    { "type": "sondage", "auteur": "Odoxa pour Public Sénat", "texte": "15 % d'opinions favorables, contre 35 % pour Marine Le Pen et 20 % pour Raphaël Glucksmann dans la même enquête.", "date": "2026-09", "sources": ["ps-odoxa-2026-09-29"] }
+  ],
+  "controverses": [
+    {
+      "titre": "Perquisition du siège de LFI",
+      "date": "2018-10-16",
+      "faits": "Lors d'une perquisition au siège de La France insoumise, menée dans le cadre de deux enquêtes du parquet de Paris (comptes de campagne de 2017 et assistants d'eurodéputés), Jean-Luc Mélenchon s'oppose à l'opération devant les caméras, appelle ses proches à « enfoncer la porte » et bouscule un représentant du parquet, selon l'AFP. Le 9 décembre 2019, le tribunal correctionnel de Bobigny le condamne à trois mois de prison avec sursis et 8 000 € d'amende pour rébellion et provocation.",
+      "statut_judiciaire": "condamnation-definitive",
+      "reponse": "Il dénonce « un jugement politique » et annonce qu'il ne fera pas appel.",
+      "sources": ["ps-perquisition-2019", "to-perquisition-2019"]
+    },
+    {
+      "titre": "Assistants au Parlement européen",
+      "date": "2026-05-26",
+      "faits": "Une information judiciaire a examiné les conditions d'emploi des assistants de Jean-Luc Mélenchon lorsqu'il siégeait au Parlement européen. Le 26 mai 2026, les juges clôturent l'instruction sans le mettre en examen. Deux anciens assistants restent témoins assistés, statut obtenu en mai 2022.",
+      "statut_judiciaire": "enquete",
+      "reponse": "LFI déclare à l'AFP que cette clôture « confirme ce que nous soutenons depuis l'origine : à aucun moment, il ne pouvait nous être reproché la moindre infraction dans ce dossier ».",
+      "sources": ["cnews-assistants-2026-05-27", "cdj-comptes-2026-06-02"]
+    },
+    {
+      "titre": "Comptes de la campagne présidentielle de 2017",
+      "date": "2024-09",
+      "faits": "Ouverte en 2018 après des signalements de la Commission nationale des comptes de campagne (CNCCFP) et de Tracfin, une enquête porte sur de possibles surfacturations de prestataires de la campagne de 2017, dont Mediascop, société de Sophia Chikirou, alors directrice de la communication de la campagne. L'enquête a conduit à quatre mises en examen, dont celle de Sophia Chikirou en septembre 2024 pour escroquerie aggravée, abus de biens sociaux et recel d'abus de confiance. Les sources consultées ne mentionnent pas de mise en examen de Jean-Luc Mélenchon.",
+      "statut_judiciaire": "mise-en-examen",
+      "reponse": "Sophia Chikirou conteste toute surfacturation ; son avocat dénonce « l'acharnement dont elle fait l'objet depuis sept ans ».",
+      "sources": ["cdj-comptes-2026-06-02", "brut-chikirou-2024"]
+    },
+    {
+      "titre": "Réaction à l'attaque du Hamas du 7 octobre 2023",
+      "date": "2023-10-07",
+      "faits": "Le jour de l'attaque, le groupe parlementaire LFI évoque dans un communiqué « l'offensive armée de forces palestiniennes menée par le Hamas », sans parler d'attaque terroriste ; le Hamas est classé organisation terroriste par l'Union européenne. Le 10 octobre, la présidente du groupe, Mathilde Panot, refuse de qualifier le Hamas d'organisation « terroriste ». Des responsables socialistes et communistes critiquent ces positions, et l'alliance de gauche (Nupes) entre en crise.",
+      "statut_judiciaire": "aucune-procedure",
+      "reponse": "Jean-Luc Mélenchon écrit le jour même : « Toute la violence déchaînée contre Israël et à Gaza ne prouve qu'une chose : la violence ne produit et ne reproduit qu'elle-même », et appelle à un cessez-le-feu. Le 9 octobre, Manuel Bompard exprime sa « condamnation totale » de l'attaque ; Mathilde Panot qualifie le Hamas de « branche armée qui aujourd'hui est responsable de crimes de guerre ».",
+      "sources": ["ps-nupes-2023-10-09", "lcp-nupes-2023-10-16"]
+    }
+  ],
+  "programme": {
+    "etat": {
+      "texte": "Programme publié : L'Avenir en commun, édition 2025 (quatrième version, janvier 2025), présenté sur le site de campagne. Une cinquième édition (« édition 2027 », 1 069 mesures selon la campagne) est annoncée en librairie le 6 novembre 2026 ; cette fiche sera mise à jour à sa parution. Un document de cadrage budgétaire pour 2027 a été publié en octobre 2026.",
+      "sources": ["m2027-conception", "m2027-programme", "lfi-cp-2026"]
+    },
+    "themes": {
+      "economie": {
+        "mesures": [
+          { "sous_theme": "finances-publiques", "intitule": "Budget 2027 : recettes nouvelles sur les plus riches et les grandes entreprises", "detail": "Suppression de la « flat tax » (9 Md€), ISF renforcé (10 Md€), rabotage des niches fiscales et sociales (22 Md€), taxe Zucman (15 Md€), réforme des droits de succession (20 Md€), taxes sur les multinationales, les superprofits, les transactions financières et les rachats d'actions. Montants selon LFI.", "origine": "programme-2027", "date": "2026-10",
+            "chiffrages": [
+              { "auteur": "La France insoumise", "montant": 106.4, "unite": "Md€ de recettes nouvelles en 2027", "sources": ["lfi-cp-2026"] },
+              { "auteur": "La France insoumise", "montant": 81.7, "unite": "Md€ de dépenses nouvelles en 2027", "sources": ["lfi-cp-2026"] }
+            ],
+            "sources": ["lfi-cp-2026"] },
+          { "sous_theme": "finances-publiques", "intitule": "Pôle public bancaire", "detail": "Réunir la Caisse des dépôts, Bpifrance, la Banque postale et la SFIL en un pôle public chargé de financer la planification écologique, alimenté notamment par une plus forte centralisation de l'épargne réglementée et un nouveau « livret B ».", "origine": "programme-2027", "date": "2026-10",
+            "chiffrages": [ { "auteur": "La France insoumise", "montant": 100, "unite": "Md€ d'investissements par an, hors budget de l'État", "sources": ["lfi-cp-2026"] } ],
+            "sources": ["lfi-cp-2026"] },
+          { "sous_theme": "retraites", "intitule": "Abroger la réforme de 2023", "detail": "Abrogation immédiate de la réforme qui a porté l'âge légal à 64 ans, « premier pas vers le retour à la retraite à 60 ans avec 40 annuités ».", "origine": "programme-2027", "date": "2026-10",
+            "chiffrages": [ { "auteur": "La France insoumise", "montant": 9, "unite": "Md€ de dépense", "sources": ["lfi-cp-2026"] } ],
+            "sources": ["lfi-cp-2026"] },
+          { "sous_theme": "travail-emploi", "intitule": "Hausse des salaires", "detail": "SMIC à 1 700 € net, conférence sur les salaires et indexation générale des salaires sur l'inflation ; hausse de 10 % du point d'indice des fonctionnaires.", "origine": "programme-2027", "date": "2026-10",
+            "chiffrages": [ { "auteur": "La France insoumise", "montant": 17, "unite": "Md€ (point d'indice des fonctionnaires)", "sources": ["lfi-cp-2026"] } ],
+            "sources": ["lfi-cp-2026"] },
+          { "sous_theme": "travail-emploi", "intitule": "Garantie d'emploi", "detail": "Tout chômeur de longue durée pourra se voir proposer un emploi au moins au SMIC « dans un secteur d'urgence ».", "origine": "programme-2027", "date": "2025-01", "sources": ["aec-2025"] }
+        ],
+        "reponses": {
+          "cout-net-programme": { "valeur": -24.7, "origine": "programme-2027", "date": "2026-10", "precision": "Budget 2027 seulement : 81,7 Md€ de dépenses nouvelles et 106,4 Md€ de recettes nouvelles, soit 24,7 Md€ de réduction du déficit. LFI précise que ce document « ne constitue pas un chiffrage complet du programme ». S'y ajoutent 100 Md€ d'investissements par an portés par un pôle public bancaire, hors budget de l'État.", "sources": ["lfi-cp-2026"] },
+          "objectif-deficit": { "non_communique": "2026-10-23", "precision": "Pas d'objectif chiffré de déficit. Objectif affiché : « stabiliser notre dette par rapport au PIB en un quinquennat ».", "sources": ["lfi-cp-2026"] },
+          "economies-depenses": { "non_communique": "2026-10-23", "precision": "Aucune économie de dépenses chiffrée ; le document rejette « la stratégie des coupes budgétaires ».", "sources": ["lfi-cp-2026"] },
+          "impot-revenu": { "valeur": "Refonte du barème", "origine": "programme-2027", "date": "2026-10", "precision": "Impôt sur le revenu « plus progressif avec l'instauration de 14 tranches ».", "sources": ["lfi-cp-2026"] },
+          "impot-patrimoine": { "valeur": "Rétablissement d'un ISF", "origine": "programme-2027", "date": "2026-10", "precision": "ISF « renforcé », avec un volet climatique (10 Md€ selon LFI), et taxe Zucman sur les patrimoines de plus de 100 millions d'euros (15 Md€ selon LFI).", "sources": ["aec-2025", "lfi-cp-2026"] },
+          "droits-succession": { "valeur": "Hausse", "origine": "programme-2027", "date": "2026-10", "precision": "Hausse sur les plus hauts patrimoines et « héritage maximal de 12 millions d'euros ». Réforme évaluée à 20 Md€ la première année par LFI.", "sources": ["aec-2025", "lfi-cp-2026"] },
+          "taux-is": { "non_communique": "2026-10-23", "precision": "Pas de taux unique : « barème progressif en fonction des bénéfices réalisés et selon leur usage ».", "sources": ["aec-2025"] },
+          "impots-production": { "valeur": "Hausse", "origine": "programme-2027", "date": "2026-10", "precision": "Rétablissement de la CVAE sur les plus grandes entreprises (3 Md€ selon LFI).", "sources": ["lfi-cp-2026"] },
+          "age-legal": { "valeur": 60, "origine": "programme-2027", "date": "2026-10", "precision": "Abrogation immédiate de la réforme de 2023, puis retour à 60 ans, « objectif sur un mandat ».", "sources": ["lfi-cp-2026", "aec-2025"] },
+          "duree-cotisation": { "valeur": 160, "origine": "programme-2027", "date": "2025-01", "precision": "Quarante annuités.", "sources": ["aec-2025", "lfi-cp-2026"] },
+          "financement-retraites": { "valeur": "Hausse de 0,25 point par an du taux de cotisation vieillesse pendant le quinquennat, et cotisations sur les dividendes, l'intéressement, la participation, l'épargne salariale et les revenus financiers des entreprises.", "origine": "programme-2027", "date": "2025-01", "sources": ["aec-2025"] },
+          "smic": { "valeur": 1700, "origine": "programme-2027", "date": "2026-10", "precision": "Avec une indexation générale des salaires sur l'inflation.", "sources": ["lfi-cp-2026"] },
+          "duree-travail": { "valeur": 35, "origine": "programme-2027", "date": "2025-01", "precision": "Rétablir « immédiatement » les 35 heures, passer aux 32 heures dans les métiers pénibles ou de nuit et « favoriser leur généralisation par la négociation collective ».", "sources": ["aec-2025"] },
+          "assurance-chomage": { "valeur": "Conditions plus favorables aux demandeurs d'emploi", "origine": "programme-2027", "date": "2026-10", "precision": "Abrogation des réformes de l'assurance chômage des gouvernements d'Emmanuel Macron (3 Md€ selon LFI).", "sources": ["lfi-cp-2026", "aec-2025"] },
+          "prix-energie": { "valeur": "Blocage des prix de l'énergie et du carburant, retour des tarifs réglementés de l'énergie ; décret ramenant le carburant à 1,70 € le litre.", "origine": "programme-2027", "date": "2026-10", "sources": ["aec-2025", "lfi-cp-2026"] },
+          "encadrement-prix": { "valeur": "Pour", "origine": "programme-2027", "date": "2025-01", "precision": "« Bloquer les prix des produits de première nécessité (alimentation, énergie, carburant) ».", "sources": ["aec-2025"] },
+          "libre-echange": { "valeur": "Opposition", "origine": "programme-2027", "date": "2025-01", "precision": "Refus de tout nouvel accord, dont UE-Mercosur « y compris révisé », et abrogation des accords en vigueur (Nouvelle-Zélande, Canada, Japon).", "sources": ["aec-2025"] },
+          "reindustrialisation": { "valeur": "« Protectionnisme solidaire » et planification écologique, financés notamment par le pôle public bancaire.", "origine": "programme-2027", "date": "2026-10", "sources": ["aec-2025", "lfi-cp-2026"] }
+        }
+      },
+      "ecologie": {
+        "mesures": [
+          { "sous_theme": "energie", "intitule": "100 % d'énergies renouvelables en 2050", "detail": "Sortie du nucléaire (abandon des projets d'EPR, démantèlement et reconversion des sites) et fin des subventions aux énergies fossiles, y compris à l'étranger.", "origine": "programme-2027", "date": "2025-01", "sources": ["aec-2025"] },
+          { "sous_theme": "climat", "intitule": "Rénovation des logements", "detail": "700 000 rénovations par an pour supprimer les logements classés F et G en un mandat.", "origine": "programme-2027", "date": "2026-10", "sources": ["lfi-cp-2026"] }
+        ],
+        "reponses": {
+          "nucleaire": { "valeur": "Sortie du nucléaire", "origine": "programme-2027", "date": "2025-01", "precision": "Abandon des projets d'EPR, démantèlement et reconversion planifiés des sites.", "sources": ["aec-2025"] },
+          "renouvelables": { "valeur": "Accélération", "origine": "programme-2027", "date": "2025-01", "precision": "Objectif de 100 % d'énergies renouvelables en 2050.", "sources": ["aec-2025"] },
+          "neutralite-2050": { "valeur": "Autre", "origine": "programme-2027", "date": "2025-01", "precision": "Baisse de 65 % des émissions en 2030 (au lieu de 50 %). Le programme ne fixe pas d'autre date de neutralité carbone.", "sources": ["aec-2025"] },
+          "thermique-2035": { "non_communique": "2026-10-23", "precision": "Le programme ne mentionne pas l'échéance européenne de 2035 ; il prévoit de limiter la taille et le poids des SUV et un moratoire sur les zones à faibles émissions.", "sources": ["aec-2025"] }
+        }
+      },
+      "social": {
+        "mesures": [
+          { "sous_theme": "solidarite", "intitule": "Garantie d'autonomie pour les jeunes", "detail": "Aucun jeune ne doit vivre sous le seuil de pauvreté, fixé à 1 337 € par mois.", "origine": "programme-2027", "date": "2026-10",
+            "chiffrages": [ { "auteur": "La France insoumise", "montant": 9.5, "unite": "Md€", "sources": ["lfi-cp-2026"] } ],
+            "sources": ["lfi-cp-2026"] },
+          { "sous_theme": "education", "intitule": "Gratuité de la cantine scolaire", "detail": "Cantine gratuite dans les écoles.", "origine": "programme-2027", "date": "2026-10",
+            "chiffrages": [ { "auteur": "La France insoumise", "montant": 3.6, "unite": "Md€", "sources": ["lfi-cp-2026"] } ],
+            "sources": ["lfi-cp-2026"] },
+          { "sous_theme": "sante", "intitule": "Hôpital public", "detail": "Hausse du budget des hôpitaux et au moins 10 000 créations de postes de soignants.", "origine": "programme-2027", "date": "2026-10",
+            "chiffrages": [ { "auteur": "La France insoumise", "montant": 3, "unite": "Md€", "sources": ["lfi-cp-2026"] } ],
+            "sources": ["lfi-cp-2026"] }
+        ],
+        "reponses": {
+          "acces-soins": { "valeur": "Recrutement de médecins publics, réseau public de centres de santé, plus de places en faculté de médecine et obligation pour tous les médecins de participer à la permanence des soins.", "origine": "programme-2027", "date": "2025-01", "sources": ["aec-2025"] },
+          "installation-medecins": { "non_communique": "2026-10-23", "precision": "Le programme ne prévoit pas explicitement de régulation de l'installation ; il prévoit le recrutement de médecins publics et un réseau de centres de santé.", "sources": ["aec-2025"] },
+          "mesure-ecole": { "valeur": "Réduire les effectifs par classe vers la moyenne européenne de 19 élèves, avec 10 000 postes ouverts en 2027, et gratuité de la cantine scolaire.", "origine": "programme-2027", "date": "2026-10", "sources": ["aec-2025", "lfi-cp-2026"] },
+          "remuneration-enseignants": { "valeur": "Hausse de 10 % du point d'indice de l'ensemble des fonctionnaires.", "origine": "programme-2027", "date": "2026-10", "sources": ["lfi-cp-2026"] },
+          "encadrement-loyers": { "valeur": "Généralisation", "origine": "programme-2027", "date": "2025-01", "precision": "« Encadrer les loyers partout sur le territoire et à la baisse dans les grandes villes ».", "sources": ["aec-2025"] },
+          "logements-sociaux": { "valeur": 200000, "origine": "programme-2027", "date": "2025-01", "precision": "200 000 « logements publics » par an pendant cinq ans ; quota de logements sociaux (loi SRU) porté à 30 %.", "sources": ["aec-2025"] },
+          "rsa": { "valeur": "Plus larges", "origine": "programme-2027", "date": "2025-01", "precision": "Abroger l'obligation de 15 heures d'activité hebdomadaires pour les allocataires.", "sources": ["aec-2025"] }
+        }
+      },
+      "securite": {
+        "mesures": [
+          { "sous_theme": "police", "intitule": "Police de proximité", "detail": "Rétablir la police de proximité, y intégrer les polices municipales, démanteler les BAC et les BRAV-M, et remplacer l'IGPN et l'IGGN par une autorité indépendante rattachée au Défenseur des droits.", "origine": "programme-2027", "date": "2025-01", "sources": ["aec-2025"] }
+        ],
+        "reponses": {
+          "effectifs-forces-ordre": { "non_communique": "2026-10-23", "precision": "Pas d'objectif chiffré d'effectifs.", "sources": ["aec-2025"] },
+          "places-prison": { "non_communique": "2026-10-23", "precision": "Pas de construction chiffrée ; « mécanisme contraignant de régulation carcérale » contre la surpopulation.", "sources": ["aec-2025"] },
+          "peines-minimales": { "non_communique": "2026-10-23" },
+          "justice-mineurs": { "valeur": "Abroger le code de justice pénale des mineurs et revenir aux principes de l'ordonnance de 1945, avec un code de l'enfance combinant civil et pénal.", "origine": "programme-2027", "date": "2025-01", "sources": ["aec-2025"] },
+          "cannabis": { "valeur": "Légalisation encadrée", "origine": "programme-2027", "date": "2025-01", "precision": "Monopole d'État sur la production et la vente ; recettes affectées à la prévention des addictions.", "sources": ["aec-2025"] }
+        }
+      },
+      "immigration": {
+        "mesures": [],
+        "reponses": {
+          "titres-sejour": { "non_communique": "2026-10-23", "precision": "Pas d'objectif chiffré. Le programme prévoit de « faciliter l'accès aux visas » et de faire de la carte de séjour de dix ans le titre de référence.", "sources": ["aec-2025"] },
+          "regularisations": { "valeur": "Facilitée", "origine": "programme-2027", "date": "2025-01", "precision": "Régulariser « les travailleurs, étudiants, parents d'enfants scolarisés ».", "sources": ["aec-2025"] },
+          "demandes-asile": { "valeur": "Garantir le droit d'asile en « prenant le temps d'étudier chaque dossier », refuser la tutelle du ministère de l'Intérieur sur l'OFPRA et abroger les dernières lois asile et immigration.", "origine": "programme-2027", "date": "2025-01", "sources": ["aec-2025"] },
+          "droit-du-sol": { "valeur": "Extension", "origine": "programme-2027", "date": "2025-01", "precision": "« Garantir le droit du sol intégral à tous les enfants nés en France » et le rétablir sur l'ensemble du territoire.", "sources": ["aec-2025"] },
+          "ame": { "valeur": "Maintien", "origine": "programme-2027", "date": "2025-01", "precision": "« Garantir l'accès à l'aide médicale d'État (AME) ».", "sources": ["aec-2025"] },
+          "priorite-nationale": { "non_communique": "2026-10-23", "precision": "Pas de mention explicite dans le programme.", "sources": ["aec-2025"] },
+          "referendum-immigration": { "non_communique": "2026-10-23" }
+        }
+      },
+      "institutions": {
+        "mesures": [],
+        "reponses": {
+          "mode-scrutin": { "valeur": "Proportionnelle intégrale", "origine": "programme-2027", "date": "2025-01", "precision": "« Élire l'Assemblée nationale au scrutin proportionnel ».", "sources": ["aec-2025"] },
+          "ric": { "valeur": "Pour", "origine": "programme-2027", "date": "2025-01", "precision": "RIC permettant de « révoquer des élus, proposer ou abroger une loi et modifier la Constitution ».", "sources": ["aec-2025"] },
+          "constitution": { "valeur": "Nouvelle Constitution", "origine": "programme-2027", "date": "2025-01", "precision": "Assemblée constituante convoquée par référendum pour passer à une 6e République ; projet soumis à référendum après deux ans de travaux.", "sources": ["aec-2025"] },
+          "mandat-presidentiel": { "non_communique": "2026-10-23", "precision": "Renvoyé à l'Assemblée constituante ; le programme vise à « abolir la monarchie présidentielle ».", "sources": ["aec-2025"] }
+        }
+      },
+      "international": {
+        "mesures": [],
+        "reponses": {
+          "relation-ue": { "valeur": "Renégocier les traités", "origine": "programme-2027", "date": "2025-01", "precision": "Modifier notamment le statut de la BCE, et appliquer le programme « en assumant la confrontation avec les institutions européennes (plan B) ».", "sources": ["aec-2025"] },
+          "euro": { "non_communique": "2026-10-23", "precision": "Le programme ne se prononce pas sur une sortie de l'euro.", "sources": ["aec-2025"] },
+          "budget-defense": { "non_communique": "2026-10-23" },
+          "otan": { "valeur": "En sortir", "origine": "programme-2027", "date": "2025-01", "precision": "Retrait « immédiat » du commandement intégré, puis « par étapes » de l'organisation elle-même.", "sources": ["aec-2025"] },
+          "service-national": { "valeur": "« Conscription citoyenne » obligatoire de neuf mois pour les moins de 25 ans, rémunérée au SMIC, avec une formation militaire initiale (droit d'objection de conscience) ; service militaire possible en option.", "origine": "programme-2027", "date": "2025-01", "sources": ["aec-2025"] },
+          "ukraine": { "valeur": "« Créer un cadre diplomatique permettant d'obtenir un cessez-le-feu, le retrait des troupes russes, et l'ouverture de négociations pour une paix durable ».", "origine": "programme-2027", "date": "2025-01", "sources": ["aec-2025"] },
+          "proche-orient": { "valeur": "Reconnaître l'État de Palestine ; cessez-le-feu durable ; sanctions contre le gouvernement Netanyahou, embargo sur les armes et suspension des accords de coopération économique avec Israël.", "origine": "programme-2027", "date": "2025-01", "sources": ["aec-2025"] }
+        }
+      },
+      "agriculture": {
+        "mesures": [],
+        "reponses": {
+          "revenu-agricole": { "valeur": "Prix planchers pour les producteurs et interdiction des ventes à perte.", "origine": "programme-2027", "date": "2025-01", "sources": ["aec-2025"] },
+          "pesticides": { "valeur": "Plus strictes", "origine": "programme-2027", "date": "2025-01", "precision": "Interdiction immédiate du glyphosate et des néonicotinoïdes, réduction planifiée des doses de pesticides.", "sources": ["aec-2025"] },
+          "pac": { "valeur": "« Refondre la PAC » pour orienter les aides vers la production écologiquement soutenable et les exploitations employant le plus de main-d'œuvre.", "origine": "programme-2027", "date": "2025-01", "sources": ["aec-2025"] }
+        }
+      }
+    }
+  },
+  "sources": {
+    "aec-2025": { "titre": "L'Avenir en commun (édition 2025)", "editeur": "La France insoumise", "date": null, "consulte": "2026-10-23", "url": "https://programme.lafranceinsoumise.fr/wp-content/uploads/2025/02/A5-PROGRAMME-SITE.pdf", "type": "parti" },
+    "lfi-cp-2026": { "titre": "Comment nous allons remettre de l'ordre dans les comptes publics", "editeur": "Mélenchon 2027", "date": null, "consulte": "2026-10-23", "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf", "type": "parti" },
+    "m2027-programme": { "titre": "Découvrir le programme", "editeur": "Mélenchon 2027", "date": null, "consulte": "2026-10-23", "url": "https://melenchon2027.fr/programme/decouvrir/", "type": "parti" },
+    "m2027-conception": { "titre": "Comment a été conçu le programme", "editeur": "Mélenchon 2027", "date": null, "consulte": "2026-10-23", "url": "https://melenchon2027.fr/comment-a-ete-concu-le-programme/", "type": "parti" },
+    "lcp-candidature-2026-05-03": { "titre": "Présidentielle: Jean-Luc Mélenchon officialise sa candidature pour 2027", "editeur": "LCP", "auteur": "Anne-Charlotte Dusseaulx", "date": "2026-05-03", "consulte": "2026-10-23", "url": "https://lcp.fr/actualites/presidentielle-jean-luc-melenchon-officialise-sa-candidature-pour-2027-435851", "type": "presse" },
+    "cc-2012": { "titre": "Résultats du premier tour de scrutin de l'élection du Président de la République 2012", "editeur": "Conseil constitutionnel", "date": null, "consulte": "2026-10-23", "url": "https://www.conseil-constitutionnel.fr/sites/default/files/as/root/bank_mm/decisions/2012premiertourPDR/resultats-departements.htm", "type": "officiel" },
+    "cc-2017": { "titre": "Décision n° 2017-169 PDR du 26 avril 2017", "editeur": "Conseil constitutionnel", "date": "2017-04-26", "consulte": "2026-10-23", "url": "https://www.conseil-constitutionnel.fr/decision/2017/2017169PDR.htm", "type": "officiel" },
+    "cc-2022": { "titre": "Annonce par Laurent Fabius, Président du Conseil constitutionnel, des résultats officiels du premier tour de l'élection présidentielle", "editeur": "Conseil constitutionnel", "date": "2022-04-13", "consulte": "2026-10-23", "url": "https://presidentielle2022.conseil-constitutionnel.fr/les-communiques/resultats-du-premier-tour.html", "type": "officiel" },
+    "senat-melenchon": { "titre": "MÉLENCHON Jean-Luc, ancien sénateur de l'Essonne", "editeur": "Sénat", "date": null, "consulte": "2026-10-23", "url": "https://www.senat.fr/senateur/melenchon_jean_luc86039k.html", "type": "officiel" },
+    "pe-melenchon-7": { "titre": "Jean-Luc MÉLENCHON, 7e législature", "editeur": "Parlement européen", "date": null, "consulte": "2026-10-23", "url": "https://www.europarl.europa.eu/meps/fr/96742/JEAN-LUC_MELENCHON/history/7", "type": "officiel" },
+    "pe-melenchon-8": { "titre": "Jean-Luc MÉLENCHON, 8e législature", "editeur": "Parlement européen", "date": null, "consulte": "2026-10-23", "url": "https://www.europarl.europa.eu/meps/fr/96742/JEAN-LUC_MELENCHON/history/8", "type": "officiel" },
+    "an-groupes-2026": { "titre": "Modifications à la composition des groupes, 2026", "editeur": "Assemblée nationale", "date": null, "consulte": "2026-10-23", "url": "https://www2.assemblee-nationale.fr/17/les-groupes-politiques/modifications-a-la-composition-des-groupes/2026", "type": "officiel" },
+    "ps-odoxa-2026-09-29": { "titre": "Sondage : les cotes de popularité de Marine Le Pen et d'Edouard Philippe reculent fortement, Raphaël Glucksmann progresse légèrement", "editeur": "Public Sénat", "date": "2026-09-29", "consulte": "2026-10-23", "url": "https://www.publicsenat.fr/actualites/politique/sondage-les-cotes-de-popularite-de-marine-le-pen-et-dedouard-philippe-reculent-fortement-raphael-glucksmann-progresse", "type": "presse" },
+    "elabe-observatoire-2026-08": { "titre": "L'Observatoire politique, août 2026 (terrain du 28 au 29 juillet 2026)", "editeur": "Elabe pour Les Échos", "date": null, "consulte": "2026-10-23", "url": "https://elabe.fr/fichier-pdf/13180-lobservatoire-politique-aout-2026/", "type": "sondage" },
+    "bdt-nuancage-2026": { "titre": "Municipales : le Conseil d'Etat confirme le nuançage aux \"extrêmes\" de LFI et de l'UDR", "editeur": "Banque des Territoires", "date": null, "consulte": "2026-10-23", "url": "https://www.banquedesterritoires.fr/municipales-le-conseil-detat-confirme-le-nuancage-aux-extremes-de-lfi-et-de-ludr", "type": "presse" },
+    "ps-perquisition-2019": { "titre": "Mélenchon condamné à trois mois avec sursis pour la perquisition houleuse à LFI", "editeur": "Public Sénat", "date": "2019-12-09", "consulte": "2026-10-23", "url": "https://www.publicsenat.fr/actualites/politique/melenchon-condamne-a-trois-mois-avec-sursis-pour-la-perquisition-houleuse-a-lfi", "type": "presse" },
+    "to-perquisition-2019": { "titre": "Perquisition à LFI: Jean-Luc Mélenchon condamné à trois mois de prison avec sursis", "editeur": "Tendance Ouest", "auteur": "AFP", "date": null, "consulte": "2026-10-23", "url": "https://www.tendanceouest.com/actualite-344047-perquisition-a-lfi-jean-luc-melenchon-condamne-a-trois-mois-de-prison-avec-sursis", "type": "presse" },
+    "cnews-assistants-2026-05-27": { "titre": "Assistants parlementaires de Jean-Luc Mélenchon : les juges clôturent l'instruction, sans mise en examen", "editeur": "CNews", "date": "2026-05-27", "consulte": "2026-10-23", "url": "https://www.cnews.fr/france/2026-05-27/assistants-parlementaires-de-jean-luc-melenchon-les-juges-cloturent-linstruction", "type": "presse" },
+    "cdj-comptes-2026-06-02": { "titre": "Quatre mises en examen dans l'affaire des comptes de campagnes de LFI de 2017", "editeur": "Le Club des Juristes", "date": "2026-06-02", "consulte": "2026-10-23", "url": "https://www.leclubdesjuristes.com/en-bref/quatre-mises-en-examen-dans-laffaire-des-comptes-de-campagnes-de-lfi-de-2017-16141/", "type": "presse" },
+    "brut-chikirou-2024": { "titre": "La députée LFI Sophia Chikirou mise en examen pour escroquerie aggravée lors de la campagne de 2017", "editeur": "Brut", "date": null, "consulte": "2026-10-23", "url": "https://www.brut.media/fr/articles/la-deputee-lfi-sophia-chikirou-mise-en-examen-pour-escroquerie-aggravee-lors-de-la-campagne-de-2017", "type": "presse" },
+    "ps-nupes-2023-10-09": { "titre": "Après l'attaque du Hamas contre Israël, la Nupes se disloque sur fond de tensions entre le PS et LFI", "editeur": "Public Sénat", "auteur": "François Vignal", "date": "2023-10-09", "consulte": "2026-10-23", "url": "https://www.publicsenat.fr/actualites/politique/apres-lattaque-du-hamas-contre-israel-la-nupes-se-disloque-sur-fond-de-tensions-entre-le-ps-et-lfi", "type": "presse" },
+    "lcp-nupes-2023-10-16": { "titre": "La Nupes en crise : stop ou encore pour l'alliance de gauche à l'Assemblée ?", "editeur": "LCP", "auteur": "Maxence Kagni", "date": "2023-10-16", "consulte": "2026-10-23", "url": "https://lcp.fr/actualites/la-nupes-en-crise-stop-ou-encore-pour-l-alliance-de-gauche-a-l-assemblee-228196", "type": "presse" }
+  }
+}

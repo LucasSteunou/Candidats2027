@@ -1,6 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Culture365">
-  <rect width="512" height="512" rx="96" fill="#0f766e"/>
-  <circle cx="256" cy="218" r="116" fill="#f8fafc"/>
-  <path d="M119 337c67-61 207-61 274 0" fill="none" stroke="#f59e0b" stroke-width="36" stroke-linecap="round"/>
-  <path d="M196 177h120M176 233h160M205 289h102" stroke="#0f766e" stroke-width="26" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Présidentielle 2027">
+  <rect width="512" height="512" rx="96" fill="#16161a"/>
+  <rect x="200" y="96" width="112" height="150" rx="10" fill="#ffffff"/>
+  <path d="M226 140h60M226 172h60M226 204h36" stroke="#6250d6" stroke-width="14" stroke-linecap="round"/>
+  <rect x="112" y="232" width="288" height="184" rx="24" fill="#6250d6"/>
+  <rect x="176" y="232" width="160" height="22" rx="11" fill="#16161a"/>
 </svg>

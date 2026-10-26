@@ -1,0 +1,79 @@
+{
+  "maj": "2026-10-23",
+  "note": "Intentions de vote au premier tour, en % des suffrages exprimés, telles que publiées par l'institut (YouGov : colonne « pondérés »). Toutes les hypothèses testées sont reprises.",
+  "noms": {
+    "arthaud": "Nathalie Arthaud",
+    "attal": "Gabriel Attal",
+    "bertrand": "Xavier Bertrand",
+    "dupont-aignan": "Nicolas Dupont-Aignan",
+    "faure": "Olivier Faure",
+    "glucksmann": "Raphaël Glucksmann",
+    "hollande": "François Hollande",
+    "le-maire": "Bruno Le Maire",
+    "le-pen": "Marine Le Pen",
+    "lisnard": "David Lisnard",
+    "melenchon": "Jean-Luc Mélenchon",
+    "philippe": "Édouard Philippe",
+    "polony": "Natacha Polony",
+    "retailleau": "Bruno Retailleau",
+    "roussel": "Fabien Roussel",
+    "ruffin": "François Ruffin",
+    "tondelier": "Marine Tondelier",
+    "villepin": "Dominique de Villepin",
+    "zemmour": "Éric Zemmour"
+  },
+  "sondages": [
+    {
+      "id": "yougov-2026-09-21",
+      "institut": "YouGov",
+      "commanditaires": ["Le HuffPost"],
+      "terrain": ["2026-09-17", "2026-09-21"],
+      "echantillon": "1 103 personnes, dont 1 008 inscrites sur les listes électorales",
+      "hypotheses": [
+        { "nom": "Hypothèse 1", "scores": { "retailleau": 8, "philippe": 12, "zemmour": 6, "roussel": 2, "attal": 9, "melenchon": 17, "le-pen": 34, "tondelier": 3, "arthaud": 1, "dupont-aignan": 2, "glucksmann": 8 } },
+        { "nom": "Hypothèse 2 – B. Le Maire", "scores": { "retailleau": 8, "philippe": 13, "zemmour": 6, "roussel": 2, "le-maire": 3, "melenchon": 17, "le-pen": 35, "tondelier": 3, "arthaud": 1, "dupont-aignan": 2, "glucksmann": 9 } },
+        { "nom": "Hypothèse 2 – G. Attal", "scores": { "retailleau": 10, "zemmour": 5, "roussel": 3, "attal": 14, "melenchon": 17, "le-pen": 35, "tondelier": 3, "arthaud": 1, "dupont-aignan": 2, "glucksmann": 9 } },
+        { "nom": "Hypothèse 3 – E. Philippe", "scores": { "retailleau": 8, "zemmour": 5, "roussel": 3, "philippe": 17, "melenchon": 18, "le-pen": 37, "tondelier": 7, "arthaud": 1, "dupont-aignan": 2 } },
+        { "nom": "Hypothèse 4 – O. Faure", "scores": { "retailleau": 8, "philippe": 12, "zemmour": 6, "roussel": 2, "faure": 5, "attal": 9, "melenchon": 16, "le-pen": 35, "tondelier": 4, "arthaud": 1, "dupont-aignan": 2 } },
+        { "nom": "Hypothèse 5", "scores": { "retailleau": 7, "philippe": 10, "zemmour": 5, "roussel": 1, "attal": 8, "melenchon": 15, "le-pen": 33, "tondelier": 2, "arthaud": 1, "dupont-aignan": 2, "glucksmann": 5, "hollande": 4, "lisnard": 2, "villepin": 2, "ruffin": 2, "bertrand": 1 } }
+      ],
+      "sources": ["cds-10270-yougov"]
+    },
+    {
+      "id": "yougov-2026-10-15",
+      "institut": "YouGov",
+      "commanditaires": ["Le HuffPost"],
+      "terrain": ["2026-10-12", "2026-10-15"],
+      "echantillon": "1 094 personnes, dont 976 inscrites sur les listes électorales",
+      "hypotheses": [
+        { "nom": "Hypothèse 1", "scores": { "retailleau": 6, "philippe": 10, "zemmour": 3, "roussel": 3, "attal": 6, "melenchon": 15, "le-pen": 36, "tondelier": 6, "arthaud": 0, "dupont-aignan": 3, "glucksmann": 12 } },
+        { "nom": "Hypothèse 2 – G. Attal", "scores": { "retailleau": 9, "zemmour": 4, "roussel": 3, "attal": 10, "melenchon": 15, "le-pen": 37, "tondelier": 6, "arthaud": 0, "dupont-aignan": 3, "glucksmann": 14 } },
+        { "nom": "Hypothèse 3 – E. Philippe", "scores": { "retailleau": 7, "zemmour": 3, "roussel": 3, "philippe": 13, "melenchon": 15, "le-pen": 36, "tondelier": 6, "arthaud": 0, "dupont-aignan": 3, "glucksmann": 13 } },
+        { "nom": "Hypothèse 4 – F. Hollande", "scores": { "retailleau": 7, "philippe": 15, "zemmour": 4, "roussel": 3, "hollande": 9, "melenchon": 16, "le-pen": 37, "tondelier": 6, "arthaud": 1, "dupont-aignan": 3 } },
+        { "nom": "Hypothèse 5", "scores": { "retailleau": 5, "philippe": 8, "zemmour": 4, "roussel": 2, "attal": 6, "melenchon": 13, "le-pen": 35, "tondelier": 5, "arthaud": 0, "dupont-aignan": 2, "glucksmann": 12, "lisnard": 4, "villepin": 1, "ruffin": 2 } }
+      ],
+      "sources": ["cds-10323-yougov"]
+    },
+    {
+      "id": "elabe-2026-10-16",
+      "institut": "Elabe",
+      "commanditaires": ["BFMTV", "La Tribune Dimanche"],
+      "terrain": ["2026-10-14", "2026-10-16"],
+      "echantillon": "1 701 personnes, dont 1 553 inscrites sur les listes électorales",
+      "hypotheses": [
+        { "nom": "Hypothèse 1", "scores": { "arthaud": 1, "roussel": 1.5, "melenchon": 15, "tondelier": 3, "glucksmann": 15.5, "philippe": 16.5, "villepin": 2, "retailleau": 7, "dupont-aignan": 2.5, "le-pen": 32.5, "zemmour": 3.5 } },
+        { "nom": "Hypothèse 2", "scores": { "arthaud": 1, "roussel": 2, "melenchon": 16, "tondelier": 2.5, "glucksmann": 16.5, "attal": 10.5, "villepin": 3, "retailleau": 9.5, "dupont-aignan": 2, "le-pen": 33.5, "zemmour": 3.5 } },
+        { "nom": "Hypothèse 3", "scores": { "arthaud": 0.5, "roussel": 1.5, "melenchon": 15.5, "tondelier": 2.5, "glucksmann": 15, "philippe": 15.5, "retailleau": 6.5, "lisnard": 5.5, "dupont-aignan": 3, "le-pen": 31.5, "zemmour": 3 } },
+        { "nom": "Hypothèse 4", "scores": { "arthaud": 1, "roussel": 1.5, "melenchon": 16, "ruffin": 3, "glucksmann": 16.5, "attal": 9.5, "retailleau": 9, "lisnard": 6.5, "dupont-aignan": 2.5, "le-pen": 31, "zemmour": 3.5 } },
+        { "nom": "Hypothèse 5", "scores": { "arthaud": 0.5, "roussel": 1.5, "melenchon": 15.5, "tondelier": 2.5, "glucksmann": 15.5, "attal": 4.5, "philippe": 13.5, "retailleau": 7.5, "dupont-aignan": 3, "le-pen": 32.5, "zemmour": 3.5 } },
+        { "nom": "Hypothèse 6", "scores": { "arthaud": 1, "roussel": 1, "melenchon": 15, "tondelier": 2.5, "glucksmann": 16, "polony": 1.5, "philippe": 16.5, "retailleau": 7.5, "dupont-aignan": 2.5, "le-pen": 33.5, "zemmour": 3 } }
+      ],
+      "sources": ["cds-10324-elabe"]
+    }
+  ],
+  "sources": {
+    "cds-10270-yougov": { "titre": "Notice n° 10270 - YouGov pour Le HuffPost (terrain du 17 au 21 septembre 2026)", "editeur": "Commission des sondages", "date": "2026-09-23", "consulte": "2026-10-23", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10270-pres-iv-yougov-huffpost-23-septembre.pdf", "type": "sondage" },
+    "cds-10323-yougov": { "titre": "Notice n° 10323 - YouGov pour Le HuffPost (terrain du 12 au 15 octobre 2026)", "editeur": "Commission des sondages", "date": "2026-10-18", "consulte": "2026-10-23", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10323-pres-iv-yougov-le-huffpost-18-octobre.pdf", "type": "sondage" },
+    "cds-10324-elabe": { "titre": "Notice n° 10324 - Elabe pour BFMTV et La Tribune Dimanche (terrain du 14 au 16 octobre 2026)", "editeur": "Commission des sondages", "date": "2026-10-17", "consulte": "2026-10-23", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10324-pres-iv-elabe-17-octobre.pdf", "type": "sondage" }
+  }
+}

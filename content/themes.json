@@ -1,0 +1,289 @@
+{
+  "version": 1,
+  "note": "Chaque question accepte aussi « Non communiqué à ce jour » et « Autre (préciser) ». Une réponse renvoie toujours à au moins une source.",
+  "themes": [
+    {
+      "id": "economie",
+      "titre": "Économie, travail et finances publiques",
+      "sous_themes": [
+        {
+          "id": "finances-publiques",
+          "titre": "Budget, déficit et dette",
+          "questions": [
+            { "id": "cout-net-programme", "intitule": "Coût net annuel du programme, selon le candidat", "type": "nombre", "unite": "Md€ par an", "aide": "Coût des mesures, moins les économies et recettes nouvelles annoncées. Les chiffrages extérieurs sont présentés à part." },
+            { "id": "objectif-deficit", "intitule": "Objectif de déficit public en fin de mandat", "type": "nombre", "unite": "% du PIB" },
+            { "id": "economies-depenses", "intitule": "Économies de dépenses publiques annoncées", "type": "nombre", "unite": "Md€ par an" }
+          ]
+        },
+        {
+          "id": "impots-menages",
+          "titre": "Impôts des ménages",
+          "questions": [
+            { "id": "impot-revenu", "intitule": "Impôt sur le revenu", "type": "choix", "options": ["Baisse", "Maintien", "Hausse", "Refonte du barème"] },
+            { "id": "impot-patrimoine", "intitule": "Imposition du patrimoine", "type": "choix", "options": ["Suppression de l'IFI", "Maintien de l'IFI", "Rétablissement d'un ISF", "Autre impôt sur le patrimoine"] },
+            { "id": "droits-succession", "intitule": "Droits de succession", "type": "choix", "options": ["Baisse", "Maintien", "Hausse"] }
+          ]
+        },
+        {
+          "id": "impots-entreprises",
+          "titre": "Impôts des entreprises",
+          "questions": [
+            { "id": "taux-is", "intitule": "Taux normal d'impôt sur les sociétés visé", "type": "nombre", "unite": "%" },
+            { "id": "impots-production", "intitule": "Impôts de production", "type": "choix", "options": ["Baisse", "Maintien", "Hausse"] }
+          ]
+        },
+        {
+          "id": "retraites",
+          "titre": "Retraites",
+          "questions": [
+            { "id": "age-legal", "intitule": "Âge légal de départ visé", "type": "nombre", "unite": "ans" },
+            { "id": "duree-cotisation", "intitule": "Durée de cotisation pour une retraite à taux plein", "type": "nombre", "unite": "trimestres" },
+            { "id": "financement-retraites", "intitule": "Principale source de financement envisagée", "type": "texte" }
+          ]
+        },
+        {
+          "id": "travail-emploi",
+          "titre": "Travail, salaires et chômage",
+          "questions": [
+            { "id": "smic", "intitule": "Montant du SMIC visé", "type": "nombre", "unite": "€ net par mois" },
+            { "id": "duree-travail", "intitule": "Durée légale du travail", "type": "nombre", "unite": "heures par semaine" },
+            { "id": "assurance-chomage", "intitule": "Règles de l'assurance chômage", "type": "choix", "options": ["Conditions plus strictes", "Maintien", "Conditions plus favorables aux demandeurs d'emploi"] }
+          ]
+        },
+        {
+          "id": "pouvoir-achat",
+          "titre": "Pouvoir d'achat et prix",
+          "questions": [
+            { "id": "prix-energie", "intitule": "Principale mesure sur les prix de l'énergie", "type": "texte" },
+            { "id": "encadrement-prix", "intitule": "Blocage ou encadrement des prix de produits de base", "type": "choix", "options": ["Pour", "Contre"] }
+          ]
+        },
+        {
+          "id": "industrie-commerce",
+          "titre": "Industrie et commerce extérieur",
+          "questions": [
+            { "id": "libre-echange", "intitule": "Accords de libre-échange de l'UE (dont UE-Mercosur)", "type": "choix", "options": ["Soutien", "Soutien sous conditions", "Opposition"] },
+            { "id": "reindustrialisation", "intitule": "Principal levier de réindustrialisation", "type": "texte" }
+          ]
+        }
+      ],
+      "reperes": [
+        { "id": "dette-publique", "titre": "Dette publique", "unite": "% du PIB", "producteur": "INSEE" },
+        { "id": "deficit-public", "titre": "Déficit public", "unite": "% du PIB", "producteur": "INSEE" },
+        { "id": "prelevements-obligatoires", "titre": "Prélèvements obligatoires", "unite": "% du PIB", "producteur": "INSEE" },
+        { "id": "taux-chomage", "titre": "Taux de chômage", "unite": "% de la population active", "producteur": "INSEE" },
+        { "id": "inflation", "titre": "Inflation", "unite": "% sur un an", "producteur": "INSEE" }
+      ]
+    },
+    {
+      "id": "ecologie",
+      "titre": "Écologie et énergie",
+      "sous_themes": [
+        {
+          "id": "energie",
+          "titre": "Énergie",
+          "questions": [
+            { "id": "nucleaire", "intitule": "Parc nucléaire", "type": "choix", "options": ["Nouveaux réacteurs", "Maintien du parc existant", "Réduction progressive", "Sortie du nucléaire"] },
+            { "id": "renouvelables", "intitule": "Éolien et solaire", "type": "choix", "options": ["Accélération", "Rythme actuel", "Ralentissement ou moratoire"] }
+          ]
+        },
+        {
+          "id": "climat",
+          "titre": "Climat",
+          "questions": [
+            { "id": "neutralite-2050", "intitule": "Objectif de neutralité carbone en 2050", "type": "choix", "options": ["Avancé", "Maintenu", "Repoussé ou abandonné"] },
+            { "id": "thermique-2035", "intitule": "Fin de la vente de voitures thermiques neuves en 2035 (règle européenne)", "type": "choix", "options": ["Maintien", "Report ou assouplissement", "Abrogation"] }
+          ]
+        }
+      ],
+      "reperes": [
+        { "id": "emissions-ges", "titre": "Émissions de gaz à effet de serre de la France", "unite": "Mt CO2e", "producteur": "Citepa" },
+        { "id": "mix-electrique", "titre": "Production d'électricité par source", "unite": "TWh", "producteur": "RTE" }
+      ]
+    },
+    {
+      "id": "social",
+      "titre": "Santé, éducation, logement et solidarité",
+      "sous_themes": [
+        {
+          "id": "sante",
+          "titre": "Santé",
+          "questions": [
+            { "id": "acces-soins", "intitule": "Principale mesure pour l'accès aux soins (déserts médicaux)", "type": "texte" },
+            { "id": "installation-medecins", "intitule": "Régulation de l'installation des médecins", "type": "choix", "options": ["Obligation", "Incitations seulement", "Pas de régulation"] }
+          ]
+        },
+        {
+          "id": "education",
+          "titre": "Éducation",
+          "questions": [
+            { "id": "mesure-ecole", "intitule": "Principale mesure pour l'école", "type": "texte" },
+            { "id": "remuneration-enseignants", "intitule": "Rémunération des enseignants", "type": "texte" }
+          ]
+        },
+        {
+          "id": "logement",
+          "titre": "Logement",
+          "questions": [
+            { "id": "encadrement-loyers", "intitule": "Encadrement des loyers", "type": "choix", "options": ["Généralisation", "Dispositif actuel", "Suppression"] },
+            { "id": "logements-sociaux", "intitule": "Objectif de construction de logements sociaux", "type": "nombre", "unite": "logements par an" }
+          ]
+        },
+        {
+          "id": "solidarite",
+          "titre": "Solidarité",
+          "questions": [
+            { "id": "rsa", "intitule": "Conditions d'accès au RSA", "type": "choix", "options": ["Plus larges", "Inchangées", "Plus strictes"] }
+          ]
+        }
+      ],
+      "reperes": [
+        { "id": "medecins-generalistes", "titre": "Médecins généralistes en activité", "unite": "pour 100 000 habitants", "producteur": "DREES" },
+        { "id": "taux-pauvrete", "titre": "Taux de pauvreté", "unite": "% de la population", "producteur": "INSEE" },
+        { "id": "logements-commences", "titre": "Logements commencés", "unite": "logements par an", "producteur": "SDES" }
+      ]
+    },
+    {
+      "id": "securite",
+      "titre": "Sécurité et justice",
+      "sous_themes": [
+        {
+          "id": "police",
+          "titre": "Police et gendarmerie",
+          "questions": [
+            { "id": "effectifs-forces-ordre", "intitule": "Postes supplémentaires de policiers et gendarmes", "type": "nombre", "unite": "postes sur le mandat" }
+          ]
+        },
+        {
+          "id": "justice",
+          "titre": "Justice et prisons",
+          "questions": [
+            { "id": "places-prison", "intitule": "Places de prison supplémentaires", "type": "nombre", "unite": "places" },
+            { "id": "peines-minimales", "intitule": "Peines minimales obligatoires (« peines planchers »)", "type": "choix", "options": ["Pour", "Contre"] },
+            { "id": "justice-mineurs", "intitule": "Justice des mineurs", "type": "texte" }
+          ]
+        },
+        {
+          "id": "drogues",
+          "titre": "Drogues",
+          "questions": [
+            { "id": "cannabis", "intitule": "Cannabis récréatif", "type": "choix", "options": ["Légalisation encadrée", "Statu quo", "Sanctions renforcées"] }
+          ]
+        }
+      ],
+      "reperes": [
+        { "id": "crimes-delits", "titre": "Crimes et délits enregistrés par catégorie", "unite": "faits par an", "producteur": "SSMSI (ministère de l'Intérieur)" },
+        { "id": "population-carcerale", "titre": "Personnes détenues et places de prison", "unite": "personnes", "producteur": "Ministère de la Justice" }
+      ]
+    },
+    {
+      "id": "immigration",
+      "titre": "Immigration et intégration",
+      "sous_themes": [
+        {
+          "id": "immigration-legale",
+          "titre": "Immigration légale",
+          "questions": [
+            { "id": "titres-sejour", "intitule": "Objectif sur le nombre de titres de séjour délivrés", "type": "choix", "options": ["Hausse", "Stabilité", "Baisse"] },
+            { "id": "regularisations", "intitule": "Régularisation des travailleurs sans titre de séjour", "type": "choix", "options": ["Facilitée", "Inchangée", "Restreinte"] }
+          ]
+        },
+        {
+          "id": "asile",
+          "titre": "Asile",
+          "questions": [
+            { "id": "demandes-asile", "intitule": "Traitement des demandes d'asile", "type": "texte" }
+          ]
+        },
+        {
+          "id": "nationalite-droits",
+          "titre": "Nationalité et accès aux droits",
+          "questions": [
+            { "id": "droit-du-sol", "intitule": "Droit du sol", "type": "choix", "options": ["Extension", "Maintien", "Restriction", "Suppression"] },
+            { "id": "ame", "intitule": "Aide médicale de l'État (AME)", "type": "choix", "options": ["Extension", "Maintien", "Restriction", "Remplacement par une aide médicale d'urgence"] },
+            { "id": "priorite-nationale", "intitule": "Réserver certaines prestations, emplois ou logements sociaux aux Français (« priorité nationale »)", "type": "choix", "options": ["Pour", "Contre"] },
+            { "id": "referendum-immigration", "intitule": "Référendum sur l'immigration", "type": "choix", "options": ["Pour", "Contre"] }
+          ]
+        }
+      ],
+      "reperes": [
+        { "id": "titres-sejour-delivres", "titre": "Premiers titres de séjour délivrés par motif", "unite": "titres par an", "producteur": "DGEF (ministère de l'Intérieur)" },
+        { "id": "demandes-asile-enregistrees", "titre": "Demandes d'asile et taux de protection", "unite": "demandes par an", "producteur": "OFPRA" },
+        { "id": "part-immigres", "titre": "Part des immigrés dans la population", "unite": "%", "producteur": "INSEE" }
+      ]
+    },
+    {
+      "id": "institutions",
+      "titre": "Institutions et démocratie",
+      "sous_themes": [
+        {
+          "id": "democratie",
+          "titre": "Démocratie et Constitution",
+          "questions": [
+            { "id": "mode-scrutin", "intitule": "Mode de scrutin aux législatives", "type": "choix", "options": ["Proportionnelle intégrale", "Dose de proportionnelle", "Scrutin majoritaire actuel"] },
+            { "id": "ric", "intitule": "Référendum d'initiative citoyenne (RIC)", "type": "choix", "options": ["Pour", "Contre"] },
+            { "id": "constitution", "intitule": "Constitution", "type": "choix", "options": ["Nouvelle Constitution", "Révisions ciblées", "Pas de changement"] },
+            { "id": "mandat-presidentiel", "intitule": "Durée et nombre des mandats présidentiels", "type": "texte" }
+          ]
+        }
+      ],
+      "reperes": [
+        { "id": "participation", "titre": "Participation aux élections nationales", "unite": "% des inscrits", "producteur": "Ministère de l'Intérieur" }
+      ]
+    },
+    {
+      "id": "international",
+      "titre": "Europe, international et défense",
+      "sous_themes": [
+        {
+          "id": "europe",
+          "titre": "Union européenne",
+          "questions": [
+            { "id": "relation-ue", "intitule": "Rapport à l'Union européenne", "type": "choix", "options": ["Approfondir l'intégration", "Cadre actuel", "Renégocier les traités", "Quitter l'UE"] },
+            { "id": "euro", "intitule": "Monnaie unique", "type": "choix", "options": ["Rester dans l'euro", "Quitter l'euro"] }
+          ]
+        },
+        {
+          "id": "defense",
+          "titre": "Défense",
+          "questions": [
+            { "id": "budget-defense", "intitule": "Budget de défense visé", "type": "nombre", "unite": "% du PIB" },
+            { "id": "otan", "intitule": "Commandement intégré de l'OTAN", "type": "choix", "options": ["Y rester", "En sortir"] },
+            { "id": "service-national", "intitule": "Service militaire ou national", "type": "texte" }
+          ]
+        },
+        {
+          "id": "diplomatie",
+          "titre": "Diplomatie",
+          "questions": [
+            { "id": "ukraine", "intitule": "Soutien à l'Ukraine", "type": "texte" },
+            { "id": "proche-orient", "intitule": "Position sur le conflit israélo-palestinien", "type": "texte" }
+          ]
+        }
+      ],
+      "reperes": [
+        { "id": "depenses-defense", "titre": "Dépenses de défense", "unite": "% du PIB", "producteur": "OTAN" },
+        { "id": "contribution-ue", "titre": "Contribution de la France au budget de l'UE", "unite": "Md€ par an", "producteur": "Commission européenne" }
+      ]
+    },
+    {
+      "id": "agriculture",
+      "titre": "Agriculture et alimentation",
+      "sous_themes": [
+        {
+          "id": "agriculture",
+          "titre": "Agriculture",
+          "questions": [
+            { "id": "revenu-agricole", "intitule": "Principale mesure pour le revenu des agriculteurs", "type": "texte" },
+            { "id": "pesticides", "intitule": "Règles sur les pesticides", "type": "choix", "options": ["Plus strictes", "Inchangées", "Assouplies"] },
+            { "id": "pac", "intitule": "Politique agricole commune (PAC)", "type": "texte" }
+          ]
+        }
+      ],
+      "reperes": [
+        { "id": "exploitations", "titre": "Nombre d'exploitations agricoles", "unite": "exploitations", "producteur": "Agreste" },
+        { "id": "revenu-agricole-moyen", "titre": "Revenu agricole moyen", "unite": "€ par actif", "producteur": "Agreste" }
+      ]
+    }
+  ]
+}

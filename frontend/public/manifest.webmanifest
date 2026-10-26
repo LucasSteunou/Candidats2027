@@ -1,12 +1,12 @@
 {
-  "name": "Culture365",
-  "short_name": "Culture365",
-  "description": "Une leçon de culture générale chaque jour.",
+  "name": "Présidentielle 2027",
+  "short_name": "Présid. 2027",
+  "description": "Les candidats à la présidentielle 2027, leurs programmes et les sondages, sur une grille identique et sourcée.",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",
-  "background_color": "#f8fafc",
-  "theme_color": "#0f766e",
+  "background_color": "#f6f6f4",
+  "theme_color": "#f6f6f4",
   "icons": [
     {
       "src": "icon.svg",

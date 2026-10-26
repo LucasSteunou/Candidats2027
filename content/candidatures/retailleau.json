@@ -1,0 +1,233 @@
+{
+  "id": "retailleau",
+  "nom": "Bruno Retailleau",
+  "maj": "2026-10-26",
+  "parti": {
+    "nom": "Les Républicains",
+    "sigle": "LR",
+    "fondation": "2015-05-30",
+    "positionnement": {
+      "auto_definition": {
+        "texte": "« Nous sommes la droite qui défend la France des honnêtes gens, celle qui travaille, respecte les règles et aspire à une société de justice et de stabilité. »",
+        "sources": ["lr-qui-sommes-nous"]
+      },
+      "nuance_ministere": {
+        "texte": "Pour les municipales de 2026, la circulaire du ministère de l'Intérieur regroupe les nuances politiques en six blocs : « extrême gauche », « gauche », « divers », « centre », « droite » et « extrême droite ». Les documents publics consultés ne précisent pas à quel bloc est rattachée la nuance des candidats LR.",
+        "sources": ["ce-nuances-2026-02-27"]
+      }
+    }
+  },
+  "resume": {
+    "texte": "Sénateur de la Vendée et ministre de l'Intérieur de septembre 2024 à octobre 2025, Bruno Retailleau préside Les Républicains depuis mai 2025. Il a déclaré sa candidature le 12 février 2026, et les adhérents LR l'ont désigné candidat le 19 avril 2026. Son programme n'est pas rassemblé en un seul document : il repose sur ses annonces de campagne (finances publiques, retraites, Constitution) et sur les livrets thématiques publiés par LR depuis décembre 2025.",
+    "sources": ["senat-retailleau", "lcp-economies-2026-10-12", "ps-referendum-2026-02-13", "ps-designation-2026-04-19", "lr-propositions"]
+  },
+  "histoire": {
+    "parti": [
+      { "date": "2002-04-23", "titre": "Création de l'UMP", "texte": "Après le premier tour de la présidentielle, les partisans de Jacques Chirac lancent « un grand parti de droite et de centre-droit », l'UMP, dont Les Républicains sont les héritiers directs.", "sources": ["ps-ump-lr-2017"] },
+      { "date": "2015-05-30", "titre": "L'UMP devient Les Républicains", "texte": "Congrès fondateur du parti sous son nouveau nom, à Paris.", "sources": ["to-congres-2015-05-30"] },
+      { "date": "2025-05-18", "titre": "Bruno Retailleau élu président du parti", "texte": "Il obtient 74,31 % des voix face à Laurent Wauquiez, avec 80 % de participation des adhérents.", "sources": ["ps-presidence-lr-2025-05-18"] },
+      { "date": "2026-04-19", "titre": "Désignation du candidat", "texte": "Consultés en ligne, 73,8 % des votants choisissent de désigner Bruno Retailleau plutôt qu'une primaire (60 % de participation parmi 76 653 adhérents à jour de cotisation). Laurent Wauquiez, président du groupe à l'Assemblée, avait annoncé un vote blanc et plaidait pour une primaire élargie.", "sources": ["ps-designation-2026-04-19"] }
+    ],
+    "candidat": [
+      { "date": "1960-11-20", "titre": "Naissance", "texte": "Naît le 20 novembre 1960.", "sources": ["senat-retailleau"] },
+      { "date": "2004-09-26", "titre": "Sénateur de la Vendée", "texte": "Élu sénateur, réélu en 2014 et en 2020. Il a présidé le groupe Les Républicains au Sénat ; il a aussi été député de la Vendée et président du conseil régional des Pays de la Loire.", "sources": ["senat-retailleau"] },
+      { "date": "2024-09", "titre": "Ministre de l'Intérieur", "texte": "Ministre de l'Intérieur de septembre 2024 à octobre 2025. Il retrouve son siège de sénateur le 13 novembre 2025.", "sources": ["lcp-economies-2026-10-12", "senat-retailleau"] },
+      { "date": "2026-02-12", "titre": "Candidature pour 2027", "texte": "Annonce sa candidature dans une vidéo puis au journal de 20 heures de TF1, en promettant de soumettre « directement par référendum plusieurs grands textes de loi ».", "sources": ["ps-referendum-2026-02-13"] }
+    ]
+  },
+  "popularite": {
+    "chiffres_cles": [
+      { "libelle": "Opinions favorables (Odoxa pour Public Sénat)", "valeur": "20 % (−6 points)", "date": "2026-09", "sources": ["ps-odoxa-2026-09-29"] },
+      { "libelle": "Bonne image (Elabe pour Les Échos)", "valeur": "25 % (−3 points)", "date": "2026-07", "sources": ["elabe-observatoire-2026-08"] },
+      { "libelle": "Groupe Droite républicaine à l'Assemblée nationale", "valeur": "41 membres", "date": "2026-07-09", "sources": ["an-groupes-2026"] }
+    ],
+    "series": []
+  },
+  "perception": [
+    { "type": "sondage", "auteur": "Elabe pour Les Échos", "texte": "25 % des Français ont une bonne image de Bruno Retailleau (−3 points), contre 32 % un an plus tôt. Auprès des électeurs d'Emmanuel Macron en 2022, il obtient 34 % (−7 points).", "date": "2026-07", "sources": ["elabe-observatoire-2026-08"] },
+    { "type": "sondage", "auteur": "Odoxa pour Public Sénat", "texte": "20 % d'opinions favorables (−6 points). Il passe à la huitième place du classement et quitte les cinq premières places, qu'il occupait depuis plus d'un an.", "date": "2026-09", "sources": ["ps-odoxa-2026-09-29"] }
+  ],
+  "controverses": [
+    {
+      "titre": "« Régression vers les origines ethniques »",
+      "date": "2023-07-05",
+      "faits": "Interrogé sur franceinfo après les émeutes de l'été 2023, alors qu'il préside le groupe LR au Sénat, il déclare au sujet de jeunes issus de l'immigration : « pour la deuxième, la troisième génération, il y a comme une sorte de régression vers les origines ethniques ». Des élus de gauche dénoncent des propos « racistes » ; Mathilde Panot (LFI) parle de « racisme crasse ».",
+      "statut_judiciaire": "aucune-procedure",
+      "reponse": "Il maintient ses propos le jour même : « Je ne regrette rien du tout, je n'enlève rien du tout. » Il dit viser des jeunes qui « poursuivent un chemin inverse à celui qu'on attend d'eux, c'est-à-dire intégrer complètement le modèle républicain ».",
+      "sources": ["ps-origines-2023-07-05", "thelocal-2023-07-05"]
+    },
+    {
+      "titre": "Propos sur l'État de droit",
+      "date": "2024-09",
+      "faits": "Nouveau ministre de l'Intérieur, il déclare au JDD, à propos du meurtre de l'étudiante Philippine, que les règles finissent par mieux protéger certains auteurs de crimes que les victimes. Yaël Braun-Pivet et Élisabeth Borne critiquent ses propos ; des sénateurs LR le défendent.",
+      "statut_judiciaire": "aucune-procedure",
+      "reponse": "Dans un communiqué, il regrette que ses propos aient été « instrumentalisés par de faux débats » et affirme que l'État de droit est le « fondement de notre République », tout en jugeant que « le droit ne protège pas suffisamment les Français ».",
+      "citation": "« L'État de droit, ça n'est pas intangible, ni sacré. »",
+      "sources": ["ps-etat-de-droit-2024-09-30", "e1-faux-debats-2024-10-01"]
+    }
+  ],
+  "programme": {
+    "etat": {
+      "texte": "Pas de programme 2027 publié en un seul document. Le candidat a présenté par thèmes sa réforme constitutionnelle (septembre 2026), sa réforme des retraites (septembre 2026) et son plan de finances publiques (octobre 2026). Les Républicains publient depuis décembre 2025 des livrets « Nos propositions pour la France » (travail, production, agriculture, famille, électricité, logement, intelligence artificielle, école), signalés ici par le badge « Projet du parti ».",
+      "sources": ["ps-constitution-2026-09-03", "lcp-retraites-2026-09-23", "ps-economies-2026-10-12", "lr-propositions"]
+    },
+    "themes": {
+      "economie": {
+        "mesures": [
+          { "sous_theme": "finances-publiques", "intitule": "Plan de redressement des finances publiques", "detail": "197 Md€ d'économies cumulées jusqu'en 2032, dont 51 Md€ « rendus aux Français » en baisses de prélèvements (21 Md€ pour les ménages, 30 Md€ pour les entreprises). L'effort porte sur l'État pour 96 Md€ (non-remplacement de 400 000 agents partant à la retraite, suppression d'opérateurs, budgets construits « sur la base zéro »), sur la sphère sociale pour 91 Md€ (dont 42 Md€ sur les retraites, 10 Md€ sur l'immigration et 4 Md€ sur les arrêts maladie) et sur les collectivités pour 10 Md€. Excédent primaire en 2030, déficit sous 3 % en 2031 et à 2,2 % en 2032 ; règle d'or inscrite dans la Constitution par référendum. Une partie des économies sur l'immigration dépend de la révision constitutionnelle.", "origine": "declaration", "date": "2026-10",
+            "chiffrages": [ { "auteur": "Bruno Retailleau", "montant": 197, "unite": "Md€ d'économies cumulées jusqu'en 2032", "sources": ["ps-economies-2026-10-12", "lcp-economies-2026-10-12"] } ],
+            "sources": ["ps-economies-2026-10-12", "lcp-economies-2026-10-12"] },
+          { "sous_theme": "retraites", "intitule": "Âge minimal à 63 ans, taux plein à 65 ans", "detail": "Départ possible dès 63 ans avec une décote de 7 % par an ; taux plein automatique à 65 ans « même si vous n'avez pas toutes vos annuités », cet âge étant ensuite lié à l'espérance de vie. Carrières longues : taux plein à 63 ans, avec une exonération de cotisations pour inciter à travailler jusqu'à 65 ans. Part de capitalisation « pour les jeunes », visant 25 à 30 % de leur future retraite (piste : cotisation de 1 % du salaire brut).", "origine": "declaration", "date": "2026-09",
+            "chiffrages": [ { "auteur": "Bruno Retailleau", "montant": 40, "unite": "Md€ d'économies cumulées sur cinq ans", "sources": ["lcp-retraites-2026-09-23"] } ],
+            "sources": ["lcp-retraites-2026-09-23"] },
+          { "sous_theme": "travail-emploi", "intitule": "« Le travail gagnant »", "detail": "Plus aucune cotisation sociale, salariale ou patronale, sur les heures travaillées au-delà de 1 623 heures par an (seuil « zéro cotisation ») ; fusion du RSA, de la prime d'activité et de l'ASS dans un « revenu d'incitation à l'activité » ; total des aides non contributives plafonné à 70 % du SMIC net par adulte grâce à un « compte social unique » ; conditions d'indemnisation chômage resserrées.", "origine": "projet-parti", "date": "2025-12",
+            "chiffrages": [ { "auteur": "Les Républicains", "montant": 30, "unite": "Md€ redonnés aux salariés et aux entreprises", "precision": "« au moins »", "sources": ["lr-travail-2025-12"] } ],
+            "sources": ["lr-travail-2025-12"] },
+          { "sous_theme": "impots-menages", "intitule": "Baisse des droits de succession", "detail": "« Je ne serai pas le président qui augmentera les droits de succession mais celui qui les baissera. » Pendant trois ans, chaque parent pourrait donner jusqu'à 150 000 € sans impôt à chacun de ses enfants de moins de 30 ans ; pas de droits de succession sur une entreprise familiale tant que les enfants ne la vendent pas.", "origine": "declaration", "date": "2026-08", "sources": ["lr-succession-2026-08-26"] },
+          { "sous_theme": "impots-entreprises", "intitule": "Allègement du coût du travail et des impôts de production", "detail": "Plus de 25 Md€ d'allègements sur le coût du travail et près de 15 Md€ sur les impôts de production : suppression de la C3S et de la CVAE, exonération de la part industrielle de la CFE, forfait social allégé. Stabilité du cadre fiscal garantie pendant le quinquennat ; crédit d'impôt recherche maintenu.", "origine": "projet-parti", "date": "2026-02", "sources": ["lr-produire-2026"] }
+        ],
+        "reponses": {
+          "cout-net-programme": { "non_communique": "2026-10-26", "precision": "Le candidat présente un solde plutôt qu'un coût : 197 Md€ d'économies cumulées d'ici 2032, dont 51 Md€ de baisses de prélèvements.", "sources": ["lcp-economies-2026-10-12"] },
+          "objectif-deficit": { "valeur": 2.2, "origine": "declaration", "date": "2026-10", "precision": "Déficit sous 3 % en 2031 et à 2,2 % en 2032, après un excédent primaire en 2030.", "sources": ["ps-economies-2026-10-12", "lcp-economies-2026-10-12"] },
+          "economies-depenses": { "non_communique": "2026-10-26", "precision": "197 Md€ d'économies « cumulées » jusqu'en 2032, sans montant annuel précisé.", "sources": ["lcp-economies-2026-10-12"] },
+          "impot-revenu": { "non_communique": "2026-10-26", "precision": "« Il n'y aura pas d'impôt nouveau » ; les 21 Md€ rendus aux ménages passent surtout par les cotisations et la facture d'électricité.", "sources": ["lcp-economies-2026-10-12"] },
+          "impot-patrimoine": { "non_communique": "2026-10-26" },
+          "droits-succession": { "valeur": "Baisse", "origine": "declaration", "date": "2026-08", "precision": "Baisse « au maximum du possible » pendant le quinquennat et dons exonérés jusqu'à 150 000 € par parent et par enfant de moins de 30 ans pendant trois ans.", "sources": ["lr-succession-2026-08-26"] },
+          "taux-is": { "non_communique": "2026-10-26" },
+          "impots-production": { "valeur": "Baisse", "origine": "projet-parti", "date": "2026-02", "precision": "Près de 15 Md€ d'allègement : suppression de la C3S et de la CVAE, exonération de la part industrielle de la CFE.", "sources": ["lr-produire-2026"] },
+          "age-legal": { "valeur": 63, "origine": "declaration", "date": "2026-09", "precision": "Âge minimal avec une décote de 7 % par an jusqu'à 65 ans, âge du taux plein automatique, ensuite indexé sur l'espérance de vie.", "sources": ["lcp-retraites-2026-09-23"] },
+          "duree-cotisation": { "non_communique": "2026-10-26", "precision": "Pas de durée chiffrée ; le taux plein serait automatique à 65 ans « même si vous n'avez pas toutes vos annuités ».", "sources": ["lcp-retraites-2026-09-23"] },
+          "financement-retraites": { "valeur": "Décote entre 63 et 65 ans (12 Md€), part de capitalisation pour les jeunes, placement des réserves, convergence avec l'Agirc-Arrco et extinction des derniers régimes spéciaux.", "origine": "declaration", "date": "2026-10", "sources": ["ps-economies-2026-10-12", "lcp-retraites-2026-09-23"] },
+          "smic": { "non_communique": "2026-10-26", "precision": "Pas de montant ; le SMIC sert de référence au plafond des aides non contributives (70 % du SMIC net par adulte).", "sources": ["lr-travail-2025-12"] },
+          "duree-travail": { "non_communique": "2026-10-26", "precision": "Pas de changement de la durée légale annoncé ; heures exonérées de cotisations sociales au-delà de 1 623 heures par an.", "sources": ["lr-travail-2025-12"] },
+          "assurance-chomage": { "valeur": "Conditions plus strictes", "origine": "projet-parti", "date": "2025-12", "precision": "« En resserrant les conditions d'indemnisation » (ruptures conventionnelles, travailleurs frontaliers, alternance emploi-chômage) ; allocations alignées sur « les standards européens ».", "sources": ["lr-travail-2025-12", "ps-economies-2026-10-12"] },
+          "prix-energie": { "valeur": "Contrat pour différence entre EDF et les fournisseurs, fondé sur les coûts du parc nucléaire, et fin des subventions aux nouvelles éoliennes et au solaire, pour viser une baisse de la facture d'électricité de 5 à 10 % à partir de 2030.", "origine": "projet-parti", "date": "2026-06", "sources": ["lr-electricite-2026"] },
+          "encadrement-prix": { "non_communique": "2026-10-26" },
+          "libre-echange": { "valeur": "Soutien sous conditions", "origine": "projet-parti", "date": "2026-02", "precision": "Clauses de réciprocité dans tous les accords commerciaux ; en septembre 2026, menace de censurer le gouvernement si la France vote pour l'accord UE-Mercosur.", "sources": ["lr-produire-2026", "brut-mercosur-2026-09"] },
+          "reindustrialisation": { "valeur": "Baisse d'environ 40 Md€ des charges sur la production (coût du travail et impôts de production), suppression « dès le lendemain de l'élection » des 50 règles les plus paralysantes et Fonds France Production de 600 M€ par an.", "origine": "projet-parti", "date": "2026-02", "sources": ["lr-produire-2026"] }
+        }
+      },
+      "ecologie": {
+        "mesures": [
+          { "sous_theme": "energie", "intitule": "Prolonger le nucléaire, cesser de subventionner éolien et solaire", "detail": "Parc nucléaire inscrit dans une trajectoire d'exploitation de « 80 ans », nouveaux EPR2 confirmés, relance des recherches sur un réacteur de 4e génération, hausse des capacités hydroélectriques. Fin des subventions aux futurs projets éoliens et photovoltaïques en métropole, « et non d'un moratoire » : les projets rentables sans aide publique restent autorisés. Abrogation du volet électricité de la PPE 3.", "origine": "projet-parti", "date": "2026-06", "sources": ["lr-electricite-2026"] }
+        ],
+        "reponses": {
+          "nucleaire": { "valeur": "Nouveaux réacteurs", "origine": "projet-parti", "date": "2026-06", "precision": "EPR2 confirmés, exploitation des réacteurs existants jusqu'à 80 ans et prototype de 4e génération.", "sources": ["lr-electricite-2026"] },
+          "renouvelables": { "valeur": "Ralentissement ou moratoire", "origine": "projet-parti", "date": "2026-06", "precision": "Fin des subventions aux nouvelles capacités éoliennes et photovoltaïques, « et non d'un moratoire » : les projets sans aide publique restent possibles.", "sources": ["lr-electricite-2026"] },
+          "neutralite-2050": { "non_communique": "2026-10-26" },
+          "thermique-2035": { "non_communique": "2026-10-26" }
+        }
+      },
+      "social": {
+        "mesures": [
+          { "sous_theme": "education", "intitule": "Refonder l'école", "detail": "Traitement des professeurs relevé (+135 € nets par mois en début de carrière, environ +300 € en milieu de carrière), examen d'entrée en sixième et groupes de niveau, fin du passage automatique, vacances ramenées à la moyenne européenne, 1 000 établissements publics « libres » d'ici 2032, établissements de réinsertion pour les élèves de moins de 16 ans exclus à répétition, « contrat d'engagement des parents ».", "origine": "projet-parti", "date": "2026-09", "sources": ["lr-ecole-2026", "ps-ecole-2026-08-31"] },
+          { "sous_theme": "logement", "intitule": "« Mieux se loger et moins cher »", "detail": "Objectif d'1 million de logements supplémentaires en cinq ans : suppression du ZAN, loi d'urgence sur le modèle du chantier de Notre-Dame pour diviser par deux les délais, 9 000 € de TVA reversés à la commune par logement neuf, fin de l'encadrement des loyers et des interdictions de louer liées au DPE, statut du bailleur privé, expulsion administrative des squatteurs sous dix jours, quotas SRU remplacés par des objectifs négociés avec les communes.", "origine": "projet-parti", "date": "2026-05", "sources": ["lr-logement-2026", "jda-logement-2026-06-10"] }
+        ],
+        "reponses": {
+          "acces-soins": { "non_communique": "2026-10-26" },
+          "installation-medecins": { "non_communique": "2026-10-26" },
+          "mesure-ecole": { "valeur": "Examen d'entrée en sixième et groupes de niveau, fin du passage automatique, 1 000 établissements publics « libres » d'ici 2032.", "origine": "projet-parti", "date": "2026-09", "sources": ["lr-ecole-2026", "ps-ecole-2026-08-31"] },
+          "remuneration-enseignants": { "valeur": "+135 € nets par mois en début de carrière et environ +300 € en milieu de carrière, sur le traitement et non sur les primes.", "origine": "projet-parti", "date": "2026-09", "sources": ["lr-ecole-2026"] },
+          "encadrement-loyers": { "valeur": "Suppression", "origine": "projet-parti", "date": "2026-05", "sources": ["lr-logement-2026"] },
+          "logements-sociaux": { "non_communique": "2026-10-26", "precision": "Pas d'objectif chiffré pour le logement social ; quotas SRU remplacés par des objectifs négociés, attribution recentrée sur « ceux qui travaillent et les familles ».", "sources": ["lr-logement-2026"] },
+          "rsa": { "valeur": "Plus strictes", "origine": "projet-parti", "date": "2025-12", "precision": "Cumul des aides non contributives plafonné à 70 % du SMIC net par adulte, revue des aides « afin d'en renforcer les conditions d'attribution ».", "sources": ["lr-travail-2025-12"] }
+        }
+      },
+      "securite": {
+        "mesures": [],
+        "reponses": {
+          "effectifs-forces-ordre": { "non_communique": "2026-10-26" },
+          "places-prison": { "non_communique": "2026-10-26" },
+          "peines-minimales": { "valeur": "Pour", "origine": "declaration", "date": "2026-09", "precision": "Peines minimales pour certains crimes et délits graves, inscrites dans une « Charte de l'ordre républicain » à valeur constitutionnelle.", "sources": ["ps-constitution-2026-09-03"] },
+          "justice-mineurs": { "valeur": "Abaisser à 15 ans la majorité pénale « pour les crimes et délits les plus graves ».", "origine": "declaration", "date": "2026-10", "sources": ["linfodurable-2026-10-19"] },
+          "cannabis": { "non_communique": "2026-10-26" }
+        }
+      },
+      "immigration": {
+        "mesures": [
+          { "sous_theme": "nationalite-droits", "intitule": "Fin du droit du sol par référendum", "detail": "Supprimer le droit du sol par référendum, après une révision de la Constitution permettant de consulter les Français sur l'immigration. La « Charte de l'ordre républicain » renforcerait la condition d'assimilation pour la nationalité et instaurerait des plafonds migratoires ; cinq ans de séjour et de travail seraient exigés pour bénéficier des prestations non contributives.", "origine": "declaration", "date": "2026-09", "sources": ["cdj-droit-du-sol-2026-09-09", "outremers360-droit-du-sol-2026-09", "ps-constitution-2026-09-03", "ps-economies-2026-10-12"] }
+        ],
+        "reponses": {
+          "titres-sejour": { "valeur": "Baisse", "origine": "declaration", "date": "2026-09", "precision": "« Réduire drastiquement l'immigration » ; plafonds migratoires inscrits dans la Constitution.", "sources": ["ps-referendum-2026-02-13", "ps-constitution-2026-09-03"] },
+          "regularisations": { "non_communique": "2026-10-26" },
+          "demandes-asile": { "valeur": "Examen des demandes d'asile en dehors des frontières, mesure conditionnée à la révision constitutionnelle.", "origine": "declaration", "date": "2026-10", "sources": ["ps-economies-2026-10-12"] },
+          "droit-du-sol": { "valeur": "Suppression", "origine": "declaration", "date": "2026-09", "precision": "Par référendum : « des idées très très fortes que les juges n'accepteraient pas si on ne passe pas par le référendum ».", "sources": ["cdj-droit-du-sol-2026-09-09", "outremers360-droit-du-sol-2026-09"] },
+          "ame": { "non_communique": "2026-10-26" },
+          "priorite-nationale": { "non_communique": "2026-10-26", "precision": "Pas de réservation aux Français ; propose d'exiger cinq ans de séjour et de travail pour les prestations non contributives.", "sources": ["ps-economies-2026-10-12"] },
+          "referendum-immigration": { "valeur": "Pour", "origine": "declaration", "date": "2026-02", "precision": "Soumettre « directement par référendum » des lois pour « réduire drastiquement l'immigration ».", "sources": ["ps-referendum-2026-02-13"] }
+        }
+      },
+      "institutions": {
+        "mesures": [
+          { "sous_theme": "democratie", "intitule": "« Pacte constitutionnel » soumis à référendum", "detail": "Révision présentée au Parlement dès le début du mandat puis soumise à référendum « dès la rentrée 2027 » : référendum de l'article 11 ouvert à « toute question législative », référendum d'initiative partagée à 2,5 millions de signatures au lieu d'environ 5 millions, possibilité pour le président de faire trancher par référendum ou par le Congrès une loi censurée par le Conseil constitutionnel (« censurer la censure »), « bouclier constitutionnel » faisant primer le droit français sur le droit européen dans certains domaines, et « Charte de l'ordre républicain » (peines minimales, laïcité, nationalité, immigration).", "origine": "declaration", "date": "2026-09", "sources": ["ps-constitution-2026-09-03", "ps-copernic-2026-09-03"] }
+        ],
+        "reponses": {
+          "mode-scrutin": { "non_communique": "2026-10-26" },
+          "ric": { "non_communique": "2026-10-26", "precision": "Propose d'abaisser à 2,5 millions de signatures le seuil du référendum d'initiative partagée, qui reste distinct d'un RIC.", "sources": ["ps-copernic-2026-09-03"] },
+          "constitution": { "valeur": "Révisions ciblées", "origine": "declaration", "date": "2026-09", "precision": "Révision présentée comme une « refondation profonde » des institutions de la Ve République, soumise à référendum.", "sources": ["ps-constitution-2026-09-03"] },
+          "mandat-presidentiel": { "non_communique": "2026-10-26" }
+        }
+      },
+      "international": {
+        "mesures": [],
+        "reponses": {
+          "relation-ue": { "valeur": "Autre", "origine": "declaration", "date": "2026-09", "precision": "« Je ne suis pas du tout fédéraliste » : primauté du droit français dans certains domaines (« bouclier constitutionnel ») et libre circulation de l'espace Schengen réservée aux Européens.", "sources": ["lr-schengen-2026-08-02", "ps-constitution-2026-09-03"] },
+          "euro": { "non_communique": "2026-10-26" },
+          "budget-defense": { "non_communique": "2026-10-26" },
+          "otan": { "valeur": "Y rester", "origine": "declaration", "date": "2026-07", "precision": "« Pas en sortant de l'OTAN », mais en l'« européanisant ».", "sources": ["lr-unite-2026-07-14"] },
+          "service-national": { "valeur": "Supprimer le service national universel et créer une « force de réserve territorialisée » de « soldats-citoyens ».", "origine": "declaration", "date": "2026-10", "sources": ["ps-economies-2026-10-12", "lr-unite-2026-07-14"] },
+          "ukraine": { "non_communique": "2026-10-26", "precision": "Salue « la résistance ukrainienne face à l'agression russe », sans mesure de soutien détaillée.", "sources": ["lr-unite-2026-07-14"] },
+          "proche-orient": { "non_communique": "2026-10-26" }
+        }
+      },
+      "agriculture": {
+        "mesures": [
+          { "sous_theme": "agriculture", "intitule": "« Réarmer notre agriculture »", "detail": "Interdiction par une loi organique de toute surtransposition des directives européennes, abandon de l'objectif uniforme de −50 % de produits phytosanitaires (Ecophyto 2030) au profit d'autorisations au cas par cas, retenues d'eau facilitées, contrats renforcés face aux centrales d'achat, PAC « européenne, pluriannuelle et sanctuarisée » et forfait « petit agriculteur » porté de 1 250 à 3 000 €.", "origine": "projet-parti", "date": "2026-03", "sources": ["lr-agriculture-2026"] }
+        ],
+        "reponses": {
+          "revenu-agricole": { "valeur": "Rééquilibrer la chaîne de valeur au profit des producteurs (prix agricole protégé dans les contrats, centrales d'achat européennes soumises au droit français, sanctions renforcées) et imposer la réciprocité aux frontières.", "origine": "projet-parti", "date": "2026-03", "sources": ["lr-agriculture-2026"] },
+          "pesticides": { "valeur": "Assouplies", "origine": "projet-parti", "date": "2026-03", "precision": "Abandon de l'objectif de −50 % fixé par Ecophyto 2030 et autorisation « au cas par cas » ; pas de règle française plus stricte que les règles européennes.", "sources": ["lr-agriculture-2026"] },
+          "pac": { "valeur": "Défendre une PAC « européenne, pluriannuelle et sanctuarisée », s'opposer à sa renationalisation et l'orienter vers des objectifs de production chiffrés par filière.", "origine": "projet-parti", "date": "2026-03", "sources": ["lr-agriculture-2026"] }
+        }
+      }
+    }
+  },
+  "sources": {
+    "lr-qui-sommes-nous": { "titre": "Qui sommes-nous ?", "editeur": "Les Républicains", "date": null, "consulte": "2026-10-26", "url": "https://republicains.fr/qui-sommes-nous/", "type": "parti" },
+    "lr-propositions": { "titre": "Nos propositions", "editeur": "Les Républicains", "date": null, "consulte": "2026-10-26", "url": "https://republicains.fr/nos-propositions/", "type": "parti" },
+    "lr-travail-2025-12": { "titre": "Le travail gagnant : nos propositions pour la France (décembre 2025)", "editeur": "Les Républicains", "date": null, "consulte": "2026-10-26", "url": "https://republicains.fr/wp-content/uploads/2026/01/51705_LesRepublicains_Brochures_A5-40P_DEF.pdf", "type": "parti" },
+    "lr-produire-2026": { "titre": "Produire plus pour vivre mieux : nos propositions pour la France", "editeur": "Les Républicains", "date": null, "consulte": "2026-10-26", "url": "https://republicains.fr/wp-content/uploads/2026/02/LR_Produire_Plus_LIVRET.pdf", "type": "parti" },
+    "lr-agriculture-2026": { "titre": "Réarmer notre agriculture : nos propositions pour la France", "editeur": "Les Républicains", "date": null, "consulte": "2026-10-26", "url": "https://republicains.fr/wp-content/uploads/2026/03/LR_Agriculture.pdf", "type": "parti" },
+    "lr-electricite-2026": { "titre": "Électricité : baisser la facture des Français, c'est possible ! Nos propositions pour la France", "editeur": "Les Républicains", "date": null, "consulte": "2026-10-26", "url": "https://republicains.fr/wp-content/uploads/2026/05/LR_Electricite_vFF070626.pdf", "type": "parti" },
+    "lr-logement-2026": { "titre": "Mieux se loger et moins cher ! Nos propositions pour la France", "editeur": "Les Républicains", "date": null, "consulte": "2026-10-26", "url": "https://republicains.fr/wp-content/uploads/2026/05/LR_Logement.pdf", "type": "parti" },
+    "lr-ecole-2026": { "titre": "Éducation : pour une école de la transmission, de l'égalité des chances, de l'autorité et de la liberté", "editeur": "Les Républicains", "date": null, "consulte": "2026-10-26", "url": "https://republicains.fr/wp-content/uploads/2026/09/LR_Ecole_vF.pdf", "type": "parti" },
+    "lr-succession-2026-08-26": { "titre": "Je serai le président qui baissera les impôts de succession", "editeur": "Les Républicains", "auteur": "Bruno Retailleau", "date": "2026-08-26", "consulte": "2026-10-26", "url": "https://republicains.fr/actualites/2026/08/26/je-serai-le-president-qui-baissera-les-impots-de-succession/", "type": "parti" },
+    "lr-schengen-2026-08-02": { "titre": "L'espace Schengen doit être réservé aux Européens ! (entretien au JDD)", "editeur": "Les Républicains", "auteur": "Bruno Retailleau", "date": "2026-08-02", "consulte": "2026-10-26", "url": "https://republicains.fr/actualites/2026/08/02/lespace-schengen-doit-etre-reserve-aux-europeens/", "type": "parti" },
+    "lr-unite-2026-07-14": { "titre": "L'unité nationale, première de nos armes", "editeur": "Les Républicains", "auteur": "Bruno Retailleau", "date": "2026-07-14", "consulte": "2026-10-26", "url": "https://republicains.fr/actualites/2026/07/14/lunite-nationale-premiere-de-nos-armes/", "type": "parti" },
+    "ce-nuances-2026-02-27": { "titre": "Décision n° 512694 sur la circulaire relative aux nuances politiques des élections municipales de 2026", "editeur": "Conseil d'État", "date": "2026-02-27", "consulte": "2026-10-26", "url": "https://conseil-etat.fr/Media/actualites/documents/2026/fevrier-2026/512694.pdf", "type": "justice" },
+    "senat-retailleau": { "titre": "M. Bruno Retailleau, sénateur de la Vendée (Pays de la Loire)", "editeur": "Sénat", "date": null, "consulte": "2026-10-26", "url": "https://www.senat.fr/senateur/retailleau_bruno04033b.html", "type": "officiel" },
+    "an-groupes-2026": { "titre": "Modifications à la composition des groupes, 2026", "editeur": "Assemblée nationale", "date": null, "consulte": "2026-10-26", "url": "https://www2.assemblee-nationale.fr/17/les-groupes-politiques/modifications-a-la-composition-des-groupes/2026", "type": "officiel" },
+    "ps-ump-lr-2017": { "titre": "De l'UMP à LR, quinze ans d'histoire mouvementée", "editeur": "Public Sénat", "auteur": "Juliette Baillot", "date": "2017-11-10", "consulte": "2026-10-26", "url": "https://www.publicsenat.fr/actualites/non-classe/de-l-ump-a-lr-quinze-ans-d-histoire-mouvementee-79616", "type": "presse" },
+    "to-congres-2015-05-30": { "titre": "Les Républicains : les militants réunis à Paris pour le congrès fondateur", "editeur": "Tendance Ouest (AFP)", "date": "2015-05-30", "consulte": "2026-10-26", "url": "https://www.tendanceouest.com/actualite-105898-paris-afp-les-republicains-les-militants-reunis-a-paris-pour-le-congres-fondateur", "type": "presse" },
+    "ps-presidence-lr-2025-05-18": { "titre": "Présidence de LR : Bruno Retailleau élu avec 74,31% des voix", "editeur": "Public Sénat", "auteur": "Simon Barbarit", "date": "2025-05-18", "consulte": "2026-10-26", "url": "https://www.publicsenat.fr/actualites/politique/presidence-de-lr-bruno-retailleau-elu-avec-7431-des-voix", "type": "presse" },
+    "ps-designation-2026-04-19": { "titre": "Présidentielle : les adhérents LR désignent Bruno Retailleau comme candidat", "editeur": "Public Sénat", "auteur": "Louis Mollier-Sabet", "date": "2026-04-19", "consulte": "2026-10-26", "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-bruno-retailleau-designe-candidat-par-les-adherents-lr", "type": "presse" },
+    "ps-referendum-2026-02-13": { "titre": "Référendum sur l'immigration, primauté du droit national : le projet de Bruno Retailleau est-il faisable ?", "editeur": "Public Sénat", "auteur": "Simon Barbarit", "date": "2026-02-13", "consulte": "2026-10-26", "url": "https://www.publicsenat.fr/actualites/politique/referendum-sur-limmigration-primaute-du-droit-national-le-projet-de-bruno-retailleau-est-il-faisable", "type": "presse" },
+    "ps-constitution-2026-09-03": { "titre": "Présidentielle 2027 : Bruno Retailleau veut « renverser la table » avec une profonde réforme constitutionnelle", "editeur": "Public Sénat", "auteur": "Emma Bador-Fritche", "date": "2026-09-03", "consulte": "2026-10-26", "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-renverser-la-table-avec-une-profonde-reforme-constitutionnelle", "type": "presse" },
+    "ps-copernic-2026-09-03": { "titre": "Présidentielle 2027 : « Bruno Retailleau propose une révolution copernicienne » dans laquelle « la Constitution ne serait plus le bouclier » qui protège les institutions, relèvent les juristes", "editeur": "Public Sénat", "auteur": "Simon Barbarit", "date": "2026-09-03", "consulte": "2026-10-26", "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-propose-une-revolution-copernicienne-dans-laquelle-la-constitution-ne-serait-plus-le-bouclier-qui-prote", "type": "presse" },
+    "ps-economies-2026-10-12": { "titre": "Présidentielle 2027 : Bruno Retailleau s'engage sur un plan d'économies de près de 200 milliards d'euros, s'il est élu", "editeur": "Public Sénat", "auteur": "Guillaume Jacquot", "date": "2026-10-12", "consulte": "2026-10-26", "url": "https://www.publicsenat.fr/actualites/economie/presidentielle-2027-bruno-retailleau-sengage-sur-un-plan-deconomies-de-pres-de-200-milliards-deuros-sil-est-elu", "type": "presse" },
+    "lcp-economies-2026-10-12": { "titre": "Face à une France \"quasiment en faillite\", Bruno Retailleau présente un plan d'économies de 197 milliards d'euros sur cinq ans", "editeur": "LCP", "auteur": "Anne-Charlotte Dusseaulx", "date": "2026-10-12", "consulte": "2026-10-26", "url": "https://lcp.fr/actualites/face-a-une-france-quasiment-en-faillite-bruno-retailleau-presente-un-plan-d-economies-de", "type": "presse" },
+    "lcp-retraites-2026-09-23": { "titre": "Retraites: Bruno Retailleau veut un âge minimal de départ à 63 ans et un taux plein à 65 ans", "editeur": "LCP", "auteur": "Anne-Charlotte Dusseaulx et Raphaël Marchal", "date": "2026-09-23", "consulte": "2026-10-26", "url": "https://lcp.fr/actualites/retraites-bruno-retailleau-veut-un-age-minimal-de-depart-a-63-ans-et-un-taux-plein-a-65", "type": "presse" },
+    "ps-ecole-2026-08-31": { "titre": "Présidentielle 2027 : Bruno Retailleau veut « refonder l'école » autour de quatre axes principaux", "editeur": "Public Sénat", "auteur": "Emma Bador-Fritche", "date": "2026-08-31", "consulte": "2026-10-26", "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-refonder-lecole-autour-de-quatre-axes-principaux", "type": "presse" },
+    "jda-logement-2026-06-10": { "titre": "Présidentielle 2027 : les propositions de Bruno Retailleau pour relancer le logement", "editeur": "Journal de l'Agence", "auteur": "Stéphanie Marpinard", "date": "2026-06-10", "consulte": "2026-10-26", "url": "https://www.journaldelagence.com/1411841-presidentielle-2027-les-propositions-de-bruno-retailleau-pour-relancer-le-logement", "type": "presse" },
+    "cdj-droit-du-sol-2026-09-09": { "titre": "Présidentielle 2027 : Bruno Retailleau veut supprimer le droit du sol par référendum", "editeur": "Le Club des Juristes", "date": "2026-09-09", "consulte": "2026-10-26", "url": "https://www.leclubdesjuristes.com/en-bref/presidentielle-2027-bruno-retailleau-veut-supprimer-le-droit-du-sol-par-referendum-17273/", "type": "presse" },
+    "outremers360-droit-du-sol-2026-09": { "titre": "Bruno Retailleau veut supprimer le droit du sol par référendum", "editeur": "Outremers360", "date": null, "consulte": "2026-10-26", "url": "https://outremers360.com/bassin-atlantique-appli/bruno-retailleau-veut-supprimer-le-droit-du-sol-par-referendum", "type": "presse" },
+    "linfodurable-2026-10-19": { "titre": "Violences : Retailleau dénonce une \"convergence entre l'extrême gauche et des racailles\" issues de l'immigration", "editeur": "L'Info Durable (AFP)", "date": "2026-10-19", "consulte": "2026-10-26", "url": "https://www.linfodurable.fr/violences-retailleau-denonce-une-convergence-entre-lextreme-gauche-et-des-racailles-issues-de-59467", "type": "presse" },
+    "brut-mercosur-2026-09": { "titre": "Retailleau prévient : si Macron vote pour le Mercosur, \"il prend le risque d'une censure\" du gouvernement", "editeur": "Brut", "auteur": "Brut avec AFP", "date": null, "consulte": "2026-10-26", "url": "https://www.brut.media/fr/articles/retailleau-previent-si-macron-vote-pour-le-mercosur-il-prend-le-risque-dune-censure-du-gouvernement", "type": "presse" },
+    "ps-odoxa-2026-09-29": { "titre": "Sondage : les cotes de popularité de Marine Le Pen et d'Edouard Philippe reculent fortement, Raphaël Glucksmann progresse légèrement", "editeur": "Public Sénat", "date": "2026-09-29", "consulte": "2026-10-26", "url": "https://www.publicsenat.fr/actualites/politique/sondage-les-cotes-de-popularite-de-marine-le-pen-et-dedouard-philippe-reculent-fortement-raphael-glucksmann-progresse", "type": "presse" },
+    "elabe-observatoire-2026-08": { "titre": "L'Observatoire politique, août 2026 (terrain du 28 au 29 juillet 2026)", "editeur": "Elabe pour Les Échos", "date": null, "consulte": "2026-10-26", "url": "https://elabe.fr/fichier-pdf/13180-lobservatoire-politique-aout-2026/", "type": "sondage" },
+    "ps-origines-2023-07-05": { "titre": "Violences urbaines : Bruno Retailleau « ne regrette rien du tout » et maintient ses mots", "editeur": "Public Sénat", "auteur": "Guillaume Jacquot", "date": "2023-07-05", "consulte": "2026-10-26", "url": "https://www.publicsenat.fr/actualites/societe/violences-urbaines-bruno-retailleau-ne-regrette-rien-du-tout-et-maintient-ses-mots", "type": "presse" },
+    "thelocal-2023-07-05": { "titre": "French senator sparks outcry with 'ethnic' riot comments", "editeur": "The Local (AFP)", "date": "2023-07-05", "consulte": "2026-10-26", "url": "https://www.thelocal.fr/20230705/french-senator-sparks-outcry-with-ethnic-riot-comments", "type": "presse" },
+    "ps-etat-de-droit-2024-09-30": { "titre": "Etat de droit : les propos polémiques de Bruno Retailleau inquiètent, mais ne surprennent pas au Sénat", "editeur": "Public Sénat", "auteur": "Simon Barbarit", "date": "2024-09-30", "consulte": "2026-10-26", "url": "https://www.publicsenat.fr/actualites/politique/etat-de-droit-les-propos-polemiques-de-bruno-retailleau-inquietent-mais-ne-surprennent-pas-au-senat", "type": "presse" },
+    "e1-faux-debats-2024-10-01": { "titre": "Bruno Retailleau regrette de «faux débats» sur l'État de droit, «fondement de notre République»", "editeur": "Europe 1 (AFP)", "date": "2024-10-01", "consulte": "2026-10-26", "url": "https://www.europe1.fr/politique/bruno-retailleau-regrette-de-faux-debats-sur-letat-de-droit-fondement-de-notre-republique-4270478", "type": "presse" }
+  }
+}

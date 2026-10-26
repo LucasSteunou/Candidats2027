@@ -1,0 +1,206 @@
+{
+  "id": "glucksmann",
+  "nom": "Raphaël Glucksmann",
+  "maj": "2026-10-25",
+  "parti": {
+    "nom": "Place publique",
+    "sigle": "PP",
+    "fondation": "2018-11-06",
+    "positionnement": {
+      "auto_definition": {
+        "texte": "À sa création, Place publique se dit « ouvert à toutes celles et tous ceux qui partagent les principes de solidarité sociale, de respect du vivant, de renforcement de la démocratie et de promotion des droits humains ». En 2026, le parti co-organise avec le PS la primaire du camp « social-démocrate ».",
+        "sources": ["ps-pp-lancement-2018", "lcp-candidature-2026-08-23"]
+      },
+      "nuance_ministere": {
+        "texte": "Pour les municipales de 2026, le ministère de l'Intérieur attribue à Place publique la nuance « PLP » et la classe dans le bloc « gauche ».",
+        "sources": ["bdt-nuances-2026"]
+      }
+    }
+  },
+  "resume": {
+    "texte": "Fondateur de Place publique (2018) et député européen depuis 2019, Raphaël Glucksmann a conduit la liste PS-Place publique aux européennes de 2024 (13,8 %, en tête de la gauche). Candidat déclaré depuis le 23 août 2026, il a remporté le 11 octobre la primaire sociale-démocrate organisée par le PS et Place publique, avec 66,17 % des suffrages exprimés. Il exclut tout accord avec La France insoumise.",
+    "sources": ["ps-pp-lancement-2018", "pe-glucksmann-9", "lcp-livre-2026-05-26", "lcp-candidature-2026-08-23", "lcp-primaire-2026-10-11"]
+  },
+  "histoire": {
+    "parti": [
+      { "date": "2018-11-06", "titre": "Création de Place publique", "texte": "Vingt-deux intellectuels, militants et élus emmenés par Raphaël Glucksmann publient dans Libération « l'acte de naissance » du mouvement, structuré autour de quatre « urgences » : écologique, démocratique, sociale et européenne.", "sources": ["ps-pp-lancement-2018"] },
+      { "date": "2019-03-16", "titre": "Liste commune avec le PS aux européennes", "texte": "Le Parti socialiste désigne Raphaël Glucksmann comme tête de liste pour les élections européennes.", "sources": ["ps-tete-liste-2019"] },
+      { "date": "2024-06", "titre": "Européennes 2024", "texte": "La liste PS-Place publique conduite par Raphaël Glucksmann obtient 13,8 %, en tête de la gauche.", "sources": ["lcp-livre-2026-05-26"] },
+      { "date": "2025-06", "titre": "Projet du parti", "texte": "Place publique publie le premier volet (« Acte 1 ») de son projet collectif, organisé en 50 chantiers.", "sources": ["lid-ecologie-2026-10-12", "pp-acte1"] },
+      { "date": "2026-10-11", "titre": "Primaire sociale-démocrate", "texte": "Raphaël Glucksmann l'emporte dès le premier tour avec 66,17 % des suffrages exprimés, devant Olivier Faure (14,46 %).", "sources": ["lcp-primaire-2026-10-11"] }
+    ],
+    "candidat": [
+      { "date": "1979-10-15", "titre": "Naissance", "texte": "Naît à Boulogne-Billancourt.", "sources": ["pe-glucksmann-9"] },
+      { "date": "2019-07-02", "titre": "Député européen", "texte": "Entre au Parlement européen (groupe des Socialistes et Démocrates). De 2020 à 2022, il préside la commission spéciale sur l'ingérence étrangère dans les processus démocratiques de l'UE.", "sources": ["pe-glucksmann-9"] },
+      { "date": "2026-05", "titre": "Livre-programme", "texte": "Publie « Nous avons encore envie » (Allary éditions), où il présente les premières lignes de son projet.", "sources": ["lcp-livre-2026-05-26"] },
+      { "date": "2026-06-13", "titre": "Premier meeting", "texte": "À Aubervilliers, il appelle socialistes et écologistes à le rejoindre.", "sources": ["lcp-aubervilliers-2026-06-14"] },
+      { "date": "2026-08-23", "titre": "Candidature pour 2027", "texte": "Annonce au journal de 20 heures de TF1 : « Oui, je suis candidat à l'élection présidentielle ».", "sources": ["lcp-candidature-2026-08-23"] }
+    ]
+  },
+  "popularite": {
+    "chiffres_cles": [
+      { "libelle": "Opinions favorables (Odoxa pour Public Sénat)", "valeur": "20 %", "date": "2026-09", "sources": ["ps-odoxa-2026-09-29"] },
+      { "libelle": "Bonne image (Elabe pour Les Échos)", "valeur": "21 % (−2 points)", "date": "2026-07", "sources": ["elabe-observatoire-2026-08"] },
+      { "libelle": "Primaire sociale-démocrate", "valeur": "66,17 %", "date": "2026-10-11", "sources": ["lcp-primaire-2026-10-11"] },
+      { "libelle": "Liste PS-Place publique aux européennes 2024", "valeur": "13,8 %", "date": "2024-06", "sources": ["lcp-livre-2026-05-26"] }
+    ],
+    "series": []
+  },
+  "perception": [
+    { "type": "sondage", "auteur": "Elabe pour Les Échos", "texte": "21 % des Français ont une bonne image de Raphaël Glucksmann (−2 points), à égalité avec Bernard Cazeneuve. Auprès des électeurs de gauche, il obtient 40 % et se classe cinquième.", "date": "2026-07", "sources": ["elabe-observatoire-2026-08"] },
+    { "type": "sondage", "auteur": "Odoxa pour Public Sénat", "texte": "20 % d'opinions favorables, contre 35 % pour Marine Le Pen et 15 % pour Jean-Luc Mélenchon dans la même enquête.", "date": "2026-09", "sources": ["ps-odoxa-2026-09-29"] }
+  ],
+  "controverses": [
+    {
+      "titre": "Note interne sur les « publics cibles »",
+      "date": "2026-05-12",
+      "faits": "Mediapart publie une note de travail des équipes de Place publique, intitulée « Les trois \"publics cibles\" », qui préconise de miser sur les électeurs les plus aisés et les plus âgés plutôt que sur les jeunes et les classes populaires, présentés comme des publics à « éviter ». La note suscite des critiques, notamment de responsables de La France insoumise.",
+      "statut_judiciaire": "aucune-procedure",
+      "reponse": "Raphaël Glucksmann affirme rejeter les conclusions de ce document de travail.",
+      "sources": ["mediapart-note-2026-05-12", "gazette-note-2026-05-12"]
+    }
+  ],
+  "programme": {
+    "etat": {
+      "texte": "Pas encore de programme présidentiel complet. Le candidat a présenté ses premières propositions dans son livre (mai 2026) et pendant la primaire ; son plan des « 100 jours de la révolution écologique », confié à Yannick Jadot, était annoncé pour l'automne 2026. Les autres positions viennent du projet de son parti, Place publique (« Acte 1 », juin 2025), distinct des annonces du candidat (badge « Projet du parti »).",
+      "sources": ["lcp-livre-2026-05-26", "lcp-100jours-2026-08-25", "lid-ecologie-2026-10-12", "pp-acte1"]
+    },
+    "themes": {
+      "economie": {
+        "mesures": [
+          { "sous_theme": "impots-menages", "intitule": "Baisser la CSG sur les salaires, financée par les « méga-héritages »", "detail": "Taxer davantage les 1 % des plus gros héritages et transférer le produit « directement sur la fiche de paie » par une baisse de la CSG sur les salaires, afin de « rapprocher le salaire net du salaire brut ».", "origine": "declaration", "date": "2026-08",
+            "chiffrages": [ { "auteur": "Raphaël Glucksmann", "montant": 15, "unite": "Md€ par an", "sources": ["ps-propose-2026-08-24"] } ],
+            "sources": ["ps-propose-2026-08-24", "lcp-medef-2026-08-27", "lcp-primaire-diff-2026-10-09"] }
+        ],
+        "reponses": {
+          "cout-net-programme": { "non_communique": "2026-10-25" },
+          "objectif-deficit": { "non_communique": "2026-10-25", "precision": "Promet de ne pas financer la hausse des salaires « par l'aggravation de la dette ».", "sources": ["lcp-medef-2026-08-27"] },
+          "economies-depenses": { "non_communique": "2026-10-25" },
+          "impot-revenu": { "non_communique": "2026-10-25", "precision": "Le projet de Place publique prévoit un « grand chantier fiscal » pour rééquilibrer la taxation entre le travail, le capital, l'héritage et les retraites.", "sources": ["pp-acte1"] },
+          "impot-patrimoine": { "non_communique": "2026-10-25", "precision": "Veut « mettre fin à toute forme de sécession des ultrariches », sans préciser l'outil.", "sources": ["lcp-livre-2026-05-26"] },
+          "droits-succession": { "valeur": "Hausse", "origine": "declaration", "date": "2026-08", "precision": "Taxer les « méga-héritages », les 1 % des plus gros (15 Md€ selon lui), pour financer la baisse de la CSG sur les salaires.", "sources": ["ps-propose-2026-08-24", "lcp-medef-2026-08-27"] },
+          "taux-is": { "non_communique": "2026-10-25" },
+          "impots-production": { "non_communique": "2026-10-25" },
+          "age-legal": { "valeur": 62, "origine": "declaration", "date": "2026-10", "precision": "Abrogation de la réforme de 2023, puis une réforme « construite avec et par les partenaires sociaux », centrée sur la durée de cotisation, la pénibilité et l'espérance de vie en bonne santé.", "sources": ["lcp-primaire-diff-2026-10-09", "pp-acte1", "lcp-retraites-2026-06-19"] },
+          "duree-cotisation": { "non_communique": "2026-10-25", "precision": "Veut se concentrer « sur la durée de cotisation et la pénibilité du travail », sans chiffre.", "sources": ["lcp-retraites-2026-06-19"] },
+          "financement-retraites": { "non_communique": "2026-10-25", "precision": "Réforme du financement de la protection sociale et des retraites intégrant l'espérance de vie en bonne santé, sans détail.", "sources": ["lcp-livre-2026-05-26"] },
+          "smic": { "valeur": 1600, "origine": "projet-parti", "date": "2025-06", "precision": "« Dans les deux ans qui suivent notre accession au pouvoir » (projet de Place publique). Le candidat met en avant la baisse de la CSG sur les salaires.", "sources": ["pp-acte1", "ps-propose-2026-08-24"] },
+          "duree-travail": { "non_communique": "2026-10-25" },
+          "assurance-chomage": { "valeur": "Conditions plus favorables aux demandeurs d'emploi", "origine": "projet-parti", "date": "2025-06", "precision": "« Abroger la réforme Macron de l'assurance chômage ».", "sources": ["pp-acte1"] },
+          "prix-energie": { "valeur": "Fixer une partie de la facture d'électricité sur le coût de production du nucléaire et des renouvelables plutôt que sur le prix de marché ; annuler la hausse de taxe sur l'électricité de 2024.", "origine": "projet-parti", "date": "2025-06", "sources": ["pp-acte1"] },
+          "encadrement-prix": { "non_communique": "2026-10-25" },
+          "libre-echange": { "valeur": "Soutien sous conditions", "origine": "projet-parti", "date": "2025-06", "precision": "Mesures contre le dumping social, sanitaire et environnemental ; « s'opposer aux traités comme le Mercosur ».", "sources": ["pp-acte1"] },
+          "reindustrialisation": { "valeur": "Faire de la « révolution écologique » une « révolution industrielle » : produire en France, par exemple les panneaux photovoltaïques, pour ne pas dépendre de la Chine.", "origine": "declaration", "date": "2026-08", "sources": ["lcp-100jours-2026-08-25"] }
+        }
+      },
+      "ecologie": {
+        "mesures": [
+          { "sous_theme": "energie", "intitule": "Les « 100 jours de la révolution écologique »", "detail": "Dès la victoire : sortir de « l'addiction au gaz et au pétrole », rénovation thermique des bâtiments, efficacité énergétique, transport électrique et sobriété. Plan confié à Yannick Jadot.", "origine": "declaration", "date": "2026-08", "sources": ["lcp-100jours-2026-08-25"] },
+          { "sous_theme": "climat", "intitule": "Trajectoire climat et sobriété", "detail": "Baisse de 90 % des émissions en 2040 et neutralité climat en 2050 ; loi contre la fast-fashion, score carbone obligatoire sur les produits et fin des plastiques à usage unique d'ici 2030.", "origine": "projet-parti", "date": "2025-06", "sources": ["pp-acte1"] }
+        ],
+        "reponses": {
+          "nucleaire": { "valeur": "Nouveaux réacteurs", "origine": "declaration", "date": "2026-08", "precision": "Favorable à de nouveaux EPR, point encore en discussion avec Yannick Jadot ; le projet de Place publique prévoit « la construction à temps de nouvelles unités ».", "sources": ["lcp-100jours-2026-08-25", "pp-acte1"] },
+          "renouvelables": { "valeur": "Accélération", "origine": "projet-parti", "date": "2025-06", "precision": "« Grand plan d'investissement pluriannuel dans toutes les énergies renouvelables ».", "sources": ["pp-acte1", "lcp-100jours-2026-08-25"] },
+          "neutralite-2050": { "valeur": "Maintenu", "origine": "projet-parti", "date": "2025-06", "precision": "Trajectoire de −90 % en 2040 et neutralité climat en 2050.", "sources": ["pp-acte1"] },
+          "thermique-2035": { "non_communique": "2026-10-25", "precision": "Le projet de Place publique prévoit un « leasing social » pour l'accès des ménages modestes à la voiture électrique.", "sources": ["pp-acte1"] }
+        }
+      },
+      "social": {
+        "mesures": [
+          { "sous_theme": "education", "intitule": "Plan de sauvetage de l'école publique", "detail": "Plan sur cinq ans : hausse de la rémunération des enseignants, moins d'élèves par classe en primaire, rénovation du bâti scolaire, et « passeport pour l'émancipation » garantissant à chaque enfant un séjour collectif.", "origine": "declaration", "date": "2026-08",
+            "chiffrages": [ { "auteur": "Raphaël Glucksmann", "montant": 6, "unite": "Md€ (hausse des salaires enseignants)", "sources": ["ps-ecole-2026-08-31"] } ],
+            "sources": ["ps-propose-2026-08-24", "ps-ecole-2026-08-31", "lcp-livre-2026-05-26"] },
+          { "sous_theme": "logement", "intitule": "Plan Marshall pour le logement", "detail": "Fonds national pour aider les collectivités à acquérir du foncier, objectifs annuels de logements sociaux relevés, bail réel solidaire « en offre de masse », rénovation des passoires thermiques et encadrement des loyers dans les zones tendues.", "origine": "projet-parti", "date": "2025-06", "sources": ["pp-acte1"] }
+        ],
+        "reponses": {
+          "acces-soins": { "valeur": "Projets territoriaux de santé, centres et maisons de santé, dispensaires et permanences mobiles en zone rurale ; fin de la tarification à l'acte à l'hôpital.", "origine": "projet-parti", "date": "2025-06", "sources": ["pp-acte1"] },
+          "installation-medecins": { "valeur": "Incitations seulement", "origine": "projet-parti", "date": "2025-06", "precision": "« Soutenir l'installation » et favoriser l'exercice regroupé, sans obligation mentionnée.", "sources": ["pp-acte1"] },
+          "mesure-ecole": { "valeur": "Plan de sauvetage sur cinq ans : rémunération des enseignants, moins d'élèves par classe en primaire, rénovation du bâti scolaire ; mixité sociale appliquée à l'enseignement privé.", "origine": "declaration", "date": "2026-08", "sources": ["ps-propose-2026-08-24", "lcp-livre-2026-05-26"] },
+          "remuneration-enseignants": { "valeur": "+10 % pour tous les enseignants, jusqu'à 25 % selon la carrière, pour « rattraper les moyennes européennes » (coût annoncé : 6 Md€).", "origine": "declaration", "date": "2026-08", "sources": ["ps-ecole-2026-08-31"] },
+          "encadrement-loyers": { "valeur": "Autre", "origine": "projet-parti", "date": "2025-06", "precision": "« Encadrer les loyers dans les zones en grande tension ».", "sources": ["pp-acte1"] },
+          "logements-sociaux": { "non_communique": "2026-10-25", "precision": "Le projet de Place publique prévoit de relever les objectifs nationaux annuels de construction de logements sociaux, sans chiffre.", "sources": ["pp-acte1"] },
+          "rsa": { "valeur": "Plus larges", "origine": "projet-parti", "date": "2025-06", "precision": "Conférence sociale pour aller vers un « minimum social unique, accessible à toutes et tous, y compris pour les moins de 25 ans ».", "sources": ["pp-acte1"] }
+        }
+      },
+      "securite": {
+        "mesures": [],
+        "reponses": {
+          "effectifs-forces-ordre": { "non_communique": "2026-10-25" },
+          "places-prison": { "non_communique": "2026-10-25" },
+          "peines-minimales": { "non_communique": "2026-10-25" },
+          "justice-mineurs": { "non_communique": "2026-10-25" },
+          "cannabis": { "valeur": "Autre", "origine": "projet-parti", "date": "2025-06", "precision": "Organiser une convention citoyenne sur la politique des drogues, « notamment la question de la légalisation du cannabis ».", "sources": ["pp-acte1"] }
+        }
+      },
+      "immigration": {
+        "mesures": [
+          { "sous_theme": "immigration-legale", "intitule": "Convention citoyenne sur l'immigration", "detail": "Des citoyens tirés au sort, « confrontés aux données démographiques, économiques ou sécuritaires », formulent des propositions soumises au vote du Parlement. « L'immigration zéro n'est ni souhaitable, ni possible. Et non, s'installer en France n'est pas un droit universel. »", "origine": "declaration", "date": "2026-05", "sources": ["lcp-livre-2026-05-26", "ps-propose-2026-08-24"] }
+        ],
+        "reponses": {
+          "titres-sejour": { "non_communique": "2026-10-25", "precision": "Renvoyé à une convention citoyenne sur l'immigration.", "sources": ["lcp-livre-2026-05-26"] },
+          "regularisations": { "valeur": "Facilitée", "origine": "projet-parti", "date": "2025-06", "precision": "« Faciliter les démarches de régularisation des travailleurs sans papiers ».", "sources": ["pp-acte1"] },
+          "demandes-asile": { "valeur": "Harmoniser les procédures d'asile dans l'UE, avec un mécanisme européen de répartition qui mettrait fin au système de Dublin ; refuser l'externalisation des politiques migratoires.", "origine": "projet-parti", "date": "2025-06", "sources": ["pp-acte1"] },
+          "droit-du-sol": { "non_communique": "2026-10-25" },
+          "ame": { "non_communique": "2026-10-25" },
+          "priorite-nationale": { "non_communique": "2026-10-25" },
+          "referendum-immigration": { "non_communique": "2026-10-25", "precision": "Propose une convention citoyenne plutôt qu'un référendum.", "sources": ["lcp-livre-2026-05-26"] }
+        }
+      },
+      "institutions": {
+        "mesures": [
+          { "sous_theme": "democratie", "intitule": "Réformes institutionnelles", "detail": "Motion de censure « constructive » (censurer un gouvernement exigera de proposer un successeur) pour mettre fin au 49.3, suppression de l'article 16, proportionnelle, droit d'initiative citoyenne et conventions citoyennes généralisées.", "origine": "projet-parti", "date": "2025-06", "sources": ["pp-acte1"] }
+        ],
+        "reponses": {
+          "mode-scrutin": { "valeur": "Proportionnelle intégrale", "origine": "projet-parti", "date": "2025-06", "precision": "« Instaurer immédiatement la proportionnelle, de préférence par circonscriptions régionales avec un fléchage départemental des candidats ».", "sources": ["pp-acte1"] },
+          "ric": { "valeur": "Pour", "origine": "projet-parti", "date": "2025-06", "precision": "« Droit d'initiative citoyenne » permettant de déclencher des référendums locaux et nationaux.", "sources": ["pp-acte1"] },
+          "constitution": { "valeur": "Révisions ciblées", "origine": "projet-parti", "date": "2025-06", "precision": "Supprimer l'article 16 et instaurer la motion de censure constructive.", "sources": ["pp-acte1"] },
+          "mandat-presidentiel": { "non_communique": "2026-10-25" }
+        }
+      },
+      "international": {
+        "mesures": [
+          { "sous_theme": "defense", "intitule": "Défense européenne", "detail": "Proposer d'étendre la dissuasion nucléaire française aux autres pays de l'UE, en gardant la décision d'emploi française, et réserver les investissements européens de défense aux productions européennes.", "origine": "projet-parti", "date": "2025-06", "sources": ["pp-acte1"] }
+        ],
+        "reponses": {
+          "relation-ue": { "valeur": "Approfondir l'intégration", "origine": "declaration", "date": "2026-05", "precision": "Plan de souveraineté européenne, grand emprunt européen et suppression du droit de veto au sein de l'UE.", "sources": ["lcp-livre-2026-05-26"] },
+          "euro": { "non_communique": "2026-10-25" },
+          "budget-defense": { "non_communique": "2026-10-25" },
+          "otan": { "non_communique": "2026-10-25" },
+          "service-national": { "valeur": "Service civique obligatoire de dix mois pour tous les jeunes, dans les Ehpad, les écoles, les services publics ou les associations ; dimension militaire fondée sur le volontariat.", "origine": "declaration", "date": "2026-05", "sources": ["lcp-livre-2026-05-26", "ps-propose-2026-08-24"] },
+          "ukraine": { "valeur": "Renforcer l'aide à l'Ukraine, financée notamment par la saisie des avoirs publics russes.", "origine": "declaration", "date": "2026-10", "sources": ["lcp-primaire-diff-2026-10-09"] },
+          "proche-orient": { "valeur": "Que Benyamin Netanyahou « paye pour ses crimes » et soit déféré devant la justice internationale ; reconnaître un État palestinien aux côtés d'Israël (projet de Place publique). Reproche à Olivier Faure de vouloir faire employer le mot « génocide », « pas reconnu par la Cour pénale internationale ».", "origine": "declaration", "date": "2026-10", "sources": ["lcp-primaire-diff-2026-10-09", "pp-acte1"] }
+        }
+      },
+      "agriculture": {
+        "mesures": [],
+        "reponses": {
+          "revenu-agricole": { "valeur": "Prix planchers rémunérateurs, fin des contournements de la loi EGALIM, stocks stratégiques et autorité européenne de contrôle des prix alimentaires.", "origine": "projet-parti", "date": "2025-06", "sources": ["pp-acte1"] },
+          "pesticides": { "valeur": "Plus strictes", "origine": "projet-parti", "date": "2025-06", "precision": "Interdire les pesticides « les plus néfastes » (glyphosate, néonicotinoïdes) et créer des zones sans pesticides autour des captages d'eau et des écoles.", "sources": ["pp-acte1"] },
+          "pac": { "valeur": "Réformer la PAC pour soutenir l'emploi et le revenu agricole, en rompant avec les aides à l'hectare, en soutenant la conversion au bio et en plafonnant les aides.", "origine": "projet-parti", "date": "2025-06", "sources": ["pp-acte1"] }
+        }
+      }
+    }
+  },
+  "sources": {
+    "ps-propose-2026-08-24": { "titre": "Fiscalité, école, immigration : ce que propose Raphaël Glucksmann", "editeur": "Public Sénat", "date": "2026-08-24", "consulte": "2026-10-25", "url": "https://www.publicsenat.fr/actualites/politique/fiscalite-ecole-immigration-ce-que-propose-raphael-glucksmann", "type": "presse" },
+    "lcp-livre-2026-05-26": { "titre": "Présidentielle: Raphaël Glucksmann dévoile les premières lignes de son possible programme", "editeur": "LCP", "auteur": "Raphaël Marchal", "date": "2026-05-26", "consulte": "2026-10-25", "url": "https://lcp.fr/actualites/presidentielle-raphael-glucksmann-devoile-les-premieres-lignes-de-son-possible-programme", "type": "presse" },
+    "lcp-100jours-2026-08-25": { "titre": "Présidentielle 2027: s'il gagne, Raphaël Glucksmann engagera \"les 100 jours de la révolution écologique\"", "editeur": "LCP", "auteur": "Anne-Charlotte Dusseaulx", "date": "2026-08-25", "consulte": "2026-10-25", "url": "https://lcp.fr/actualites/presidentielle-2027-s-il-gagne-raphael-glucksmann-engagera-les-100-jours-de-la", "type": "presse" },
+    "lcp-retraites-2026-06-19": { "titre": "Présidentielle 2027: qui propose quoi sur les retraites?", "editeur": "LCP", "auteur": "Anne-Charlotte Dusseaulx", "date": "2026-06-19", "consulte": "2026-10-25", "url": "https://lcp.fr/actualites/presidentielle-2027-qui-propose-quoi-sur-les-retraites-437864", "type": "presse" },
+    "lcp-candidature-2026-08-23": { "titre": "Présidentielle 2027: Raphaël Glucksmann officialise sa candidature et participera à la primaire sociale-démocrate", "editeur": "LCP", "auteur": "Anne-Charlotte Dusseaulx", "date": "2026-08-23", "consulte": "2026-10-25", "url": "https://lcp.fr/actualites/presidentielle-2027-raphael-glucksmann-officialise-sa-candidature-et-participera-a-la", "type": "presse" },
+    "lcp-primaire-2026-10-11": { "titre": "Primaire socialiste: vainqueur dès le 1er tour, Raphaël Glucksmann sera le candidat de la gauche sociale-démocrate à la présidentielle", "editeur": "LCP", "auteur": "Soizic Bonvarlet", "date": "2026-10-11", "consulte": "2026-10-25", "url": "https://lcp.fr/actualites/primaire-socialiste-vainqueur-des-le-1er-tour-raphael-glucksmann-sera-le-candidat-de-la", "type": "presse" },
+    "lcp-primaire-diff-2026-10-09": { "titre": "Glucksmann, Faure, Royal, Maurel, Guedj: quelles différences entre les candidats à la primaire socialiste?", "editeur": "LCP", "auteur": "Soizic Bonvarlet", "date": "2026-10-09", "consulte": "2026-10-25", "url": "https://lcp.fr/actualites/glucksmann-faure-royal-maurel-guedj-quelles-differences-entre-les-candidats-a-la", "type": "presse" },
+    "lcp-medef-2026-08-27": { "titre": "Présidentielle 2027: ce qu'il faut retenir du débat entre les candidats devant le Medef", "editeur": "LCP", "auteur": "Anne-Charlotte Dusseaulx", "date": "2026-08-27", "consulte": "2026-10-25", "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670", "type": "presse" },
+    "lcp-aubervilliers-2026-06-14": { "titre": "\"Gagner en 2027\": Raphaël Glucksmann lance sa campagne et veut \"ramener la gauche au pouvoir\"", "editeur": "LCP", "auteur": "Anne-Charlotte Dusseaulx", "date": "2026-06-14", "consulte": "2026-10-25", "url": "https://lcp.fr/actualites/gagner-en-2027-raphael-glucksmann-lance-sa-campagne-et-veut-ramener-la-gauche-au-pouvoir", "type": "presse" },
+    "ps-ecole-2026-08-31": { "titre": "Présidentielle 2027 : que proposent les candidats pour l'école ?", "editeur": "Public Sénat", "date": "2026-08-31", "consulte": "2026-10-25", "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole", "type": "presse" },
+    "lid-ecologie-2026-10-12": { "titre": "Après la primaire, quelles ambitions écologiques pour Raphaël Glucksmann ?", "editeur": "L'Info Durable", "date": "2026-10-12", "consulte": "2026-10-25", "url": "https://www.linfodurable.fr/politique/apres-la-primaire-quelles-ambitions-ecologiques-pour-raphael-glucksmann-59331", "type": "presse" },
+    "pp-acte1": { "titre": "Acte un : notre vision pour la France, les chantiers de Place publique pour redonner vie à la promesse républicaine", "editeur": "Place publique", "date": null, "consulte": "2026-10-25", "url": "https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf", "type": "parti" },
+    "ps-pp-lancement-2018": { "titre": "Place publique, un nouveau parti qui veut \"bouleverser le champ politique\"", "editeur": "Public Sénat", "date": "2018-11-06", "consulte": "2026-10-25", "url": "https://www.publicsenat.fr/actualites/politique/place-publique-un-nouveau-parti-qui-veut-bouleverser-le-champ-politique-135146", "type": "presse" },
+    "ps-tete-liste-2019": { "titre": "Européennes: le PS désigne Raphaël Glucksmann comme tête de liste", "editeur": "Public Sénat", "date": "2019-03-16", "consulte": "2026-10-25", "url": "https://www.publicsenat.fr/actualites/politique/europeennes-le-ps-designe-raphael-glucksmann-comme-tete-de-liste-139282", "type": "presse" },
+    "bdt-nuances-2026": { "titre": "Municipales : les nuances politiques attribuées aux candidats dans les communes de 3.500 habitants et plus", "editeur": "Banque des Territoires", "date": null, "consulte": "2026-10-25", "url": "https://www.banquedesterritoires.fr/municipales-les-nuances-politiques-attribuees-aux-candidats-dans-les-communes-de-3500-habitants-et", "type": "presse" },
+    "pe-glucksmann-9": { "titre": "Raphaël GLUCKSMANN, 9e législature", "editeur": "Parlement européen", "date": null, "consulte": "2026-10-25", "url": "https://www.europarl.europa.eu/meps/fr/197694/RAPHAEL_GLUCKSMANN/history/9", "type": "officiel" },
+    "ps-odoxa-2026-09-29": { "titre": "Sondage : les cotes de popularité de Marine Le Pen et d'Edouard Philippe reculent fortement, Raphaël Glucksmann progresse légèrement", "editeur": "Public Sénat", "date": "2026-09-29", "consulte": "2026-10-25", "url": "https://www.publicsenat.fr/actualites/politique/sondage-les-cotes-de-popularite-de-marine-le-pen-et-dedouard-philippe-reculent-fortement-raphael-glucksmann-progresse", "type": "presse" },
+    "elabe-observatoire-2026-08": { "titre": "L'Observatoire politique, août 2026 (terrain du 28 au 29 juillet 2026)", "editeur": "Elabe pour Les Échos", "date": null, "consulte": "2026-10-25", "url": "https://elabe.fr/fichier-pdf/13180-lobservatoire-politique-aout-2026/", "type": "sondage" },
+    "mediapart-note-2026-05-12": { "titre": "« Éviter » les jeunes et les banlieues : une note interne crée le malaise dans le parti de Raphaël Glucksmann (copie hébergée par l'Université populaire de Toulouse)", "editeur": "Mediapart", "auteur": "Sarah Benhaïda", "date": "2026-05-12", "consulte": "2026-10-25", "url": "https://www.universitepopulairetoulouse.fr/IMG/pdf/me_diapart_les_jeunes_et_les_banlieues_une_note_interne_cree_le_malaise_dans_le_parti_de_raphael_glucksmann.pdf", "type": "presse" },
+    "gazette-note-2026-05-12": { "titre": "\"Cibles à éviter\": une note pour Glucksmann fuite, LFI en profite", "editeur": "La Gazette France", "date": "2026-05-12", "consulte": "2026-10-25", "url": "https://www.lagazettefrance.fr/article/cibles-a-eviter-une-note-pour-glucksmann-fuite-lfi-en-profite", "type": "presse" }
+  }
+}

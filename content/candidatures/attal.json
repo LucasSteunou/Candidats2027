@@ -1,0 +1,211 @@
+{
+  "id": "attal",
+  "nom": "Gabriel Attal",
+  "maj": "2026-10-26",
+  "parti": {
+    "nom": "Renaissance",
+    "sigle": null,
+    "fondation": "2016-04-06",
+    "positionnement": {
+      "auto_definition": {
+        "texte": "Le parti se présente sous le triptyque « Progrès, Europe, République ». Son programme des législatives de 2024 s'adresse aux « progressistes, travaillistes, démocrates, républicains ».",
+        "sources": ["re-site", "ga-programme-2024"]
+      },
+      "nuance_ministere": {
+        "texte": "Pour les municipales de 2026, le ministère de l'Intérieur classe les candidats rattachés à Renaissance dans le bloc « centre », avec le MoDem, Horizons, le Parti radical et l'UDI.",
+        "sources": ["bdt-nuances-2026"]
+      }
+    }
+  },
+  "resume": {
+    "texte": "Député des Hauts-de-Seine, plus jeune Premier ministre de la Ve République (de janvier à juillet 2024), Gabriel Attal dirige Renaissance depuis décembre 2024 et préside le groupe Ensemble pour la République à l'Assemblée nationale. Il a officialisé sa candidature le 22 mai 2026. Son programme 2027 n'est pas publié en un seul document : ses positions viennent de ses annonces de campagne et des conventions thématiques de Renaissance (2025).",
+    "sources": ["an-attal", "ps-matignon-2024-01-09", "ps-demission-2024-07-16", "re-regalien-2025", "lcp-attal-2026-05-22"]
+  },
+  "histoire": {
+    "parti": [
+      { "date": "2016-04-06", "titre": "Création d'En Marche", "texte": "Emmanuel Macron lance son mouvement à Amiens.", "sources": ["ps-lrem5ans-2021"] },
+      { "date": "2022-09-17", "titre": "Naissance de Renaissance", "texte": "La République en marche fusionne avec Agir et Territoires de progrès pour devenir Renaissance ; Horizons et le MoDem restent à part.", "sources": ["ps-renaissance-2022-09-17"] },
+      { "date": "2024-12", "titre": "Gabriel Attal à la tête du parti", "texte": "Il lance dans la foulée des « conventions thématiques » pour bâtir le projet du parti.", "sources": ["re-regalien-2025"] },
+      { "date": "2026-09-25", "titre": "Départs du groupe à l'Assemblée", "texte": "Élisabeth Borne, qui a quitté la direction du parti pour créer son mouvement, et trois autres députés quittent le groupe Ensemble pour la République, qui passe à 74 membres.", "sources": ["an-groupes-2026", "ps-meeting-attal-2026-05-30"] }
+    ],
+    "candidat": [
+      { "date": "1989-03-16", "titre": "Naissance", "texte": "Naît à Clamart.", "sources": ["an-attal"] },
+      { "date": "2024-01-09", "titre": "Premier ministre", "texte": "Nommé à Matignon à 34 ans, il devient le plus jeune Premier ministre de la Ve République. Emmanuel Macron accepte sa démission le 16 juillet 2024, après les législatives anticipées.", "sources": ["ps-matignon-2024-01-09", "ps-demission-2024-07-16"] },
+      { "date": "2026-05-22", "titre": "Candidature pour 2027", "texte": "Officialise sa candidature à l'élection présidentielle.", "sources": ["lcp-attal-2026-05-22"] },
+      { "date": "2026-05-30", "titre": "Premier meeting", "texte": "À Paris, devant environ 5 000 personnes, il présente « quatre chantiers capitaux » : l'école, les salaires, les frontières et l'intelligence artificielle.", "sources": ["ps-meeting-attal-2026-05-30"] }
+    ]
+  },
+  "popularite": {
+    "chiffres_cles": [
+      { "libelle": "Opinions favorables (Odoxa pour Public Sénat)", "valeur": "25 % (−3 points)", "date": "2026-09", "sources": ["ps-odoxa-2026-09-29"] },
+      { "libelle": "Bonne image (Elabe pour Les Échos)", "valeur": "30 % (−2 points)", "date": "2026-07", "sources": ["elabe-observatoire-2026-08"] },
+      { "libelle": "Groupe Ensemble pour la République à l'Assemblée nationale", "valeur": "74 membres", "date": "2026-09-25", "sources": ["an-groupes-2026"] }
+    ],
+    "series": []
+  },
+  "perception": [
+    { "type": "sondage", "auteur": "Elabe pour Les Échos", "texte": "30 % des Français ont une bonne image de Gabriel Attal (−2 points), à égalité avec Édouard Philippe. Auprès des électeurs d'Emmanuel Macron en 2022, il obtient 65 % (−2 points), un point derrière Édouard Philippe.", "date": "2026-07", "sources": ["elabe-observatoire-2026-08"] },
+    { "type": "sondage", "auteur": "Odoxa pour Public Sénat", "texte": "25 % d'opinions favorables, contre 35 % pour Marine Le Pen et 27 % pour Édouard Philippe dans la même enquête.", "date": "2026-09", "sources": ["ps-odoxa-2026-09-29"] }
+  ],
+  "controverses": [
+    {
+      "titre": "Commandes de Canadair",
+      "date": "2026-07",
+      "faits": "Pendant les incendies de l'été 2026, le RN et LFI accusent le gouvernement de Gabriel Attal d'avoir annulé en 2024 « plus de 50 millions d'euros de crédits de la sécurité civile », ce qui aurait conduit à renoncer à deux Canadair. Deux appareils ont ensuite été commandés dans le cadre du programme européen rescEU, avec une livraison annoncée pour 2028.",
+      "statut_judiciaire": "aucune-procedure",
+      "reponse": "Pas de réponse publique de Gabriel Attal trouvée dans les sources consultées. Emmanuel Macron affirme avoir « relancé la production de Canadair » ; le ministre de l'Intérieur indique que quatre Canadair ont été commandés, dont deux financés dans le budget 2026.",
+      "sources": ["brut-canadair-2026", "an-qag1763"]
+    }
+  ],
+  "programme": {
+    "etat": {
+      "texte": "Pas de programme 2027 publié en un seul document. Le candidat détaille ses propositions par thème (école, finances publiques, Europe, familles) ; le parti a publié en 2025 deux projets issus de conventions thématiques, « Une République ferme, une France apaisée » et « Pour une nouvelle donne économique et climatique » (badge « Projet du parti »). Certaines positions viennent du programme des législatives de 2024, qu'il conduisait comme Premier ministre (badge « Ancien programme »).",
+      "sources": ["ps-meeting-attal-2026-05-30", "re-regalien-2025", "re-nouvelle-donne-2025", "ga-programme-2024"]
+    },
+    "themes": {
+      "economie": {
+        "mesures": [
+          { "sous_theme": "finances-publiques", "intitule": "Plan de retour à l'équilibre", "detail": "Déficit sous 3 % « avant 2032 » et « cap » de 0 % du PIB en 2037 ; économies « pour deux tiers » sur les dépenses sociales, sans hausse d'impôts ; « année blanche » sur les prestations sociales en 2028, hors petites retraites ; 100 000 postes de fonctionnaires supprimés par départs volontaires et non-remplacements, hors Éducation, Armées, Justice et Intérieur ; « impunité zéro » pour les ministres responsables de dérapages.", "origine": "declaration", "date": "2026-07",
+            "chiffrages": [ { "auteur": "Gabriel Attal", "montant": 150, "unite": "Md€ d'économies (fourchette annoncée : 120 à 150 Md€)", "sources": ["moneyvox-plan-2026-07-03"] } ],
+            "sources": ["moneyvox-plan-2026-07-03"] },
+          { "sous_theme": "retraites", "intitule": "Changer de système de retraites", "detail": "Système « universel, clair et compréhensible » : convergence des régimes, « un euro cotisé ouvrira les mêmes droits », suppression de l'âge légal avec décotes et surcotes, et une part de capitalisation, avec 1 000 € versés par l'État à chaque enfant à la naissance. Le système s'appliquerait aux nouveaux entrants ; les actifs pourraient choisir de le rejoindre.", "origine": "declaration", "date": "2025-11", "sources": ["lcp-retraites-revolution-2025-11-10", "lcp-retraites-2026-06-19"] }
+        ],
+        "reponses": {
+          "cout-net-programme": { "non_communique": "2026-10-26" },
+          "objectif-deficit": { "valeur": 3, "origine": "declaration", "date": "2026-07", "precision": "« 3 % avant 2032 », puis un « cap » de 0 % du PIB en 2037.", "sources": ["moneyvox-plan-2026-07-03"] },
+          "economies-depenses": { "non_communique": "2026-10-26", "precision": "« Entre 120 et 150 milliards d'euros d'économies », sans calendrier annuel précisé.", "sources": ["moneyvox-plan-2026-07-03"] },
+          "impot-revenu": { "valeur": "Baisse", "origine": "declaration", "date": "2026-08", "precision": "Baisse ciblée : pensions alimentaires sorties du revenu imposable du parent qui les reçoit (environ 1 Md€ selon lui) ; « sans hausse d'impôts ».", "sources": ["lcp-monoparentales-2026-08-28", "moneyvox-plan-2026-07-03"] },
+          "impot-patrimoine": { "non_communique": "2026-10-26", "precision": "S'oppose à la taxe Zucman (2025).", "sources": ["lcp-arras-2025-09-21"] },
+          "droits-succession": { "non_communique": "2026-10-26" },
+          "taux-is": { "non_communique": "2026-10-26", "precision": "Le projet de Renaissance refuse « toute hausse d'impôt sur les entreprises ».", "sources": ["re-nouvelle-donne-2025"] },
+          "impots-production": { "valeur": "Baisse", "origine": "projet-parti", "date": "2025-07", "precision": "« Nous refuserons toute hausse d'impôt sur les entreprises et baisserons encore les impôts de production. »", "sources": ["re-nouvelle-donne-2025"] },
+          "age-legal": { "valeur": "Autre", "origine": "declaration", "date": "2026-05", "precision": "Supprimer l'âge légal : « Chacun sera libre de choisir le moment où il part », sous condition d'un montant de pension minimal, avec décotes et surcotes.", "sources": ["lcp-retraites-revolution-2025-11-10", "lcp-retraites-2026-06-19"] },
+          "duree-cotisation": { "non_communique": "2026-10-26", "precision": "Système fondé sur la durée de cotisation, sans durée chiffrée.", "sources": ["lcp-retraites-2026-06-19"] },
+          "financement-retraites": { "valeur": "Système universel où « un euro cotisé ouvrira les mêmes droits », complété par une part de capitalisation : 1 000 € versés par l'État à chaque enfant à la naissance.", "origine": "declaration", "date": "2025-11", "sources": ["lcp-retraites-revolution-2025-11-10"] },
+          "smic": { "non_communique": "2026-10-26", "precision": "Programme de 2024 : « libérer les augmentations de salaires entre le SMIC et 2 000 € » en réformant les aides aux entreprises et la prime d'activité.", "sources": ["ensemble-2024"] },
+          "duree-travail": { "non_communique": "2026-10-26" },
+          "assurance-chomage": { "non_communique": "2026-10-26", "precision": "Annonce « très vite des réformes de structure » (retraites, arrêts maladie, assurance chômage), sans détail.", "sources": ["moneyvox-plan-2026-07-03"] },
+          "prix-energie": { "valeur": "Garantir aux industriels un prix de l'électricité d'« une cinquantaine d'euros le MWh maximum » pendant dix ans, en contrepartie d'objectifs de décarbonation.", "origine": "projet-parti", "date": "2025-07", "sources": ["re-nouvelle-donne-2025"] },
+          "encadrement-prix": { "non_communique": "2026-10-26" },
+          "libre-echange": { "non_communique": "2026-10-26" },
+          "reindustrialisation": { "valeur": "Pacte « Choose France » à la fiscalité attractive, baisse des impôts de production, simplification des normes et « mini-Singapour », zones d'innovation aux règles assouplies.", "origine": "projet-parti", "date": "2025-07", "sources": ["re-nouvelle-donne-2025"] }
+        }
+      },
+      "ecologie": {
+        "mesures": [
+          { "sous_theme": "energie", "intitule": "Nucléaire et renouvelables", "detail": "Tenir l'objectif de 14 EPR, plan « SMR 2030 » pour une production industrielle de petits réacteurs dès 2030, investissements massifiés dans l'éolien marin ; produire en France les trois quarts de l'énergie consommée.", "origine": "projet-parti", "date": "2025-07", "sources": ["re-nouvelle-donne-2025"] }
+        ],
+        "reponses": {
+          "nucleaire": { "valeur": "Nouveaux réacteurs", "origine": "projet-parti", "date": "2025-07", "precision": "14 EPR et petits réacteurs (SMR) en production industrielle dès 2030.", "sources": ["re-nouvelle-donne-2025"] },
+          "renouvelables": { "valeur": "Accélération", "origine": "projet-parti", "date": "2025-07", "precision": "« Une accélération sur le nucléaire et les énergies renouvelables ».", "sources": ["re-nouvelle-donne-2025"] },
+          "neutralite-2050": { "valeur": "Maintenu", "origine": "projet-parti", "date": "2025-07", "precision": "Calcul et publication chaque année d'une « dette carbone » mesurée par rapport à l'objectif de neutralité carbone ; −55 % d'émissions en 2030 dans le programme de 2024.", "sources": ["re-nouvelle-donne-2025", "ensemble-2024"] },
+          "thermique-2035": { "non_communique": "2026-10-26" }
+        }
+      },
+      "social": {
+        "mesures": [
+          { "sous_theme": "education", "intitule": "Loi de programmation pour l'école", "detail": "Ministre « qui restera en poste cinq ans », certificat d'études à l'entrée en 6e avec une année passerelle, brevet obligatoire pour entrer en seconde, groupes de niveau en français et en mathématiques, moins de 20 élèves par classe en primaire, fermeture des « 100 collèges qui constituent les pires ghettos scolaires ».", "origine": "declaration", "date": "2026-08",
+            "chiffrages": [ { "auteur": "Équipe de Gabriel Attal", "montant": 2.5, "unite": "Md€ (revalorisation des enseignants)", "sources": ["ps-ecole-2026-08-31"] } ],
+            "sources": ["lcp-ecole-attal-2026-08-25", "ps-ecole-2026-08-31"] },
+          { "sous_theme": "solidarite", "intitule": "Familles monoparentales", "detail": "Pensions alimentaires sorties du revenu imposable du parent qui les reçoit, « droit au répit » (temps de garde en soirée, le week-end ou en urgence) et « carte famille monoparentale ».", "origine": "declaration", "date": "2026-08",
+            "chiffrages": [ { "auteur": "Gabriel Attal", "montant": 1, "unite": "Md€ (défiscalisation des pensions alimentaires)", "sources": ["lcp-monoparentales-2026-08-28"] } ],
+            "sources": ["lcp-monoparentales-2026-08-28"] }
+        ],
+        "reponses": {
+          "acces-soins": { "valeur": "Doubler le nombre de médecins en formation (16 000 en 2027) grâce à la suppression du numerus clausus.", "origine": "ancien-programme", "date": "2024", "sources": ["ensemble-2024"] },
+          "installation-medecins": { "non_communique": "2026-10-26" },
+          "mesure-ecole": { "valeur": "Certificat d'études à l'entrée en 6e, brevet obligatoire pour la seconde, groupes de niveau, moins de 20 élèves par classe en primaire, fermeture des 100 collèges les plus ségrégués, loi de programmation.", "origine": "declaration", "date": "2026-08", "sources": ["lcp-ecole-attal-2026-08-25"] },
+          "remuneration-enseignants": { "valeur": "+200 € net par mois, jusqu'à 500 € net en milieu de carrière (2,5 Md€ selon son équipe).", "origine": "declaration", "date": "2026-08", "sources": ["lcp-ecole-attal-2026-08-25", "ps-ecole-2026-08-31"] },
+          "encadrement-loyers": { "non_communique": "2026-10-26" },
+          "logements-sociaux": { "non_communique": "2026-10-26" },
+          "rsa": { "non_communique": "2026-10-26" }
+        }
+      },
+      "securite": {
+        "mesures": [],
+        "reponses": {
+          "effectifs-forces-ordre": { "non_communique": "2026-10-26" },
+          "places-prison": { "non_communique": "2026-10-26" },
+          "peines-minimales": { "non_communique": "2026-10-26" },
+          "justice-mineurs": { "non_communique": "2026-10-26" },
+          "cannabis": { "non_communique": "2026-10-26" }
+        }
+      },
+      "immigration": {
+        "mesures": [
+          { "sous_theme": "immigration-legale", "intitule": "Immigration pilotée par le travail", "detail": "« Préférence travail » : orientations et quotas définis avec les acteurs économiques et les partenaires sociaux puis votés par le Parlement, admission par points sur le modèle canadien, regroupement familial durci (délai de présence porté de 18 à 24 mois, conditions de français, de logement et de ressources), fin des prestations sociales à l'expiration du titre de séjour.", "origine": "projet-parti", "date": "2025-05", "sources": ["re-regalien-2025"] }
+        ],
+        "reponses": {
+          "titres-sejour": { "valeur": "Autre", "origine": "projet-parti", "date": "2025-05", "precision": "Pas d'objectif de baisse ou de hausse : quotas fixés avec les partenaires sociaux et votés par le Parlement, admission par points.", "sources": ["re-regalien-2025"] },
+          "regularisations": { "non_communique": "2026-10-26" },
+          "demandes-asile": { "non_communique": "2026-10-26" },
+          "droit-du-sol": { "valeur": "Maintien", "origine": "projet-parti", "date": "2025-05", "precision": "« Le droit du sol auquel nous sommes attachés ».", "sources": ["re-regalien-2025"] },
+          "ame": { "valeur": "Autre", "origine": "projet-parti", "date": "2025-05", "precision": "« Réformer l'AME en mettant en œuvre les recommandations du rapport Evin-Stefanini ».", "sources": ["re-regalien-2025"] },
+          "priorite-nationale": { "non_communique": "2026-10-26" },
+          "referendum-immigration": { "non_communique": "2026-10-26" }
+        }
+      },
+      "institutions": {
+        "mesures": [
+          { "sous_theme": "democratie", "intitule": "Une « Ve République du XXIe siècle »", "detail": "Moins de parlementaires et d'élus, suppression d'un échelon de collectivités locales et recours à des référendums.", "origine": "declaration", "date": "2025-09", "sources": ["lcp-arras-2025-09-21"] }
+        ],
+        "reponses": {
+          "mode-scrutin": { "non_communique": "2026-10-26" },
+          "ric": { "non_communique": "2026-10-26" },
+          "constitution": { "valeur": "Révisions ciblées", "origine": "declaration", "date": "2025-09", "precision": "Une « Ve République du XXIe siècle » : moins de parlementaires et d'élus, suppression d'un échelon de collectivités, recours aux référendums.", "sources": ["lcp-arras-2025-09-21"] },
+          "mandat-presidentiel": { "non_communique": "2026-10-26" }
+        }
+      },
+      "international": {
+        "mesures": [
+          { "sous_theme": "europe", "intitule": "Les « États-Unis d'Europe »", "detail": "Un « saut fédéral » d'abord avec un noyau de huit à dix pays, centré sur l'économie : convergence des taux d'imposition, droit du travail commun, droit des affaires unifié, union bancaire et des marchés de capitaux, ressources propres et grands projets communs (IA, spatial, énergie). Les nations garderaient leurs compétences régaliennes, migratoires, de défense et d'éducation.", "origine": "declaration", "date": "2026-09", "sources": ["ps-usa-europe-2026-09-17"] }
+        ],
+        "reponses": {
+          "relation-ue": { "valeur": "Approfondir l'intégration", "origine": "declaration", "date": "2026-09", "precision": "« États-Unis d'Europe » avec un noyau de pays volontaires.", "sources": ["ps-usa-europe-2026-09-17"] },
+          "euro": { "non_communique": "2026-10-26" },
+          "budget-defense": { "non_communique": "2026-10-26" },
+          "otan": { "valeur": "Y rester", "origine": "ancien-programme", "date": "2024", "precision": "« Nous resterons dans l'OTAN et nous maintiendrons la dissuasion nucléaire. »", "sources": ["ensemble-2024"] },
+          "service-national": { "non_communique": "2026-10-26" },
+          "ukraine": { "valeur": "« Nous soutenons l'Ukraine face à l'agression. »", "origine": "ancien-programme", "date": "2024", "sources": ["ga-programme-2024"] },
+          "proche-orient": { "non_communique": "2026-10-26" }
+        }
+      },
+      "agriculture": {
+        "mesures": [],
+        "reponses": {
+          "revenu-agricole": { "non_communique": "2026-10-26" },
+          "pesticides": { "non_communique": "2026-10-26" },
+          "pac": { "non_communique": "2026-10-26" }
+        }
+      }
+    }
+  },
+  "sources": {
+    "re-site": { "titre": "Renaissance, parti politique français : Progrès, Europe, République", "editeur": "Renaissance", "date": null, "consulte": "2026-10-26", "url": "https://parti-renaissance.fr/", "type": "parti" },
+    "re-regalien-2025": { "titre": "Une République ferme, une France apaisée (convention thématique)", "editeur": "Renaissance", "date": "2025-05-26", "consulte": "2026-10-26", "url": "https://doc.parti.re/conventions/Restitution-Regalien-Une-Republique-ferme-une-France-apaisee.pdf", "type": "parti" },
+    "re-nouvelle-donne-2025": { "titre": "Pour une nouvelle donne économique et climatique (conventions thématiques)", "editeur": "Renaissance", "date": "2025-07-21", "consulte": "2026-10-26", "url": "https://doc.parti.re/Conventions-thematiques_Nouvelle-donne.pdf", "type": "parti" },
+    "ga-programme-2024": { "titre": "Programme (législatives de 2024)", "editeur": "Gabriel Attal (site officiel)", "date": null, "consulte": "2026-10-26", "url": "https://gabrielattal.fr/pages/1FEfzGXN5ynz28wiZ1970b/programme", "type": "parti" },
+    "ensemble-2024": { "titre": "Ensemble pour la République, élections législatives du 30 juin et du 7 juillet 2024", "editeur": "Ensemble pour la République", "date": null, "consulte": "2026-10-26", "url": "https://ensemble-2024.fr/", "type": "parti" },
+    "bdt-nuances-2026": { "titre": "Municipales : les nuances politiques attribuées aux candidats dans les communes de 3.500 habitants et plus", "editeur": "Banque des Territoires", "date": null, "consulte": "2026-10-26", "url": "https://www.banquedesterritoires.fr/municipales-les-nuances-politiques-attribuees-aux-candidats-dans-les-communes-de-3500-habitants-et", "type": "presse" },
+    "an-attal": { "titre": "M. Gabriel Attal, Hauts-de-Seine (10e circonscription)", "editeur": "Assemblée nationale", "date": null, "consulte": "2026-10-26", "url": "https://www.assemblee-nationale.fr/dyn/deputes/PA722190", "type": "officiel" },
+    "an-groupes-2026": { "titre": "Modifications à la composition des groupes, 2026", "editeur": "Assemblée nationale", "date": null, "consulte": "2026-10-26", "url": "https://www2.assemblee-nationale.fr/17/les-groupes-politiques/modifications-a-la-composition-des-groupes/2026", "type": "officiel" },
+    "ps-matignon-2024-01-09": { "titre": "Nommé à Matignon, Gabriel Attal devient le plus jeune Premier ministre de la Ve République", "editeur": "Public Sénat", "date": "2024-01-09", "consulte": "2026-10-26", "url": "https://www.publicsenat.fr/actualites/politique/nomme-a-matignon-gabriel-attal-devient-le-plus-jeune-premier-ministre-de-la-ve-republique", "type": "presse" },
+    "ps-demission-2024-07-16": { "titre": "Emmanuel Macron a accepté la démission de Gabriel Attal et de son gouvernement", "editeur": "Public Sénat", "date": "2024-07-16", "consulte": "2026-10-26", "url": "https://www.publicsenat.fr/actualites/politique/emmanuel-macron-sapprete-a-accepter-la-demission-de-gabriel-attal-et-de-son-gouvernement", "type": "presse" },
+    "ps-lrem5ans-2021": { "titre": "Cinq ans de LREM : « En Marche parle à lui-même, or le mouvement doit parler au peuple », estime François Patriat", "editeur": "Public Sénat", "date": "2021-04-06", "consulte": "2026-10-26", "url": "https://www.publicsenat.fr/actualites/politique/cinq-ans-de-lrem-en-marche-parle-a-lui-meme-or-le-mouvement-doit-parler-au-peuple", "type": "presse" },
+    "ps-renaissance-2022-09-17": { "titre": "Emmanuel Macron lance Renaissance et met en garde contre « la division » de son camp", "editeur": "Public Sénat", "date": "2022-09-17", "consulte": "2026-10-26", "url": "https://www.publicsenat.fr/actualites/politique/emmanuel-macron-lance-renaissance-et-met-en-garde-contre-la-division-de-son-camp", "type": "presse" },
+    "lcp-attal-2026-05-22": { "titre": "Présidentielle 2027: Gabriel Attal officialise sa candidature", "editeur": "LCP", "auteur": "Raphaël Marchal", "date": "2026-05-22", "consulte": "2026-10-26", "url": "https://lcp.fr/actualites/presidentielle-2027-gabriel-attal-officialise-sa-candidature-436721", "type": "presse" },
+    "ps-meeting-attal-2026-05-30": { "titre": "« Un an pour convaincre » : pour son premier grand meeting, Gabriel Attal mise sur « l'espoir » et joue sa différence avec Edouard Philippe", "editeur": "Public Sénat", "date": "2026-05-30", "consulte": "2026-10-26", "url": "https://www.publicsenat.fr/actualites/politique/un-an-pour-convaincre-pour-son-premier-grand-meeting-gabriel-attal-mise-sur-lespoir-et-joue-sa-difference-avec-edouard-philippe", "type": "presse" },
+    "moneyvox-plan-2026-07-03": { "titre": "Attal veut 100 000 départs volontaires de fonctionnaires et l'« impunité budgétaire zéro »", "editeur": "Moneyvox", "date": "2026-07-03", "consulte": "2026-10-26", "url": "https://www.moneyvox.fr/impot/actualites/109548/attal-veut-100-000-departs-volontaires-de-fonctionnaires-et-impunite-budgetaire-zero", "type": "presse" },
+    "lcp-retraites-revolution-2025-11-10": { "titre": "Retraites : avant le débat sur la suspension de la réforme, Gabriel Attal prône une \"véritable révolution\"", "editeur": "LCP", "auteur": "Anne-Charlotte Dusseaulx", "date": "2025-11-10", "consulte": "2026-10-26", "url": "https://lcp.fr/actualites/retraites-avant-le-debat-sur-la-suspension-de-la-reforme-gabriel-attal-prone-une", "type": "presse" },
+    "lcp-retraites-2026-06-19": { "titre": "Présidentielle 2027: qui propose quoi sur les retraites?", "editeur": "LCP", "auteur": "Anne-Charlotte Dusseaulx", "date": "2026-06-19", "consulte": "2026-10-26", "url": "https://lcp.fr/actualites/presidentielle-2027-qui-propose-quoi-sur-les-retraites-437864", "type": "presse" },
+    "lcp-monoparentales-2026-08-28": { "titre": "Présidentielle 2027: comment Gabriel Attal veut soutenir les familles monoparentales s'il est élu", "editeur": "LCP", "auteur": "Anne-Charlotte Dusseaulx", "date": "2026-08-28", "consulte": "2026-10-26", "url": "https://lcp.fr/actualites/presidentielle-2027-comment-gabriel-attal-veut-soutenir-les-familles-monoparentales-s-il", "type": "presse" },
+    "lcp-ecole-attal-2026-08-25": { "titre": "Présidentielle: retour du certificat d'études, revalorisation des salaires… Ce que propose Gabriel Attal pour l'école", "editeur": "LCP", "auteur": "Anne-Charlotte Dusseaulx", "date": "2026-08-25", "consulte": "2026-10-26", "url": "https://lcp.fr/actualites/presidentielle-retour-du-certificat-d-etudes-revalorisation-des-salaires-ce-que-propose", "type": "presse" },
+    "ps-ecole-2026-08-31": { "titre": "Présidentielle 2027 : que proposent les candidats pour l'école ?", "editeur": "Public Sénat", "date": "2026-08-31", "consulte": "2026-10-26", "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole", "type": "presse" },
+    "ps-usa-europe-2026-09-17": { "titre": "Gabriel Attal veut construire « les Etats-Unis d'Europe », proposition choc pour « relancer l'idéal européen »", "editeur": "Public Sénat", "date": "2026-09-17", "consulte": "2026-10-26", "url": "https://www.publicsenat.fr/actualites/politique/gabriel-attal-veut-construire-les-etats-unis-deurope-proposition-choc-pour-relancer-lideal-europeen", "type": "presse" },
+    "lcp-arras-2025-09-21": { "titre": "à Arras, Gabriel Attal prône \"une nouvelle République\" en vue de l'élection présidentielle de 2027", "editeur": "LCP", "auteur": "Stéphanie Depierre", "date": "2025-09-21", "consulte": "2026-10-26", "url": "https://lcp.fr/actualites/a-arras-gabriel-attal-prone-une-nouvelle-republique-en-vue-de-l-election-presidentielle", "type": "presse" },
+    "ps-odoxa-2026-09-29": { "titre": "Sondage : les cotes de popularité de Marine Le Pen et d'Edouard Philippe reculent fortement, Raphaël Glucksmann progresse légèrement", "editeur": "Public Sénat", "date": "2026-09-29", "consulte": "2026-10-26", "url": "https://www.publicsenat.fr/actualites/politique/sondage-les-cotes-de-popularite-de-marine-le-pen-et-dedouard-philippe-reculent-fortement-raphael-glucksmann-progresse", "type": "presse" },
+    "elabe-observatoire-2026-08": { "titre": "L'Observatoire politique, août 2026 (terrain du 28 au 29 juillet 2026)", "editeur": "Elabe pour Les Échos", "date": null, "consulte": "2026-10-26", "url": "https://elabe.fr/fichier-pdf/13180-lobservatoire-politique-aout-2026/", "type": "sondage" },
+    "brut-canadair-2026": { "titre": "Macron répond aux critiques sur les commandes de Canadair", "editeur": "Brut", "auteur": "Brut avec AFP", "date": null, "consulte": "2026-10-26", "url": "https://www.brut.media/fr/articles/france/politique/macron-repond-aux-critiques-sur-les-commandes-de-canadair", "type": "presse" },
+    "an-qag1763": { "titre": "Question au Gouvernement n° 1763 (Matthieu Bloch) et réponse du ministre de l'Intérieur", "editeur": "Assemblée nationale", "date": null, "consulte": "2026-10-26", "url": "https://questions.assemblee-nationale.fr/q17/17-1763QG.htm", "type": "officiel" }
+  }
+}
