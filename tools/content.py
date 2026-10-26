@@ -258,9 +258,12 @@ class Perimetre(Model):
     sources: dict[str, Source]
 
 
+Score = float | Literal["<1"]  # "<1": published as « moins de 1 % »; counts for 0.5 in totals and averages
+
+
 class Hypothese(Model):
     nom: str
-    scores: dict[str, float] = Field(min_length=2)
+    scores: dict[str, Score] = Field(min_length=2)
 
 
 class Sondage(Model):
@@ -386,7 +389,7 @@ def check_sondages(doc: dict) -> list[str]:
             errors.append(f"{sondage.id} : terrain inversé")
         for hyp in sondage.hypotheses:
             errors += [f"{sondage.id} / {hyp.nom} : nom inconnu {k}" for k in hyp.scores if k not in data.noms]
-            total = sum(hyp.scores.values())
+            total = sum(0.5 if v == "<1" else v for v in hyp.scores.values())
             if not 97 <= total <= 103:
                 errors.append(f"{sondage.id} / {hyp.nom} : total {total} % (attendu 100 ± 3)")
     return errors

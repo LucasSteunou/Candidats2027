@@ -1,6 +1,6 @@
 {
   "maj": "2026-10-26",
-  "note": "Intentions de vote au premier tour, en % des suffrages exprimés, telles que publiées par l'institut (YouGov : colonne « pondérés »). Toutes les hypothèses testées sont reprises. Un score publié « <1 % » est saisi à 0,5.",
+  "note": "Intentions de vote au premier tour, en % des suffrages exprimés, telles que publiées par l'institut (YouGov : colonne « pondérés »). Toutes les hypothèses testées sont reprises. Un score publié « <1 % » est affiché tel quel et compte pour 0,5 point dans les moyennes.",
   "noms": {
     "arthaud": "Nathalie Arthaud",
     "attal": "Gabriel Attal",
@@ -111,7 +111,7 @@
       "terrain": ["2026-10-21", "2026-10-22"],
       "echantillon": "973 personnes inscrites sur les listes électorales, issu d'un échantillon de 1 033 personnes",
       "hypotheses": [
-        { "nom": "Hypothèse unique", "scores": { "arthaud": 0.5, "melenchon": 16, "roussel": 1, "tondelier": 1, "glucksmann": 13, "bouamrane": 0.5, "attal": 4, "philippe": 12, "retailleau": 6, "lisnard": 6, "dupont-aignan": 1, "zemmour": 4, "le-pen": 36 } }
+        { "nom": "Hypothèse unique", "scores": { "arthaud": "<1", "melenchon": 16, "roussel": 1, "tondelier": 1, "glucksmann": 13, "bouamrane": "<1", "attal": 4, "philippe": 12, "retailleau": 6, "lisnard": 6, "dupont-aignan": 1, "zemmour": 4, "le-pen": 36 } }
       ],
       "sources": ["cds-10333-opinionway"]
     },

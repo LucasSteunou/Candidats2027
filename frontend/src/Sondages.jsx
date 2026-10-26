@@ -11,6 +11,7 @@ import {
   lastName,
   latestPollDate,
   pollDomain,
+  scoreValue,
   sondages,
 } from "./content.js";
 import { Card, PageTitle, SourceChips, go } from "./ui.jsx";
@@ -95,10 +96,11 @@ export function TrendChart({ points, line, yMax, xDomain, label, describe }) {
 }
 
 function describePoll(line) {
-  return ({ poll, date, scores }) => {
+  return ({ poll, date, scores, raw }) => {
     const avg = line.find((p) => p.date === date);
-    const lo = Math.min(...scores);
-    const hi = Math.max(...scores);
+    const sorted = [...raw].sort((a, b) => scoreValue(a) - scoreValue(b));
+    const lo = sorted[0];
+    const hi = sorted.at(-1);
     const range = lo === hi ? fmtPct(lo) : `${fmtNumber(lo)} à ${fmtPct(hi)}`;
     const hyp = `${scores.length} hypothèse${scores.length > 1 ? "s" : ""}`;
     return `${poll.institut}, terrain du ${fmtDate(poll.terrain[0])} au ${fmtDate(poll.terrain[1])} : ${range} (${hyp}). Moyenne ${WINDOW_DAYS} jours : ${fmtPct(avg.value)}.`;

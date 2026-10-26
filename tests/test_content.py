@@ -36,6 +36,15 @@ def test_sondages_are_consistent() -> None:
     assert check_sondages(load_json(CONTENT_DIR / "sondages.json")) == []
 
 
+def test_sondages_only_accept_below_one_as_a_text_score() -> None:
+    doc = load_json(CONTENT_DIR / "sondages.json")
+    scores = doc["sondages"][0]["hypotheses"][0]["scores"]
+    scores["le-pen"] = "<1"  # "<1" counts for 0.5, so the total slips by about 30 points
+    assert any("total" in e for e in check_sondages(doc))
+    scores["le-pen"] = "beaucoup"
+    assert check_sondages(doc) != []
+
+
 def test_sondages_reject_a_transcription_slip() -> None:
     doc = load_json(CONTENT_DIR / "sondages.json")
     doc["sondages"][0]["hypotheses"][0]["scores"]["le-pen"] += 10

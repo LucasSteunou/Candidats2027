@@ -45,6 +45,7 @@ test("the poll page ranks averages and keeps a table view of every poll", () => 
   expect(screen.getByRole("heading", { name: "Moyenne sur 30 jours" })).toBeInTheDocument();
   expect(screen.getAllByRole("table").length).toBe(sondages.sondages.length);
   expect(screen.getByText("Elabe pour BFMTV et La Tribune Dimanche")).toBeInTheDocument();
+  expect(screen.getAllByText("<1").length).toBeGreaterThan(0); // a published « moins de 1 % » is never shown as 0
 });
 
 test("the methodology page renders the charter and the perimeter", () => {

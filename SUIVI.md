@@ -14,7 +14,7 @@ Dernière veille : 2026-10-26 (passe hebdomadaire ; une à deux recherches par c
 
 ## Fiches à reprendre
 
-- le-pen · le parquet général de la cour d'appel de Paris a renoncé à se pourvoir en cassation, seule Marine Le Pen s'est pourvue ([Club des juristes](https://www.leclubdesjuristes.com/en-bref/affaire-des-assistants-parlementaires-du-fn-le-parquet-renonce-a-un-pourvoi-en-cassation-16990/)) ; la fiche ne le dit pas. Une audience de la Cour de cassation sur des QPC serait fixée au 16 décembre (24matins, source à recouper, année non précisée). Lancer `/maj-fiche le-pen`.
+- le-pen · le parquet général de la cour d'appel de Paris a annoncé le 15 juillet 2026 qu'il ne se pourvoirait pas en cassation ; l'article ne mentionne que le pourvoi de Marine Le Pen ([Club des juristes](https://www.leclubdesjuristes.com/en-bref/affaire-des-assistants-parlementaires-du-fn-le-parquet-renonce-a-un-pourvoi-en-cassation-16990/)) ; la fiche ne le dit pas. Une audience de la Cour de cassation sur des QPC serait fixée au 16 décembre (24matins, source à recouper, année non précisée). Lancer `/maj-fiche le-pen`.
 
 ## Fiches à étoffer
 
@@ -32,5 +32,4 @@ Programme absent ou partiel ; le nombre indique les questions clés renseignées
 
 - roussel · l'enquête du PNF ouverte en 2022 est affichée « en cours » faute d'issue trouvée.
 - sondages · 7 sondages transcrits dans `content/sondages.json` ; des notices « Pres IV » antérieures au 16 octobre (OpinionWay n° 10319 et 10305 Harris notamment) et de septembre ne le sont pas.
-- sondages · les scores « <1 % » publiés (OpinionWay : Arthaud, Bouamrane) sont saisis à 0,5.
 - liens · le serveur de calvados.gouv.fr (grille des nuances 2024) a refusé la vérification (limitation de débit) ; à revérifier.

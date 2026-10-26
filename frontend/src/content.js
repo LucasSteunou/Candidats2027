@@ -18,12 +18,16 @@ export const WINDOW_DAYS = 30;
 const mean = (values) => values.reduce((a, b) => a + b, 0) / values.length;
 const pollDate = (poll) => Date.parse(poll.terrain[1]);
 
-/** One value per poll: the mean of the hypotheses in which the candidate was tested. */
+/** A score published as "<1" is shown as published and counts for 0.5 in every computation. */
+export const scoreValue = (score) => (score === "<1" ? 0.5 : score);
+
+/** One value per poll: the mean of the hypotheses in which the candidate was tested. `raw` keeps the scores as published. */
 export function pollMeans(polls, id) {
   return polls
     .flatMap((poll) => {
-      const scores = poll.hypotheses.map((h) => h.scores[id]).filter((v) => v !== undefined);
-      return scores.length ? [{ poll, date: pollDate(poll), value: mean(scores), scores }] : [];
+      const raw = poll.hypotheses.map((h) => h.scores[id]).filter((v) => v !== undefined);
+      const scores = raw.map(scoreValue);
+      return scores.length ? [{ poll, date: pollDate(poll), value: mean(scores), scores, raw }] : [];
     })
     .sort((a, b) => a.date - b.date);
 }
@@ -56,8 +60,8 @@ export function lastName(nom) {
 }
 
 const number = new Intl.NumberFormat("fr-FR", { maximumFractionDigits: 1 });
-export const fmtNumber = (value) => number.format(value);
-export const fmtPct = (value) => `${number.format(value)} %`;
+export const fmtNumber = (value) => (value === "<1" ? value : number.format(value));
+export const fmtPct = (value) => `${fmtNumber(value)} %`;
 
 const MONTHS = ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."];
 

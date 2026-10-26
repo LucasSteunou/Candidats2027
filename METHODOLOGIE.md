@@ -43,6 +43,7 @@ La présomption d'innocence est rappelée tant qu'il n'y a pas de condamnation d
 - Les données viennent des notices publiées par la Commission des sondages et des publications des instituts.
 - Tous les scénarios testés sont affichés, sans en privilégier un.
 - La moyenne est calculée de la même façon pour tous : sur 30 jours glissants, chaque sondage compte une fois, avec pour valeur la moyenne des hypothèses où le candidat est testé. Un sondage qui teste six hypothèses ne pèse donc pas six fois plus qu'un autre.
+- Quand un institut publie un score « moins de 1 % », l'application l'affiche tel quel (« <1 ») ; il compte pour 0,5 point dans les moyennes.
 - Sur la page Sondages, le classement suit la moyenne ; partout ailleurs, l'ordre reste alphabétique.
 - Un sondage mesure un rapport de force à un moment donné. Ce n'est pas une prévision. La marge d'erreur va d'environ 1 à 3 points selon la taille de l'échantillon et le score.
 
