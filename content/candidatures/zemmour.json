@@ -1,0 +1,231 @@
+{
+  "id": "zemmour",
+  "nom": "Éric Zemmour",
+  "maj": "2026-10-26",
+  "parti": {
+    "nom": "Reconquête",
+    "sigle": null,
+    "fondation": "2021-12-05",
+    "positionnement": {
+      "auto_definition": {
+        "texte": "Reconquête se présente comme « le rassemblement du peuple français qui combat pour sa survie » et se donne pour but de « défendre l'intérêt national et de promouvoir la grandeur de la France ». Le parti met en avant cinq valeurs : sécurité, prospérité, liberté, souveraineté et identité.",
+        "sources": ["rec-mouvement", "rec-accueil"]
+      },
+      "nuance_ministere": {
+        "texte": "Dans la grille des nuances des législatives de 2024, le ministère de l'Intérieur attribue aux candidats de Reconquête une nuance propre, « REC », distincte de « UXD » (« candidats présentés ou soutenus par deux partis d'extrême-droite ») et de « EXD » (« candidats présentés ou soutenus par d'autres partis d'extrême-droite »). Pour les municipales de 2026, la circulaire regroupe les nuances en six blocs, dont « extrême droite » ; les documents publics consultés ne précisent pas à quel bloc est rattachée la nuance de Reconquête.",
+        "sources": ["grille-nuances-2024", "ce-nuances-2026-02-27"]
+      }
+    }
+  },
+  "resume": {
+    "texte": "Journaliste et essayiste, Éric Zemmour a fondé Reconquête en décembre 2021 et obtenu 7,07 % des voix au premier tour de la présidentielle de 2022. Il a annoncé le 17 septembre 2026 sur BFMTV qu'il serait candidat en 2027 ; selon son entourage, la déclaration formelle devait intervenir à l'automne. Aucun programme 2027 n'est publié : ses propositions récentes portent surtout sur l'immigration, la justice, l'école et la baisse des dépenses publiques.",
+    "sources": ["sudradio-bio", "globe-reconquete-2021-12-05", "cc-2022", "gazette-candidature-2026-09-18", "e1-2026-05-19", "cnews-ecole-2026-10-13"]
+  },
+  "histoire": {
+    "parti": [
+      { "date": "2021-12-05", "titre": "Création de Reconquête", "texte": "À son premier meeting de campagne, à Villepinte, Éric Zemmour annonce le nom de son parti, Reconquête.", "sources": ["globe-reconquete-2021-12-05", "rec-mouvement"] },
+      { "date": "2022-04-10", "titre": "Présidentielle de 2022", "texte": "Éric Zemmour arrive quatrième du premier tour avec 7,07 % des suffrages exprimés.", "sources": ["cc-2022", "lcp-candidature-2026-09-17"] },
+      { "date": "2024-06-09", "titre": "Européennes de 2024", "texte": "La liste de Reconquête, menée par Marion Maréchal, obtient 5,47 % des voix et cinq sièges. Trois jours plus tard, Marion Maréchal appelle à soutenir aux législatives les candidats de l'alliance entre le RN et Éric Ciotti ; Éric Zemmour annonce son exclusion du parti.", "sources": ["ps-marechal-2024-06-12", "eunews-marechal-2024-06-13"] }
+    ],
+    "candidat": [
+      { "date": "1958-08-31", "titre": "Naissance", "texte": "Naît le 31 août 1958 à Montreuil. Diplômé de Sciences Po Paris en 1979.", "sources": ["sudradio-bio"] },
+      { "date": "1996", "titre": "Journaliste au Figaro", "texte": "Journaliste politique puis éditorialiste au Figaro à partir de 1996, après le Quotidien de Paris (1986) et InfoMatin (1994-1995).", "sources": ["sudradio-bio"] },
+      { "date": "2019", "titre": "Éditorialiste sur CNews", "texte": "Éditorialiste de l'émission « Face à l'info » sur CNews de 2019 à 2021.", "sources": ["sudradio-bio"] },
+      { "date": "2022-04-10", "titre": "Candidat à la présidentielle", "texte": "Quatrième du premier tour avec 7,07 % des voix. Il se présente ensuite aux législatives dans le Var, sans être élu.", "sources": ["cc-2022", "lcp-candidature-2026-09-17"] },
+      { "date": "2026-09-17", "titre": "Candidature pour 2027", "texte": "« Je suis candidat à la présidence de la République, je serai candidat à l'élection présidentielle », déclare-t-il sur BFMTV. Sarah Knafo, vice-présidente de Reconquête, un temps pressentie, avait affirmé qu'il était le candidat naturel du parti.", "sources": ["gazette-candidature-2026-09-18", "lcp-candidature-2026-09-17"] }
+    ]
+  },
+  "popularite": {
+    "chiffres_cles": [
+      { "libelle": "Bonne image (Elabe pour Les Échos)", "valeur": "17 % (+1 point)", "date": "2026-07", "sources": ["elabe-observatoire-2026-08"] },
+      { "libelle": "Score au premier tour de la présidentielle 2022", "valeur": "7,07 %", "date": "2022-04-10", "sources": ["cc-2022"] },
+      { "libelle": "Liste Reconquête aux européennes de 2024", "valeur": "5,47 %", "date": "2024-06-09", "sources": ["ps-marechal-2024-06-12"] }
+    ],
+    "series": []
+  },
+  "perception": [
+    { "type": "sondage", "auteur": "Elabe pour Les Échos", "texte": "17 % des Français ont une bonne image d'Éric Zemmour (+1 point). Auprès des électeurs de Marine Le Pen et d'Éric Zemmour, il obtient 48 % (+5 points), derrière Jordan Bardella (88 %), Marine Le Pen (87 %), Marion Maréchal (74 %), Éric Ciotti (59 %) et Sarah Knafo (49 %).", "date": "2026-07", "sources": ["elabe-observatoire-2026-08"] }
+  ],
+  "controverses": [
+    {
+      "titre": "Propos sur les musulmans (2016)",
+      "date": "2016-09-16",
+      "faits": "Invité de « C à vous » sur France 5 pour présenter son livre « Un quinquennat pour rien », il affirme notamment que la France vit « depuis 30 ans une invasion ». Condamné pour provocation à la discrimination et à la haine religieuse envers les musulmans, il voit son amende ramenée de 5 000 à 3 000 € en appel ; la Cour de cassation rejette son pourvoi en 2019. Le 20 décembre 2022, la Cour européenne des droits de l'homme juge que cette condamnation ne viole pas sa liberté d'expression, les propos ne se limitant pas, selon elle, à « une critique de l'islam ».",
+      "statut_judiciaire": "condamnation-definitive",
+      "reponse": "Devant la Cour européenne des droits de l'homme, il soutenait que sa condamnation violait sa liberté d'expression.",
+      "sources": ["politis-cedh-2022-12-20", "lemondedudroit-cedh-2022-12-21"]
+    },
+    {
+      "titre": "Propos sur les mineurs étrangers isolés",
+      "date": "2020-09-29",
+      "faits": "Dans l'émission « Face à l'info » sur CNews, il dit des mineurs étrangers isolés : « ils n'ont rien à faire ici, ils sont voleurs, ils sont assassins, ils sont violeurs ». Condamné le 17 janvier 2022 à 10 000 € d'amende (cent jours-amende à 100 €) pour complicité d'injure publique et de provocation à la haine, il voit sa condamnation confirmée en appel le 12 septembre 2024. Le 2 décembre 2025, la Cour de cassation rejette son pourvoi : la condamnation est définitive.",
+      "statut_judiciaire": "condamnation-definitive",
+      "reponse": "Son avocat, Me Olivier Pardo, a jugé l'arrêt d'appel « particulièrement injuste » et formé un pourvoi en cassation.",
+      "sources": ["lalibre-mineurs-2024-09-12", "cdj-cassation-2025-12-03", "brut-mineurs-cassation"]
+    },
+    {
+      "titre": "Propos sur Pétain et les Juifs français",
+      "date": "2019-10-21",
+      "faits": "Dans « Face à l'info » sur CNews, face à Bernard-Henri Lévy, il maintient que Pétain aurait sauvé des Juifs français : « C'est encore une fois le réel, je suis désolé ». Relaxé en première instance (2021) puis en appel (2022), il est rejugé après l'annulation de cette relaxe par la Cour de cassation, et condamné le 2 avril 2025 par la cour d'appel de Paris à 10 000 € d'amende pour contestation de crime contre l'humanité.",
+      "statut_judiciaire": "pourvoi-en-cassation",
+      "reponse": "Il affirme n'avoir « à aucun moment souhaité “défendre Pétain” » et, dans un communiqué intitulé « la justice politique a encore frappé », annonce un pourvoi en cassation.",
+      "citation": "« Je ne céderai rien. »",
+      "sources": ["toi-petain-2025-04-02", "lalibre-petain-2025-04-02"]
+    }
+  ],
+  "programme": {
+    "etat": {
+      "texte": "Pas de programme 2027 publié. Reconquête mène une consultation en ligne, « Le Programme pour la France », présentée comme « la matière première du programme de 2027 ». Le candidat a détaillé des propositions dans des entretiens (Europe 1 en mai 2026, BFMTV en septembre, CNews en octobre). Sarah Knafo, vice-présidente du parti, a publié en septembre 2026 un livre-programme d'environ 130 Md€ d'économies, « Le Casse du siècle », qu'elle présente comme « pas un ouvrage partisan » ; il n'est pas repris ici. Les autres réponses viennent du programme présidentiel de 2022 (badge « Ancien programme »).",
+      "sources": ["programme-pour-la-france", "e1-2026-05-19", "gazette-candidature-2026-09-18", "cnews-ecole-2026-10-13", "gazette-knafo-2026-09-02", "montaigne-2022"]
+    },
+    "themes": {
+      "economie": {
+        "mesures": [
+          { "sous_theme": "finances-publiques", "intitule": "Baisser la dépense publique d'au moins 100 Md€ par an", "detail": "Baisse de la dépense publique d'« au minimum 100 milliards par an », avec des baisses de charges sociales et d'impôts. Il cite la suppression de la politique de la ville et la fin de l'aide publique au développement, « dévoyée en une aide idéologique » selon lui.", "origine": "declaration", "date": "2026-05",
+            "chiffrages": [ { "auteur": "Éric Zemmour", "montant": 100, "unite": "Md€ de baisse des dépenses publiques par an", "precision": "« au minimum »", "sources": ["e1-2026-05-19"] } ],
+            "sources": ["e1-2026-05-19"] },
+          { "sous_theme": "pouvoir-achat", "intitule": "Baisser d'un tiers l'accise sur les carburants", "detail": "Face à la hausse des prix, baisser « d'un tiers l'accise » sur les produits pétroliers, financée par des baisses de dépenses.", "origine": "declaration", "date": "2026-05", "sources": ["e1-2026-05-19"] },
+          { "sous_theme": "retraites", "intitule": "Une part de capitalisation et une durée de cotisation allongée", "detail": "« Le système de répartition est condamné, on ne peut plus le financer. » Il propose d'« injecter, dans notre système de répartition une partie de capitalisation » et d'allonger la durée de cotisation de 43 ans à « 44, 45, 46 ans ».", "origine": "declaration", "date": "2026-05", "sources": ["e1-2026-05-19"] },
+          { "sous_theme": "impots-menages", "intitule": "Baisser la CSG et alléger la transmission", "detail": "CSG sur les revenus d'activité ramenée de 9,2 % à 2,5 %, quotient familial doublé, IFI calculé hors résidence principale, transmissions d'entreprises familiales exonérées de droits de donation et de succession, abattement sur les donations des parents et grands-parents relevé à 200 000 € tous les dix ans.", "origine": "ancien-programme", "date": "2022", "sources": ["montaigne-2022"] },
+          { "sous_theme": "impots-entreprises", "intitule": "Baisser les impôts de production et l'IS des petites entreprises", "detail": "Impôts de production baissés de 30 Md€ supplémentaires ; impôt sur les sociétés à 15 % pour les petites entreprises, les artisans, les commerçants et les agriculteurs.", "origine": "ancien-programme", "date": "2022", "sources": ["montaigne-2022"] }
+        ],
+        "reponses": {
+          "cout-net-programme": { "non_communique": "2026-10-26", "precision": "Programme 2022 : amélioration du solde public de 20 Md€ selon le candidat, hausse du déficit d'environ 146 Md€ par an selon l'Institut Montaigne.", "sources": ["montaigne-synthese-2022"] },
+          "objectif-deficit": { "non_communique": "2026-10-26" },
+          "economies-depenses": { "valeur": 100, "origine": "declaration", "date": "2026-05", "precision": "« Au minimum 100 milliards par an », sans détail des postes.", "sources": ["e1-2026-05-19"] },
+          "impot-revenu": { "non_communique": "2026-10-26", "precision": "Programme 2022 : quotient familial doublé et CSG sur les revenus d'activité ramenée de 9,2 % à 2,5 %.", "sources": ["montaigne-2022"] },
+          "impot-patrimoine": { "valeur": "Maintien de l'IFI", "origine": "ancien-programme", "date": "2022", "precision": "En excluant la résidence principale de son calcul.", "sources": ["montaigne-2022"] },
+          "droits-succession": { "valeur": "Baisse", "origine": "ancien-programme", "date": "2022", "precision": "Transmissions d'entreprises familiales exonérées et abattement sur les donations relevé à 200 000 € tous les dix ans.", "sources": ["montaigne-2022"] },
+          "taux-is": { "non_communique": "2026-10-26", "precision": "Programme 2022 : taux de 15 % pour les petites entreprises, les artisans, les commerçants et les agriculteurs, sans changement annoncé du taux normal.", "sources": ["montaigne-2022"] },
+          "impots-production": { "valeur": "Baisse", "origine": "ancien-programme", "date": "2022", "precision": "Baisse de 30 Md€ supplémentaires.", "sources": ["montaigne-2022"] },
+          "age-legal": { "valeur": 64, "origine": "ancien-programme", "date": "2022", "precision": "Relèvement progressif d'ici 2030. En mai 2026, il dit que les Français devront travailler plus longtemps, sans préciser d'âge.", "sources": ["montaigne-2022", "e1-2026-05-19"] },
+          "duree-cotisation": { "non_communique": "2026-10-26", "precision": "En mai 2026, il évoque une durée portée de 43 ans à « 44, 45, 46 ans », sans trancher.", "sources": ["e1-2026-05-19"] },
+          "financement-retraites": { "valeur": "Introduire une part de capitalisation dans le système par répartition et allonger la durée de cotisation.", "origine": "declaration", "date": "2026-05", "sources": ["e1-2026-05-19"] },
+          "smic": { "non_communique": "2026-10-26", "precision": "Programme 2022 : « Ne pas augmenter le Smic », et baisser la CSG sur les revenus d'activité.", "sources": ["montaigne-2022"] },
+          "duree-travail": { "non_communique": "2026-10-26" },
+          "assurance-chomage": { "non_communique": "2026-10-26" },
+          "prix-energie": { "valeur": "Baisser d'un tiers l'accise sur les produits pétroliers, financée par des baisses de dépenses.", "origine": "declaration", "date": "2026-05", "sources": ["e1-2026-05-19"] },
+          "encadrement-prix": { "non_communique": "2026-10-26" },
+          "libre-echange": { "valeur": "Opposition", "origine": "ancien-programme", "date": "2022", "precision": "Programme 2022 : fin de la participation de la France aux négociations sur les traités de libre-échange. En janvier 2026, il juge l'accord UE-Mercosur « catastrophique dans le contexte actuel ».", "sources": ["montaigne-2022", "sudradio-mercosur-2026-01-08"] },
+          "reindustrialisation": { "valeur": "Baisser les impôts de production de 30 Md€ supplémentaires, créer des zones franches industrielles dans les régions désindustrialisées et un grand fonds souverain d'investissement pour les entreprises françaises.", "origine": "ancien-programme", "date": "2022", "sources": ["montaigne-2022"] }
+        }
+      },
+      "ecologie": {
+        "mesures": [
+          { "sous_theme": "energie", "intitule": "14 nouveaux EPR et plus de nouvelles éoliennes", "detail": "Construire 14 nouveaux EPR d'ici 2050, interdire tout nouveau projet d'éoliennes et rediriger le soutien à l'éolien et au solaire vers les énergies renouvelables thermiques.", "origine": "ancien-programme", "date": "2022", "sources": ["montaigne-2022"] }
+        ],
+        "reponses": {
+          "nucleaire": { "valeur": "Nouveaux réacteurs", "origine": "ancien-programme", "date": "2022", "precision": "14 nouveaux EPR d'ici 2050.", "sources": ["montaigne-2022"] },
+          "renouvelables": { "valeur": "Ralentissement ou moratoire", "origine": "ancien-programme", "date": "2022", "precision": "Interdire tout nouveau projet d'éoliennes ; soutien à l'éolien et au solaire redirigé vers les renouvelables thermiques.", "sources": ["montaigne-2022"] },
+          "neutralite-2050": { "non_communique": "2026-10-26" },
+          "thermique-2035": { "non_communique": "2026-10-26" }
+        }
+      },
+      "social": {
+        "mesures": [
+          { "sous_theme": "education", "intitule": "Sélection et discipline à l'école", "detail": "Remettre en place « les méthodes françaises qu'on a abandonnées », donner plus d'heures au français et aux mathématiques, « remettre la sélection à tous les étages » (examen d'entrée en sixième et en seconde, « un véritable baccalauréat »), orienter vers le CAP dès la quatrième les élèves plus doués pour ces filières, exclure les élèves violents sans obligation de leur trouver un autre établissement et donner plus d'autonomie aux chefs d'établissement, jusqu'au choix de leurs professeurs.", "origine": "declaration", "date": "2026-10", "sources": ["cnews-ecole-2026-10-13"] },
+          { "sous_theme": "sante", "intitule": "Former plus de médecins", "detail": "Doubler les effectifs des étudiants en médecine, créer 1 000 postes de médecin d'urgence dans toutes les régions et rétablir l'obligation de garde des médecins.", "origine": "ancien-programme", "date": "2022", "sources": ["montaigne-2022"] }
+        ],
+        "reponses": {
+          "acces-soins": { "valeur": "Doubler les effectifs des étudiants en médecine et créer 1 000 postes de médecin d'urgence dans toutes les régions.", "origine": "ancien-programme", "date": "2022", "sources": ["montaigne-2022"] },
+          "installation-medecins": { "non_communique": "2026-10-26", "precision": "Programme 2022 : rétablir l'obligation de garde des médecins ; pas de mesure sur l'installation.", "sources": ["montaigne-2022"] },
+          "mesure-ecole": { "valeur": "Examen d'entrée en sixième et en seconde, plus d'heures de français et de mathématiques, retour aux « méthodes françaises » et exclusion des élèves violents.", "origine": "declaration", "date": "2026-10", "sources": ["cnews-ecole-2026-10-13"] },
+          "remuneration-enseignants": { "non_communique": "2026-10-26" },
+          "encadrement-loyers": { "non_communique": "2026-10-26" },
+          "logements-sociaux": { "non_communique": "2026-10-26", "precision": "Programme 2022 : supprimer la loi SRU, qui fixe aux communes des quotas de logements sociaux.", "sources": ["montaigne-2022"] },
+          "rsa": { "valeur": "Plus strictes", "origine": "ancien-programme", "date": "2022", "precision": "Aides sociales non contributives retirées aux étrangers extra-européens. En septembre 2026, il propose aussi de renvoyer les étrangers qui « vivent uniquement des aides sociales ».", "sources": ["montaigne-2022", "gazette-candidature-2026-09-18"] }
+        }
+      },
+      "securite": {
+        "mesures": [
+          { "sous_theme": "justice", "intitule": "Peines planchers et exécution des peines", "detail": "Rétablir des « peines planchers », réduire le rôle du juge de l'application des peines (« Il faut qu'ils aillent en prison, qu'ils restent en prison »), étendre la déchéance de nationalité aux trafiquants de drogue et s'inspirer de la lutte anti-mafia italienne.", "origine": "declaration", "date": "2026-05", "sources": ["e1-2026-05-19"] }
+        ],
+        "reponses": {
+          "effectifs-forces-ordre": { "non_communique": "2026-10-26" },
+          "places-prison": { "valeur": 10000, "origine": "ancien-programme", "date": "2022", "sources": ["montaigne-2022"] },
+          "peines-minimales": { "valeur": "Pour", "origine": "declaration", "date": "2026-05", "precision": "Programme 2022 : peines planchers « pour chaque crime et délit ».", "sources": ["e1-2026-05-19", "montaigne-2022"] },
+          "justice-mineurs": { "valeur": "Abaisser l'âge de la majorité pénale de 18 à 16 ans.", "origine": "ancien-programme", "date": "2022", "sources": ["montaigne-2022"] },
+          "cannabis": { "non_communique": "2026-10-26" }
+        }
+      },
+      "immigration": {
+        "mesures": [
+          { "sous_theme": "immigration-legale", "intitule": "Renvoyer détenus, délinquants, clandestins et chômeurs étrangers", "detail": "« Il faut renvoyer tous les étrangers qui sont dans les prisons françaises », ainsi que « tous les délinquants étrangers, même ceux qui ne sont pas en prison », les étrangers en situation irrégulière, et « les chômeurs de longue durée, et tous ceux qui vivent uniquement des aides sociales », même en situation régulière, après « un an dirons-nous » de chômage. Il propose de remplacer à terme une partie de la main-d'œuvre immigrée par l'automatisation.", "origine": "declaration", "date": "2026-09", "sources": ["gazette-candidature-2026-09-18", "ps-candidature-2026-09-18"] },
+          { "sous_theme": "nationalite-droits", "intitule": "Déchoir les binationaux condamnés", "detail": "« Je pense que nous avons fait l'erreur d'accepter la binationalité » : déchoir de la nationalité française les binationaux condamnés et les renvoyer dans leur pays.", "origine": "declaration", "date": "2026-05", "sources": ["e1-2026-05-19"] },
+          { "sous_theme": "immigration-legale", "intitule": "Pression sur l'Algérie pour les expulsions", "detail": "Bloquer les transferts d'argent vers l'Algérie et interdire aux dignitaires algériens de venir se faire soigner en France ; à défaut, « financer d'autres pays qui accepteront nos OQTF ».", "origine": "declaration", "date": "2026-05", "sources": ["e1-2026-05-19"] }
+        ],
+        "reponses": {
+          "titres-sejour": { "valeur": "Baisse", "origine": "ancien-programme", "date": "2022", "precision": "Programme 2022 : fin du regroupement familial. En septembre 2026, il propose de renvoyer les étrangers au chômage depuis plus d'un an, même en situation régulière.", "sources": ["montaigne-2022", "ps-candidature-2026-09-18"] },
+          "regularisations": { "valeur": "Restreinte", "origine": "ancien-programme", "date": "2022", "precision": "Interdire la régularisation de tout étranger entré illégalement sur le territoire.", "sources": ["montaigne-2022"] },
+          "demandes-asile": { "valeur": "Demandes déposées uniquement à l'étranger, dans les consulats, et droit d'asile limité à « une poignée d'individus par an ».", "origine": "ancien-programme", "date": "2022", "sources": ["montaigne-2022"] },
+          "droit-du-sol": { "valeur": "Suppression", "origine": "ancien-programme", "date": "2022", "sources": ["montaigne-2022"] },
+          "ame": { "valeur": "Autre", "origine": "ancien-programme", "date": "2022", "precision": "Suppression de l'AME, sans dispositif de remplacement mentionné.", "sources": ["montaigne-2022"] },
+          "priorite-nationale": { "valeur": "Pour", "origine": "ancien-programme", "date": "2022", "precision": "Aides sociales non contributives retirées aux étrangers extra-européens.", "sources": ["montaigne-2022"] },
+          "referendum-immigration": { "valeur": "Pour", "origine": "ancien-programme", "date": "2022", "precision": "Référendum sur l'immigration, dont le résultat serait suivi « même contre l'avis de l'Union européenne ».", "sources": ["montaigne-2022"] }
+        }
+      },
+      "institutions": {
+        "mesures": [],
+        "reponses": {
+          "mode-scrutin": { "non_communique": "2026-10-26" },
+          "ric": { "non_communique": "2026-10-26" },
+          "constitution": { "valeur": "Révisions ciblées", "origine": "ancien-programme", "date": "2022", "precision": "Réviser l'article 55 pour faire primer toute nouvelle loi nationale sur le droit européen existant.", "sources": ["montaigne-2022"] },
+          "mandat-presidentiel": { "non_communique": "2026-10-26" }
+        }
+      },
+      "international": {
+        "mesures": [
+          { "sous_theme": "europe", "intitule": "Une « Europe des Nations »", "detail": "Réorienter la construction européenne vers une « Europe des Nations respectueuse des souverainetés nationales plutôt qu'une Europe fédérale », faire primer toute nouvelle loi nationale sur le droit européen existant et rendre la question de l'immigration aux États par référendum.", "origine": "ancien-programme", "date": "2022", "sources": ["montaigne-2022"] }
+        ],
+        "reponses": {
+          "relation-ue": { "valeur": "Autre", "origine": "ancien-programme", "date": "2022", "precision": "« Europe des Nations » plutôt qu'Europe fédérale ; primauté de toute nouvelle loi nationale sur le droit européen existant.", "sources": ["montaigne-2022"] },
+          "euro": { "non_communique": "2026-10-26" },
+          "budget-defense": { "non_communique": "2026-10-26", "precision": "Programme 2022 : budget de la défense porté à 70 Md€ en 2030 (montant en euros, pas en % du PIB).", "sources": ["montaigne-2022"] },
+          "otan": { "valeur": "En sortir", "origine": "ancien-programme", "date": "2022", "precision": "Sortir du commandement intégré de l'OTAN.", "sources": ["montaigne-2022"] },
+          "service-national": { "non_communique": "2026-10-26" },
+          "ukraine": { "non_communique": "2026-10-26" },
+          "proche-orient": { "non_communique": "2026-10-26" }
+        }
+      },
+      "agriculture": {
+        "mesures": [
+          { "sous_theme": "agriculture", "intitule": "« Produire de nouveau »", "detail": "Pour lui, « on ne produit plus assez en France » : il veut aider les agriculteurs à produire, « baisser les normes » et « baisser les charges », « modifier cette PAC » pour y remettre « la production au cœur », et « globalement se protéger » dans le cadre du marché européen. Il juge l'accord UE-Mercosur « catastrophique dans le contexte actuel ».", "origine": "declaration", "date": "2026-01", "sources": ["sudradio-mercosur-2026-01-08"] }
+        ],
+        "reponses": {
+          "revenu-agricole": { "valeur": "Aider les agriculteurs à produire davantage en baissant les normes et les charges, et se protéger dans le cadre du marché européen.", "origine": "declaration", "date": "2026-01", "sources": ["sudradio-mercosur-2026-01-08"] },
+          "pesticides": { "non_communique": "2026-10-26" },
+          "pac": { "valeur": "Modifier la PAC pour remettre « la production au cœur du projet ».", "origine": "declaration", "date": "2026-01", "sources": ["sudradio-mercosur-2026-01-08"] }
+        }
+      }
+    }
+  },
+  "sources": {
+    "rec-accueil": { "titre": "Reconquête, page d'accueil", "editeur": "Reconquête", "date": null, "consulte": "2026-10-26", "url": "https://www.parti-reconquete.fr/", "type": "parti" },
+    "rec-mouvement": { "titre": "Notre mouvement", "editeur": "Reconquête", "date": null, "consulte": "2026-10-26", "url": "https://www.parti-reconquete.fr/le-mouvement", "type": "parti" },
+    "programme-pour-la-france": { "titre": "Le Programme pour la France", "editeur": "Sarah Knafo (Reconquête)", "date": null, "consulte": "2026-10-26", "url": "https://leprogrammepourlafrance.fr/", "type": "parti" },
+    "grille-nuances-2024": { "titre": "Annexe 1 : Grille des nuances individuelles, élections législatives 2024", "editeur": "Préfecture du Calvados (ministère de l'Intérieur)", "date": null, "consulte": "2026-10-26", "url": "https://calvados.gouv.fr/contenu/telechargement/24610/181062/file/Annexe%201-Grille%20nuance%20-l%C3%A9gislatives%202024.pdf", "type": "officiel" },
+    "ce-nuances-2026-02-27": { "titre": "Décision n° 512694 sur la circulaire relative aux nuances politiques des élections municipales de 2026", "editeur": "Conseil d'État", "date": "2026-02-27", "consulte": "2026-10-26", "url": "https://conseil-etat.fr/Media/actualites/documents/2026/fevrier-2026/512694.pdf", "type": "justice" },
+    "cc-2022": { "titre": "Annonce par Laurent Fabius, Président du Conseil constitutionnel, des résultats officiels du premier tour de l'élection présidentielle", "editeur": "Conseil constitutionnel", "date": "2022-04-13", "consulte": "2026-10-26", "url": "https://presidentielle2022.conseil-constitutionnel.fr/les-communiques/resultats-du-premier-tour.html", "type": "officiel" },
+    "montaigne-2022": { "titre": "Présidentielle 2022 : Éric Zemmour, propositions", "editeur": "Institut Montaigne", "date": null, "consulte": "2026-10-26", "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour", "type": "think-tank" },
+    "montaigne-synthese-2022": { "titre": "Présidentielle 2022 : Éric Zemmour, synthèse du chiffrage", "editeur": "Institut Montaigne", "date": null, "consulte": "2026-10-26", "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour/synthese/", "type": "think-tank" },
+    "sudradio-bio": { "titre": "Éric Zemmour : biographie et CV politique", "editeur": "Sud Radio", "date": null, "consulte": "2026-10-26", "url": "https://www.sudradio.fr/la-biographie-et-le-cv-deric-zemmour", "type": "presse" },
+    "globe-reconquete-2021-12-05": { "titre": "Far-right French presidential candidate Eric Zemmour promises 'reconquest' at rally", "editeur": "The Globe and Mail (Reuters)", "date": "2021-12-05", "consulte": "2026-10-26", "url": "https://www.theglobeandmail.com/world/article-far-right-french-presidential-candidate-eric-zemmour-promises", "type": "presse" },
+    "ps-marechal-2024-06-12": { "titre": "Législatives : Marion Maréchal, en désaccord avec Éric Zemmour, appelle à soutenir les candidats de l'alliance RN - Ciotti", "editeur": "Public Sénat", "date": "2024-06-12", "consulte": "2026-10-26", "url": "https://www.publicsenat.fr/actualites/politique/legislatives-marion-marechal-en-desaccord-avec-eric-zemmour-appelle-a-soutenir-les-candidats-de-lalliance-rn-ciotti", "type": "presse" },
+    "eunews-marechal-2024-06-13": { "titre": "Marion Maréchal, the leading candidate for Reconquête at European elections, was expelled from the party", "editeur": "Eunews", "auteur": "Matteo Pedrazzoli", "date": "2024-06-13", "consulte": "2026-10-26", "url": "https://www.eunews.it/en/2024/06/13/marion-marechal-the-leading-candidate-for-reconquete-at-european-elections-was-expelled-from-the-party/", "type": "presse" },
+    "lcp-candidature-2026-09-17": { "titre": "Présidentielle 2027: Éric Zemmour officialise sa candidature", "editeur": "LCP", "auteur": "Ivan Valerio", "date": "2026-09-17", "consulte": "2026-10-26", "url": "https://lcp.fr/actualites/presidentielle-2027-eric-zemmour-officialise-sa-candidature-441871", "type": "presse" },
+    "ps-candidature-2026-09-18": { "titre": "Éric Zemmour officialise sa candidature à la présidentielle 2027", "editeur": "Public Sénat", "auteur": "Emma Bador-Fritche", "date": "2026-09-18", "consulte": "2026-10-26", "url": "https://www.publicsenat.fr/actualites/politique/eric-zemmour-officialise-sa-candidature-a-la-presidentielle-2027", "type": "presse" },
+    "gazette-candidature-2026-09-18": { "titre": "Zemmour confirme qu'il sera candidat, durcit encore son discours sur l'immigration", "editeur": "La Gazette France (AFP)", "date": "2026-09-18", "consulte": "2026-10-26", "url": "https://www.lagazettefrance.fr/article/zemmour-confirme-qu-il-sera-candidat-durcit-encore-son-discours-sur-l-immigration", "type": "presse" },
+    "gazette-knafo-2026-09-02": { "titre": "En attendant Zemmour, Sarah Knafo continue d'écrire son histoire", "editeur": "La Gazette France (AFP)", "date": "2026-09-02", "consulte": "2026-10-26", "url": "https://www.lagazettefrance.fr/article/en-attendant-zemmour-sarah-knafo-continue-d-ecrire-son-histoire", "type": "presse" },
+    "e1-2026-05-19": { "titre": "Immigration, pouvoir d'achat, narcotrafic… Ce qu'il faut retenir de l'interview d'Éric Zemmour dans La France en face", "editeur": "Europe 1", "date": "2026-05-19", "consulte": "2026-10-26", "url": "https://www.europe1.fr/politique/en-direct-immigration-pouvoir-dachat-narcotrafic-ce-quil-faut-retenir-de-linterview-deric-zemmour-dans-la-france-en-face-936419", "type": "presse" },
+    "cnews-ecole-2026-10-13": { "titre": "Niveau scolaire français : que propose Éric Zemmour pour rétablir «la meilleure école du monde» ?", "editeur": "CNews", "auteur": "Quitterie Desjobert", "date": "2026-10-13", "consulte": "2026-10-26", "url": "https://www.cnews.fr/france/2026-10-13/niveau-scolaire-francais-que-propose-eric-zemmour-pour-retablir-la-meilleure", "type": "presse" },
+    "sudradio-mercosur-2026-01-08": { "titre": "Éric Zemmour : \"Avec le Mercosur, on importera des produits de merde !\"", "editeur": "Sud Radio", "date": "2026-01-08", "consulte": "2026-10-26", "url": "https://www.sudradio.fr/sud-radio/eric-zemmour-avec-le-mercosur-on-importera-des-produits-de-merde", "type": "presse" },
+    "elabe-observatoire-2026-08": { "titre": "L'Observatoire politique, août 2026 (terrain du 28 au 29 juillet 2026)", "editeur": "Elabe pour Les Échos", "date": null, "consulte": "2026-10-26", "url": "https://elabe.fr/fichier-pdf/13180-lobservatoire-politique-aout-2026/", "type": "sondage" },
+    "politis-cedh-2022-12-20": { "titre": "Éric Zemmour définitivement condamné pour propos haineux", "editeur": "Politis", "date": "2022-12-20", "consulte": "2026-10-26", "url": "https://www.politis.fr/articles/2022/12/eric-zemmour-definitivement-condamne-pour-propos-haineux/", "type": "presse" },
+    "lemondedudroit-cedh-2022-12-21": { "titre": "Provocation à la haine religieuse : Eric Zemmour débouté par la CEDH", "editeur": "Le Monde du Droit", "date": "2022-12-21", "consulte": "2026-10-26", "url": "https://www.lemondedudroit.fr/pi-tic/299-medias/85023-provocation-a-la-haine-religieuse-eric-zemmour-deboute-par-la-cedh.html", "type": "presse" },
+    "lalibre-mineurs-2024-09-12": { "titre": "Eric Zemmour condamné et relaxé en appel dans deux affaires distinctes", "editeur": "La Libre Belgique (AFP)", "date": "2024-09-12", "consulte": "2026-10-26", "url": "https://www.lalibre.be/international/europe/2024/09/12/eric-zemmour-condamne-et-relaxe-en-appel-dans-deux-affaires-distinctes-5Q6K776HTBCJTKNFDMZNLIJN2Y/", "type": "presse" },
+    "cdj-cassation-2025-12-03": { "titre": "La Cour de cassation confirme deux condamnations d'Éric Zemmour pour complicité d'injure publique, provocation à la haine et pour diffamation", "editeur": "Le Club des Juristes", "date": "2025-12-03", "consulte": "2026-10-26", "url": "https://www.leclubdesjuristes.com/en-bref/la-cour-de-cassation-confirme-deux-condamnations-deric-zemmour-pour-complicite-dinjure-publique-provocation-a-la-haine-et-pour-diffamation-13229/", "type": "presse" },
+    "brut-mineurs-cassation": { "titre": "Mineurs isolés : Eric Zemmour définitivement condamné pour complicité de provocation à la haine", "editeur": "Brut (AFP)", "date": null, "consulte": "2026-10-26", "url": "https://www.brut.media/fr/articles/mineurs-isoles-eric-zemmour-definitivement-condamne-pour-complicite-de-provocation-a-la-haine", "type": "presse" },
+    "toi-petain-2025-04-02": { "titre": "Pétain « sauveur » de juifs français : Zemmour condamné à 10 000 euros d'amende", "editeur": "The Times of Israel (AFP)", "date": "2025-04-02", "consulte": "2026-10-26", "url": "https://fr.timesofisrael.com/petain-sauveur-de-juifs-francais-zemmour-condamne-a-10-000-euros-damende/", "type": "presse" },
+    "lalibre-petain-2025-04-02": { "titre": "Pétain \"sauveur\" de juifs français: Zemmour condamné à 10.000 euros d'amende", "editeur": "La Libre Belgique (AFP)", "date": "2025-04-02", "consulte": "2026-10-26", "url": "https://www.lalibre.be/international/europe/2025/04/02/petain-sauveur-de-juifs-francais-zemmour-condamne-a-10000-euros-damende-L5KWSO364JELFK3HZLYYFRLNS4/", "type": "presse" }
+  }
+}
