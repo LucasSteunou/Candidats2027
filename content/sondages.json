@@ -1,10 +1,11 @@
 {
-  "maj": "2026-10-23",
-  "note": "Intentions de vote au premier tour, en % des suffrages exprimés, telles que publiées par l'institut (YouGov : colonne « pondérés »). Toutes les hypothèses testées sont reprises.",
+  "maj": "2026-10-26",
+  "note": "Intentions de vote au premier tour, en % des suffrages exprimés, telles que publiées par l'institut (YouGov : colonne « pondérés »). Toutes les hypothèses testées sont reprises. Un score publié « <1 % » est saisi à 0,5.",
   "noms": {
     "arthaud": "Nathalie Arthaud",
     "attal": "Gabriel Attal",
     "bertrand": "Xavier Bertrand",
+    "bouamrane": "Karim Bouamrane",
     "dupont-aignan": "Nicolas Dupont-Aignan",
     "faure": "Olivier Faure",
     "glucksmann": "Raphaël Glucksmann",
@@ -69,11 +70,73 @@
         { "nom": "Hypothèse 6", "scores": { "arthaud": 1, "roussel": 1, "melenchon": 15, "tondelier": 2.5, "glucksmann": 16, "polony": 1.5, "philippe": 16.5, "retailleau": 7.5, "dupont-aignan": 2.5, "le-pen": 33.5, "zemmour": 3 } }
       ],
       "sources": ["cds-10324-elabe"]
+    },
+    {
+      "id": "ifop-2026-10-19",
+      "institut": "Ifop-Fiducial",
+      "commanditaires": ["LCI", "Le Figaro", "Sud Radio"],
+      "terrain": ["2026-10-17", "2026-10-19"],
+      "echantillon": "1 928 personnes inscrites sur les listes électorales, extrait d'un échantillon de 2 081 personnes",
+      "hypotheses": [
+        { "nom": "Hypothèse É. Philippe et G. Attal", "scores": { "arthaud": 0.5, "melenchon": 16.5, "roussel": 3, "tondelier": 3, "glucksmann": 13.5, "attal": 5, "philippe": 12, "retailleau": 5, "dupont-aignan": 2, "le-pen": 36, "zemmour": 3.5 } },
+        { "nom": "Hypothèse É. Philippe candidat du bloc central", "scores": { "arthaud": 0.5, "melenchon": 16.5, "roussel": 2.5, "tondelier": 3, "glucksmann": 14, "philippe": 15, "retailleau": 7.5, "dupont-aignan": 1.5, "le-pen": 36, "zemmour": 3.5 } },
+        { "nom": "Hypothèse G. Attal candidat du bloc central", "scores": { "arthaud": 0.5, "melenchon": 16, "roussel": 2, "tondelier": 3, "glucksmann": 16, "attal": 13, "retailleau": 7, "dupont-aignan": 1.5, "le-pen": 38, "zemmour": 3 } },
+        { "nom": "Hypothèse J.-L. Mélenchon et R. Glucksmann seuls candidats de gauche", "scores": { "arthaud": 0.5, "melenchon": 18, "glucksmann": 16, "philippe": 16, "retailleau": 6.5, "dupont-aignan": 2.5, "le-pen": 37, "zemmour": 3.5 } },
+        { "nom": "Hypothèse J.-L. Mélenchon et F. Hollande seuls candidats de gauche", "scores": { "arthaud": 0.5, "melenchon": 20, "hollande": 10, "attal": 6.5, "philippe": 14, "retailleau": 6, "dupont-aignan": 2, "le-pen": 38, "zemmour": 3 } },
+        { "nom": "Hypothèse F. Ruffin, D. de Villepin et D. Lisnard candidats", "scores": { "melenchon": 15, "roussel": 2, "ruffin": 1.5, "tondelier": 2.5, "glucksmann": 12, "attal": 4, "philippe": 12, "villepin": 1.5, "retailleau": 5.5, "lisnard": 5.5, "dupont-aignan": 1.5, "le-pen": 34, "zemmour": 3 } },
+        { "nom": "Hypothèse D. Lisnard seul candidat de droite", "scores": { "arthaud": 0.5, "melenchon": 15.5, "roussel": 2, "tondelier": 3, "glucksmann": 13, "attal": 5, "philippe": 13, "lisnard": 7, "dupont-aignan": 2, "le-pen": 36, "zemmour": 3 } },
+        { "nom": "Hypothèse F. Ruffin et N. Polony candidats", "scores": { "arthaud": 0.5, "melenchon": 15, "roussel": 2, "ruffin": 2, "tondelier": 3, "glucksmann": 12, "attal": 6, "philippe": 12, "retailleau": 6, "dupont-aignan": 2, "le-pen": 35, "zemmour": 3.5, "polony": 1 } }
+      ],
+      "sources": ["cds-10327-ifop"]
+    },
+    {
+      "id": "harris-2026-10-21",
+      "institut": "Toluna Harris Interactive",
+      "commanditaires": ["M6", "RTL"],
+      "terrain": ["2026-10-19", "2026-10-21"],
+      "echantillon": "2 094 personnes inscrites sur les listes électorales, issu d'un échantillon de 2 500 personnes",
+      "hypotheses": [
+        { "nom": "Hypothèse É. Philippe, D. de Villepin et D. Lisnard", "scores": { "arthaud": 1, "melenchon": 17, "roussel": 2, "tondelier": 2, "glucksmann": 12, "philippe": 15, "villepin": 1, "lisnard": 7, "retailleau": 4, "dupont-aignan": 1, "le-pen": 33, "zemmour": 5 } },
+        { "nom": "Hypothèse G. Attal, D. de Villepin et D. Lisnard", "scores": { "arthaud": 1, "melenchon": 17, "roussel": 2, "tondelier": 2, "glucksmann": 14, "attal": 10, "villepin": 2, "lisnard": 8, "retailleau": 5, "dupont-aignan": 1, "le-pen": 33, "zemmour": 5 } },
+        { "nom": "Hypothèse G. Attal et É. Philippe", "scores": { "arthaud": 1, "melenchon": 17, "roussel": 1, "tondelier": 2, "glucksmann": 12, "attal": 5, "philippe": 13, "retailleau": 6, "dupont-aignan": 2, "le-pen": 35, "zemmour": 6 } },
+        { "nom": "Hypothèse É. Philippe candidat unique du centre", "scores": { "arthaud": 1, "melenchon": 17, "roussel": 2, "tondelier": 2, "glucksmann": 13, "philippe": 16, "retailleau": 7, "dupont-aignan": 2, "le-pen": 35, "zemmour": 5 } },
+        { "nom": "Hypothèse G. Attal candidat unique du centre", "scores": { "arthaud": 1, "melenchon": 19, "roussel": 2, "tondelier": 2, "glucksmann": 13, "attal": 11, "retailleau": 9, "dupont-aignan": 2, "le-pen": 35, "zemmour": 6 } }
+      ],
+      "sources": ["cds-10332-harris"]
+    },
+    {
+      "id": "opinionway-2026-10-22",
+      "institut": "OpinionWay",
+      "commanditaires": ["CNews"],
+      "terrain": ["2026-10-21", "2026-10-22"],
+      "echantillon": "973 personnes inscrites sur les listes électorales, issu d'un échantillon de 1 033 personnes",
+      "hypotheses": [
+        { "nom": "Hypothèse unique", "scores": { "arthaud": 0.5, "melenchon": 16, "roussel": 1, "tondelier": 1, "glucksmann": 13, "bouamrane": 0.5, "attal": 4, "philippe": 12, "retailleau": 6, "lisnard": 6, "dupont-aignan": 1, "zemmour": 4, "le-pen": 36 } }
+      ],
+      "sources": ["cds-10333-opinionway"]
+    },
+    {
+      "id": "ipsos-2026-10-22",
+      "institut": "Ipsos BVA",
+      "commanditaires": ["Le Parisien"],
+      "terrain": ["2026-10-21", "2026-10-22"],
+      "echantillon": "1 500 personnes inscrites sur les listes électorales",
+      "hypotheses": [
+        { "nom": "Hypothèse G. Attal et É. Philippe", "scores": { "arthaud": 0.5, "melenchon": 17, "roussel": 2, "tondelier": 3.5, "glucksmann": 13, "attal": 4, "philippe": 13, "retailleau": 7.5, "dupont-aignan": 1.5, "le-pen": 33.5, "zemmour": 4.5 } },
+        { "nom": "Hypothèse É. Philippe candidat unique Renaissance-MoDem-Horizons", "scores": { "arthaud": 0.5, "melenchon": 17, "roussel": 2, "tondelier": 3.5, "glucksmann": 14, "philippe": 15, "retailleau": 8, "dupont-aignan": 2, "le-pen": 33.5, "zemmour": 4.5 } },
+        { "nom": "Hypothèse G. Attal candidat unique Renaissance-MoDem-Horizons", "scores": { "arthaud": 0.5, "melenchon": 17, "roussel": 2.5, "tondelier": 3.5, "glucksmann": 15.5, "attal": 9.5, "retailleau": 11.5, "dupont-aignan": 2, "le-pen": 33.5, "zemmour": 4.5 } },
+        { "nom": "Hypothèse É. Philippe et D. Lisnard", "scores": { "arthaud": 0.5, "melenchon": 17, "roussel": 2.5, "tondelier": 3.5, "glucksmann": 13, "philippe": 14, "retailleau": 5.5, "lisnard": 6.5, "dupont-aignan": 1.5, "le-pen": 32, "zemmour": 4 } }
+      ],
+      "sources": ["cds-10338-ipsos"]
     }
   ],
   "sources": {
     "cds-10270-yougov": { "titre": "Notice n° 10270 - YouGov pour Le HuffPost (terrain du 17 au 21 septembre 2026)", "editeur": "Commission des sondages", "date": "2026-09-23", "consulte": "2026-10-23", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10270-pres-iv-yougov-huffpost-23-septembre.pdf", "type": "sondage" },
     "cds-10323-yougov": { "titre": "Notice n° 10323 - YouGov pour Le HuffPost (terrain du 12 au 15 octobre 2026)", "editeur": "Commission des sondages", "date": "2026-10-18", "consulte": "2026-10-23", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10323-pres-iv-yougov-le-huffpost-18-octobre.pdf", "type": "sondage" },
-    "cds-10324-elabe": { "titre": "Notice n° 10324 - Elabe pour BFMTV et La Tribune Dimanche (terrain du 14 au 16 octobre 2026)", "editeur": "Commission des sondages", "date": "2026-10-17", "consulte": "2026-10-23", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10324-pres-iv-elabe-17-octobre.pdf", "type": "sondage" }
+    "cds-10324-elabe": { "titre": "Notice n° 10324 - Elabe pour BFMTV et La Tribune Dimanche (terrain du 14 au 16 octobre 2026)", "editeur": "Commission des sondages", "date": "2026-10-17", "consulte": "2026-10-23", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10324-pres-iv-elabe-17-octobre.pdf", "type": "sondage" },
+    "cds-10327-ifop": { "titre": "Notice n° 10327 - Ifop-Fiducial pour LCI, Le Figaro et Sud Radio (terrain du 17 au 19 octobre 2026)", "editeur": "Commission des sondages", "date": "2026-10-20", "consulte": "2026-10-26", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10327-pres-barometre-election-v7-ifop-20-octobre.pdf", "type": "sondage" },
+    "cds-10332-harris": { "titre": "Notice n° 10332 - Toluna Harris Interactive pour M6 et RTL (terrain du 19 au 21 octobre 2026)", "editeur": "Commission des sondages", "date": "2026-10-23", "consulte": "2026-10-26", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10332-pres-iv-toluna-harris-interactive-23-octobre.pdf", "type": "sondage" },
+    "cds-10333-opinionway": { "titre": "Notice n° 10333 - OpinionWay pour CNews (terrain du 21 au 22 octobre 2026)", "editeur": "Commission des sondages", "date": "2026-10-22", "consulte": "2026-10-26", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10333-pres-iv-opinionway-cnews-22-octobre.pdf", "type": "sondage" },
+    "cds-10338-ipsos": { "titre": "Notice n° 10338 - Ipsos BVA pour Le Parisien (terrain du 21 au 22 octobre 2026)", "editeur": "Commission des sondages", "date": "2026-10-24", "consulte": "2026-10-26", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10338-pres-iv-ipsos-bva-le-parisien-24-octobre.pdf", "type": "sondage" }
   }
 }

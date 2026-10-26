@@ -1,5 +1,6 @@
 """Check that cited source URLs still answer. Run by hand: python -m tools.check_links [file.json ...]"""
 
+import http.client
 import ssl
 import sys
 import time
@@ -26,7 +27,7 @@ def status(url: str) -> int | str:
             return response.status
     except urllib.error.HTTPError as error:
         return error.code
-    except (urllib.error.URLError, TimeoutError) as error:
+    except (urllib.error.URLError, http.client.HTTPException, OSError) as error:
         return str(error)
 
 

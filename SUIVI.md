@@ -2,7 +2,7 @@
 
 Tenu à jour par la passe hebdomadaire (`/maj-hebdo`) et par chaque mise à jour de fiche (`/maj-fiche`).
 
-Dernière veille : 2026-10-26 (manuelle).
+Dernière veille : 2026-10-26 (passe hebdomadaire ; une à deux recherches par candidat sur les fiches les plus anciennes, la plupart des fiches datant des 25-26 octobre).
 
 ## Échéances connues
 
@@ -11,6 +11,10 @@ Dernière veille : 2026-10-26 (manuelle).
 - 2026-12-10 → 13 · tondelier · vote des adhérents des Écologistes : candidature propre ou ralliement à un autre candidat de gauche.
 - 2027-03 · toutes · liste officielle du Conseil constitutionnel, qui remplacera le critère du périmètre.
 - 2027-04 (au plus tard début) · le-pen · arrêt de la Cour de cassation sur son pourvoi, selon le communiqué de la Cour cité par le [Club des juristes](https://www.leclubdesjuristes.com/?p=16873) (8 juillet 2026) ; calendrier susceptible de changer. La fiche indique le pourvoi mais pas ce délai.
+
+## Fiches à reprendre
+
+- le-pen · le parquet général de la cour d'appel de Paris a renoncé à se pourvoir en cassation, seule Marine Le Pen s'est pourvue ([Club des juristes](https://www.leclubdesjuristes.com/en-bref/affaire-des-assistants-parlementaires-du-fn-le-parquet-renonce-a-un-pourvoi-en-cassation-16990/)) ; la fiche ne le dit pas. Une audience de la Cour de cassation sur des QPC serait fixée au 16 décembre (24matins, source à recouper, année non précisée). Lancer `/maj-fiche le-pen`.
 
 ## Fiches à étoffer
 
@@ -27,4 +31,6 @@ Programme absent ou partiel ; le nombre indique les questions clés renseignées
 ## Points à vérifier
 
 - roussel · l'enquête du PNF ouverte en 2022 est affichée « en cours » faute d'issue trouvée.
-- sondages · seulement 3 sondages transcrits dans `content/sondages.json`.
+- sondages · 7 sondages transcrits dans `content/sondages.json` ; des notices « Pres IV » antérieures au 16 octobre (OpinionWay n° 10319 et 10305 Harris notamment) et de septembre ne le sont pas.
+- sondages · les scores « <1 % » publiés (OpinionWay : Arthaud, Bouamrane) sont saisis à 0,5.
+- liens · le serveur de calvados.gouv.fr (grille des nuances 2024) a refusé la vérification (limitation de débit) ; à revérifier.

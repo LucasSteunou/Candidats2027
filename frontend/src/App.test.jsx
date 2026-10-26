@@ -3,6 +3,7 @@ import { fireEvent, render, screen, within } from "@testing-library/react";
 import { beforeEach, expect, test } from "vitest";
 
 import App from "./App.jsx";
+import { sondages } from "./content.js";
 
 const at = (hash) => {
   window.location.hash = hash;
@@ -42,7 +43,7 @@ test("the comparator answers key questions with units and origin", () => {
 test("the poll page ranks averages and keeps a table view of every poll", () => {
   at("/sondages");
   expect(screen.getByRole("heading", { name: "Moyenne sur 30 jours" })).toBeInTheDocument();
-  expect(screen.getAllByRole("table").length).toBe(3);
+  expect(screen.getAllByRole("table").length).toBe(sondages.sondages.length);
   expect(screen.getByText("Elabe pour BFMTV et La Tribune Dimanche")).toBeInTheDocument();
 });
 
