@@ -1,10 +1,11 @@
-"""Check that every cited source URL still answers. Run by hand: python -m tools.check_links"""
+"""Check that cited source URLs still answer. Run by hand: python -m tools.check_links [file.json ...]"""
 
 import ssl
 import sys
 import time
 import urllib.error
 import urllib.request
+from pathlib import Path
 from urllib.parse import urlparse
 
 import certifi
@@ -29,7 +30,7 @@ def status(url: str) -> int | str:
 
 
 def main() -> int:
-    docs = [CONTENT_DIR / "perimetre.json", CONTENT_DIR / "sondages.json", *fiche_paths()]
+    docs = [Path(arg) for arg in sys.argv[1:]] or [CONTENT_DIR / "perimetre.json", CONTENT_DIR / "sondages.json", *fiche_paths()]
     urls = sorted({s["url"] for path in docs for s in load_json(path)["sources"].values()})
     last_hit: dict[str, float] = {}
     broken = 0

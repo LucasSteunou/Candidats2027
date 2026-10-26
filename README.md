@@ -34,6 +34,12 @@ Pushing to `main` deploys `frontend/dist` to GitHub Pages (`.github/workflows/de
 2. Run `pytest` until it passes. It rejects unsourced claims, missing questions, evaluative wording outside quotes, and controversies with fewer than two independent sources.
 3. Review the fiche in the app (`npm run dev`).
 
+## Weekly updates
+
+- A Claude Code cloud routine runs `/maj-hebdo` every Monday at 07:00 UTC: new polls, perimeter, dead links and a news watch, delivered as a pull request. Merging it publishes the site.
+- `/maj-fiche <id>` updates one fiche, `/maj-sondages` adds new polls (`.claude/commands/`). Known deadlines and thin fiches are tracked in `SUIVI.md`.
+- `.venv/bin/python -m tools.check_links content/candidatures/<id>.json` checks a single file.
+
 ## Notes
 
 - Party and campaign websites can ban fast scrapers. Space out requests, or use the Wayback Machine for documents.
