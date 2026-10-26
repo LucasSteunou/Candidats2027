@@ -1,0 +1,162 @@
+{
+  "id": "arthaud",
+  "nom": "Nathalie Arthaud",
+  "maj": "2026-10-26",
+  "parti": {
+    "nom": "Lutte ouvrière",
+    "sigle": "LO",
+    "fondation": "1968",
+    "positionnement": {
+      "auto_definition": {
+        "texte": "« Lutte Ouvrière est une organisation communiste. » « Être communiste aujourd'hui signifie défendre l'idée d'un renversement révolutionnaire de la société capitaliste par le prolétariat, pour bâtir un monde dirigé par la population elle-même. » Nathalie Arthaud se présente comme « candidate communiste, révolutionnaire et internationaliste ».",
+        "sources": ["lo-qui-sommes-nous", "arthaud-accueil"]
+      },
+      "nuance_ministere": {
+        "texte": "Dans la grille des nuances des législatives de 2024, le ministère de l'Intérieur range Lutte ouvrière dans la nuance « EXG », « Extrême gauche », définie comme les « candidats présentés ou soutenus par des partis d'extrême-gauche, notamment Lutte ouvrière ».",
+        "sources": ["grille-nuances-2024"]
+      }
+    }
+  },
+  "resume": {
+    "texte": "Professeure d'économie-gestion et porte-parole de Lutte ouvrière depuis 2008, Nathalie Arthaud se présente à la présidentielle pour la quatrième fois ; elle a déclaré sa candidature le 8 décembre 2025. Elle défend le « camp des travailleurs » dans une perspective révolutionnaire : « Notre programme n'est pas un programme électoral, c'est un plan de combat pour notre camp. » Ses revendications : SMIC à 2 200 € nets, partage du travail sans baisse de salaire, levée du secret des comptabilités des entreprises.",
+    "sources": ["sudradio-bio-arthaud", "lo-discours-2026-09-26"]
+  },
+  "histoire": {
+    "parti": [
+      { "date": "2008-12", "titre": "Nathalie Arthaud porte-parole", "texte": "Au congrès de décembre 2008, elle devient porte-parole nationale de Lutte ouvrière.", "sources": ["sudradio-bio-arthaud"] },
+      { "date": "2026-09-26", "titre": "Meeting de campagne à Paris", "texte": "Lutte ouvrière tient son meeting de rentrée à Paris, avec les discours de Nathalie Arthaud et de Jean-Pierre Mercier.", "sources": ["lo-discours-2026-09-26"] }
+    ],
+    "candidat": [
+      { "date": "1970-02-23", "titre": "Naissance", "texte": "Naît le 23 février 1970 à Peyrins (Drôme). Agrégée d'économie et gestion, elle enseigne à Rillieux-la-Pape puis, à partir de 2011, au lycée Le Corbusier d'Aubervilliers.", "sources": ["sudradio-bio-arthaud"] },
+      { "date": "2008", "titre": "Conseillère municipale de Vaulx-en-Velin", "texte": "Adjointe chargée de la jeunesse de 2008 à 2014, sur une liste conduite par le PCF.", "sources": ["sudradio-bio-arthaud"] },
+      { "date": "2012", "titre": "Trois candidatures présidentielles", "texte": "Elle obtient 0,56 % des voix en 2012, 0,64 % en 2017 et 0,56 % en 2022.", "sources": ["sudradio-bio-arthaud", "cc-2022"] },
+      { "date": "2025-12-08", "titre": "Candidature pour 2027", "texte": "Déclare sa quatrième candidature à l'élection présidentielle pour Lutte ouvrière.", "sources": ["sudradio-bio-arthaud"] }
+    ]
+  },
+  "popularite": {
+    "chiffres_cles": [
+      { "libelle": "Score au premier tour de la présidentielle 2022", "valeur": "0,56 %", "date": "2022-04-10", "sources": ["cc-2022"] }
+    ],
+    "series": []
+  },
+  "perception": [],
+  "controverses": [],
+  "programme": {
+    "etat": {
+      "texte": "Lutte ouvrière ne présente pas de programme de gouvernement : « Aucune élection ne permettra cela. Pour changer notre sort, c'est sur notre force collective, sur nos luttes, que nous devons compter. » Les réponses viennent du discours de Nathalie Arthaud au meeting du 26 septembre 2026 et des pages de positions publiées par Lutte ouvrière. La plupart des questions de la grille restent sans réponse.",
+      "sources": ["arthaud-accueil", "lo-discours-2026-09-26"]
+    },
+    "themes": {
+      "economie": {
+        "mesures": [
+          { "sous_theme": "travail-emploi", "intitule": "SMIC à 2 200 € nets et partage du travail", "detail": "« Nous défendrons le SMIC à 2 200 € nets » ; « répartir le travail entre tous, sans diminution de salaire » : « on réduit les horaires de tous, mais on ne licencie personne et on maintient les salaires ». Si les patrons disent ne pas en avoir les moyens, « qu'ils commencent par lever le secret sur leurs comptabilités et rendre leurs comptes en banque publics ».", "origine": "declaration", "date": "2026-09", "sources": ["lo-discours-2026-09-26"] },
+          { "sous_theme": "finances-publiques", "intitule": "Réquisitionner les profits des grands groupes", "detail": "« Réquisitionner leurs profits, les leur confisquer et les consacrer aux besoins de la population : aux hôpitaux qui manquent de soignants, aux écoles où les classes sont surchargées, aux logements qu'il faut construire, aux services publics qui se dégradent. »", "origine": "declaration", "date": "2026-09", "sources": ["lo-discours-2026-09-26"] }
+        ],
+        "reponses": {
+          "cout-net-programme": { "non_communique": "2026-10-26" },
+          "objectif-deficit": { "non_communique": "2026-10-26" },
+          "economies-depenses": { "non_communique": "2026-10-26" },
+          "impot-revenu": { "non_communique": "2026-10-26" },
+          "impot-patrimoine": { "non_communique": "2026-10-26" },
+          "droits-succession": { "non_communique": "2026-10-26" },
+          "taux-is": { "non_communique": "2026-10-26" },
+          "impots-production": { "non_communique": "2026-10-26" },
+          "age-legal": { "non_communique": "2026-10-26" },
+          "duree-cotisation": { "non_communique": "2026-10-26" },
+          "financement-retraites": { "non_communique": "2026-10-26" },
+          "smic": { "valeur": 2200, "origine": "declaration", "date": "2026-09", "precision": "« 2 200 € est un minimum pour vivre décemment. »", "sources": ["lo-discours-2026-09-26"] },
+          "duree-travail": { "valeur": "Autre", "origine": "declaration", "date": "2026-09", "precision": "« Répartir le travail entre tous, sans diminution de salaire », sans durée légale chiffrée.", "sources": ["lo-discours-2026-09-26"] },
+          "assurance-chomage": { "non_communique": "2026-10-26" },
+          "prix-energie": { "valeur": "Obliger TotalEnergies à vendre son carburant « à prix coûtant ».", "origine": "declaration", "date": "2026-09", "sources": ["lo-discours-2026-09-26"] },
+          "encadrement-prix": { "non_communique": "2026-10-26" },
+          "libre-echange": { "non_communique": "2026-10-26", "precision": "Lutte ouvrière renvoie dos à dos libre-échange et protectionnisme, « deux politiques pour la bourgeoisie ».", "sources": ["lo-libre-echange"] },
+          "reindustrialisation": { "non_communique": "2026-10-26" }
+        }
+      },
+      "ecologie": {
+        "mesures": [],
+        "reponses": {
+          "nucleaire": { "non_communique": "2026-10-26" },
+          "renouvelables": { "non_communique": "2026-10-26" },
+          "neutralite-2050": { "non_communique": "2026-10-26" },
+          "thermique-2035": { "non_communique": "2026-10-26" }
+        }
+      },
+      "social": {
+        "mesures": [],
+        "reponses": {
+          "acces-soins": { "non_communique": "2026-10-26" },
+          "installation-medecins": { "non_communique": "2026-10-26" },
+          "mesure-ecole": { "non_communique": "2026-10-26" },
+          "remuneration-enseignants": { "non_communique": "2026-10-26" },
+          "encadrement-loyers": { "non_communique": "2026-10-26", "precision": "Lutte ouvrière juge que « l'encadrement des loyers a une efficacité bien limitée », sans proposition sur le dispositif.", "sources": ["lo-logement"] },
+          "logements-sociaux": { "non_communique": "2026-10-26" },
+          "rsa": { "non_communique": "2026-10-26" }
+        }
+      },
+      "securite": {
+        "mesures": [],
+        "reponses": {
+          "effectifs-forces-ordre": { "non_communique": "2026-10-26" },
+          "places-prison": { "non_communique": "2026-10-26" },
+          "peines-minimales": { "non_communique": "2026-10-26" },
+          "justice-mineurs": { "non_communique": "2026-10-26" },
+          "cannabis": { "non_communique": "2026-10-26" }
+        }
+      },
+      "immigration": {
+        "mesures": [],
+        "reponses": {
+          "titres-sejour": { "non_communique": "2026-10-26" },
+          "regularisations": { "non_communique": "2026-10-26" },
+          "demandes-asile": { "non_communique": "2026-10-26" },
+          "droit-du-sol": { "non_communique": "2026-10-26" },
+          "ame": { "non_communique": "2026-10-26" },
+          "priorite-nationale": { "valeur": "Contre", "origine": "projet-parti", "date": "2024-03", "precision": "La « préférence nationale » « consiste à retirer des droits à une partie des travailleurs, mais cela n'en a jamais donné plus aux autres ».", "sources": ["lo-immigres"] },
+          "referendum-immigration": { "non_communique": "2026-10-26" }
+        }
+      },
+      "institutions": {
+        "mesures": [],
+        "reponses": {
+          "mode-scrutin": { "non_communique": "2026-10-26" },
+          "ric": { "non_communique": "2026-10-26" },
+          "constitution": { "non_communique": "2026-10-26" },
+          "mandat-presidentiel": { "non_communique": "2026-10-26" }
+        }
+      },
+      "international": {
+        "mesures": [],
+        "reponses": {
+          "relation-ue": { "valeur": "Autre", "origine": "projet-parti", "date": "2019-01", "precision": "« Sortir de l'Union européenne ne réglera pas les problèmes des travailleurs » ; une Europe « favorable aux opprimés » ne sera possible « que si les travailleurs renversent le pouvoir de la bourgeoisie ».", "sources": ["lo-ue"] },
+          "euro": { "non_communique": "2026-10-26" },
+          "budget-defense": { "non_communique": "2026-10-26" },
+          "otan": { "non_communique": "2026-10-26" },
+          "service-national": { "non_communique": "2026-10-26" },
+          "ukraine": { "valeur": "Opposée à l'engagement militaire croissant de la France : selon elle, les livraisons d'armes servent d'abord à « aider Dassault, Thales, Safran et MBDA à promouvoir leur arsenal ».", "origine": "declaration", "date": "2026-09", "sources": ["lo-discours-2026-09-26"] },
+          "proche-orient": { "non_communique": "2026-10-26" }
+        }
+      },
+      "agriculture": {
+        "mesures": [],
+        "reponses": {
+          "revenu-agricole": { "non_communique": "2026-10-26" },
+          "pesticides": { "non_communique": "2026-10-26" },
+          "pac": { "non_communique": "2026-10-26" }
+        }
+      }
+    }
+  },
+  "sources": {
+    "arthaud-accueil": { "titre": "Le site de Nathalie Arthaud : Élection présidentielle 2027, le camp des travailleurs", "editeur": "Lutte ouvrière", "date": null, "consulte": "2026-10-26", "url": "https://www.nathalie-arthaud.info/", "type": "parti" },
+    "lo-qui-sommes-nous": { "titre": "Qui sommes-nous ? Présentation", "editeur": "Lutte ouvrière", "date": null, "consulte": "2026-10-26", "url": "https://www.lutte-ouvriere.org/portail/qui-sommes-nous/index.html", "type": "parti" },
+    "lo-discours-2026-09-26": { "titre": "Meeting du 26 septembre 2026 : discours de Nathalie Arthaud", "editeur": "Lutte ouvrière", "auteur": "Nathalie Arthaud", "date": "2026-09-26", "consulte": "2026-10-26", "url": "https://www.lutte-ouvriere.org/portail/brochures/meeting-26-septembre-2026-discours-nathalie-arthaud-197446.html", "type": "parti" },
+    "lo-immigres": { "titre": "Travailleurs français, immigrés, ne nous laissons pas diviser !", "editeur": "Lutte ouvrière", "date": "2024-03-23", "consulte": "2026-10-26", "url": "https://www.lutte-ouvriere.org/portail/qui-sommes-nous/travailleurs-francais-immigres-laissons-diviser-164193", "type": "parti" },
+    "lo-ue": { "titre": "Quitter l'Union européenne et retrouver de la souveraineté ? Une diversion et un mensonge !", "editeur": "Lutte ouvrière", "date": "2019-01-26", "consulte": "2026-10-26", "url": "https://www.lutte-ouvriere.org/portail/qui-sommes-nous/qui-sommes-nous-nos-idees-et-positions-politiques-quitter-lunion-europeenne-et-retrouver-de-la-souverainete-une-diversion-et-un-mensonge", "type": "parti" },
+    "lo-libre-echange": { "titre": "Libre-échange et protectionnisme, deux politiques pour la bourgeoisie !", "editeur": "Lutte ouvrière", "date": "2024-03-24", "consulte": "2026-10-26", "url": "https://www.lutte-ouvriere.org/portail/qui-sommes-nous/libre-echange-protectionnisme-deux-politiques-bourgeoisie-165657", "type": "parti" },
+    "lo-logement": { "titre": "Logement : un droit fondamental à conquérir", "editeur": "Lutte ouvrière", "date": "2022-02-21", "consulte": "2026-10-26", "url": "https://www.lutte-ouvriere.org/portail/qui-sommes-nous/qui-sommes-nous-nos-idees-et-positions-politiques-logement-un-droit-fondamental-conquerir", "type": "parti" },
+    "grille-nuances-2024": { "titre": "Annexe 1 : Grille des nuances individuelles, élections législatives 2024", "editeur": "Préfecture du Calvados (ministère de l'Intérieur)", "date": null, "consulte": "2026-10-26", "url": "https://calvados.gouv.fr/contenu/telechargement/24610/181062/file/Annexe%201-Grille%20nuance%20-l%C3%A9gislatives%202024.pdf", "type": "officiel" },
+    "sudradio-bio-arthaud": { "titre": "Nathalie Arthaud : biographie et CV politique", "editeur": "Sud Radio", "date": null, "consulte": "2026-10-26", "url": "https://www.sudradio.fr/la-biographie-et-le-cv-de-nathalie-arthaud", "type": "presse" },
+    "cc-2022": { "titre": "Annonce par Laurent Fabius, Président du Conseil constitutionnel, des résultats officiels du premier tour de l'élection présidentielle", "editeur": "Conseil constitutionnel", "date": "2022-04-13", "consulte": "2026-10-26", "url": "https://presidentielle2022.conseil-constitutionnel.fr/les-communiques/resultats-du-premier-tour.html", "type": "officiel" }
+  }
+}
