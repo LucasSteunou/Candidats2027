@@ -447,7 +447,7 @@ blockquote {
   transition: transform 180ms ease;
 }
 
-.theme[open] summary svg {
+.theme[open] > summary svg {
   transform: rotate(180deg);
 }
 
@@ -462,9 +462,31 @@ blockquote {
   padding: 0 0 0 12px;
 }
 
+/* minmax(0, …): without it a wide table stretches the column past the box instead of scrolling inside it. */
 .sous-theme {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   gap: 14px;
+}
+
+/* A fold inside a fold is a ruled row, not a second box. */
+.theme .theme {
+  border: 0;
+  border-top: 1px solid var(--grid);
+  border-radius: 0;
+  background: none;
+}
+
+.theme .theme summary {
+  padding-inline: 0;
+}
+
+.fold-body {
+  padding-bottom: 14px;
+}
+
+.fold-body > p {
+  margin: 0 0 8px;
 }
 
 .sous-theme h4 {
@@ -651,11 +673,7 @@ blockquote {
 .multiples {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
-  gap: 16px;
-}
-
-.multiple h4 {
-  margin: 0 0 4px;
+  column-gap: 16px;
 }
 
 .trend {
@@ -731,31 +749,22 @@ blockquote {
   font-size: 0.88rem;
 }
 
-/* minmax(0, …): without it a wide table stretches the column past the card instead of scrolling inside it. */
-.poll-list {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr);
-  gap: 18px;
-}
-
-.how-to {
-  margin-bottom: 18px;
-  padding-bottom: 14px;
-  border-bottom: 1px solid var(--grid);
-}
-
 .how-to h4 {
-  margin-top: 0;
+  margin: 0 0 8px;
+  padding: 0;
+  border: 0;
+  font-size: 1rem;
+}
+
+.how-to p {
+  margin: 0 0 12px;
+  line-height: 1.6;
 }
 
 .how-to ul {
   margin: 0;
   padding-left: 20px;
   line-height: 1.6;
-}
-
-.poll h4 {
-  margin: 0 0 2px;
 }
 
 .table-scroll {

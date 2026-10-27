@@ -1,4 +1,4 @@
-import { ExternalLink, X } from "lucide-react";
+import { ChevronDown, ExternalLink, X } from "lucide-react";
 import { createContext, useContext, useEffect, useRef, useState } from "react";
 
 import { fmtDate } from "./content.js";
@@ -26,6 +26,22 @@ export function Card({ title, children, className = "" }) {
       {title ? <h3>{title}</h3> : null}
       {children}
     </section>
+  );
+}
+
+/** A fold that looks like the programme themes; nested inside another fold it becomes a ruled row. */
+export function Fold({ title, note, open, children }) {
+  return (
+    <details className="theme" open={open}>
+      <summary>
+        <span>
+          <strong>{title}</strong>
+          {note ? <small>{note}</small> : null}
+        </span>
+        <ChevronDown size={20} aria-hidden="true" />
+      </summary>
+      {children}
+    </details>
   );
 }
 

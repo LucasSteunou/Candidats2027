@@ -1,9 +1,8 @@
-import { ChevronDown } from "lucide-react";
 import { useState } from "react";
 
 import { AnswerValue } from "./Fiche.jsx";
 import { candidatures, fmtNumber, themes } from "./content.js";
-import { Card, PageTitle, go } from "./ui.jsx";
+import { Card, Fold, PageTitle, go } from "./ui.jsx";
 
 const WITH_FICHE = candidatures.filter((c) => c.fiche);
 
@@ -92,16 +91,7 @@ export default function Comparer({ themeId }) {
       </div>
 
       {theme.sous_themes.map((st) => (
-        <details key={st.id} className="theme">
-          <summary>
-            <span>
-              <strong>{st.titre}</strong>
-              <small>
-                {st.questions.length} question{st.questions.length > 1 ? "s" : ""}
-              </small>
-            </span>
-            <ChevronDown size={20} aria-hidden="true" />
-          </summary>
+        <Fold key={st.id} title={st.titre} note={`${st.questions.length} question${st.questions.length > 1 ? "s" : ""}`}>
           <div className="sous-theme">
             {st.questions.map((q) => {
               const rows = shown.map((c) => ({ c, reponse: c.fiche.programme.themes[theme.id].reponses[q.id] }));
@@ -123,7 +113,7 @@ export default function Comparer({ themeId }) {
               );
             })}
           </div>
-        </details>
+        </Fold>
       ))}
     </section>
   );
