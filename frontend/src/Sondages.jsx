@@ -255,15 +255,14 @@ export default function SondagesView() {
         <div className="how-to">
           <h4>Comment lire les tableaux</h4>
           <p>
-            Un institut ne teste pas une seule liste de candidats : il soumet aux sondés plusieurs scénarios, que la
-            Commission des sondages appelle des <strong>hypothèses</strong>. Elles diffèrent par les candidats en lice, par
-            exemple un seul candidat du centre plutôt que deux.
+            Chaque colonne (H1, H2…) est une <strong>hypothèse</strong> : un bulletin complet que l'institut soumet aux
+            sondés. D'une hypothèse à l'autre, seuls quelques candidats changent, par exemple Philippe et Attal tous deux
+            présents, ou un seul des deux.
           </p>
           <ul>
-            <li>Chaque <strong>colonne</strong> (H1, H2…) est un scénario ; chaque <strong>ligne</strong> est un candidat.</li>
-            <li>Le chiffre est le pourcentage des suffrages exprimés dans ce scénario. Une colonne fait environ 100 %.</li>
-            <li>Un « – » signifie que le candidat n'est pas dans ce scénario. Il n'a pas été testé, ce n'est pas un 0.</li>
-            <li>Tous les scénarios sont affichés, sans en privilégier un. Le tableau défile horizontalement.</li>
+            <li>Chaque ligne est un candidat, avec son propre score en % des suffrages exprimés. Une colonne fait environ 100 %.</li>
+            <li>Un « – » : candidat absent de cette hypothèse. Ce n'est pas un 0.</li>
+            <li>Toutes les hypothèses sont affichées, sans en privilégier une. Le tableau défile horizontalement.</li>
           </ul>
         </div>
         <div className="poll-list">

@@ -805,11 +805,6 @@ blockquote {
   scrollbar-width: none;
 }
 
-.section-heading {
-  margin: 10px 0 0;
-  font-size: 1.2rem;
-}
-
 .compare-rows li {
   padding-top: 10px;
   border-top: 1px solid var(--grid);
@@ -820,7 +815,10 @@ blockquote {
 }
 
 .dotstrip {
-  margin: 4px 0 14px;
+  margin: 4px 0 6px;
+  cursor: pointer;
+  touch-action: pan-y; /* a horizontal drag scrubs the dots, a vertical one still scrolls the page */
+  -webkit-tap-highlight-color: transparent;
 }
 
 .dotstrip-axis {
@@ -828,6 +826,13 @@ blockquote {
   height: 20px;
   margin: 0 8px;
   border-bottom: 1px solid var(--axis);
+}
+
+.dotstrip-readout {
+  min-height: 1.4em; /* reserved so the card does not jump on the first touch */
+  margin: 4px 0 0;
+  font-size: 0.88rem;
+  font-weight: 700;
 }
 
 .dotstrip-dot {
@@ -839,6 +844,13 @@ blockquote {
   border: 2px solid var(--surface);
   border-radius: 50%;
   background: var(--accent);
+}
+
+.dotstrip-dot.is-active {
+  width: 14px;
+  height: 14px;
+  bottom: -7px;
+  margin-left: -7px;
 }
 
 .dotstrip-scale {

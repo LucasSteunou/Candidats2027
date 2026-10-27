@@ -1,3 +1,4 @@
+import { ChevronDown } from "lucide-react";
 import { useState } from "react";
 
 import { AnswerValue } from "./Fiche.jsx";
@@ -6,17 +7,27 @@ import { Card, PageTitle, go } from "./ui.jsx";
 
 const WITH_FICHE = candidatures.filter((c) => c.fiche);
 
-/** Numeric answers on one shared axis; the rows below carry every value as text. */
+/** Numeric answers on one shared axis; the rows below carry every value as text. A touch names the nearest dot(s). */
 function DotStrip({ question, rows }) {
+  const [active, setActive] = useState(null);
   const values = rows.map((r) => r.reponse.valeur);
   const lo = Math.min(0, ...values);
   const hi = Math.max(...values);
   const pos = (v) => (hi === lo ? 50 : ((v - lo) / (hi - lo)) * 100);
+
+  const pick = (e) => {
+    const box = e.currentTarget.firstChild.getBoundingClientRect();
+    if (!box.width) return;
+    const at = ((e.clientX - box.left) / box.width) * 100;
+    setActive(values.reduce((best, v) => (Math.abs(pos(v) - at) < Math.abs(pos(best) - at) ? v : best)));
+  };
+  const named = rows.filter((r) => r.reponse.valeur === active).map((r) => r.c.nom);
+
   return (
-    <div className="dotstrip" role="img" aria-label={`${question.intitule} : ${rows.map((r) => `${r.c.nom} ${fmtNumber(r.reponse.valeur)}`).join(", ")}`}>
+    <div className="dotstrip" role="img" aria-label={`${question.intitule} : ${rows.map((r) => `${r.c.nom} ${fmtNumber(r.reponse.valeur)}`).join(", ")}`} onPointerDown={pick} onPointerMove={pick}>
       <div className="dotstrip-axis">
         {rows.map((r) => (
-          <span key={r.c.id} className="dotstrip-dot" style={{ left: `${pos(r.reponse.valeur)}%` }} title={`${r.c.nom} : ${fmtNumber(r.reponse.valeur)}`} />
+          <span key={r.c.id} className={`dotstrip-dot ${r.reponse.valeur === active ? "is-active" : ""}`} style={{ left: `${pos(r.reponse.valeur)}%` }} />
         ))}
       </div>
       <div className="dotstrip-scale">
@@ -25,6 +36,9 @@ function DotStrip({ question, rows }) {
           {fmtNumber(hi)} {question.unite}
         </span>
       </div>
+      <p className="dotstrip-readout" aria-hidden="true">
+        {named.length ? `${named.join(", ")} : ${fmtNumber(active)} ${question.unite}` : ""}
+      </p>
     </div>
   );
 }
@@ -78,28 +92,38 @@ export default function Comparer({ themeId }) {
       </div>
 
       {theme.sous_themes.map((st) => (
-        <section key={st.id} className="page">
-          <h3 className="section-heading">{st.titre}</h3>
-          {st.questions.map((q) => {
-            const rows = shown.map((c) => ({ c, reponse: c.fiche.programme.themes[theme.id].reponses[q.id] }));
-            const numeric = q.type === "nombre" ? rows.filter((r) => typeof r.reponse.valeur === "number") : [];
-            return (
-              <Card key={q.id} title={q.intitule}>
-                {numeric.length > 1 ? <DotStrip question={q} rows={numeric} /> : null}
-                <ul className="compare-rows">
-                  {rows.map(({ c, reponse }) => (
-                    <li key={c.id}>
-                      <button type="button" className="text-link compare-name" onClick={() => go(`/c/${c.id}/programme`)}>
-                        {c.nom}
-                      </button>
-                      <AnswerValue question={q} reponse={reponse} registry={c.fiche.sources} />
-                    </li>
-                  ))}
-                </ul>
-              </Card>
-            );
-          })}
-        </section>
+        <details key={st.id} className="theme">
+          <summary>
+            <span>
+              <strong>{st.titre}</strong>
+              <small>
+                {st.questions.length} question{st.questions.length > 1 ? "s" : ""}
+              </small>
+            </span>
+            <ChevronDown size={20} aria-hidden="true" />
+          </summary>
+          <div className="sous-theme">
+            {st.questions.map((q) => {
+              const rows = shown.map((c) => ({ c, reponse: c.fiche.programme.themes[theme.id].reponses[q.id] }));
+              const numeric = q.type === "nombre" ? rows.filter((r) => typeof r.reponse.valeur === "number") : [];
+              return (
+                <Card key={q.id} title={q.intitule}>
+                  {numeric.length > 1 ? <DotStrip question={q} rows={numeric} /> : null}
+                  <ul className="compare-rows">
+                    {rows.map(({ c, reponse }) => (
+                      <li key={c.id}>
+                        <button type="button" className="text-link compare-name" onClick={() => go(`/c/${c.id}/programme`)}>
+                          {c.nom}
+                        </button>
+                        <AnswerValue question={q} reponse={reponse} registry={c.fiche.sources} />
+                      </li>
+                    ))}
+                  </ul>
+                </Card>
+              );
+            })}
+          </div>
+        </details>
       ))}
     </section>
   );

@@ -38,6 +38,9 @@ test("the comparator answers key questions with units and origin", () => {
   expect(screen.getByRole("heading", { name: "Âge légal de départ visé" })).toBeInTheDocument();
   expect(screen.getAllByText("60 ans").length).toBeGreaterThan(0);
   expect(screen.getAllByText(/Programme 2027 ·/).length).toBeGreaterThan(0);
+  const sections = document.querySelectorAll("details.theme");
+  expect(sections.length).toBeGreaterThan(1);
+  expect([...sections].every((d) => !d.open)).toBe(true); // collapsed until opened, like the programmes
 });
 
 test("the poll page ranks averages and keeps a table view of every poll", () => {
