@@ -46,6 +46,15 @@ test("the poll page ranks averages and keeps a table view of every poll", () => 
   expect(screen.getAllByRole("table").length).toBe(sondages.sondages.length);
   expect(screen.getByText("Elabe pour BFMTV et La Tribune Dimanche")).toBeInTheDocument();
   expect(screen.getAllByText("<1").length).toBeGreaterThan(0); // a published « moins de 1 % » is never shown as 0
+  expect(screen.getByRole("heading", { name: "Comment lire les tableaux" })).toBeInTheDocument();
+  expect(screen.getAllByText("É. Philippe et G. Attal").length).toBeGreaterThan(0); // the scenario legend sits under the table
+});
+
+test("a chart point announces its poll when focused", () => {
+  at("/c/le-pen/popularite");
+  const point = screen.getAllByRole("img", { name: /Intentions de vote pour Marine Le Pen/ })[0].querySelector("circle.trend-dot");
+  fireEvent.focus(point);
+  expect(screen.getAllByText(/terrain du .* Moyenne 30 jours/).length).toBeGreaterThan(0);
 });
 
 test("the methodology page renders the charter and the perimeter", () => {

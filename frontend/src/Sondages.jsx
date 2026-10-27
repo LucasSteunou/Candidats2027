@@ -33,11 +33,22 @@ function monthTicks([start, end]) {
   return ticks;
 }
 
-/** Small time chart: every tested score as a dot, the rolling average as a line. */
+/** Small time chart: one dot per poll (its scores span a vertical bar), the rolling average as a line. */
 export function TrendChart({ points, line, yMax, xDomain, label, describe }) {
   const [active, setActive] = useState(null);
   const x = (d) => M.left + ((d - xDomain[0]) / (xDomain[1] - xDomain[0])) * (W - M.left - M.right);
   const y = (v) => H - M.bottom - (v / yMax) * (H - M.top - M.bottom);
+
+  // Any touch or drag on the chart selects the poll nearest in time (then in height, for polls ending the same day),
+  // so a fingertip never has to land on a dot.
+  const pick = (e) => {
+    const box = e.currentTarget.getBoundingClientRect();
+    if (!box.width) return;
+    const px = ((e.clientX - box.left) * W) / box.width;
+    const py = ((e.clientY - box.top) * H) / box.height;
+    const distance = (p) => Math.abs(x(p.date) - px) * 100 + Math.abs(y(p.value) - py);
+    setActive(points.reduce((best, p) => (distance(p) < distance(best) ? p : best)));
+  };
   const step = yMax > 20 ? 10 : 5;
   const yTicks = Array.from({ length: yMax / step + 1 }, (_, i) => i * step);
   const last = line.at(-1);
@@ -45,7 +56,7 @@ export function TrendChart({ points, line, yMax, xDomain, label, describe }) {
 
   return (
     <figure className="trend">
-      <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label={label}>
+      <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label={label} onPointerDown={pick} onPointerMove={pick}>
         {yTicks.map((t) => (
           <g key={t}>
             <line className="grid" x1={M.left} x2={W - M.right} y1={y(t)} y2={y(t)} />
@@ -61,9 +72,28 @@ export function TrendChart({ points, line, yMax, xDomain, label, describe }) {
         ))}
         {active ? <line className="crosshair" x1={x(active.date)} x2={x(active.date)} y1={M.top} y2={H - M.bottom} /> : null}
         {line.length > 1 ? <path className="trend-line" d={path} /> : null}
-        {points.flatMap((p, pi) =>
-          (p.scores ?? [p.value]).map((s, i) => <circle key={`${pi}-${p.date}-${i}`} className="trend-dot" cx={x(p.date)} cy={y(s)} r="4" />),
-        )}
+        {points.map((p, pi) => (
+          <line
+            key={`range-${pi}`}
+            className="trend-range"
+            x1={x(p.date)}
+            x2={x(p.date)}
+            y1={y(Math.min(...p.scores))}
+            y2={y(Math.max(...p.scores))}
+          />
+        ))}
+        {points.map((p, pi) => (
+          <circle
+            key={`${pi}-${p.date}`}
+            className={p === active ? "trend-dot is-active" : "trend-dot"}
+            cx={x(p.date)}
+            cy={y(p.value)}
+            r={p === active ? 5 : 3}
+            tabIndex="0"
+            aria-label={describe(p)}
+            onFocus={() => setActive(p)}
+          />
+        ))}
         {last ? (
           <>
             <circle className="trend-end" cx={x(last.date)} cy={y(last.value)} r="4" />
@@ -72,24 +102,9 @@ export function TrendChart({ points, line, yMax, xDomain, label, describe }) {
             </text>
           </>
         ) : null}
-        {points.map((p, pi) => (
-          <rect
-            key={`${pi}-${p.date}`}
-            className="hit"
-            x={x(p.date) - 12}
-            y={M.top}
-            width="24"
-            height={H - M.top - M.bottom}
-            tabIndex="0"
-            aria-label={describe(p)}
-            onMouseEnter={() => setActive(p)}
-            onFocus={() => setActive(p)}
-            onClick={() => setActive(p)}
-          />
-        ))}
       </svg>
       <figcaption className="readout" aria-live="polite">
-        {active ? describe(active) : "Touchez un point pour le détail du sondage."}
+        {active ? describe(active) : "Touchez ou faites glisser le doigt sur la courbe pour le détail d'un sondage."}
       </figcaption>
     </figure>
   );
@@ -162,7 +177,6 @@ function PollTable({ poll }) {
   return (
     <div className="table-scroll">
       <table className="poll-table">
-        <caption>{poll.hypotheses.map((h, i) => `H${i + 1} : ${h.nom}`).join(" · ")}</caption>
         <thead>
           <tr>
             <th scope="col">Candidat</th>
@@ -188,6 +202,23 @@ function PollTable({ poll }) {
   );
 }
 
+function PollLegend({ poll }) {
+  // « Hypothèse 3 » or « Hypothèse unique » says nothing the column header does not already say.
+  const described = poll.hypotheses.flatMap((h, i) =>
+    /^Hypothèse (\d+|unique)$/.test(h.nom) ? [] : [{ n: i + 1, nom: h.nom.replace(/^Hypothèse /, "") }],
+  );
+  if (!described.length) return null;
+  return (
+    <ul className="legend">
+      {described.map(({ n, nom }) => (
+        <li key={n}>
+          <b>H{n}</b> {nom}
+        </li>
+      ))}
+    </ul>
+  );
+}
+
 export default function SondagesView() {
   const polls = [...sondages.sondages].sort((a, b) => b.terrain[1].localeCompare(a.terrain[1]));
   return (
@@ -195,8 +226,8 @@ export default function SondagesView() {
       <PageTitle eyebrow="Sondages" title="Intentions de vote au 1er tour">
         <p>
           Moyenne sur {WINDOW_DAYS} jours au {fmtTimestamp(latestPollDate)}, calculée de la même façon pour tous : chaque
-          sondage compte une fois (moyenne des hypothèses où le candidat est testé). Un sondage n'est pas une prévision ; la
-          marge d'erreur va d'environ 1 à 3 points.
+          sondage compte une fois (moyenne de ses hypothèses, c'est-à-dire des scénarios de candidats, où le candidat est
+          testé). Un sondage n'est pas une prévision ; la marge d'erreur va d'environ 1 à 3 points.
         </p>
         <p className="muted">{polls.length} sondages saisis à ce jour. {sondages.note}</p>
       </PageTitle>
@@ -206,7 +237,10 @@ export default function SondagesView() {
       </Card>
 
       <Card title="Évolution par candidat">
-        <p className="muted">Points : chaque hypothèse testée. Ligne : moyenne sur {WINDOW_DAYS} jours. Même échelle pour tous.</p>
+        <p className="muted">
+          Point : un sondage (moyenne de ses hypothèses) ; le trait va de son score le plus bas au plus haut. Ligne : moyenne
+          sur {WINDOW_DAYS} jours. Même échelle pour tous.
+        </p>
         <div className="multiples">
           {ROWS.filter((r) => r.points.length).map(({ c }) => (
             <div key={c.id} className="multiple">
@@ -218,6 +252,20 @@ export default function SondagesView() {
       </Card>
 
       <Card title="Détail des sondages">
+        <div className="how-to">
+          <h4>Comment lire les tableaux</h4>
+          <p>
+            Un institut ne teste pas une seule liste de candidats : il soumet aux sondés plusieurs scénarios, que la
+            Commission des sondages appelle des <strong>hypothèses</strong>. Elles diffèrent par les candidats en lice, par
+            exemple un seul candidat du centre plutôt que deux.
+          </p>
+          <ul>
+            <li>Chaque <strong>colonne</strong> (H1, H2…) est un scénario ; chaque <strong>ligne</strong> est un candidat.</li>
+            <li>Le chiffre est le pourcentage des suffrages exprimés dans ce scénario. Une colonne fait environ 100 %.</li>
+            <li>Un « – » signifie que le candidat n'est pas dans ce scénario. Il n'a pas été testé, ce n'est pas un 0.</li>
+            <li>Tous les scénarios sont affichés, sans en privilégier un. Le tableau défile horizontalement.</li>
+          </ul>
+        </div>
         <div className="poll-list">
           {polls.map((poll) => (
             <article key={poll.id} className="poll">
@@ -229,6 +277,7 @@ export default function SondagesView() {
                 <SourceChips ids={poll.sources} registry={sondages.sources} />
               </p>
               <PollTable poll={poll} />
+              <PollLegend poll={poll} />
             </article>
           ))}
         </div>
