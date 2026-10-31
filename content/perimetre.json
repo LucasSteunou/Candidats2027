@@ -1,5 +1,5 @@
 {
-  "maj": "2026-10-26",
+  "maj": "2026-10-31",
   "regle": "Fiche si la personne a formellement déclaré sa candidature (ou a été désignée par son parti) ET a été testée dans au moins un sondage de premier tour réalisé dans les 60 derniers jours, dont la notice est publiée par la Commission des sondages.",
   "fenetre_sondages_jours": 60,
   "scrutin": {
@@ -156,6 +156,11 @@
       "sources": ["lcp-primaire-2026-10-11", "cds-10250-ipsos"]
     },
     {
+      "nom": "Jérôme Guedj",
+      "raison": "Battu à la primaire sociale-démocrate du 11 octobre 2026 (5,83 %).",
+      "sources": ["lcp-primaire-2026-10-11", "cds-10284-ifop"]
+    },
+    {
       "nom": "François Hollande",
       "raison": "N'a pas déclaré sa candidature.",
       "sources": ["ps-candidats-2026-10-14", "cds-10323-yougov"]
@@ -166,14 +171,19 @@
       "sources": ["lcp-lemaire", "cds-10270-yougov"]
     },
     {
+      "nom": "Emmanuel Maurel",
+      "raison": "Battu à la primaire sociale-démocrate du 11 octobre 2026 (5,92 %).",
+      "sources": ["lcp-primaire-2026-10-11", "cds-10284-ifop"]
+    },
+    {
       "nom": "Ségolène Royal",
       "raison": "Battue à la primaire sociale-démocrate du 11 octobre 2026 (7,62 %).",
       "sources": ["lcp-primaire-2026-10-11", "cds-10260-opinionway"]
     },
     {
       "nom": "Dominique de Villepin",
-      "raison": "Intention annoncée (« Je veux être candidat », 30 août 2026), mais pas de déclaration formelle.",
-      "sources": ["fi-villepin-2026-08-30", "cds-10324-elabe"]
+      "raison": "Intention annoncée (« Je veux être candidat », 30 août 2026), mais pas de déclaration formelle : le 22 octobre, il a reporté sa décision « au cours des prochaines semaines ».",
+      "sources": ["fi-villepin-2026-08-30", "lcp-villepin-2026-10-23", "cds-10324-elabe"]
     }
   ],
   "cites_sans_sondage": {
@@ -200,6 +210,8 @@
     "cds-10260-opinionway": { "titre": "Notice n° 10260 - OpinionWay pour CNews (terrain du 9 au 10 septembre 2026)", "editeur": "Commission des sondages", "auteur": null, "date": "2026-09-11", "consulte": "2026-10-23", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10260-pres-iv-opinionway-cnews-11-septembre.pdf", "type": "sondage" },
     "cds-10250-ipsos": { "titre": "Notice n° 10250 - Ipsos BVA pour Le Parisien (terrain du 31 août au 2 septembre 2026)", "editeur": "Commission des sondages", "auteur": null, "date": "2026-09-05", "consulte": "2026-10-23", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10250-pres-iv-ipsos-bva-le-parisien-5-septembre.pdf", "type": "sondage" },
     "cds-10327-ifop": { "titre": "Notice n° 10327 - Ifop-Fiducial pour LCI, Le Figaro et Sud Radio (terrain du 17 au 19 octobre 2026)", "editeur": "Commission des sondages", "auteur": null, "date": "2026-10-20", "consulte": "2026-10-26", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10327-pres-barometre-election-v7-ifop-20-octobre.pdf", "type": "sondage" },
+    "cds-10284-ifop": { "titre": "Notice n° 10284 - Ifop-Fiducial pour LCI, Le Figaro et Sud Radio (terrain du 25 au 29 septembre 2026)", "editeur": "Commission des sondages", "auteur": null, "date": "2026-09-30", "consulte": "2026-10-31", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10284-pres-barometre-election-v6-ifop-30-septembre.pdf", "type": "sondage" },
+    "lcp-villepin-2026-10-23": { "titre": "Présidentielle: Dominique de Villepin annonce avoir \"dépassé la barre des 300 signatures\"", "editeur": "LCP", "auteur": null, "date": "2026-10-23", "consulte": "2026-10-31", "url": "https://lcp.fr/actualites/presidentielle-dominique-de-villepin-annonce-avoir-depasse-la-barre-des-300-signatures", "type": "presse" },
     "cds-10338-ipsos": { "titre": "Notice n° 10338 - Ipsos BVA pour Le Parisien (terrain du 21 au 22 octobre 2026)", "editeur": "Commission des sondages", "auteur": null, "date": "2026-10-24", "consulte": "2026-10-26", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10338-pres-iv-ipsos-bva-le-parisien-24-octobre.pdf", "type": "sondage" }
   }
 }
