@@ -1,6 +1,6 @@
 import methodologie from "../../METHODOLOGIE.md?raw";
 import { fmtDate, perimetre } from "./content.js";
-import { Card, PageTitle, ReportLink, STATUT_CANDIDATURE, SourceChips } from "./ui.jsx";
+import { Card, Fold, PageTitle, ReportLink, STATUT_CANDIDATURE, SourceChips } from "./ui.jsx";
 
 const INLINE = /(\*\*[^*]+\*\*|`[^`]+`|\[[^\]]+\]\([^)]+\))/g;
 
@@ -54,51 +54,70 @@ function Markdown({ source }) {
 
 export default function Methodo() {
   const registry = perimetre.sources;
+  const [intro, ...sections] = methodologie.split(/^(?=## )/m);
   return (
     <section className="page">
-      <PageTitle eyebrow="Méthodo" title="Comment l'application est faite" />
+      <PageTitle title="Comment l’application est faite">
+        <div className="prose">
+          <Markdown source={intro} />
+        </div>
+      </PageTitle>
 
       <Card title={`Périmètre au ${fmtDate(perimetre.maj)}`}>
         <p>
           1er tour le {fmtDate(perimetre.scrutin.premier_tour)}, 2nd tour le {fmtDate(perimetre.scrutin.second_tour)}.{" "}
           <SourceChips ids={perimetre.scrutin.sources} registry={registry} />
         </p>
+        <div className="fold-list">
+          <Fold title="Candidatures retenues" level="h3" note={`${perimetre.candidatures.length} candidatures`}>
+            <ul className="plain-list fold-body">
+              {perimetre.candidatures.map((c) => (
+                <li key={c.id}>
+                  <strong>{c.nom}</strong>
+                  <span>
+                    {STATUT_CANDIDATURE[c.statut]}. {c.precision}{" "}
+                    <SourceChips ids={[...c.sources_candidature, ...c.sources_sondage]} registry={registry} />
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </Fold>
+
+          <Fold title="Testés en sondage, sans fiche" level="h3" note={`${perimetre.testes_sans_fiche.length} personnes`}>
+            <ul className="plain-list fold-body">
+              {perimetre.testes_sans_fiche.map((t) => (
+                <li key={t.nom}>
+                  <strong>{t.nom}</strong>
+                  <span>
+                    {t.raison} <SourceChips ids={t.sources} registry={registry} />
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </Fold>
+
+          <Fold title="Cités sans sondage" level="h3" note={`${perimetre.cites_sans_sondage.noms.length} personnes`}>
+            <p className="fold-body">
+              {perimetre.cites_sans_sondage.noms.join(", ")}. {perimetre.cites_sans_sondage.precision}{" "}
+              <SourceChips ids={perimetre.cites_sans_sondage.sources} registry={registry} />
+            </p>
+          </Fold>
+        </div>
       </Card>
 
-      <Card title={`Candidatures retenues (${perimetre.candidatures.length})`}>
-        <ul className="plain-list">
-          {perimetre.candidatures.map((c) => (
-            <li key={c.id}>
-              <strong>{c.nom}</strong> · {STATUT_CANDIDATURE[c.statut]}. {c.precision}{" "}
-              <SourceChips ids={[...c.sources_candidature, ...c.sources_sondage]} registry={registry} />
-            </li>
-          ))}
-        </ul>
-      </Card>
-
-      <Card title="Testés en sondage, sans fiche">
-        <ul className="plain-list">
-          {perimetre.testes_sans_fiche.map((t) => (
-            <li key={t.nom}>
-              <strong>{t.nom}</strong> · {t.raison} <SourceChips ids={t.sources} registry={registry} />
-            </li>
-          ))}
-        </ul>
-      </Card>
-
-      <Card title="Cités sans sondage">
-        <p>
-          {perimetre.cites_sans_sondage.noms.join(", ")}. {perimetre.cites_sans_sondage.precision}{" "}
-          <SourceChips ids={perimetre.cites_sans_sondage.sources} registry={registry} />
-        </p>
-      </Card>
-
-      {/* One card per ## section; the leading intro paragraph gets its own card too. */}
-      {methodologie.split(/^(?=## )/m).map((section) => (
-        <Card key={section} className="prose">
-          <Markdown source={section} />
-        </Card>
-      ))}
+      <div className="fold-list">
+        {/* One fold per ## section of METHODOLOGIE.md, its heading as the fold's title. */}
+        {sections.map((section) => {
+          const [heading, ...body] = section.split("\n");
+          return (
+            <Fold key={heading} title={heading.slice(3)} level="h2">
+              <div className="prose fold-body">
+                <Markdown source={body.join("\n")} />
+              </div>
+            </Fold>
+          );
+        })}
+      </div>
       <ReportLink subject="Méthodologie" />
     </section>
   );

@@ -1,0 +1,30 @@
+[
+ {
+  "mode": "redesign",
+  "depth": "full",
+  "scope": "app",
+  "shape": "app screen",
+  "theme": "grid",
+  "axes": "light/grotesk-sans/cool",
+  "nav": "tab bar at the foot of a phone, in the top bar from 60rem",
+  "footer": "none",
+  "imagery": "none",
+  "photos": [],
+  "entry": "register",
+  "sections": [
+   "register",
+   "fiche with sticky tabs and folds",
+   "comparator folds",
+   "poll folds",
+   "methodology folds"
+  ],
+  "signature": "the register of the 15 candidatures with their poll average as a figure",
+  "waived": [
+   "39b",
+   "49b",
+   "71"
+  ],
+  "prompt": "neutral sourced mobile app comparing the 2027 French presidential candidates",
+  "date": "2026-10-31"
+ }
+]

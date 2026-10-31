@@ -1,0 +1,56 @@
+/* Self-hosted (SIL Open Font License): no request to a font CDN, and the PWA keeps its faces offline. */
+@font-face {
+  font-family: "Radio Canada Big";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/radio-canada-big-700-latin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Radio Canada";
+  font-style: normal;
+  font-weight: 400 500;
+  font-display: swap;
+  src: url("./fonts/radio-canada-latin.woff2") format("woff2");
+}
+
+/* Grid's ultramarine and Swiss red are left out on purpose: blue and red read as right and left in French politics.
+   The one accent is the project's own neutral violet; no party colour anywhere. */
+:root {
+  color-scheme: light;
+  --space-3xs: 2px; --space-2xs: 4px; --space-xs: 8px; --space-sm: 12px; --space-md: 16px; --space-lg: 24px; --space-xl: 40px; --space-2xl: 64px; --space-3xl: 96px; --space-4xl: 144px;
+  --text-xs: 0.75rem; --text-sm: 0.875rem; --text-md: 1rem; --text-lg: 1.2rem; --text-xl: 1.44rem; --text-2xl: 1.728rem; --text-3xl: 2.074rem;
+  --text-display-s: 1.44rem; --text-display: 2.074rem; --text-section: 1.2rem; --text-title: 1rem; --text-lead: 1rem;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1); --ease-in: cubic-bezier(0.7, 0, 0.84, 0); --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-micro: 120ms; --dur-short: 220ms; --dur-long: 420ms;
+  --color-error: oklch(52% 0.19 27); --color-success: oklch(50% 0.12 150);
+  --container: 1440px; --measure: 760px; --gutter: 64px; --gap-columns: 32px;
+  --z-base: 1; --z-raised: 10; --z-dropdown: 100; --z-sticky: 200; --z-sticky-nav: 300; --z-modal: 400; --z-toast: 500; --z-tooltip: 600;
+  --color-paper: oklch(97.5% 0.005 90); --color-paper-2: oklch(94.2% 0.006 90); --color-paper-3: oklch(90.5% 0.008 90);
+  --color-ink: oklch(19% 0.022 285); --color-ink-2: oklch(31% 0.02 285); --color-muted: oklch(47% 0.016 285);
+  --color-rule: oklch(87.5% 0.008 90); --color-axis: oklch(74% 0.01 285);
+  --color-accent: oklch(46% 0.19 290); --color-accent-ink: oklch(97.5% 0.005 90); --color-focus: oklch(48% 0.2 290);
+  --color-accent-soft: oklch(93% 0.035 290);
+  --color-old: oklch(93% 0.05 85); --color-old-ink: oklch(40% 0.08 70);
+  --color-scrim: oklch(19% 0.022 285 / 0.45);
+  --font-display: "Radio Canada Big", ui-sans-serif, system-ui, sans-serif; --font-body: "Radio Canada", ui-sans-serif, system-ui, sans-serif;
+  --font-outlier: var(--font-display);
+  --radius-card: 0; --radius-pill: 0; --rule-hair: 1px; --shadow-card: none;
+  --tracking-display: -0.035em; --display-weight: 700;
+  --tap: 44px; --nav-height: 64px;
+}
+
+/* Dark is derived, not inverted: same hues, paper and ink swap ends of the lightness range. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --color-paper: oklch(16% 0.01 285); --color-paper-2: oklch(21% 0.012 285); --color-paper-3: oklch(26% 0.014 285);
+    --color-ink: oklch(94% 0.008 90); --color-ink-2: oklch(84% 0.01 90); --color-muted: oklch(72% 0.012 285);
+    --color-rule: oklch(30% 0.012 285); --color-axis: oklch(42% 0.012 285);
+    --color-accent: oklch(78% 0.12 290); --color-accent-ink: oklch(16% 0.01 285); --color-focus: oklch(78% 0.13 290);
+    --color-accent-soft: oklch(28% 0.06 290);
+    --color-old: oklch(30% 0.05 80); --color-old-ink: oklch(86% 0.1 85);
+    --color-scrim: oklch(8% 0.01 285 / 0.6);
+  }
+}

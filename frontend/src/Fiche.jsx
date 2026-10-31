@@ -1,8 +1,9 @@
-import { ArrowLeft, ChevronDown } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
+import { useEffect, useRef } from "react";
 
 import { CandidateTrend } from "./Sondages.jsx";
 import { WINDOW_DAYS, fmtDate, fmtNumber, themes } from "./content.js";
-import { Card, OrigineBadge, ReportLink, STATUT_CANDIDATURE, SourceChips, SourceDetails, go } from "./ui.jsx";
+import { Card, ClampText, Fold, OrigineBadge, ReportLink, STATUT_CANDIDATURE, SourceChips, SourceDetails, go } from "./ui.jsx";
 
 const TABS = [
   ["programme", "Programme"],
@@ -30,7 +31,7 @@ const AVIS_TYPE = { sondage: "Sondage", organisation: "Organisation", presse: "P
 
 export function answerText(question, reponse) {
   if (reponse.non_communique) return null;
-  return question.type === "nombre" && reponse.valeur !== "Autre" ? `${fmtNumber(reponse.valeur)} ${question.unite}` : String(reponse.valeur);
+  return question.type === "nombre" && reponse.valeur !== "Autre" ? `${fmtNumber(reponse.valeur)}\u00A0${question.unite}` : String(reponse.valeur);
 }
 
 /** One answer to a key question; shared with the comparator. */
@@ -44,20 +45,21 @@ export function AnswerValue({ question, reponse, registry }) {
         <p className="answer-value is-empty">Non communiqué à ce jour (vérifié le {fmtDate(reponse.non_communique)})</p>
       )}
       {reponse.origine ? <OrigineBadge origine={reponse.origine} date={reponse.date} /> : null}
-      {reponse.precision ? <p className="answer-precision">{reponse.precision}</p> : null}
-      <SourceChips ids={reponse.sources} registry={registry} />
+      {reponse.precision ? (
+        <ClampText text={reponse.precision} limit={160} after={<SourceChips ids={reponse.sources} registry={registry} />} />
+      ) : (
+        <SourceChips ids={reponse.sources} registry={registry} />
+      )}
     </div>
   );
 }
 
 function Texte({ texte, registry }) {
   return (
-    <>
-      <p>
-        {texte.texte} <SourceChips ids={texte.sources} registry={registry} />
-      </p>
+    <div className="texte">
+      <ClampText text={texte.texte} after={<SourceChips ids={texte.sources} registry={registry} />} />
       {texte.citation ? <blockquote>{texte.citation}</blockquote> : null}
-    </>
+    </div>
   );
 }
 
@@ -68,66 +70,61 @@ function Programme({ fiche }) {
       <Card title="État du programme">
         <Texte texte={fiche.programme.etat} registry={registry} />
       </Card>
-      {themes.map((theme) => {
-        const prog = { mesures: [], ...fiche.programme.themes[theme.id] };
-        const questions = theme.sous_themes.flatMap((st) => st.questions);
-        const answered = questions.filter((q) => !prog.reponses[q.id].non_communique).length;
-        return (
-          <details key={theme.id} className="theme">
-            <summary>
-              <span>
-                <strong>{theme.titre}</strong>
-                <small>
-                  {answered}/{questions.length} questions renseignées · {prog.mesures.length} mesure{prog.mesures.length > 1 ? "s" : ""}
-                </small>
-              </span>
-              <ChevronDown size={20} aria-hidden="true" />
-            </summary>
-            {prog.resume ? <Texte texte={prog.resume} registry={registry} /> : null}
-            {theme.sous_themes.map((st) => (
-              <section key={st.id} className="sous-theme">
-                <h4>{st.titre}</h4>
-                {prog.mesures
-                  .filter((m) => m.sous_theme === st.id)
-                  .map((m) => (
-                    <article key={m.intitule} className="mesure">
-                      <OrigineBadge origine={m.origine} date={m.date} />
-                      <h5>{m.intitule}</h5>
-                      <p>
-                        {m.detail} <SourceChips ids={m.sources} registry={registry} />
-                      </p>
-                      {m.citation ? <blockquote>{m.citation}</blockquote> : null}
-                      {(m.chiffrages ?? []).map((ch) => (
-                        <p key={`${ch.auteur}-${ch.unite}`} className="chiffrage">
-                          <strong>
-                            {fmtNumber(ch.montant)} {ch.unite}
-                          </strong>{" "}
-                          selon {ch.auteur}
-                          {ch.precision ? ` (${ch.precision})` : ""} <SourceChips ids={ch.sources} registry={registry} />
-                        </p>
-                      ))}
-                    </article>
-                  ))}
-                <dl className="questions">
-                  {st.questions.map((q) => (
-                    <div key={q.id} className="question">
-                      <dt>
-                        <span className="question-index">
-                          {questions.indexOf(q) + 1}/{questions.length}
-                        </span>
-                        {q.intitule}
-                      </dt>
-                      <dd>
-                        <AnswerValue question={q} reponse={prog.reponses[q.id]} registry={registry} />
-                      </dd>
-                    </div>
-                  ))}
-                </dl>
-              </section>
-            ))}
-          </details>
-        );
-      })}
+      <div className="fold-list">
+        {themes.map((theme) => {
+          const prog = { mesures: [], ...fiche.programme.themes[theme.id] };
+          const questions = theme.sous_themes.flatMap((st) => st.questions);
+          const answered = questions.filter((q) => !prog.reponses[q.id].non_communique).length;
+          return (
+            <Fold
+              key={theme.id}
+              title={theme.titre}
+              note={`${answered}/${questions.length} questions renseignées, ${prog.mesures.length} mesure${prog.mesures.length > 1 ? "s" : ""}`}
+            >
+              {prog.resume ? <Texte texte={prog.resume} registry={registry} /> : null}
+              {theme.sous_themes.map((st) => (
+                <section key={st.id} className="sous-theme">
+                  <h3>{st.titre}</h3>
+                  {prog.mesures
+                    .filter((m) => m.sous_theme === st.id)
+                    .map((m) => (
+                      <article key={m.intitule} className="mesure">
+                        <OrigineBadge origine={m.origine} date={m.date} />
+                        <h4>{m.intitule}</h4>
+                        <ClampText text={m.detail} after={<SourceChips ids={m.sources} registry={registry} />} />
+                        {m.citation ? <blockquote>{m.citation}</blockquote> : null}
+                        {(m.chiffrages ?? []).map((ch) => (
+                          <p key={`${ch.auteur}-${ch.unite}`} className="chiffrage">
+                            <strong>
+                              {fmtNumber(ch.montant)} {ch.unite}
+                            </strong>{" "}
+                            selon {ch.auteur}
+                            {ch.precision ? ` (${ch.precision})` : ""} <SourceChips ids={ch.sources} registry={registry} />
+                          </p>
+                        ))}
+                      </article>
+                    ))}
+                  <dl className="questions">
+                    {st.questions.map((q) => (
+                      <div key={q.id} className="question">
+                        <dt>
+                          <span className="question-index">
+                            {questions.indexOf(q) + 1}/{questions.length}
+                          </span>
+                          {q.intitule}
+                        </dt>
+                        <dd>
+                          <AnswerValue question={q} reponse={prog.reponses[q.id]} registry={registry} />
+                        </dd>
+                      </div>
+                    ))}
+                  </dl>
+                </section>
+              ))}
+            </Fold>
+          );
+        })}
+      </div>
     </>
   );
 }
@@ -149,7 +146,8 @@ function Popularite({ fiche }) {
       </div>
       <Card title="Intentions de vote au 1er tour">
         <p className="muted">
-          Points : chaque hypothèse testée. Ligne : moyenne sur {WINDOW_DAYS} jours.{" "}
+          Point : un sondage (moyenne de ses hypothèses) ; le trait va de son score le plus bas au plus haut. Ligne : moyenne
+          sur {WINDOW_DAYS} jours.{" "}
           <button type="button" className="text-link" onClick={() => go("/sondages")}>
             Tous les sondages
           </button>
@@ -179,9 +177,7 @@ function Timeline({ title, events, registry }) {
           <li key={`${e.date}-${e.titre}`}>
             <p className="timeline-date">{fmtDate(e.date)}</p>
             <p className="timeline-title">{e.titre}</p>
-            <p>
-              {e.texte} <SourceChips ids={e.sources} registry={registry} />
-            </p>
+            <ClampText text={e.texte} limit={200} after={<SourceChips ids={e.sources} registry={registry} />} />
           </li>
         ))}
       </ol>
@@ -196,7 +192,7 @@ function Histoire({ fiche }) {
       <Card title="Positionnement">
         <p className="label">Comment le parti se définit</p>
         <Texte texte={parti.positionnement.auto_definition} registry={fiche.sources} />
-        <p className="label">Classement par le ministère de l'Intérieur</p>
+        <p className="label">Classement par le ministère de l’Intérieur</p>
         <Texte texte={parti.positionnement.nuance_ministere} registry={fiche.sources} />
       </Card>
       <Timeline title={`Le parti : ${parti.nom}`} events={fiche.histoire.parti} registry={fiche.sources} />
@@ -208,14 +204,12 @@ function Histoire({ fiche }) {
 function Perception({ fiche }) {
   if (!fiche.perception.length) return <Card>Aucun élément recensé à ce jour.</Card>;
   return fiche.perception.map((a) => (
-    <Card key={`${a.auteur}-${a.date}`}>
-      <p className="eyebrow">
-        {AVIS_TYPE[a.type]} · {fmtDate(a.date)}
+    <Card key={`${a.auteur}-${a.date}`} className="item">
+      <h2 className="item-title">{a.auteur}</h2>
+      <p className="meta">
+        {AVIS_TYPE[a.type]}, {fmtDate(a.date)}
       </p>
-      <h3>{a.auteur}</h3>
-      <p>
-        {a.texte} <SourceChips ids={a.sources} registry={fiche.sources} />
-      </p>
+      <ClampText text={a.texte} after={<SourceChips ids={a.sources} registry={fiche.sources} />} />
       {a.citation ? <blockquote>{a.citation}</blockquote> : null}
     </Card>
   ));
@@ -225,20 +219,18 @@ function Controverses({ fiche }) {
   return (
     <>
       <p className="muted">
-        Même règle pour tous : une affaire figure ici si au moins deux médias d'éditeurs différents l'ont rapportée. La
-        présomption d'innocence s'applique tant qu'il n'y a pas de condamnation définitive.
+        Même règle pour tous : une affaire figure ici si au moins deux médias d’éditeurs différents l’ont rapportée. La
+        présomption d’innocence s’applique tant qu’il n’y a pas de condamnation définitive.
       </p>
       {fiche.controverses.length ? null : <Card>Aucune controverse retenue à ce jour.</Card>}
       {fiche.controverses.map((c) => (
-        <Card key={c.titre}>
-          <p className="eyebrow">{fmtDate(c.date)}</p>
-          <h3>{c.titre}</h3>
+        <Card key={c.titre} className="item">
+          <h2 className="item-title">{c.titre}</h2>
+          <p className="meta">{fmtDate(c.date)}</p>
           <span className="badge">{STATUT_JUDICIAIRE[c.statut_judiciaire]}</span>
-          <p>
-            {c.faits} <SourceChips ids={c.sources} registry={fiche.sources} />
-          </p>
+          <ClampText text={c.faits} after={<SourceChips ids={c.sources} registry={fiche.sources} />} />
           <p className="label">Réponse</p>
-          <p>{c.reponse}</p>
+          <ClampText text={c.reponse} limit={200} />
           {c.citation ? <blockquote>{c.citation}</blockquote> : null}
         </Card>
       ))}
@@ -269,24 +261,31 @@ export default function Fiche({ candidature, tab }) {
   const fiche = candidature.fiche;
   const active = PANELS[tab] ? tab : "programme";
   const Panel = PANELS[active];
+  const tabsRef = useRef(null);
+  // On a phone the tab row scrolls sideways: bring the open tab into view, without moving the page.
+  useEffect(() => {
+    const row = tabsRef.current;
+    const current = row?.querySelector("[aria-current]");
+    if (current) row.scrollLeft = current.offsetLeft - (row.clientWidth - current.offsetWidth) / 2;
+  }, [active]);
   return (
     <article className="page">
       <button className="back-button" type="button" onClick={() => go("/")}>
         <ArrowLeft size={18} aria-hidden="true" />
         Candidats
       </button>
-      <header className="fiche-head card">
-        <p className="eyebrow">
+      <header className="fiche-head">
+        <h1>{fiche.nom}</h1>
+        <p className="fiche-party">
           {fiche.parti.nom}
           {fiche.parti.sigle ? ` (${fiche.parti.sigle})` : ""}
         </p>
-        <h2>{fiche.nom}</h2>
-        <p className="muted">
-          {STATUT_CANDIDATURE[candidature.statut]} · fiche mise à jour le {fmtDate(fiche.maj)}
+        <p className="meta">
+          {STATUT_CANDIDATURE[candidature.statut]}. Fiche mise à jour le {fmtDate(fiche.maj)}.
         </p>
         <Texte texte={fiche.resume} registry={fiche.sources} />
       </header>
-      <nav className="tabs" aria-label="Rubriques de la fiche">
+      <nav ref={tabsRef} className="tabs" aria-label="Rubriques de la fiche">
         {TABS.map(([id, label]) => (
           <button
             key={id}

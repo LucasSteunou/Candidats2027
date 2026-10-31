@@ -14,7 +14,10 @@ import {
   scoreValue,
   sondages,
 } from "./content.js";
-import { Fold, PageTitle, SourceChips, go } from "./ui.jsx";
+import { ClampText, Fold, PageTitle, SourceChips, go } from "./ui.jsx";
+
+// A candidate not on the ballot of a hypothesis: shown in the tables and named in the reading note.
+const ABSENT = "–";
 
 const W = 320;
 const H = 140;
@@ -104,7 +107,7 @@ export function TrendChart({ points, line, yMax, xDomain, label, describe }) {
         ) : null}
       </svg>
       <figcaption className="readout" aria-live="polite">
-        {active ? describe(active) : "Touchez ou faites glisser le doigt sur la courbe pour le détail d'un sondage."}
+        {active ? describe(active) : "Touchez ou faites glisser le doigt sur la courbe pour le détail d’un sondage."}
       </figcaption>
     </figure>
   );
@@ -192,7 +195,7 @@ function PollTable({ poll }) {
             <tr key={id}>
               <th scope="row">{sondages.noms[id]}</th>
               {poll.hypotheses.map((h) => (
-                <td key={h.nom}>{h.scores[id] === undefined ? "–" : fmtNumber(h.scores[id])}</td>
+                <td key={h.nom}>{h.scores[id] === undefined ? ABSENT : fmtNumber(h.scores[id])}</td>
               ))}
             </tr>
           ))}
@@ -223,73 +226,77 @@ export default function SondagesView() {
   const polls = [...sondages.sondages].sort((a, b) => b.terrain[1].localeCompare(a.terrain[1]));
   return (
     <section className="page">
-      <PageTitle eyebrow="Sondages" title="Intentions de vote au 1er tour">
-        <p>
+      <PageTitle title="Intentions de vote au 1er tour">
+        <p className="lead">
           Moyenne sur {WINDOW_DAYS} jours au {fmtTimestamp(latestPollDate)}, calculée de la même façon pour tous : chaque
-          sondage compte une fois (moyenne de ses hypothèses, c'est-à-dire des scénarios de candidats, où le candidat est
-          testé). Un sondage n'est pas une prévision ; la marge d'erreur va d'environ 1 à 3 points.
+          sondage compte une fois (moyenne de ses hypothèses, c’est-à-dire des scénarios de candidats, où le candidat est
+          testé). Un sondage n’est pas une prévision ; la marge d’erreur va d’environ 1 à 3 points.
         </p>
-        <p className="muted">{polls.length} sondages saisis à ce jour. {sondages.note}</p>
+        <div className="muted texte">
+          <ClampText text={`${polls.length} sondages saisis à ce jour. ${sondages.note}`} limit={140} />
+        </div>
       </PageTitle>
 
-      <Fold title={`Moyenne sur ${WINDOW_DAYS} jours`} open>
-        <div className="sous-theme">
-          <AverageBars />
-        </div>
-      </Fold>
-
-      <Fold title="Évolution par candidat">
-        <div className="sous-theme">
-          <p className="muted">
-            Point : un sondage (moyenne de ses hypothèses) ; le trait va de son score le plus bas au plus haut. Ligne :
-            moyenne sur {WINDOW_DAYS} jours. Même échelle pour tous.
-          </p>
-          <div className="multiples">
-            {ROWS.filter((r) => r.points.length).map(({ c, line }) => (
-              <Fold key={c.id} title={c.nom} note={`Moyenne ${fmtPct(line.at(-1).value)}`}>
-                <div className="fold-body">
-                  <CandidateTrend id={c.id} />
-                </div>
-              </Fold>
-            ))}
+      <div className="fold-list">
+        <Fold title={`Moyenne sur ${WINDOW_DAYS} jours`} level="h2" open>
+          <div className="sous-theme">
+            <AverageBars />
           </div>
-        </div>
-      </Fold>
+        </Fold>
 
-      <Fold title="Détail des sondages" note={`${polls.length} sondages`}>
-        <div className="sous-theme">
-          <div className="how-to">
-            <h4>Comment lire les tableaux</h4>
-            <p>
-              Chaque colonne (H1, H2…) est une <strong>hypothèse</strong> : un bulletin complet que l'institut soumet aux
-              sondés. D'une hypothèse à l'autre, seuls quelques candidats changent, par exemple Philippe et Attal tous deux
-              présents, ou un seul des deux.
+        <Fold title="Évolution par candidat" level="h2">
+          <div className="sous-theme">
+            <p className="muted">
+              Point : un sondage (moyenne de ses hypothèses) ; le trait va de son score le plus bas au plus haut. Ligne :
+              moyenne sur {WINDOW_DAYS} jours. Même échelle pour tous.
             </p>
-            <ul>
-              <li>Chaque ligne est un candidat, avec son propre score en % des suffrages exprimés. Une colonne fait environ 100 %.</li>
-              <li>Un « – » : candidat absent de cette hypothèse. Ce n'est pas un 0.</li>
-              <li>Toutes les hypothèses sont affichées, sans en privilégier une. Le tableau défile horizontalement.</li>
-            </ul>
+            <div className="multiples">
+              {ROWS.filter((r) => r.points.length).map(({ c, line }) => (
+                <Fold key={c.id} title={c.nom} note={`Moyenne ${fmtPct(line.at(-1).value)}`}>
+                  <div className="fold-body">
+                    <CandidateTrend id={c.id} />
+                  </div>
+                </Fold>
+              ))}
+            </div>
           </div>
-          <div>
-            {polls.map((poll) => (
-              <Fold
-                key={poll.id}
-                title={`${poll.institut} pour ${poll.commanditaires.join(" et ")}`}
-                note={`Terrain du ${fmtDate(poll.terrain[0])} au ${fmtDate(poll.terrain[1])}`}
-              >
-                <div className="fold-body">
-                  <p className="muted">
-                    {poll.echantillon} <SourceChips ids={poll.sources} registry={sondages.sources} />
-                  </p>
-                  <PollTable poll={poll} />
-                  <PollLegend poll={poll} />
-                </div>
-              </Fold>
-            ))}
+        </Fold>
+
+        <Fold title="Détail des sondages" level="h2" note={`${polls.length} sondages`}>
+          <div className="sous-theme">
+            <div className="how-to">
+              <h3>Comment lire les tableaux</h3>
+              <p>
+                Chaque colonne (H1, H2…) est une <strong>hypothèse</strong> : un bulletin complet que l’institut soumet aux
+                sondés. D’une hypothèse à l’autre, seuls quelques candidats changent, par exemple Philippe et Attal tous deux
+                présents, ou un seul des deux.
+              </p>
+              <ul>
+                <li>Chaque ligne est un candidat, avec son propre score en % des suffrages exprimés. Une colonne fait environ 100 %.</li>
+                <li>Un « {ABSENT} » : candidat absent de cette hypothèse. Ce n’est pas un 0.</li>
+                <li>Toutes les hypothèses sont affichées, sans en privilégier une. Le tableau défile horizontalement.</li>
+              </ul>
+            </div>
+            <div>
+              {polls.map((poll) => (
+                <Fold
+                  key={poll.id}
+                  title={`${poll.institut} pour ${poll.commanditaires.join(" et ")}`}
+                  note={`Terrain du ${fmtDate(poll.terrain[0])} au ${fmtDate(poll.terrain[1])}`}
+                >
+                  <div className="fold-body">
+                    <p className="muted">
+                      {poll.echantillon} <SourceChips ids={poll.sources} registry={sondages.sources} />
+                    </p>
+                    <PollTable poll={poll} />
+                    <PollLegend poll={poll} />
+                  </div>
+                </Fold>
+              ))}
+            </div>
           </div>
-        </div>
-      </Fold>
+        </Fold>
+      </div>
     </section>
   );
 }

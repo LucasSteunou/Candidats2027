@@ -56,8 +56,8 @@ export default function Comparer({ themeId }) {
 
   return (
     <section className="page">
-      <PageTitle eyebrow="Comparer" title="Les positions, question par question">
-        <p className="muted">
+      <PageTitle title="Les positions, question par question">
+        <p className="lead">
           {WITH_FICHE.length} fiche{WITH_FICHE.length > 1 ? "s" : ""} disponible{WITH_FICHE.length > 1 ? "s" : ""} sur{" "}
           {candidatures.length} candidatures. Le comparateur se complète au fil des fiches.
         </p>
@@ -76,45 +76,49 @@ export default function Comparer({ themeId }) {
           </button>
         ))}
       </div>
-      <div className="filter-row" role="group" aria-label="Candidats affichés">
-        {WITH_FICHE.map((c) => (
-          <button
-            key={c.id}
-            type="button"
-            className={`chip-toggle ${selected.has(c.id) ? "is-active" : ""}`}
-            aria-pressed={selected.has(c.id)}
-            onClick={() => toggle(c.id)}
-          >
-            {c.nom}
-          </button>
+      <Fold title="Candidats affichés" note={`${shown.length} sur ${WITH_FICHE.length}`} className="filter-fold">
+        <div className="filter-wrap" role="group" aria-label="Candidats affichés">
+          {WITH_FICHE.map((c) => (
+            <button
+              key={c.id}
+              type="button"
+              className={`chip-toggle ${selected.has(c.id) ? "is-active" : ""}`}
+              aria-pressed={selected.has(c.id)}
+              onClick={() => toggle(c.id)}
+            >
+              {c.nom}
+            </button>
+          ))}
+        </div>
+      </Fold>
+
+      <div className="fold-list">
+        {theme.sous_themes.map((st) => (
+          <Fold key={st.id} title={st.titre} level="h2" note={`${st.questions.length} question${st.questions.length > 1 ? "s" : ""}`}>
+            <div className="sous-theme">
+              {st.questions.map((q) => {
+                const rows = shown.map((c) => ({ c, reponse: c.fiche.programme.themes[theme.id].reponses[q.id] }));
+                const numeric = q.type === "nombre" ? rows.filter((r) => typeof r.reponse.valeur === "number") : [];
+                return (
+                  <Card key={q.id} title={q.intitule} level="h3" className="question-card">
+                    {numeric.length > 1 ? <DotStrip question={q} rows={numeric} /> : null}
+                    <ul className="compare-rows">
+                      {rows.map(({ c, reponse }) => (
+                        <li key={c.id} className={reponse.non_communique && !reponse.precision ? "is-empty" : undefined}>
+                          <button type="button" className="text-link compare-name" onClick={() => go(`/c/${c.id}/programme`)}>
+                            {c.nom}
+                          </button>
+                          <AnswerValue question={q} reponse={reponse} registry={c.fiche.sources} />
+                        </li>
+                      ))}
+                    </ul>
+                  </Card>
+                );
+              })}
+            </div>
+          </Fold>
         ))}
       </div>
-
-      {theme.sous_themes.map((st) => (
-        <Fold key={st.id} title={st.titre} note={`${st.questions.length} question${st.questions.length > 1 ? "s" : ""}`}>
-          <div className="sous-theme">
-            {st.questions.map((q) => {
-              const rows = shown.map((c) => ({ c, reponse: c.fiche.programme.themes[theme.id].reponses[q.id] }));
-              const numeric = q.type === "nombre" ? rows.filter((r) => typeof r.reponse.valeur === "number") : [];
-              return (
-                <Card key={q.id} title={q.intitule}>
-                  {numeric.length > 1 ? <DotStrip question={q} rows={numeric} /> : null}
-                  <ul className="compare-rows">
-                    {rows.map(({ c, reponse }) => (
-                      <li key={c.id}>
-                        <button type="button" className="text-link compare-name" onClick={() => go(`/c/${c.id}/programme`)}>
-                          {c.nom}
-                        </button>
-                        <AnswerValue question={q} reponse={reponse} registry={c.fiche.sources} />
-                      </li>
-                    ))}
-                  </ul>
-                </Card>
-              );
-            })}
-          </div>
-        </Fold>
-      ))}
     </section>
   );
 }

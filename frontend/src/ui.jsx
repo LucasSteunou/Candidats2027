@@ -20,22 +20,22 @@ export function ReportLink({ subject }) {
   );
 }
 
-export function Card({ title, children, className = "" }) {
+export function Card({ title, level: Heading = "h2", children, className = "" }) {
   return (
     <section className={`card ${className}`}>
-      {title ? <h3>{title}</h3> : null}
+      {title ? <Heading className="card-title">{title}</Heading> : null}
       {children}
     </section>
   );
 }
 
-/** A fold that looks like the programme themes; nested inside another fold it becomes a ruled row. */
-export function Fold({ title, note, open, children }) {
+/** A disclosure row ruled above and below; `level` makes its title a real heading for screen-reader navigation. */
+export function Fold({ title, note, open, level: Heading = "strong", className = "", children }) {
   return (
-    <details className="theme" open={open}>
+    <details className={`theme ${className}`} open={open}>
       <summary>
         <span>
-          <strong>{title}</strong>
+          <Heading className="fold-title">{title}</Heading>
           {note ? <small>{note}</small> : null}
         </span>
         <ChevronDown size={20} aria-hidden="true" />
@@ -45,11 +45,57 @@ export function Fold({ title, note, open, children }) {
   );
 }
 
-export function PageTitle({ eyebrow, title, children }) {
+const WIDE = "(min-width: 60rem)";
+
+/** True from 60rem, where a line holds about twice the characters of a phone line. */
+function useWide() {
+  const query = typeof window.matchMedia === "function" ? window.matchMedia(WIDE) : null;
+  const [wide, setWide] = useState(() => query?.matches ?? false);
+  useEffect(() => {
+    if (!query) return undefined;
+    const update = () => setWide(query.matches);
+    query.addEventListener("change", update);
+    return () => query.removeEventListener("change", update);
+  }, [query]);
+  return wide;
+}
+
+/** Keeps a figure on the same line as its unit: « 19,58 % », « 9 Md€ ». */
+export const withUnits = (text) => text.replace(/(\d) (?=%|€|Md€|M€)/g, "$1\u202F");
+
+/** Cuts a paragraph at the last word before `limit` characters (twice that from 60rem), never inside « », with « Lire la suite ». */
+export function cutText(text, limit) {
+  if (text.length <= limit * 1.4) return null; // hiding less than about two lines is not worth a tap
+  let head = text.slice(0, text.lastIndexOf(" ", limit));
+  const quote = head.lastIndexOf("«");
+  if (quote > head.lastIndexOf("»")) head = head.slice(0, quote);
+  return `${head.trimEnd()}…`;
+}
+
+export function ClampText({ text, limit = 240, after = null }) {
+  const [open, setOpen] = useState(false);
+  const cut = cutText(text, useWide() ? limit * 2 : limit);
+  return (
+    <>
+      <p className="clamp">{withUnits(cut && !open ? cut : text)}</p>
+      {cut || after ? (
+        <p className="clamp-foot">
+          {cut ? (
+            <button type="button" className="text-link more" aria-expanded={open} onClick={() => setOpen(!open)}>
+              {open ? "Réduire" : "Lire la suite"}
+            </button>
+          ) : null}
+          {after}
+        </p>
+      ) : null}
+    </>
+  );
+}
+
+export function PageTitle({ title, children }) {
   return (
     <header className="page-title">
-      {eyebrow ? <p className="eyebrow">{eyebrow}</p> : null}
-      <h2>{title}</h2>
+      <h1>{title}</h1>
       {children}
     </header>
   );
@@ -81,7 +127,7 @@ const SOURCE_TYPE = {
   parti: "Document du parti ou du candidat",
   presse: "Presse",
   sondage: "Sondage",
-  "think-tank": "Organisme d'études",
+  "think-tank": "Organisme d’études",
   justice: "Décision de justice",
   donnees: "Données",
 };
@@ -125,7 +171,7 @@ export function SourceChips({ ids, registry }) {
 }
 
 export function SourceDetails({ source }) {
-  const meta = [source.editeur, source.auteur, source.date ? fmtDate(source.date) : null].filter(Boolean).join(" · ");
+  const meta = [source.editeur, source.auteur, source.date ? fmtDate(source.date) : null].filter(Boolean).join(", ");
   return (
     <>
       <p className="source-meta">{SOURCE_TYPE[source.type]}</p>
@@ -159,7 +205,7 @@ function SourceSheet({ source, number, onClose }) {
         onClick={(event) => event.stopPropagation()}
       >
         <div className="sheet-head">
-          <h3 id="sheet-title">Source {number}</h3>
+          <h2 id="sheet-title">Source {number}</h2>
           <button ref={closeRef} type="button" className="icon-button" aria-label="Fermer" onClick={onClose}>
             <X size={20} aria-hidden="true" />
           </button>

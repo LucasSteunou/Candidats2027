@@ -4,6 +4,7 @@ import { beforeEach, expect, test } from "vitest";
 
 import App from "./App.jsx";
 import { sondages } from "./content.js";
+import { cutText, withUnits } from "./ui.jsx";
 
 const at = (hash) => {
   window.location.hash = hash;
@@ -64,4 +65,24 @@ test("the methodology page renders the charter and the perimeter", () => {
   at("/methodo");
   expect(screen.getByRole("heading", { name: "Qui a une fiche" })).toBeInTheDocument();
   expect(screen.getByText("Testés en sondage, sans fiche")).toBeInTheDocument();
+});
+
+test("a long text is cut at a word and opens with « Lire la suite »", () => {
+  at("/c/le-pen");
+  const more = screen.getAllByRole("button", { name: "Lire la suite" })[0];
+  const text = more.closest(".clamp-foot").previousElementSibling;
+  expect(text.textContent.endsWith("…")).toBe(true);
+  fireEvent.click(more);
+  expect(more).toHaveAttribute("aria-expanded", "true");
+  expect(more).toHaveTextContent("Réduire");
+  expect(text.textContent.endsWith("…")).toBe(false);
+});
+
+test("a cut hides at least two lines, never stops inside « », and units stay with their figure", () => {
+  expect(cutText("mot ".repeat(60), 240)).toBeNull(); // 240 characters: under the threshold, shown in full
+  const quoted = `${"mot ".repeat(50)}« une citation qui continue ${"encore ".repeat(60)}»`;
+  const cut = cutText(quoted, 240);
+  expect(cut.endsWith("…")).toBe(true);
+  expect(cut).not.toContain("«");
+  expect(withUnits("19,58 % et 9 Md€")).toBe("19,58\u202F% et 9\u202FMd€");
 });

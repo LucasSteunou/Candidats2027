@@ -61,7 +61,7 @@ export function lastName(nom) {
 
 const number = new Intl.NumberFormat("fr-FR", { maximumFractionDigits: 1 });
 export const fmtNumber = (value) => (value === "<1" ? value : number.format(value));
-export const fmtPct = (value) => `${fmtNumber(value)} %`;
+export const fmtPct = (value) => `${fmtNumber(value)}\u202F%`;
 
 const MONTHS = ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."];
 
