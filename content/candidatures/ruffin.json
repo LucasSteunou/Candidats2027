@@ -1,7 +1,7 @@
 {
   "id": "ruffin",
   "nom": "François Ruffin",
-  "maj": "2026-10-26",
+  "maj": "2026-10-31",
   "parti": {
     "nom": "Debout !",
     "sigle": null,
@@ -18,7 +18,7 @@
     }
   },
   "resume": {
-    "texte": "Fondateur du journal Fakir et réalisateur de « Merci Patron ! », François Ruffin est député de la Somme depuis 2017, avec La France insoumise jusqu'en 2024 puis au sein du groupe Écologiste et social. Il préside le mouvement Debout ! et s'est déclaré candidat en janvier 2026, d'abord à une primaire de la gauche. Sa campagne « Nous Président ! » publie son programme en cahiers thématiques : statut des travailleurs essentiels, relocalisation industrielle, logement, agriculture, écologie et finances publiques.",
+    "texte": "Fondateur du journal Fakir et réalisateur de « Merci Patron ! », François Ruffin est député de la Somme depuis 2017, avec La France insoumise jusqu'en 2024 puis au sein du groupe Écologiste et social. Il préside le mouvement Debout ! et s'est déclaré candidat en janvier 2026, d'abord à une primaire de la gauche. Sa campagne « Nous Président ! » publie son programme en cahiers thématiques : statut des travailleurs essentiels, relocalisation industrielle, logement, agriculture, écologie, éducation et finances publiques.",
     "sources": ["sudradio-bio-ruffin", "nous-programme"]
   },
   "histoire": {
@@ -55,8 +55,8 @@
   ],
   "programme": {
     "etat": {
-      "texte": "Le programme est publié par étapes sur le site de campagne « Nous Président ! » : sept cahiers thématiques (travailleurs essentiels, probité, loisirs, agriculture, écologie, logement, industrie) et trois plans d'action (data centers, urgence climat, redressement des finances publiques), d'avril à octobre 2026. Il ne couvre pas encore la sécurité, l'immigration, la santé, l'école, l'Europe, la défense ni la diplomatie ; sur ces sujets, la fiche ne retient que des déclarations sourcées.",
-      "sources": ["nous-programme", "nous-plans"]
+      "texte": "Le programme est publié par étapes sur le site de campagne « Nous Président ! » : huit cahiers thématiques (travailleurs essentiels, probité, loisirs, agriculture, écologie, logement, industrie, éducation) et trois plans d'action (data centers, urgence climat, redressement des finances publiques), d'avril à octobre 2026. Il ne couvre pas encore la sécurité, l'immigration, la santé, l'Europe, la défense ni la diplomatie ; sur ces sujets, la fiche ne retient que des déclarations sourcées.",
+      "sources": ["nous-programme", "nous-plans", "nous-education"]
     },
     "themes": {
       "economie": {
@@ -101,13 +101,16 @@
       },
       "social": {
         "mesures": [
+          { "sous_theme": "education", "intitule": "Une école de tous les savoirs : savoirs pratiques au collège, voie professionnelle allongée", "detail": "Nouvel enseignement de « Savoirs techniques et pratiques » au collège (artisanat, savoirs ménagers), de petits volumes horaires au départ puis, si l'expérience réussit, « deux demi-journées par semaine » ; durée du CAP en formation initiale portée à 3 ans (2 aujourd'hui) et du bac professionnel à 4 ans (3 aujourd'hui) ; moins de contractuels en lycée professionnel ; Conseil de pilotage éducatif et États généraux de l'Éducation dès 2027.", "origine": "programme-2027", "date": "2026-10", "sources": ["nous-education"] },
+          { "sous_theme": "education", "intitule": "Remplacer Parcoursup", "detail": "Remplacer Parcoursup par un système plus juste : « Supprimer la mention du lycée d'origine dans le dossier des candidats », « Remplacer l'algorithme d'appariement pour donner la priorité au classement des vœux des élèves », publication obligatoire des méthodes de sélection, commissions d'appel dans les établissements, création de places dans le supérieur selon les préférences et les débouchés.", "origine": "programme-2027", "date": "2026-10", "sources": ["nous-education"] },
+          { "sous_theme": "education", "intitule": "Ne pas réduire le budget de l'école et revaloriser les salaires des enseignants", "detail": "Budget de l'école maintenu malgré une baisse de 15 % des effectifs d'élèves en dix ans (« Notre promesse, c'est de ne pas réduire le budget de l'école d'un centime malgré cette baisse ») ; « grand plan de revalorisation des salaires » des enseignants, sans montant chiffré ; formation continue obligatoire et plus longue ; statut d'AESH intégré à la fonction publique.", "origine": "programme-2027", "date": "2026-10", "sources": ["nous-education"] },
           { "sous_theme": "logement", "intitule": "Encadrer les loyers partout et produire 200 000 logements publics par an", "detail": "Généraliser l'encadrement des loyers à tout le territoire et encadrer les compléments de loyer ; produire chaque année 200 000 logements publics à loyer réglementé, dont 40 000 pour les étudiants et les jeunes travailleurs ; un million de rénovations par an dont 600 000 d'ampleur ; fin des passoires thermiques d'ici 2032 ; abrogation de la loi « Kasbarian-Bergé ».", "origine": "programme-2027", "date": "2026-09", "sources": ["nous-logement"] }
         ],
         "reponses": {
           "acces-soins": { "non_communique": "2026-10-26" },
           "installation-medecins": { "non_communique": "2026-10-26" },
-          "mesure-ecole": { "non_communique": "2026-10-26" },
-          "remuneration-enseignants": { "non_communique": "2026-10-26" },
+          "mesure-ecole": { "valeur": "Savoirs techniques et pratiques au collège, voie professionnelle allongée et remplacement de Parcoursup", "origine": "programme-2027", "date": "2026-10", "precision": "Le cahier ne désigne pas de mesure principale ; l'intitulé de la rubrique « Éducation » du site cite ces trois axes. Le budget de l'école serait maintenu malgré la baisse des effectifs d'élèves.", "sources": ["nous-education", "nous-programme"] },
+          "remuneration-enseignants": { "valeur": "Grand plan de revalorisation des salaires", "origine": "programme-2027", "date": "2026-10", "precision": "« Mettre en place un grand plan de revalorisation des salaires », par une « hausse pérenne de la grille indiciaire, hors de toute logique de pacte ou de contreparties », sans montant chiffré.", "sources": ["nous-education"] },
           "encadrement-loyers": { "valeur": "Généralisation", "origine": "programme-2027", "date": "2026-09", "precision": "« Nous encadrerons les loyers partout. »", "sources": ["nous-logement"] },
           "logements-sociaux": { "valeur": 200000, "origine": "programme-2027", "date": "2026-09", "precision": "Logements publics à loyer réglementé, dont 40 000 pour les étudiants et les jeunes travailleurs.", "sources": ["nous-logement"] },
           "rsa": { "non_communique": "2026-10-26" }
@@ -172,6 +175,7 @@
   },
   "sources": {
     "debout-mouvement": { "titre": "Debout! : un mouvement, une force, une organisation", "editeur": "Debout !", "date": null, "consulte": "2026-10-26", "url": "https://debout.fr/notre-mouvement/", "type": "parti" },
+    "nous-education": { "titre": "Cahier de campagne n° 8 : éducation, une école de tous les savoirs", "editeur": "Campagne François Ruffin 2027 (Nous Président !)", "date": null, "consulte": "2026-10-31", "url": "https://nouspresident.fr/education-une-ecole-de-tous-les-savoirs/", "type": "parti" },
     "nous-programme": { "titre": "Notre programme", "editeur": "Campagne François Ruffin 2027 (Nous Président !)", "date": "2026-10-12", "consulte": "2026-10-26", "url": "https://nouspresident.fr/notre-programme/", "type": "parti" },
     "nous-plans": { "titre": "Nos plans d'action", "editeur": "Campagne François Ruffin 2027 (Nous Président !)", "date": "2026-10-08", "consulte": "2026-10-26", "url": "https://nouspresident.fr/nos-plans-daction/", "type": "parti" },
     "nous-travailleurs-essentiels": { "titre": "Cahier de campagne n° 1 : pour les travailleurs essentiels", "editeur": "Campagne François Ruffin 2027 (Nous Président !)", "date": "2026-04-13", "consulte": "2026-10-26", "url": "https://nouspresident.fr/statut-travailleurs-essentiels/", "type": "parti" },

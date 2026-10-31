@@ -1,7 +1,7 @@
 {
   "id": "attal",
   "nom": "Gabriel Attal",
-  "maj": "2026-10-26",
+  "maj": "2026-10-31",
   "parti": {
     "nom": "Renaissance",
     "sigle": null,
@@ -18,8 +18,8 @@
     }
   },
   "resume": {
-    "texte": "Député des Hauts-de-Seine, plus jeune Premier ministre de la Ve République (de janvier à juillet 2024), Gabriel Attal dirige Renaissance depuis décembre 2024 et préside le groupe Ensemble pour la République à l'Assemblée nationale. Il a officialisé sa candidature le 22 mai 2026. Son programme 2027 n'est pas publié en un seul document : ses positions viennent de ses annonces de campagne et des conventions thématiques de Renaissance (2025).",
-    "sources": ["an-attal", "ps-matignon-2024-01-09", "ps-demission-2024-07-16", "re-regalien-2025", "lcp-attal-2026-05-22"]
+    "texte": "Député des Hauts-de-Seine, plus jeune Premier ministre de la Ve République (de janvier à juillet 2024), Gabriel Attal dirige Renaissance depuis décembre 2024 et préside le groupe Ensemble pour la République à l'Assemblée nationale. Il a officialisé sa candidature le 22 mai 2026 et, le 28 octobre, il a proposé une « grande primaire des démocrates » (Philippe, Retailleau et Lisnard sont sollicités). Son programme 2027 n'est pas publié en un seul document : ses positions viennent de ses annonces de campagne et des conventions thématiques de Renaissance (2025).",
+    "sources": ["an-attal", "ps-matignon-2024-01-09", "ps-demission-2024-07-16", "re-regalien-2025", "lcp-attal-2026-05-22", "lcp-attal-primaire-2026-10-28"]
   },
   "histoire": {
     "parti": [
@@ -32,7 +32,8 @@
       { "date": "1989-03-16", "titre": "Naissance", "texte": "Naît à Clamart.", "sources": ["an-attal"] },
       { "date": "2024-01-09", "titre": "Premier ministre", "texte": "Nommé à Matignon à 34 ans, il devient le plus jeune Premier ministre de la Ve République. Emmanuel Macron accepte sa démission le 16 juillet 2024, après les législatives anticipées.", "sources": ["ps-matignon-2024-01-09", "ps-demission-2024-07-16"] },
       { "date": "2026-05-22", "titre": "Candidature pour 2027", "texte": "Officialise sa candidature à l'élection présidentielle.", "sources": ["lcp-attal-2026-05-22"] },
-      { "date": "2026-05-30", "titre": "Premier meeting", "texte": "À Paris, devant environ 5 000 personnes, il présente « quatre chantiers capitaux » : l'école, les salaires, les frontières et l'intelligence artificielle.", "sources": ["ps-meeting-attal-2026-05-30"] }
+      { "date": "2026-05-30", "titre": "Premier meeting", "texte": "À Paris, devant environ 5 000 personnes, il présente « quatre chantiers capitaux » : l'école, les salaires, les frontières et l'intelligence artificielle.", "sources": ["ps-meeting-attal-2026-05-30"] },
+      { "date": "2026-10-28", "titre": "Proposition d'une primaire des démocrates", "texte": "Sur TF1, il propose une « grande primaire des démocrates » pour éviter un second tour entre le RN et LFI. Sont sollicités Édouard Philippe, Bruno Retailleau et David Lisnard ; un proche d'Attal ne pense pas que Raphaël Glucksmann, « qui sort d'une primaire, s'engagera dans cette voie-là ». LCP rapporte : « Le but n'est pas d'arriver avec une proposition ferme et définitive ». Le 29 octobre, Laurent Marcangeli, président du groupe Horizons, demande : « Est-on assuré que les perdants accepteraient de soutenir le vainqueur ? », et l'entourage de Bruno Retailleau qualifie le projet de « mort-né parce qu'il ne borne pas clairement le champ de la primaire et n'exclut pas Raphaël Glucksmann ».", "sources": ["lcp-attal-primaire-2026-10-28", "lcp-attal-primaire-reactions-2026-10-29"] }
     ]
   },
   "popularite": {
@@ -193,6 +194,8 @@
     "ps-demission-2024-07-16": { "titre": "Emmanuel Macron a accepté la démission de Gabriel Attal et de son gouvernement", "editeur": "Public Sénat", "date": "2024-07-16", "consulte": "2026-10-26", "url": "https://www.publicsenat.fr/actualites/politique/emmanuel-macron-sapprete-a-accepter-la-demission-de-gabriel-attal-et-de-son-gouvernement", "type": "presse" },
     "ps-lrem5ans-2021": { "titre": "Cinq ans de LREM : « En Marche parle à lui-même, or le mouvement doit parler au peuple », estime François Patriat", "editeur": "Public Sénat", "date": "2021-04-06", "consulte": "2026-10-26", "url": "https://www.publicsenat.fr/actualites/politique/cinq-ans-de-lrem-en-marche-parle-a-lui-meme-or-le-mouvement-doit-parler-au-peuple", "type": "presse" },
     "ps-renaissance-2022-09-17": { "titre": "Emmanuel Macron lance Renaissance et met en garde contre « la division » de son camp", "editeur": "Public Sénat", "date": "2022-09-17", "consulte": "2026-10-26", "url": "https://www.publicsenat.fr/actualites/politique/emmanuel-macron-lance-renaissance-et-met-en-garde-contre-la-division-de-son-camp", "type": "presse" },
+    "lcp-attal-primaire-2026-10-28": { "titre": "Présidentielle 2027: Gabriel Attal veut une \"grande primaire des démocrates\" pour éviter un second tour RN-LFI", "editeur": "LCP", "auteur": "Anne-Charlotte Dusseaulx", "date": "2026-10-28", "consulte": "2026-10-31", "url": "https://lcp.fr/actualites/presidentielle-2027-gabriel-attal-veut-une-grande-primaire-des-democrates-pour-eviter-un", "type": "presse" },
+    "lcp-attal-primaire-reactions-2026-10-29": { "titre": "\"Grande primaire des démocrates\": chez Philippe et Retailleau, la proposition d'Attal critiquée pour son \"en même temps\"", "editeur": "LCP", "auteur": "Anne-Charlotte Dusseaulx", "date": "2026-10-29", "consulte": "2026-10-31", "url": "https://lcp.fr/actualites/grande-primaire-des-democrates-chez-philippe-et-retailleau-la-proposition-d-attal", "type": "presse" },
     "lcp-attal-2026-05-22": { "titre": "Présidentielle 2027: Gabriel Attal officialise sa candidature", "editeur": "LCP", "auteur": "Raphaël Marchal", "date": "2026-05-22", "consulte": "2026-10-26", "url": "https://lcp.fr/actualites/presidentielle-2027-gabriel-attal-officialise-sa-candidature-436721", "type": "presse" },
     "ps-meeting-attal-2026-05-30": { "titre": "« Un an pour convaincre » : pour son premier grand meeting, Gabriel Attal mise sur « l'espoir » et joue sa différence avec Edouard Philippe", "editeur": "Public Sénat", "date": "2026-05-30", "consulte": "2026-10-26", "url": "https://www.publicsenat.fr/actualites/politique/un-an-pour-convaincre-pour-son-premier-grand-meeting-gabriel-attal-mise-sur-lespoir-et-joue-sa-difference-avec-edouard-philippe", "type": "presse" },
     "moneyvox-plan-2026-07-03": { "titre": "Attal veut 100 000 départs volontaires de fonctionnaires et l'« impunité budgétaire zéro »", "editeur": "Moneyvox", "date": "2026-07-03", "consulte": "2026-10-26", "url": "https://www.moneyvox.fr/impot/actualites/109548/attal-veut-100-000-departs-volontaires-de-fonctionnaires-et-impunite-budgetaire-zero", "type": "presse" },

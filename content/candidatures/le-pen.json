@@ -1,7 +1,7 @@
 {
   "id": "le-pen",
   "nom": "Marine Le Pen",
-  "maj": "2026-10-25",
+  "maj": "2026-10-31",
   "parti": {
     "nom": "Rassemblement national",
     "sigle": "RN",
@@ -55,10 +55,10 @@
     {
       "titre": "Assistants des eurodéputés du FN",
       "date": "2026-07-07",
-      "faits": "Selon la justice, entre 2004 et 2016, des assistants payés par le Parlement européen travaillaient en réalité pour le parti. Condamnée le 31 mars 2025 en première instance à quatre ans de prison dont deux ferme, 100 000 € d'amende et cinq ans d'inéligibilité, Marine Le Pen est condamnée en appel le 7 juillet 2026 pour détournement de fonds publics : trois ans de prison dont deux avec sursis (un an ferme sous bracelet électronique), 100 000 € d'amende et 45 mois d'inéligibilité dont 30 avec sursis. La cour juge la période d'inéligibilité ferme déjà purgée, ce qui lui permet de se présenter.",
+      "faits": "Selon la justice, entre 2004 et 2016, des assistants payés par le Parlement européen travaillaient en réalité pour le parti. Condamnée le 31 mars 2025 en première instance à quatre ans de prison dont deux ferme, 100 000 € d'amende et cinq ans d'inéligibilité, Marine Le Pen est condamnée en appel le 7 juillet 2026 pour détournement de fonds publics : trois ans de prison dont deux avec sursis (un an ferme sous bracelet électronique), 100 000 € d'amende et 45 mois d'inéligibilité dont 30 avec sursis. La cour juge la période d'inéligibilité ferme déjà purgée, ce qui lui permet de se présenter. Le 15 juillet 2026, le parquet général de la cour d'appel de Paris annonce qu'il ne se pourvoira pas en cassation. La Cour de cassation indique qu'elle « pourrait » se prononcer sur le pourvoi de Marine Le Pen « au plus tard début avril 2027 », un calendrier « susceptible d'évoluer en fonction des facteurs procéduraux ».",
       "statut_judiciaire": "pourvoi-en-cassation",
       "reponse": "Elle forme un pourvoi en cassation pour « contester l'applicabilité de ce texte qui réprime le détournement de fonds publics », selon son avocat.",
-      "sources": ["cdj-appel-bouchet-2026-07-07", "cdj-appel-2026-07-08", "ps-appel-2026-07-07"]
+      "sources": ["cdj-appel-bouchet-2026-07-07", "cdj-appel-2026-07-08", "ps-appel-2026-07-07", "cdj-parquet-2026-07-16", "ps-cassation-2026-07-08"]
     },
     {
       "titre": "« Kits de campagne » des législatives de 2012",
@@ -236,6 +236,8 @@
     "elabe-observatoire-2026-08": { "titre": "L'Observatoire politique, août 2026 (terrain du 28 au 29 juillet 2026)", "editeur": "Elabe pour Les Échos", "date": null, "consulte": "2026-10-25", "url": "https://elabe.fr/fichier-pdf/13180-lobservatoire-politique-aout-2026/", "type": "sondage" },
     "cdj-appel-2026-07-08": { "titre": "Marine Le Pen candidate à la présidentielle de 2027 malgré sa condamnation en appel", "editeur": "Le Club des Juristes", "date": "2026-07-08", "consulte": "2026-10-25", "url": "https://www.leclubdesjuristes.com/en-bref/marine-le-pen-candidate-a-la-presidentielle-de-2027-malgre-sa-condamnation-en-appel-16843/", "type": "presse" },
     "cdj-appel-bouchet-2026-07-07": { "titre": "Marine Le Pen condamnée en appel : ce qu'il faut retenir de la décision de justice", "editeur": "Le Club des Juristes", "auteur": "Marthe Bouchet", "date": "2026-07-07", "consulte": "2026-10-25", "url": "https://www.leclubdesjuristes.com/justice/affaire-des-assistants-parlementaires-du-fn-coup-darret-a-la-candidature-de-marine-le-pen-16827/", "type": "presse" },
+    "cdj-parquet-2026-07-16": { "titre": "Affaire des assistants parlementaires du FN : le parquet renonce à un pourvoi en cassation", "editeur": "Le Club des Juristes", "auteur": "La rédaction", "date": "2026-07-16", "consulte": "2026-10-31", "url": "https://www.leclubdesjuristes.com/en-bref/affaire-des-assistants-parlementaires-du-fn-le-parquet-renonce-a-un-pourvoi-en-cassation-16990/", "type": "presse" },
+    "ps-cassation-2026-07-08": { "titre": "Condamnation de Marine Le Pen : la Cour de cassation « pourrait » se prononcer « au plus tard début avril 2027 »", "editeur": "Public Sénat", "auteur": "Rédaction Public Sénat (avec AFP)", "date": "2026-07-08", "consulte": "2026-10-31", "url": "https://www.publicsenat.fr/actualites/politique/condamnation-de-marine-le-pen-la-cour-de-cassation-pourrait-se-prononcer-au-plus-tard-debut-avril-2027", "type": "presse" },
     "ps-appel-2026-07-07": { "titre": "Marine Le Pen condamnée à 1 an ferme sous bracelet électronique, et à 45 mois d'inéligibilité, dont 30 mois avec sursis : le fil de la journée et les réactions politiques", "editeur": "Public Sénat", "date": "2026-07-07", "consulte": "2026-10-25", "url": "https://www.publicsenat.fr/actualites/politique/direct-suivez-le-delibere-du-proces-en-appel-de-marine-le-pen", "type": "presse" },
     "mdd-kits-2024-06-21": { "titre": "Affaire des kits de campagne : condamnation définitive du RN", "editeur": "Le Monde du Droit", "date": "2024-06-21", "consulte": "2026-10-25", "url": "https://www.lemondedudroit.fr/public/282-droit-public-general/93446-affaire-des-kits-de-campagne-condamnation-definitive-du-rn.html", "type": "presse" },
     "24m-kits-2023-03-15": { "titre": "Affaire des « kits de campagne » : le Rassemblement national condamné en appel", "editeur": "24matins", "auteur": "Gael Brulin", "date": "2023-03-15", "consulte": "2026-10-25", "url": "https://www.24matins.fr/affaire-des-kits-de-campagne-le-rassemblement-national-condamne-a-une-amende-1354772", "type": "presse" },

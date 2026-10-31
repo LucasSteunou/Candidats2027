@@ -1,7 +1,7 @@
 {
   "id": "lisnard",
   "nom": "David Lisnard",
-  "maj": "2026-10-26",
+  "maj": "2026-10-31",
   "parti": {
     "nom": "Nouvelle Énergie",
     "sigle": null,
@@ -33,7 +33,8 @@
       { "date": "2001", "titre": "Président du Palais des Festivals", "texte": "Préside le Palais des Festivals de Cannes à partir de 2001, puis dirige un cabinet de conseil ; conseiller général puis départemental des Alpes-Maritimes depuis 2008.", "sources": ["sudradio-bio-lisnard"] },
       { "date": "2014", "titre": "Maire de Cannes", "texte": "Élu maire de Cannes en 2014, il préside aussi la communauté d'agglomération Cannes Pays de Lérins depuis 2017. Il est réélu maire en 2026 avec 81 % des voix.", "sources": ["sudradio-bio-lisnard"] },
       { "date": "2021-11-17", "titre": "Président de l'Association des maires de France", "texte": "Élu avec 62 % des voix face à Philippe Laurent, maire UDI de Sceaux, il succède à François Baroin.", "sources": ["ps-amf-2021-11-17"] },
-      { "date": "2026-03-31", "titre": "Candidature pour 2027", "texte": "« Je suis candidat », annonce-t-il au journal de 20 heures de France 2, pour un projet « libéral, sécuritaire, éducatif et scientifique ».", "sources": ["lcp-candidature-2026-04-01"] }
+      { "date": "2026-03-31", "titre": "Candidature pour 2027", "texte": "« Je suis candidat », annonce-t-il au journal de 20 heures de France 2, pour un projet « libéral, sécuritaire, éducatif et scientifique ».", "sources": ["lcp-candidature-2026-04-01"] },
+      { "date": "2026-10-27", "titre": "Interview « Objectif Élysée 2027 »", "texte": "Invité de Laurence Ferrari sur CNews et Europe 1 pendant plus de deux heures, il détaille son projet : baisse de la CSG sur les revenus d'activité « de 9,2 % à 6,6 % », 80 milliards d'euros d'économies dès la première année et 200 milliards à l'horizon 2032, réduction d'environ 12 % des effectifs publics, majorité pénale abaissée à 16 ans. Il propose une primaire ouverte dont « le vote devrait intervenir en décembre 2026 ou, au plus tard, en janvier 2027 ».", "sources": ["ne-objectif-elysee-2026-10-28"] }
     ]
   },
   "popularite": {
@@ -75,7 +76,7 @@
           "impots-production": { "valeur": "Baisse", "origine": "declaration", "date": "2026-01", "precision": "Baisse de 40 Md€, à commencer par la suppression de la C3S.", "sources": ["ne-q-impots", "ne-q-200md"] },
           "age-legal": { "non_communique": "2026-10-26", "precision": "Refuse de revenir sur la réforme de 2023 (64 ans) sans proposer de nouvel âge ; la page « programme » de Nouvelle Énergie évoque encore un âge légal de 65 ans.", "sources": ["ne-q-retraite-age", "ne-axe-ambition"] },
           "duree-cotisation": { "non_communique": "2026-10-26" },
-          "financement-retraites": { "valeur": "Étage obligatoire et collectif de retraite par capitalisation, amorcé en désindexant les pensions supérieures à environ 2 000 € par mois.", "origine": "declaration", "date": "2026-10", "sources": ["ne-q-capitalisation"] },
+          "financement-retraites": { "valeur": "Étage obligatoire et collectif de retraite par capitalisation, amorcé en désindexant les pensions supérieures à environ 2 000 € par mois.", "origine": "declaration", "date": "2026-10", "precision": "Le 27 octobre 2026, il propose de ne pas revaloriser, « à titre d'exemple », les pensions supérieures à 2 200 €.", "sources": ["ne-q-capitalisation", "ne-objectif-elysee-2026-10-28"] },
           "smic": { "non_communique": "2026-10-26", "precision": "Pas de montant ; « Quelqu'un qui travaille à temps plein doit gagner au moins 500€ de plus que quelqu'un qui ne travaille pas ».", "sources": ["ne-q-allocation-unique"] },
           "duree-travail": { "valeur": "Autre", "origine": "declaration", "date": "2026-08", "precision": "Durée du travail renvoyée aux accords d'entreprise ; il cite l'exemple de « 37 heures payées 37 » pour les salariés volontaires.", "sources": ["ne-q-35h"] },
           "assurance-chomage": { "valeur": "Conditions plus strictes", "origine": "declaration", "date": "2024-02", "precision": "Dégressivité des allocations, avec une formation renforcée des demandeurs d'emploi en difficulté.", "sources": ["ne-q-chomage"] },
@@ -131,7 +132,7 @@
           { "sous_theme": "nationalite-droits", "intitule": "Primauté du droit national sur la CEDH", "detail": "Inscrire dans la Constitution la primauté du droit national en matière migratoire pour rendre inapplicables les décisions contraires de la CJUE et de la CEDH, et sortir de la CEDH « en dernier recours » ; référendum sur l'immigration après élargissement de l'article 11 ; obtenir pour la France une dérogation aux règles européennes d'asile et d'immigration, sur le modèle du Danemark.", "origine": "programme-2027", "date": "2026", "sources": ["ne-immigration", "ne-q-ref-immigration", "ne-q-ue"] }
         ],
         "reponses": {
-          "titres-sejour": { "valeur": "Baisse", "origine": "programme-2027", "date": "2026", "precision": "« Diviser par huit la délivrance de titres de séjour ».", "sources": ["ne-immigration"] },
+          "titres-sejour": { "valeur": "Baisse", "origine": "programme-2027", "date": "2026", "precision": "« Diviser par huit la délivrance de titres de séjour ». Le 27 octobre 2026, il fixe « un objectif de 80 000 entrées par an, visas étudiants compris ».", "sources": ["ne-immigration", "ne-objectif-elysee-2026-10-28"] },
           "regularisations": { "valeur": "Restreinte", "origine": "programme-2027", "date": "2026", "precision": "Supprimer toute possibilité d'être régularisé après une entrée clandestine.", "sources": ["ne-axe-ambition"] },
           "demandes-asile": { "valeur": "Traiter les demandes d'asile dans les consulats français à l'étranger.", "origine": "programme-2027", "date": "2026", "sources": ["ne-immigration"] },
           "droit-du-sol": { "valeur": "Restriction", "origine": "programme-2027", "date": "2026", "precision": "« Mettre fin à l'automaticité du droit du sol ».", "sources": ["ne-immigration"] },
@@ -198,6 +199,7 @@
     "ne-q-35h": { "titre": "Quel candidat à la présidentielle 2027 veut assouplir les 35 heures ?", "editeur": "Nouvelle Énergie", "date": "2026-10-16", "consulte": "2026-10-26", "url": "https://www.unenouvelleenergie.fr/questions/quel-candidat-veut-assouplir-les-35-heures/", "type": "parti" },
     "ne-q-chomage": { "titre": "Quel candidat à la présidentielle 2027 veut réformer l'assurance chômage ?", "editeur": "Nouvelle Énergie", "date": "2026-10-16", "consulte": "2026-10-26", "url": "https://www.unenouvelleenergie.fr/questions/quel-candidat-veut-reformer-l-assurance-chomage/", "type": "parti" },
     "ne-q-allocation-unique": { "titre": "Quel candidat à la présidentielle 2027 veut regrouper les aides sociales en une allocation unique ?", "editeur": "Nouvelle Énergie", "date": "2026-10-16", "consulte": "2026-10-26", "url": "https://www.unenouvelleenergie.fr/questions/quel-candidat-veut-regrouper-les-aides-sociales-en-une-allocation-unique/", "type": "parti" },
+    "ne-objectif-elysee-2026-10-28": { "titre": "David Lisnard sur CNEWS et Europe 1 : « Je ne suis pas candidat pour un poste. Je viens pour redresser le pays »", "editeur": "Nouvelle Énergie", "date": "2026-10-28", "consulte": "2026-10-31", "url": "https://www.unenouvelleenergie.fr/david-lisnard-sur-cnews-et-europe-1-je-ne-suis-pas-candidat-pour-un-poste-je-viens-pour-redresser-le-pays/", "type": "parti" },
     "ne-q-capitalisation": { "titre": "David Lisnard est-il favorable à la retraite par capitalisation ?", "editeur": "Nouvelle Énergie", "date": "2026-10-16", "consulte": "2026-10-26", "url": "https://www.unenouvelleenergie.fr/questions/david-lisnard-est-il-favorable-a-la-retraite-par-capitalisation/", "type": "parti" },
     "ne-q-retraite-age": { "titre": "Quel âge de départ à la retraite David Lisnard défend-il ?", "editeur": "Nouvelle Énergie", "date": "2026-10-16", "consulte": "2026-10-26", "url": "https://www.unenouvelleenergie.fr/questions/quel-age-de-depart-a-la-retraite-david-lisnard-defend-il/", "type": "parti" },
     "ne-q-carburant": { "titre": "Quel candidat à la présidentielle 2027 veut faire baisser le prix du carburant ?", "editeur": "Nouvelle Énergie", "date": "2026-10-16", "consulte": "2026-10-26", "url": "https://www.unenouvelleenergie.fr/questions/quel-candidat-veut-faire-baisser-le-prix-du-carburant/", "type": "parti" },

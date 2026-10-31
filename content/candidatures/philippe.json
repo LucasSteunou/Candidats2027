@@ -1,7 +1,7 @@
 {
   "id": "philippe",
   "nom": "Édouard Philippe",
-  "maj": "2026-10-26",
+  "maj": "2026-10-31",
   "parti": {
     "nom": "Horizons",
     "sigle": null,
@@ -50,10 +50,10 @@
     {
       "titre": "Enquête sur la Cité numérique du Havre",
       "date": "2026-05-19",
-      "faits": "Une information judiciaire vise Édouard Philippe pour des soupçons de détournement de fonds publics, favoritisme, prise illégale d'intérêts et concussion. Elle porte sur une convention de 2020 confiant l'animation de la Cité numérique du Havre à l'association LH French Tech, seule candidate, pour 2,154 millions d'euros. Une lanceuse d'alerte avait saisi le Parquet national financier en septembre 2023 (perquisitions en avril 2024), puis porté plainte avec constitution de partie civile en juin 2025, ce qui a entraîné la désignation d'un juge d'instruction. Les sources consultées ne mentionnent pas de mise en examen.",
+      "faits": "Une information judiciaire vise Édouard Philippe pour des soupçons de détournement de fonds publics, favoritisme, prise illégale d'intérêts et concussion. Elle porte sur une convention de 2020 confiant l'animation de la Cité numérique du Havre à l'association LH French Tech, seule candidate, pour 2,154 millions d'euros. Une lanceuse d'alerte avait saisi le Parquet national financier en septembre 2023 (perquisitions en avril 2024), puis porté plainte avec constitution de partie civile en juin 2025, ce qui a entraîné la désignation d'un juge d'instruction. Le 29 octobre 2026, il a été entendu toute la journée par deux juges d'instruction financiers de Paris et placé sous le statut de témoin assisté, moins incriminant qu'une mise en examen ; LCP cite des soupçons « notamment pour détournement de fonds publics, favoritisme et harcèlement moral ». Les sources consultées ne mentionnent pas de mise en examen.",
       "statut_judiciaire": "enquete",
-      "reponse": "Son entourage indique qu'il « prend acte de l'ouverture d'une information judiciaire » et qu'il « répondra bien évidemment à toutes les questions que posera la justice comme il l'a toujours fait de façon très sereine ».",
-      "sources": ["lcp-pnf-2026-05-20", "f3-pnf-2026"]
+      "reponse": "Son entourage indique qu'il « prend acte de l'ouverture d'une information judiciaire » et qu'il « répondra bien évidemment à toutes les questions que posera la justice comme il l'a toujours fait de façon très sereine ». Après l'audition du 29 octobre, son avocat, Emmanuel Marsigny, déclare : « Édouard Philippe se félicite de cette décision favorable qui confirme qu'il n'y a rien à lui reprocher dans cette affaire ».",
+      "sources": ["lcp-pnf-2026-05-20", "f3-pnf-2026", "lcp-temoin-assiste-2026-10-30"]
     },
     {
       "titre": "Gestion de la crise du Covid-19",
@@ -204,6 +204,7 @@
     "an-groupes-2026": { "titre": "Modifications à la composition des groupes, 2026", "editeur": "Assemblée nationale", "date": null, "consulte": "2026-10-26", "url": "https://www2.assemblee-nationale.fr/17/les-groupes-politiques/modifications-a-la-composition-des-groupes/2026", "type": "officiel" },
     "ps-odoxa-2026-09-29": { "titre": "Sondage : les cotes de popularité de Marine Le Pen et d'Edouard Philippe reculent fortement, Raphaël Glucksmann progresse légèrement", "editeur": "Public Sénat", "date": "2026-09-29", "consulte": "2026-10-26", "url": "https://www.publicsenat.fr/actualites/politique/sondage-les-cotes-de-popularite-de-marine-le-pen-et-dedouard-philippe-reculent-fortement-raphael-glucksmann-progresse", "type": "presse" },
     "elabe-observatoire-2026-08": { "titre": "L'Observatoire politique, août 2026 (terrain du 28 au 29 juillet 2026)", "editeur": "Elabe pour Les Échos", "date": null, "consulte": "2026-10-26", "url": "https://elabe.fr/fichier-pdf/13180-lobservatoire-politique-aout-2026/", "type": "sondage" },
+    "lcp-temoin-assiste-2026-10-30": { "titre": "Soupçons de détournement de fonds publics: Édouard Philippe placé sous le statut de témoin assisté, une \"décision favorable\" réagit son avocat", "editeur": "LCP", "auteur": "Anne-Charlotte Dusseaulx", "date": "2026-10-30", "consulte": "2026-10-31", "url": "https://lcp.fr/actualites/soupcons-de-detournement-de-fonds-publics-edouard-philippe-place-sous-le-statut-de", "type": "presse" },
     "lcp-pnf-2026-05-20": { "titre": "Édouard Philippe visé par une enquête pour des soupçons de détournement de fonds publics", "editeur": "LCP", "auteur": "Soizic Bonvarlet", "date": "2026-05-20", "consulte": "2026-10-26", "url": "https://lcp.fr/actualites/edouard-philippe-vise-par-une-enquete-pour-des-soupcons-de-detournement-de-fonds-publics", "type": "presse" },
     "f3-pnf-2026": { "titre": "Soupçons de détournements de fonds au Havre : pourquoi Édouard Philippe est visé par une enquête du parquet national financier", "editeur": "France 3 Normandie", "date": null, "consulte": "2026-10-26", "url": "https://france3-regions.franceinfo.fr/normandie/seine-maritime/havre/un-juge-d-instruction-du-parquet-national-financier-va-enqueter-sur-edouard-philippe-candidat-a-la-presidentielle-2027-3353566.html", "type": "presse" },
     "cdj-cjr-2025-07-07": { "titre": "Gestion du Covid-19 : la CJR prononce un non-lieu à l'encontre de Edouard Philippe, Agnès Buzyn et Olivier Véran", "editeur": "Le Club des Juristes", "date": "2025-07-07", "consulte": "2026-10-26", "url": "https://www.leclubdesjuristes.com/en-bref/gestion-du-covid-19-la-cjr-prononce-un-non-lieu-a-lencontre-de-edouard-philippe-agnes-buzyn-et-olivier-veran-11443/", "type": "presse" },
