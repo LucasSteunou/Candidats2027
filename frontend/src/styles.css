@@ -530,9 +530,14 @@ blockquote {
   margin-inline: calc(-1 * var(--space-md));
   padding-inline: var(--space-md);
   overflow-x: auto;
+  overflow-y: hidden; /* a row that scrolls sideways must not also give or bounce vertically */
   scrollbar-width: none;
   border-bottom: var(--rule-hair) solid var(--color-rule);
   background: var(--color-paper);
+}
+
+.tabs button:focus-visible {
+  outline-offset: -4px; /* inside the row, which clips what sticks out */
 }
 
 .tabs button {
@@ -1018,6 +1023,7 @@ blockquote {
 .table-scroll {
   max-width: 100%;
   overflow-x: auto;
+  overflow-y: hidden;
 }
 
 .poll-table {
@@ -1069,8 +1075,9 @@ blockquote {
   display: flex;
   gap: var(--space-xs);
   overflow-x: auto;
-  margin-inline: calc(-1 * var(--space-md));
-  padding-inline: var(--space-md);
+  overflow-y: hidden; /* otherwise a touch on the chips drags the row up and down on a phone */
+  margin: calc(-1 * var(--space-2xs)) calc(-1 * var(--space-md));
+  padding: var(--space-2xs) var(--space-md); /* room for the focus ring, which overflow now clips */
   scrollbar-width: none;
 }
 
@@ -1302,6 +1309,6 @@ blockquote {
 
   .filter-row {
     flex-wrap: wrap;
-    overflow-x: visible;
+    overflow: visible;
   }
 }
