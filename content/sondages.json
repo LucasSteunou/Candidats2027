@@ -1,5 +1,5 @@
 {
-  "maj": "2026-10-31",
+  "maj": "2026-11-09",
   "note": "Intentions de vote au premier tour, en % des suffrages exprimés, telles que publiées par l'institut (YouGov : colonne « pondérés »). Toutes les hypothèses testées sont reprises. Un score publié « <1 % » est affiché tel quel et compte pour 0,5 point dans les moyennes.",
   "noms": {
     "arthaud": "Nathalie Arthaud",
@@ -190,6 +190,20 @@
         { "nom": "Hypothèse 3", "scores": { "retailleau": 7, "lisnard": 8, "philippe": 17, "roussel": 2, "hollande": 6.5, "melenchon": 19.5, "le-pen": 30.5, "tondelier": 2.5, "arthaud": 0.5, "dupont-aignan": 3, "zemmour": 3.5 } }
       ],
       "sources": ["cds-10339-cluster17"]
+    },
+    {
+      "id": "ifop-2026-10-29",
+      "institut": "Ifop-Fiducial",
+      "commanditaires": ["LCI"],
+      "terrain": ["2026-10-27", "2026-10-29"],
+      "echantillon": "1 501 personnes inscrites sur les listes électorales, extrait d'un échantillon de 1 650 personnes",
+      "hypotheses": [
+        { "nom": "Hypothèse G. Attal, É. Philippe, B. Retailleau et D. Lisnard candidats", "scores": { "arthaud": 0.5, "melenchon": 18, "roussel": 2, "tondelier": 3, "glucksmann": 10, "attal": 5, "philippe": 9.5, "retailleau": 4, "lisnard": 7, "dupont-aignan": 1.5, "le-pen": 35, "zemmour": 4.5 } },
+        { "nom": "Hypothèse G. Attal candidat du bloc central, B. Retailleau candidat des Républicains et D. Lisnard candidat", "scores": { "arthaud": 0.5, "melenchon": 17.5, "roussel": 2, "tondelier": 3, "glucksmann": 13, "attal": 9, "retailleau": 5, "lisnard": 7.5, "dupont-aignan": 2, "le-pen": 36, "zemmour": 4.5 } },
+        { "nom": "Hypothèse É. Philippe candidat du bloc central et B. Retailleau seul candidat à droite", "scores": { "arthaud": 1, "melenchon": 17.5, "roussel": 1.5, "tondelier": 3.5, "glucksmann": 11.5, "philippe": 15, "retailleau": 7, "dupont-aignan": 2, "le-pen": 37, "zemmour": 4 } },
+        { "nom": "Hypothèse É. Philippe candidat du bloc central et D. Lisnard seul candidat de droite", "scores": { "arthaud": 0.5, "melenchon": 17.5, "roussel": 2, "tondelier": 3, "glucksmann": 11, "philippe": 15, "lisnard": 9, "dupont-aignan": 2, "le-pen": 36, "zemmour": 4 } }
+      ],
+      "sources": ["cds-10351-ifop"]
     }
   ],
   "sources": {
@@ -203,6 +217,7 @@
     "cds-10284-ifop": { "titre": "Notice n° 10284 - Ifop-Fiducial pour LCI, Le Figaro et Sud Radio (terrain du 25 au 29 septembre 2026)", "editeur": "Commission des sondages", "date": "2026-09-30", "consulte": "2026-10-31", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10284-pres-barometre-election-v6-ifop-30-septembre.pdf", "type": "sondage" },
     "cds-10305-harris": { "titre": "Notice n° 10305 - Toluna Harris Interactive pour M6 et RTL (terrain du 5 au 8 octobre 2026)", "editeur": "Commission des sondages", "date": "2026-10-12", "consulte": "2026-10-31", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10305-pres-iv-toluna-harris-interactive-12-octobre.pdf", "type": "sondage" },
     "cds-10319-opinionway": { "titre": "Notice n° 10319 - OpinionWay pour CNews (terrain du 13 au 14 octobre 2026)", "editeur": "Commission des sondages", "date": "2026-10-15", "consulte": "2026-10-31", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10319-pres-iv-opinionway-cnews-15-octobre.pdf", "type": "sondage" },
-    "cds-10339-cluster17": { "titre": "Notice n° 10339 - Cluster17 pour Politico (terrain du 19 au 22 octobre 2026)", "editeur": "Commission des sondages", "date": "2026-10-26", "consulte": "2026-10-31", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10339-pres-iv-cluster17-politico-26-octobre.pdf", "type": "sondage" }
+    "cds-10339-cluster17": { "titre": "Notice n° 10339 - Cluster17 pour Politico (terrain du 19 au 22 octobre 2026)", "editeur": "Commission des sondages", "date": "2026-10-26", "consulte": "2026-10-31", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10339-pres-iv-cluster17-politico-26-octobre.pdf", "type": "sondage" },
+    "cds-10351-ifop": { "titre": "Notice n° 10351 - Ifop-Fiducial pour LCI (terrain du 27 au 29 octobre 2026)", "editeur": "Commission des sondages", "date": "2026-11-03", "consulte": "2026-11-09", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10351-pres-iv-ifop-lci-3-novembre.pdf", "type": "sondage" }
   }
 }
