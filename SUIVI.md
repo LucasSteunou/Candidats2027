@@ -15,7 +15,8 @@ Dernière veille : 2026-11-09 (passe hebdomadaire automatique : recherches web s
 
 ## Fiches à reprendre
 
-- melenchon · l'édition 2027 de « L'Avenir en commun » devait sortir le 6 novembre, avec un meeting le 7 au Bourget (échéance passée). La page [melenchon2027.fr/?p=24158](https://melenchon2027.fr/?p=24158) présente une « 6e édition » de 1 069 mesures, mais sans date de parution ni lien de téléchargement ; aucune couverture de presse postérieure au 7 novembre n'a été trouvée. La fiche (maj 23 octobre) ne reflète pas ce texte : lancer `/maj-fiche melenchon`.
+
+Reprise le 2026-11-10 : melenchon (édition 2027 de « L'Avenir en commun », parue le 6 novembre, et meeting du Bourget du 7 novembre ; 43 questions clés renseignées sur 55).
 
 Reprises le 2026-10-31 : philippe (témoin assisté du 29 octobre), attal (« grande primaire des démocrates »), ruffin (cahier n° 8, éducation), lisnard (interview du 27 octobre), le-pen (non-pourvoi du parquet général, calendrier de la Cour de cassation).
 

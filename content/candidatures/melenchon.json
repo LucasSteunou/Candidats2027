@@ -1,7 +1,7 @@
 {
   "id": "melenchon",
   "nom": "Jean-Luc Mélenchon",
-  "maj": "2026-10-23",
+  "maj": "2026-11-10",
   "parti": {
     "nom": "La France insoumise",
     "sigle": "LFI",
@@ -18,8 +18,8 @@
     }
   },
   "resume": {
-    "texte": "Fondateur de La France insoumise, Jean-Luc Mélenchon est candidat à l'élection présidentielle pour la quatrième fois consécutive, après 2012 (11,10 %), 2017 (19,58 %) et 2022 (21,95 %). Il a annoncé sa candidature le 3 mai 2026 sur TF1. Son programme, L'Avenir en commun, est publié dans son édition 2025 ; une nouvelle édition est annoncée pour le 6 novembre 2026.",
-    "sources": ["lcp-candidature-2026-05-03", "cc-2012", "cc-2017", "cc-2022", "m2027-programme"]
+    "texte": "Fondateur de La France insoumise, Jean-Luc Mélenchon est candidat à l'élection présidentielle pour la quatrième fois consécutive, après 2012 (11,10 %), 2017 (19,58 %) et 2022 (21,95 %). Il a annoncé sa candidature le 3 mai 2026 sur TF1. Son programme, L'Avenir en commun, est paru dans une édition 2027 le 6 novembre 2026 (1 069 mesures selon La France insoumise) et a été présenté au meeting du Bourget le 7 novembre.",
+    "sources": ["lcp-candidature-2026-05-03", "cc-2012", "cc-2017", "cc-2022", "lcp-programme-2026-11-06", "lcp-urgence-sociale-2026-11-09"]
   },
   "histoire": {
     "parti": [
@@ -39,7 +39,8 @@
       { "date": "2012-04-22", "titre": "Première candidature présidentielle", "texte": "Obtient 3 984 822 voix au premier tour, soit 11,10 % des suffrages exprimés.", "sources": ["cc-2012"] },
       { "date": "2017-04-23", "titre": "Deuxième candidature présidentielle", "texte": "Obtient 7 059 951 voix au premier tour, soit 19,58 % des suffrages exprimés, en quatrième position.", "sources": ["cc-2017"] },
       { "date": "2022-04-10", "titre": "Troisième candidature présidentielle", "texte": "Obtient 7 712 520 voix au premier tour, soit 21,95 % des suffrages exprimés, en troisième position derrière Emmanuel Macron et Marine Le Pen.", "sources": ["cc-2022"] },
-      { "date": "2026-05-03", "titre": "Candidature pour 2027", "texte": "Annonce au journal de 20 heures de TF1 : « Oui, je suis candidat ». Il désigne le Rassemblement national comme son « adversaire principal ».", "sources": ["lcp-candidature-2026-05-03"] }
+      { "date": "2026-05-03", "titre": "Candidature pour 2027", "texte": "Annonce au journal de 20 heures de TF1 : « Oui, je suis candidat ». Il désigne le Rassemblement national comme son « adversaire principal ».", "sources": ["lcp-candidature-2026-05-03"] },
+      { "date": "2026-11-07", "titre": "Présentation du programme au Bourget", "texte": "Il présente l'édition 2027 de L'Avenir en commun lors d'un meeting au Parc des expositions du Bourget. Il annonce qu'en cas de victoire il agirait « d'un seul coup et en masse » pour « répondre à la détresse immédiate », par un « état d'urgence sociale » permettant de prendre par décret, peu après l'arrivée au pouvoir, la hausse du SMIC, le blocage des prix des carburants et l'abrogation de la dernière réforme des retraites ; le Parlement se prononcerait ensuite.", "sources": ["lcp-urgence-sociale-2026-11-09"] }
     ]
   },
   "popularite": {
@@ -91,8 +92,8 @@
   ],
   "programme": {
     "etat": {
-      "texte": "Programme publié : L'Avenir en commun, édition 2025 (quatrième version, janvier 2025), présenté sur le site de campagne. Une cinquième édition (« édition 2027 », 1 069 mesures selon la campagne) est annoncée en librairie le 6 novembre 2026 ; cette fiche sera mise à jour à sa parution. Un document de cadrage budgétaire pour 2027 a été publié en octobre 2026.",
-      "sources": ["m2027-conception", "m2027-programme", "lfi-cp-2026"]
+      "texte": "Programme publié : L'Avenir en commun, édition 2027 (sixième édition), paru le 6 novembre 2026 et consultable en ligne sur le site de campagne. Selon La France insoumise, il compte 212 pages et 1 069 mesures, dont 238 nouvelles ; l'écologie ouvre le programme et la 6e République passe à la fin. Les chiffrages viennent du document de cadrage budgétaire publié en octobre 2026, qui porte sur la seule année 2027.",
+      "sources": ["aec-2027", "m2027-programme", "lcp-programme-2026-11-06", "lfi-cp-2026"]
     },
     "themes": {
       "economie": {
@@ -112,39 +113,40 @@
           { "sous_theme": "travail-emploi", "intitule": "Hausse des salaires", "detail": "SMIC à 1 700 € net, conférence sur les salaires et indexation générale des salaires sur l'inflation ; hausse de 10 % du point d'indice des fonctionnaires.", "origine": "programme-2027", "date": "2026-10",
             "chiffrages": [ { "auteur": "La France insoumise", "montant": 17, "unite": "Md€ (point d'indice des fonctionnaires)", "sources": ["lfi-cp-2026"] } ],
             "sources": ["lfi-cp-2026"] },
-          { "sous_theme": "travail-emploi", "intitule": "Garantie d'emploi", "detail": "Tout chômeur de longue durée pourra se voir proposer un emploi au moins au SMIC « dans un secteur d'urgence ».", "origine": "programme-2027", "date": "2025-01", "sources": ["aec-2025"] }
+          { "sous_theme": "pouvoir-achat", "intitule": "État d'urgence sociale", "detail": "Bloquer et encadrer les prix des produits de première nécessité (alimentation, énergie, carburant) et interdire la « réduflation » ; SMIC à 1 700 € net, minima sociaux, point d'indice des fonctionnaires et APL relevés (10 % pour les deux derniers) ; stocks tampons de matières premières alimentaires. LFI prévoit de prendre ces mesures par décret, peu après l'arrivée au pouvoir.", "origine": "programme-2027", "date": "2026-11", "sources": ["aec-2027", "lcp-urgence-sociale-2026-11-09"] },
+          { "sous_theme": "travail-emploi", "intitule": "Garantie d'emploi", "detail": "Tout chômeur de longue durée pourra se voir proposer d'être embauché au moins au SMIC revalorisé « dans un secteur d'urgence ».", "origine": "programme-2027", "date": "2026-11", "sources": ["aec-2027"] }
         ],
         "reponses": {
           "cout-net-programme": { "valeur": -24.7, "origine": "programme-2027", "date": "2026-10", "precision": "Budget 2027 seulement : 81,7 Md€ de dépenses nouvelles et 106,4 Md€ de recettes nouvelles, soit 24,7 Md€ de réduction du déficit. LFI précise que ce document « ne constitue pas un chiffrage complet du programme ». S'y ajoutent 100 Md€ d'investissements par an portés par un pôle public bancaire, hors budget de l'État.", "sources": ["lfi-cp-2026"] },
-          "objectif-deficit": { "non_communique": "2026-10-23", "precision": "Pas d'objectif chiffré de déficit. Objectif affiché : « stabiliser notre dette par rapport au PIB en un quinquennat ».", "sources": ["lfi-cp-2026"] },
-          "economies-depenses": { "non_communique": "2026-10-23", "precision": "Aucune économie de dépenses chiffrée ; le document rejette « la stratégie des coupes budgétaires ».", "sources": ["lfi-cp-2026"] },
-          "impot-revenu": { "valeur": "Refonte du barème", "origine": "programme-2027", "date": "2026-10", "precision": "Impôt sur le revenu « plus progressif avec l'instauration de 14 tranches ».", "sources": ["lfi-cp-2026"] },
-          "impot-patrimoine": { "valeur": "Rétablissement d'un ISF", "origine": "programme-2027", "date": "2026-10", "precision": "ISF « renforcé », avec un volet climatique (10 Md€ selon LFI), et taxe Zucman sur les patrimoines de plus de 100 millions d'euros (15 Md€ selon LFI).", "sources": ["aec-2025", "lfi-cp-2026"] },
-          "droits-succession": { "valeur": "Hausse", "origine": "programme-2027", "date": "2026-10", "precision": "Hausse sur les plus hauts patrimoines et « héritage maximal de 12 millions d'euros ». Réforme évaluée à 20 Md€ la première année par LFI.", "sources": ["aec-2025", "lfi-cp-2026"] },
-          "taux-is": { "non_communique": "2026-10-23", "precision": "Pas de taux unique : « barème progressif en fonction des bénéfices réalisés et selon leur usage ».", "sources": ["aec-2025"] },
-          "impots-production": { "valeur": "Hausse", "origine": "programme-2027", "date": "2026-10", "precision": "Rétablissement de la CVAE sur les plus grandes entreprises (3 Md€ selon LFI).", "sources": ["lfi-cp-2026"] },
-          "age-legal": { "valeur": 60, "origine": "programme-2027", "date": "2026-10", "precision": "Abrogation immédiate de la réforme de 2023, puis retour à 60 ans, « objectif sur un mandat ».", "sources": ["lfi-cp-2026", "aec-2025"] },
-          "duree-cotisation": { "valeur": 160, "origine": "programme-2027", "date": "2025-01", "precision": "Quarante annuités.", "sources": ["aec-2025", "lfi-cp-2026"] },
-          "financement-retraites": { "valeur": "Hausse de 0,25 point par an du taux de cotisation vieillesse pendant le quinquennat, et cotisations sur les dividendes, l'intéressement, la participation, l'épargne salariale et les revenus financiers des entreprises.", "origine": "programme-2027", "date": "2025-01", "sources": ["aec-2025"] },
-          "smic": { "valeur": 1700, "origine": "programme-2027", "date": "2026-10", "precision": "Avec une indexation générale des salaires sur l'inflation.", "sources": ["lfi-cp-2026"] },
-          "duree-travail": { "valeur": 35, "origine": "programme-2027", "date": "2025-01", "precision": "Rétablir « immédiatement » les 35 heures, passer aux 32 heures dans les métiers pénibles ou de nuit et « favoriser leur généralisation par la négociation collective ».", "sources": ["aec-2025"] },
-          "assurance-chomage": { "valeur": "Conditions plus favorables aux demandeurs d'emploi", "origine": "programme-2027", "date": "2026-10", "precision": "Abrogation des réformes de l'assurance chômage des gouvernements d'Emmanuel Macron (3 Md€ selon LFI).", "sources": ["lfi-cp-2026", "aec-2025"] },
-          "prix-energie": { "valeur": "Blocage des prix de l'énergie et du carburant, retour des tarifs réglementés de l'énergie ; décret ramenant le carburant à 1,70 € le litre.", "origine": "programme-2027", "date": "2026-10", "sources": ["aec-2025", "lfi-cp-2026"] },
-          "encadrement-prix": { "valeur": "Pour", "origine": "programme-2027", "date": "2025-01", "precision": "« Bloquer les prix des produits de première nécessité (alimentation, énergie, carburant) ».", "sources": ["aec-2025"] },
-          "libre-echange": { "valeur": "Opposition", "origine": "programme-2027", "date": "2025-01", "precision": "Refus de tout nouvel accord, dont UE-Mercosur « y compris révisé », et abrogation des accords en vigueur (Nouvelle-Zélande, Canada, Japon).", "sources": ["aec-2025"] },
-          "reindustrialisation": { "valeur": "« Protectionnisme solidaire » et planification écologique, financés notamment par le pôle public bancaire.", "origine": "programme-2027", "date": "2026-10", "sources": ["aec-2025", "lfi-cp-2026"] }
+          "objectif-deficit": { "non_communique": "2026-11-10", "precision": "Pas d'objectif chiffré de déficit. Objectif affiché : « stabiliser notre dette par rapport au PIB en un quinquennat ». Le programme 2027 propose de suspendre « pour tous des règles budgétaires des 3 % de déficit ».", "sources": ["lfi-cp-2026", "aec-2027"] },
+          "economies-depenses": { "non_communique": "2026-11-10", "precision": "Aucune économie de dépenses chiffrée ; le document budgétaire rejette « la stratégie des coupes budgétaires ».", "sources": ["lfi-cp-2026"] },
+          "impot-revenu": { "valeur": "Refonte du barème", "origine": "programme-2027", "date": "2026-11", "precision": "« Rendre l'impôt sur le revenu plus progressif avec un barème à 14 tranches contre 5 aujourd'hui ».", "sources": ["aec-2027", "lfi-cp-2026"] },
+          "impot-patrimoine": { "valeur": "Rétablissement d'un ISF", "origine": "programme-2027", "date": "2026-11", "precision": "« Rétablir et renforcer l'impôt de solidarité sur la fortune (ISF) incluant un volet climatique » (10 Md€ selon LFI) et garantie d'impôt de 2 % sur le patrimoine des centimillionaires, dite « taxe Zucman » (15 Md€ selon LFI).", "sources": ["aec-2027", "lfi-cp-2026"] },
+          "droits-succession": { "valeur": "Hausse", "origine": "programme-2027", "date": "2026-11", "precision": "Hausse sur les plus hauts patrimoines, en comptabilisant tous les dons et héritages reçus au cours de la vie, et « héritage maximal de 12 millions d'euros » ; exonération des héritages inférieurs à 150 000 €. Réforme évaluée à 20 Md€ la première année par LFI.", "sources": ["aec-2027", "lfi-cp-2026"] },
+          "taux-is": { "non_communique": "2026-11-10", "precision": "Pas de taux unique : « instaurer un barème progressif et moduler l'impôt selon l'usage des bénéfices ».", "sources": ["aec-2027"] },
+          "impots-production": { "valeur": "Hausse", "origine": "programme-2027", "date": "2026-10", "precision": "Le cadrage budgétaire 2027 rétablit la CVAE sur les plus grandes entreprises (3 Md€ selon LFI) ; le programme prévoit ensuite de la remplacer par « un nouvel impôt sur les entreprises, dont la progressivité sera fonction du chiffre d'affaires et de l'empreinte écologique globale ».", "sources": ["lfi-cp-2026", "aec-2027"] },
+          "age-legal": { "valeur": 60, "origine": "programme-2027", "date": "2026-11", "precision": "Abrogation de la réforme de 2023, puis abaissement de l'âge de départ « jusqu'à restaurer le droit à la retraite à 60 ans à taux plein pour 40 annuités de cotisations » ; « objectif sur un mandat » selon le cadrage budgétaire.", "sources": ["aec-2027", "lfi-cp-2026"] },
+          "duree-cotisation": { "valeur": 160, "origine": "programme-2027", "date": "2026-11", "precision": "Quarante annuités.", "sources": ["aec-2027"] },
+          "financement-retraites": { "valeur": "Partage des richesses et « économies réalisées sur le coût du malheur » ; suppression des avantages fiscaux de la retraite par capitalisation et fin de la non-compensation des exonérations de cotisations.", "origine": "programme-2027", "date": "2026-11", "precision": "L'édition 2025 prévoyait une hausse de 0,25 point par an du taux de cotisation vieillesse ; l'édition 2027 ne la reprend pas.", "sources": ["aec-2027", "aec-2025"] },
+          "smic": { "valeur": 1700, "origine": "programme-2027", "date": "2026-11", "precision": "« Porter immédiatement le SMIC mensuel à 1 700 euros net et indexer les salaires sur l'inflation dans le privé comme dans la fonction publique ».", "sources": ["aec-2027", "lfi-cp-2026"] },
+          "duree-travail": { "valeur": 35, "origine": "programme-2027", "date": "2026-11", "precision": "Rétablir « immédiatement » les 35 heures, passer aux 32 heures dans les métiers pénibles ou de nuit et « favoriser leur généralisation par la négociation collective » ; sixième semaine de congés payés.", "sources": ["aec-2027"] },
+          "assurance-chomage": { "valeur": "Conditions plus favorables aux demandeurs d'emploi", "origine": "programme-2027", "date": "2026-11", "precision": "« Rétablir une assurance chômage protectrice » : abrogation des réformes des gouvernements d'Emmanuel Macron (3 Md€ selon LFI) et de l'obligation de 15 heures d'activité hebdomadaire.", "sources": ["aec-2027", "lfi-cp-2026"] },
+          "prix-energie": { "valeur": "Blocage des prix de l'énergie et du carburant, retour des tarifs réglementés de l'énergie calculés à partir des coûts de production ; décret ramenant le carburant à 1,70 € le litre selon le cadrage budgétaire.", "origine": "programme-2027", "date": "2026-11", "sources": ["aec-2027", "lfi-cp-2026"] },
+          "encadrement-prix": { "valeur": "Pour", "origine": "programme-2027", "date": "2026-11", "precision": "« Bloquer et encadrer les prix des produits de première nécessité (alimentation, énergie, carburant) et interdire la « réduflation » ».", "sources": ["aec-2027"] },
+          "libre-echange": { "valeur": "Opposition", "origine": "programme-2027", "date": "2026-11", "precision": "« Refuser le libre-échange, instaurer un protectionnisme écologique » : inventaire et évaluation des accords déjà appliqués, rupture avec les accords qui augmentent la déforestation, dont le Mercosur, et droit de veto au Conseil européen sur les accords de libre-échange.", "sources": ["aec-2027"] },
+          "reindustrialisation": { "valeur": "Relocaliser les productions essentielles (agence pour les relocalisations, plan de reconstruction industrielle, mesures antidumping d'urgence) avec un « protectionnisme écologique », financés notamment par le pôle public bancaire.", "origine": "programme-2027", "date": "2026-11", "sources": ["aec-2027", "lfi-cp-2026"] }
         }
       },
       "ecologie": {
         "mesures": [
-          { "sous_theme": "energie", "intitule": "100 % d'énergies renouvelables en 2050", "detail": "Sortie du nucléaire (abandon des projets d'EPR, démantèlement et reconversion des sites) et fin des subventions aux énergies fossiles, y compris à l'étranger.", "origine": "programme-2027", "date": "2025-01", "sources": ["aec-2025"] },
+          { "sous_theme": "energie", "intitule": "100 % d'énergies renouvelables au plus tard en 2060", "detail": "Sortie des énergies fossiles avant 2050 par les renouvelables, la sobriété et l'efficacité énergétiques ; fermeture progressive des centrales nucléaires au plus tard à 60 ans de fonctionnement et arrêt du programme EPR2 ; fin des subventions aux énergies fossiles, y compris à l'étranger ; retour des tarifs réglementés de l'énergie.", "origine": "programme-2027", "date": "2026-11", "sources": ["aec-2027", "lcp-programme-2026-11-06"] },
           { "sous_theme": "climat", "intitule": "Rénovation des logements", "detail": "700 000 rénovations par an pour supprimer les logements classés F et G en un mandat.", "origine": "programme-2027", "date": "2026-10", "sources": ["lfi-cp-2026"] }
         ],
         "reponses": {
-          "nucleaire": { "valeur": "Sortie du nucléaire", "origine": "programme-2027", "date": "2025-01", "precision": "Abandon des projets d'EPR, démantèlement et reconversion planifiés des sites.", "sources": ["aec-2025"] },
-          "renouvelables": { "valeur": "Accélération", "origine": "programme-2027", "date": "2025-01", "precision": "Objectif de 100 % d'énergies renouvelables en 2050.", "sources": ["aec-2025"] },
-          "neutralite-2050": { "valeur": "Autre", "origine": "programme-2027", "date": "2025-01", "precision": "Baisse de 65 % des émissions en 2030 (au lieu de 50 %). Le programme ne fixe pas d'autre date de neutralité carbone.", "sources": ["aec-2025"] },
-          "thermique-2035": { "non_communique": "2026-10-23", "precision": "Le programme ne mentionne pas l'échéance européenne de 2035 ; il prévoit de limiter la taille et le poids des SUV et un moratoire sur les zones à faibles émissions.", "sources": ["aec-2025"] }
+          "nucleaire": { "valeur": "Sortie du nucléaire", "origine": "programme-2027", "date": "2026-11", "precision": "« Planifier la fermeture progressive des centrales nucléaires existantes en ne prolongeant pas au-delà de 60 ans leur durée de vie et arrêter le programme de nouveau nucléaire (EPR2) ».", "sources": ["aec-2027"] },
+          "renouvelables": { "valeur": "Accélération", "origine": "programme-2027", "date": "2026-11", "precision": "100 % d'énergies renouvelables « au plus tard en 2060 » (2050 dans l'édition précédente), en organisant la sortie des énergies fossiles avant 2050.", "sources": ["aec-2027", "lcp-programme-2026-11-06"] },
+          "neutralite-2050": { "valeur": "Autre", "origine": "programme-2027", "date": "2026-11", "precision": "Baisse de 65 % des émissions de gaz à effet de serre « d'ici 2033 » (2030 dans l'édition précédente). Le programme ne fixe pas de date de neutralité carbone.", "sources": ["aec-2027", "lcp-programme-2026-11-06"] },
+          "thermique-2035": { "non_communique": "2026-11-10", "precision": "Le programme ne mentionne pas l'échéance européenne de 2035 ; il prévoit de limiter la taille, le poids et les dimensions des SUV et un moratoire sur les zones à faibles émissions « dans leur conception actuelle ».", "sources": ["aec-2027"] }
         }
       },
       "social": {
@@ -160,71 +162,74 @@
             "sources": ["lfi-cp-2026"] }
         ],
         "reponses": {
-          "acces-soins": { "valeur": "Recrutement de médecins publics, réseau public de centres de santé, plus de places en faculté de médecine et obligation pour tous les médecins de participer à la permanence des soins.", "origine": "programme-2027", "date": "2025-01", "sources": ["aec-2025"] },
-          "installation-medecins": { "non_communique": "2026-10-23", "precision": "Le programme ne prévoit pas explicitement de régulation de l'installation ; il prévoit le recrutement de médecins publics et un réseau de centres de santé.", "sources": ["aec-2025"] },
-          "mesure-ecole": { "valeur": "Réduire les effectifs par classe vers la moyenne européenne de 19 élèves, avec 10 000 postes ouverts en 2027, et gratuité de la cantine scolaire.", "origine": "programme-2027", "date": "2026-10", "sources": ["aec-2025", "lfi-cp-2026"] },
-          "remuneration-enseignants": { "valeur": "Hausse de 10 % du point d'indice de l'ensemble des fonctionnaires.", "origine": "programme-2027", "date": "2026-10", "sources": ["lfi-cp-2026"] },
-          "encadrement-loyers": { "valeur": "Généralisation", "origine": "programme-2027", "date": "2025-01", "precision": "« Encadrer les loyers partout sur le territoire et à la baisse dans les grandes villes ».", "sources": ["aec-2025"] },
-          "logements-sociaux": { "valeur": 200000, "origine": "programme-2027", "date": "2025-01", "precision": "200 000 « logements publics » par an pendant cinq ans ; quota de logements sociaux (loi SRU) porté à 30 %.", "sources": ["aec-2025"] },
-          "rsa": { "valeur": "Plus larges", "origine": "programme-2027", "date": "2025-01", "precision": "Abroger l'obligation de 15 heures d'activité hebdomadaires pour les allocataires.", "sources": ["aec-2025"] }
+          "acces-soins": { "valeur": "Centres de santé publics et maisons de santé sur tout le territoire, recrutement de médecins publics, régulation de l'installation des médecins, obligation de participer à la permanence des soins et plus de places en faculté de médecine.", "origine": "programme-2027", "date": "2026-11", "sources": ["aec-2027"] },
+          "installation-medecins": { "valeur": "Obligation", "origine": "programme-2027", "date": "2026-11", "precision": "Le programme prévoit de « Réguler l'installation des médecins », sans préciser le mécanisme.", "sources": ["aec-2027"] },
+          "mesure-ecole": { "valeur": "Gratuité réelle de l'éducation publique : cantine, transport, activités périscolaires, manuels et fournitures.", "origine": "programme-2027", "date": "2026-11", "precision": "Effectifs par classe ramenés sous la moyenne européenne de 19 élèves ; 10 000 postes ouverts en 2027 selon le cadrage budgétaire.", "sources": ["aec-2027", "lfi-cp-2026"] },
+          "remuneration-enseignants": { "valeur": "Rattraper le gel du point d'indice depuis 2010 et revaloriser les grilles salariales", "origine": "programme-2027", "date": "2026-11", "precision": "Négociation avec les syndicats ; hausse de 10 % du point d'indice de l'ensemble des fonctionnaires.", "sources": ["aec-2027", "lfi-cp-2026"] },
+          "encadrement-loyers": { "valeur": "Généralisation", "origine": "programme-2027", "date": "2026-11", "precision": "« Geler les loyers le temps de déployer un encadrement des loyers partout sur le territoire et à la baisse dans les grandes villes ».", "sources": ["aec-2027"] },
+          "logements-sociaux": { "valeur": 200000, "origine": "programme-2027", "date": "2026-11", "precision": "200 000 « logements publics » par an et 30 000 logements jeunes pendant cinq ans ; quota de logements sociaux (loi SRU) porté à 30 %.", "sources": ["aec-2027"] },
+          "rsa": { "valeur": "Plus larges", "origine": "programme-2027", "date": "2026-11", "precision": "Abroger l'obligation de 15 heures d'activité hebdomadaire ; comptabiliser le RSA pour valider des trimestres de retraite.", "sources": ["aec-2027"] }
         }
       },
       "securite": {
         "mesures": [
-          { "sous_theme": "police", "intitule": "Police de proximité", "detail": "Rétablir la police de proximité, y intégrer les polices municipales, démanteler les BAC et les BRAV-M, et remplacer l'IGPN et l'IGGN par une autorité indépendante rattachée au Défenseur des droits.", "origine": "programme-2027", "date": "2025-01", "sources": ["aec-2025"] }
+          { "sous_theme": "police", "intitule": "Police de proximité", "detail": "Rétablir la police de proximité, y intégrer progressivement les polices municipales, démanteler les BAC et les BRAV-M, remplacer l'IGPN et l'IGGN par une autorité indépendante rattachée au Défenseur des droits, et brevet obligatoire de lutte contre les discriminations pour les policiers.", "origine": "programme-2027", "date": "2026-11", "sources": ["aec-2027", "lcp-programme-2026-11-06"] }
         ],
         "reponses": {
-          "effectifs-forces-ordre": { "non_communique": "2026-10-23", "precision": "Pas d'objectif chiffré d'effectifs.", "sources": ["aec-2025"] },
-          "places-prison": { "non_communique": "2026-10-23", "precision": "Pas de construction chiffrée ; « mécanisme contraignant de régulation carcérale » contre la surpopulation.", "sources": ["aec-2025"] },
-          "peines-minimales": { "non_communique": "2026-10-23" },
-          "justice-mineurs": { "valeur": "Abroger le code de justice pénale des mineurs et revenir aux principes de l'ordonnance de 1945, avec un code de l'enfance combinant civil et pénal.", "origine": "programme-2027", "date": "2025-01", "sources": ["aec-2025"] },
-          "cannabis": { "valeur": "Légalisation encadrée", "origine": "programme-2027", "date": "2025-01", "precision": "Monopole d'État sur la production et la vente ; recettes affectées à la prévention des addictions.", "sources": ["aec-2025"] }
+          "effectifs-forces-ordre": { "non_communique": "2026-11-10", "precision": "Pas d'objectif chiffré d'effectifs.", "sources": ["aec-2027"] },
+          "places-prison": { "non_communique": "2026-11-10", "precision": "Pas de construction chiffrée ; « mécanisme contraignant de régulation carcérale » contre la surpopulation.", "sources": ["aec-2027"] },
+          "peines-minimales": { "non_communique": "2026-11-10" },
+          "justice-mineurs": { "valeur": "Revenir sur les mesures qui alignent la justice des mineurs sur celle des adultes et rétablir les principes de l'ordonnance de février 1945, avec la primauté de l'action éducative.", "origine": "programme-2027", "date": "2026-11", "sources": ["aec-2027"] },
+          "cannabis": { "valeur": "Légalisation encadrée", "origine": "programme-2027", "date": "2026-11", "precision": "Monopole d'État sur la production et la vente, à des fins médicales et récréatives ; recettes affectées à la lutte contre les addictions.", "sources": ["aec-2027"] }
         }
       },
       "immigration": {
         "mesures": [],
         "reponses": {
-          "titres-sejour": { "non_communique": "2026-10-23", "precision": "Pas d'objectif chiffré. Le programme prévoit de « faciliter l'accès aux visas » et de faire de la carte de séjour de dix ans le titre de référence.", "sources": ["aec-2025"] },
-          "regularisations": { "valeur": "Facilitée", "origine": "programme-2027", "date": "2025-01", "precision": "Régulariser « les travailleurs, étudiants, parents d'enfants scolarisés ».", "sources": ["aec-2025"] },
-          "demandes-asile": { "valeur": "Garantir le droit d'asile en « prenant le temps d'étudier chaque dossier », refuser la tutelle du ministère de l'Intérieur sur l'OFPRA et abroger les dernières lois asile et immigration.", "origine": "programme-2027", "date": "2025-01", "sources": ["aec-2025"] },
-          "droit-du-sol": { "valeur": "Extension", "origine": "programme-2027", "date": "2025-01", "precision": "« Garantir le droit du sol intégral à tous les enfants nés en France » et le rétablir sur l'ensemble du territoire.", "sources": ["aec-2025"] },
-          "ame": { "valeur": "Maintien", "origine": "programme-2027", "date": "2025-01", "precision": "« Garantir l'accès à l'aide médicale d'État (AME) ».", "sources": ["aec-2025"] },
-          "priorite-nationale": { "non_communique": "2026-10-23", "precision": "Pas de mention explicite dans le programme.", "sources": ["aec-2025"] },
-          "referendum-immigration": { "non_communique": "2026-10-23" }
+          "titres-sejour": { "non_communique": "2026-11-10", "precision": "Pas d'objectif chiffré. Le programme prévoit de « Faciliter l'accès aux visas » et de faire de la carte de séjour de dix ans le titre de référence.", "sources": ["aec-2027"] },
+          "regularisations": { "valeur": "Facilitée", "origine": "programme-2027", "date": "2026-11", "precision": "Régulariser « les travailleurs, étudiants, parents d'enfants scolarisés sans papiers ».", "sources": ["aec-2027"] },
+          "demandes-asile": { "valeur": "Garantir « sans concession » le droit d'asile et l'indépendance administrative de l'Ofpra, refuser l'application du pacte européen sur la migration et l'asile et abroger les dernières lois sur l'asile et l'immigration.", "origine": "programme-2027", "date": "2026-11", "sources": ["aec-2027"] },
+          "droit-du-sol": { "valeur": "Extension", "origine": "programme-2027", "date": "2026-11", "precision": "« Garantir le droit du sol intégral à tous les enfants nés en France » et le rétablir sur l'ensemble du territoire.", "sources": ["aec-2027"] },
+          "ame": { "valeur": "Maintien", "origine": "programme-2027", "date": "2026-11", "precision": "« Garantir l'accès à l'aide médicale d'État (AME) ».", "sources": ["aec-2027"] },
+          "priorite-nationale": { "non_communique": "2026-11-10", "precision": "Pas de mention explicite dans le programme.", "sources": ["aec-2027"] },
+          "referendum-immigration": { "non_communique": "2026-11-10" }
         }
       },
       "institutions": {
         "mesures": [],
         "reponses": {
-          "mode-scrutin": { "valeur": "Proportionnelle intégrale", "origine": "programme-2027", "date": "2025-01", "precision": "« Élire l'Assemblée nationale au scrutin proportionnel ».", "sources": ["aec-2025"] },
-          "ric": { "valeur": "Pour", "origine": "programme-2027", "date": "2025-01", "precision": "RIC permettant de « révoquer des élus, proposer ou abroger une loi et modifier la Constitution ».", "sources": ["aec-2025"] },
-          "constitution": { "valeur": "Nouvelle Constitution", "origine": "programme-2027", "date": "2025-01", "precision": "Assemblée constituante convoquée par référendum pour passer à une 6e République ; projet soumis à référendum après deux ans de travaux.", "sources": ["aec-2025"] },
-          "mandat-presidentiel": { "non_communique": "2026-10-23", "precision": "Renvoyé à l'Assemblée constituante ; le programme vise à « abolir la monarchie présidentielle ».", "sources": ["aec-2025"] }
+          "mode-scrutin": { "valeur": "Proportionnelle intégrale", "origine": "programme-2027", "date": "2026-11", "precision": "« Élire l'Assemblée nationale au scrutin proportionnel ».", "sources": ["aec-2027"] },
+          "ric": { "valeur": "Pour", "origine": "programme-2027", "date": "2026-11", "precision": "RIC permettant de « révoquer des élus, proposer ou abroger une loi et modifier la Constitution ».", "sources": ["aec-2027"] },
+          "constitution": { "valeur": "Nouvelle Constitution", "origine": "programme-2027", "date": "2026-11", "precision": "Référendum (article 11) pour convoquer une Assemblée constituante et passer à une 6e République ; le projet de Constitution sera soumis à référendum à l'issue de ses travaux.", "sources": ["aec-2027"] },
+          "mandat-presidentiel": { "non_communique": "2026-11-10", "precision": "Renvoyé à l'Assemblée constituante ; le programme vise à « Abolir la monarchie présidentielle ».", "sources": ["aec-2027"] }
         }
       },
       "international": {
         "mesures": [],
         "reponses": {
-          "relation-ue": { "valeur": "Renégocier les traités", "origine": "programme-2027", "date": "2025-01", "precision": "Modifier notamment le statut de la BCE, et appliquer le programme « en assumant la confrontation avec les institutions européennes (plan B) ».", "sources": ["aec-2025"] },
-          "euro": { "non_communique": "2026-10-23", "precision": "Le programme ne se prononce pas sur une sortie de l'euro.", "sources": ["aec-2025"] },
-          "budget-defense": { "non_communique": "2026-10-23" },
-          "otan": { "valeur": "En sortir", "origine": "programme-2027", "date": "2025-01", "precision": "Retrait « immédiat » du commandement intégré, puis « par étapes » de l'organisation elle-même.", "sources": ["aec-2025"] },
-          "service-national": { "valeur": "« Conscription citoyenne » obligatoire de neuf mois pour les moins de 25 ans, rémunérée au SMIC, avec une formation militaire initiale (droit d'objection de conscience) ; service militaire possible en option.", "origine": "programme-2027", "date": "2025-01", "sources": ["aec-2025"] },
-          "ukraine": { "valeur": "« Créer un cadre diplomatique permettant d'obtenir un cessez-le-feu, le retrait des troupes russes, et l'ouverture de négociations pour une paix durable ».", "origine": "programme-2027", "date": "2025-01", "sources": ["aec-2025"] },
-          "proche-orient": { "valeur": "Reconnaître l'État de Palestine ; cessez-le-feu durable ; sanctions contre le gouvernement Netanyahou, embargo sur les armes et suspension des accords de coopération économique avec Israël.", "origine": "programme-2027", "date": "2025-01", "sources": ["aec-2025"] }
+          "relation-ue": { "valeur": "Renégocier les traités", "origine": "programme-2027", "date": "2026-11", "precision": "« Tant qu'un accord de changement des traités n'est pas acquis, nous négocions avec nos partenaires et désobéissons aux règles bloquantes en parallèle. En cas d'accord, il sera soumis à un référendum. »", "sources": ["aec-2027"] },
+          "euro": { "valeur": "Rester dans l'euro", "origine": "programme-2027", "date": "2026-11", "precision": "« Avec nous, la France ne sortira ni de l'Union, ni de la zone euro ».", "sources": ["aec-2027"] },
+          "budget-defense": { "non_communique": "2026-11-10", "precision": "Pas d'objectif chiffré ; le programme propose de « Rejeter le tribut, exigé par les États-Unis, de 5 % du PIB consacré aux dépenses de défense ».", "sources": ["aec-2027"] },
+          "otan": { "valeur": "En sortir", "origine": "programme-2027", "date": "2026-11", "precision": "Se retirer « immédiatement » du commandement intégré, puis « par étapes » de l'organisation elle-même.", "sources": ["aec-2027"] },
+          "service-national": { "valeur": "Une « conscription citoyenne écologique » obligatoire de neuf mois avant 25 ans, rémunérée au SMIC revalorisé, consacrée surtout à l'adaptation aux crises climatiques (secours, sécurité civile), avec une formation militaire initiale (droit d'objection de conscience) ; abrogation du service militaire volontaire.", "origine": "programme-2027", "date": "2026-11", "sources": ["aec-2027", "lcp-programme-2026-11-06"] },
+          "ukraine": { "valeur": "« créer un cadre diplomatique permettant d'obtenir un cessez-le-feu, le retrait des troupes russes et l'ouverture de négociations pour une paix durable reposant notamment sur des garanties de sécurité collective ».", "origine": "programme-2027", "date": "2026-11", "sources": ["aec-2027"] },
+          "proche-orient": { "valeur": "Cessez-le-feu durable, fin du blocus de Gaza et de la colonisation, souveraineté de l'État de Palestine sur les territoires occupés depuis 1967 ; sanctions contre le gouvernement israélien, rupture de l'accord de coopération UE-Israël et embargo sur les armes.", "origine": "programme-2027", "date": "2026-11", "precision": "Le programme mentionne aussi d'autres possibilités, comme un « État binational égalitaire ».", "sources": ["aec-2027", "lcp-programme-2026-11-06"] }
         }
       },
       "agriculture": {
         "mesures": [],
         "reponses": {
-          "revenu-agricole": { "valeur": "Prix planchers pour les producteurs et interdiction des ventes à perte.", "origine": "programme-2027", "date": "2025-01", "sources": ["aec-2025"] },
-          "pesticides": { "valeur": "Plus strictes", "origine": "programme-2027", "date": "2025-01", "precision": "Interdiction immédiate du glyphosate et des néonicotinoïdes, réduction planifiée des doses de pesticides.", "sources": ["aec-2025"] },
-          "pac": { "valeur": "« Refondre la PAC » pour orienter les aides vers la production écologiquement soutenable et les exploitations employant le plus de main-d'œuvre.", "origine": "programme-2027", "date": "2025-01", "sources": ["aec-2025"] }
+          "revenu-agricole": { "valeur": "Prix planchers pour les producteurs et caisse de défaisance reprenant les dettes des exploitants convertis au 100 % bio.", "origine": "programme-2027", "date": "2026-11", "sources": ["aec-2027"] },
+          "pesticides": { "valeur": "Plus strictes", "origine": "programme-2027", "date": "2026-11", "precision": "Interdiction immédiate du glyphosate et des néonicotinoïdes, et de l'importation de productions qui en contiennent ; réduction planifiée des doses d'engrais et de pesticides.", "sources": ["aec-2027"] },
+          "pac": { "valeur": "Refondre la PAC pour orienter les aides vers la production écologiquement soutenable, les exploitations employant le plus de main-d'œuvre et les protéines végétales.", "origine": "programme-2027", "date": "2026-11", "sources": ["aec-2027"] }
         }
       }
     }
   },
   "sources": {
+    "aec-2027": { "titre": "L'Avenir en commun, édition 2027 (texte en ligne)", "editeur": "Mélenchon 2027", "date": "2026-11-06", "consulte": "2026-11-10", "url": "https://melenchon2027.fr/programme/livre/", "type": "parti" },
+    "lcp-programme-2026-11-06": { "titre": "Présidentielle 2027: ce qui change dans le nouveau programme de Jean-Luc Mélenchon", "editeur": "LCP", "auteur": "Maxence Kagni", "date": "2026-11-06", "consulte": "2026-11-10", "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841", "type": "presse" },
+    "lcp-urgence-sociale-2026-11-09": { "titre": "\"D'un seul coup et en masse\": en cas de victoire, les insoumis veulent gouverner vite en décrétant un état d'urgence sociale", "editeur": "LCP", "auteur": "Soizic Bonvarlet", "date": "2026-11-09", "consulte": "2026-11-10", "url": "https://lcp.fr/actualites/d-un-seul-coup-et-en-masse-en-cas-de-victoire-les-insoumis-veulent-gouverner-vite-en", "type": "presse" },
     "aec-2025": { "titre": "L'Avenir en commun (édition 2025)", "editeur": "La France insoumise", "date": null, "consulte": "2026-10-23", "url": "https://programme.lafranceinsoumise.fr/wp-content/uploads/2025/02/A5-PROGRAMME-SITE.pdf", "type": "parti" },
     "lfi-cp-2026": { "titre": "Comment nous allons remettre de l'ordre dans les comptes publics", "editeur": "Mélenchon 2027", "date": null, "consulte": "2026-10-23", "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf", "type": "parti" },
     "m2027-programme": { "titre": "Découvrir le programme", "editeur": "Mélenchon 2027", "date": null, "consulte": "2026-10-23", "url": "https://melenchon2027.fr/programme/decouvrir/", "type": "parti" },
