@@ -6,7 +6,6 @@ Dernière veille : 2026-11-16 (passe hebdomadaire automatique : recherches web s
 
 ## Échéances connues
 
-- 2026-11-17 · le-pen · présentation de sa réforme des retraites ; programme 2027 « en cours de finalisation ». Le site du RN ne l'annonce pas à ce jour.
 - 2026-11 (2e quinzaine) · tondelier · présentation du texte qui fixe les deux options soumises aux adhérents des Écologistes ([LCP](https://lcp.fr/actualites/candidature-a-la-presidentielle-pas-de-choix-definitif-des-ecologistes-avant-la-mi)).
 - 2026-12-10 → 13 · tondelier · vote des adhérents des Écologistes : candidature propre ou ralliement à un autre candidat de gauche.
 - 2027-01-31 · toutes · date limite du décret de convocation si le gouvernement choisissait finalement les 11 et 25 avril au lieu des 18 avril et 2 mai. Retailleau et d'autres demandent de changer les dates ; la porte-parole du gouvernement a répondu le 28 octobre qu'il n'y avait « pas de raison de changer ces dates » ([LCP](https://lcp.fr/actualites/presidentielle-2027-pour-le-gouvernement-il-n-y-a-pas-de-raison-de-changer-les-dates-de)). Si les dates changent, mettre à jour `perimetre.json` (`scrutin`), `METHODOLOGIE.md` et le décompte de l'accueil.
@@ -15,8 +14,13 @@ Dernière veille : 2026-11-16 (passe hebdomadaire automatique : recherches web s
 
 ## Fiches à reprendre
 
-- **Fiche à créer : riner** · Teddy Riner a déclaré sa candidature le 9 novembre 2026 ([LCP](https://lcp.fr/actualites/le-judoka-teddy-riner-annonce-sa-candidature-a-l-election-presidentielle-de-2027-444920)) et est testé dans les notices Cluster17 n° 10368 et OpinionWay n° 10371 : il remplit les deux critères du périmètre. Il figure pour l'instant dans `testes_sans_fiche` de `perimetre.json` ; à créer avec `/maj-fiche riner` (puis le déplacer dans `candidatures`).
-- le-pen · Le site de campagne n'annonce toujours pas la présentation de la réforme des retraites prévue le 17 novembre ; une capitalisation partielle est évoquée dans une analyse d'ÉlyséeScope du 10 novembre (source secondaire). À vérifier le 17 novembre, puis `/maj-fiche le-pen`.
+
+Archivée le 2026-11-21 : ruffin (retrait de la candidature annoncé le 21 novembre, [LCP](https://lcp.fr/actualites/francois-ruffin-se-retire-de-la-presidentielle-2027-sans-soutenir-aucun-des-candidats-de)) : statut `retire` dans `perimetre.json`, fiche consultable en archive, hors de la liste principale, du comparateur et des moyennes. Une seconde source d'un autre éditeur reste à ajouter.
+- villepin · LCP annonce qu'il est « sur le point d'officialiser sa candidature » et analyse les « 258 propositions » de son programme : si la déclaration est formelle, il remplira les deux critères et aura besoin d'une fiche.
+
+Créée le 2026-11-21 : riner (candidature du 9 novembre ; programme non publié, 1 question clé renseignée sur 55 ; une controverse, le redressement fiscal confirmé en appel le 15 octobre, litige administratif sans poursuite pénale).
+
+Reprise le 2026-11-21 : le-pen (réforme des retraites présentée le 17 novembre : départ de 60 à 62 ans, capitalisation obligatoire, mesure et trois réponses mises à jour ; nouvelle controverse sur les soupçons de fuites d'enquêtes vers le RN, perquisition du 9 novembre). Les liens `rassemblementnational.fr` répondent 307 aux scripts (protection Sucuri, y compris sur la page d'accueil) : à ouvrir dans un navigateur.
 
 Reprise le 2026-11-10 : melenchon (édition 2027 de « L'Avenir en commun », parue le 6 novembre, et meeting du Bourget du 7 novembre ; 43 questions clés renseignées sur 55).
 
@@ -31,10 +35,10 @@ Rien de nouveau trouvé, depuis la date de la fiche, pour arthaud, bouamrane, gl
 
 Programme absent ou partiel ; le nombre indique les questions clés renseignées sur 55.
 
+- riner · candidat depuis le 9 novembre 2026, programme en préparation (1/55) ; premières orientations dans Le Parisien : retraites, salaire net, 35 heures.
 - bouamrane · manifeste général seulement (1/55) ; cinq axes « Protéger, loger, soigner, éduquer et redonner de l'espoir » sans mesure chiffrée.
 - polony · candidate depuis le 14/10/2026, aucun programme (6/55) ; priorité à la production française dans la commande publique, « état d'urgence de la production ».
 - arthaud · Lutte ouvrière ne publie pas de programme de gouvernement (7/55).
-- ruffin · cahiers sans sécurité, immigration, santé, Europe, défense ni diplomatie (19/55) ; l'école et la rémunération des enseignants sont renseignées depuis le cahier n° 8.
 - dupont-aignan · discours de rentrée et « 20 mesures » seulement (20/55).
 - roussel · pas de programme 2027 ; réponses issues de 2022 et des cahiers du PCF (24/55) ; le site de campagne ne donne que cinq thèmes (« Vivre mieux, heureux, ensemble, longtemps, en paix »).
 - zemmour · pas de programme 2027 ; réponses issues de 2022 (29/55) ; le site du parti renvoie à une consultation « Le Programme pour la France » et à budget2027.fr.

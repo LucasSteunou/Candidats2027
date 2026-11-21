@@ -1,10 +1,10 @@
 import { useState } from "react";
 
 import { AnswerValue } from "./Fiche.jsx";
-import { candidatures, fmtNumber, themes } from "./content.js";
+import { activeCandidatures, fmtNumber, themes } from "./content.js";
 import { Card, Fold, PageTitle, go } from "./ui.jsx";
 
-const WITH_FICHE = candidatures.filter((c) => c.fiche);
+const WITH_FICHE = activeCandidatures.filter((c) => c.fiche);
 
 /** Numeric answers on one shared axis; the rows below carry every value as text. A touch names the nearest dot(s). */
 function DotStrip({ question, rows }) {
@@ -59,7 +59,7 @@ export default function Comparer({ themeId }) {
       <PageTitle title="Les positions, question par question">
         <p className="lead">
           {WITH_FICHE.length} fiche{WITH_FICHE.length > 1 ? "s" : ""} disponible{WITH_FICHE.length > 1 ? "s" : ""} sur{" "}
-          {candidatures.length} candidatures. Le comparateur se complète au fil des fiches.
+          {activeCandidatures.length} candidatures. Le comparateur se complète au fil des fiches.
         </p>
       </PageTitle>
 

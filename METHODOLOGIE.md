@@ -11,6 +11,8 @@ Une candidature a sa fiche si deux conditions sont réunies :
 
 Les personnes testées par les sondeurs mais non candidates (pas formellement déclarées, ou battues à une primaire) n'ont pas de fiche. Elles sont listées avec la raison et la source dans `content/perimetre.json`.
 
+Une candidature retirée garde sa fiche, consultable en archive avec la mention « Candidature retirée ». Elle sort de la liste principale, du comparateur et des moyennes de sondages.
+
 Le périmètre est revu chaque semaine. Quand le Conseil constitutionnel publiera la liste officielle (mars 2027), elle remplacera ce critère.
 
 ## Une grille identique pour tous

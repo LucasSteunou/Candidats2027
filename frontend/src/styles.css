@@ -502,6 +502,31 @@ blockquote {
   font-size: var(--text-sm);
 }
 
+/* Withdrawn candidatures, kept as an archive */
+.withdrawn {
+  display: grid;
+  gap: var(--space-xs);
+}
+
+.withdrawn h2 {
+  font-size: var(--text-lg);
+}
+
+.withdrawn-list {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.withdrawn-list li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0 var(--space-sm);
+  border-top: var(--rule-hair) solid var(--color-rule);
+}
+
 /* Fiche */
 .fiche-head {
   display: grid;

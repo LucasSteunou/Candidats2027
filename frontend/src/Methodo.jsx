@@ -1,5 +1,5 @@
 import methodologie from "../../METHODOLOGIE.md?raw";
-import { fmtDate, perimetre } from "./content.js";
+import { activeCandidatures, fmtDate, perimetre } from "./content.js";
 import { Card, Fold, PageTitle, ReportLink, STATUT_CANDIDATURE, SourceChips } from "./ui.jsx";
 
 const INLINE = /(\*\*[^*]+\*\*|`[^`]+`|\[[^\]]+\]\([^)]+\))/g;
@@ -69,7 +69,7 @@ export default function Methodo() {
           <SourceChips ids={perimetre.scrutin.sources} registry={registry} />
         </p>
         <div className="fold-list">
-          <Fold title="Candidatures retenues" level="h3" note={`${perimetre.candidatures.length} candidatures`}>
+          <Fold title="Candidatures retenues" level="h3" note={`${activeCandidatures.length} candidatures${perimetre.candidatures.length > activeCandidatures.length ? `, ${perimetre.candidatures.length - activeCandidatures.length} retirée(s)` : ""}`}>
             <ul className="plain-list fold-body">
               {perimetre.candidatures.map((c) => (
                 <li key={c.id}>

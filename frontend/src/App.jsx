@@ -5,7 +5,7 @@ import Comparer from "./Comparer.jsx";
 import Fiche from "./Fiche.jsx";
 import Methodo from "./Methodo.jsx";
 import SondagesView from "./Sondages.jsx";
-import { candidatePolls, candidatures, fmtDate, fmtPct, perimetre } from "./content.js";
+import { activeCandidatures, candidatePolls, candidatures, fmtDate, fmtPct, isActive, perimetre } from "./content.js";
 import { Card, PageTitle, STATUT_CANDIDATURE, SourceProvider, go } from "./ui.jsx";
 
 function routeFromHash() {
@@ -36,7 +36,7 @@ function Candidats() {
       <PageTitle title="Les candidatures">
         <p className="lead">
           1er tour le {fmtDate(perimetre.scrutin.premier_tour)}
-          {days > 0 ? ` (J−${days})` : ""}. {candidatures.length} candidatures retenues selon une règle publique (voir
+          {days > 0 ? ` (J−${days})` : ""}. {activeCandidatures.length} candidatures retenues selon une règle publique (voir
           Méthodo), par ordre alphabétique.
         </p>
       </PageTitle>
@@ -45,7 +45,7 @@ function Candidats() {
           <span>Candidature</span>
           <span>Sondages, moyenne</span>
         </li>
-        {candidatures.map((c) => {
+        {activeCandidatures.map((c) => {
           const latest = candidatePolls(c.id).latest;
           const body = (
             <>
@@ -79,6 +79,29 @@ function Candidats() {
             </li>
           );
         })}
+      </ul>
+      <Withdrawn />
+    </section>
+  );
+}
+
+/** Withdrawn candidatures: their fiches stay readable as an archive. */
+function Withdrawn() {
+  const withdrawn = candidatures.filter((c) => !isActive(c) && c.fiche);
+  if (!withdrawn.length) return null;
+  return (
+    <section className="withdrawn" aria-labelledby="withdrawn-title">
+      <h2 id="withdrawn-title">Candidatures retirées</h2>
+      <p className="muted">Leurs fiches restent consultables telles qu'elles étaient au moment du retrait.</p>
+      <ul className="withdrawn-list">
+        {withdrawn.map((c) => (
+          <li key={c.id}>
+            <button type="button" className="text-link" onClick={() => go(`/c/${c.id}`)}>
+              {c.nom}
+            </button>
+            <span className="muted">{c.fiche.parti.nom}</span>
+          </li>
+        ))}
       </ul>
     </section>
   );

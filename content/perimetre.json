@@ -1,5 +1,5 @@
 {
-  "maj": "2026-11-16",
+  "maj": "2026-11-21",
   "regle": "Fiche si la personne a formellement déclaré sa candidature (ou a été désignée par son parti) ET a été testée dans au moins un sondage de premier tour réalisé dans les 60 derniers jours, dont la notice est publiée par la Commission des sondages.",
   "fenetre_sondages_jours": 60,
   "scrutin": {
@@ -108,6 +108,15 @@
       "sources_sondage": ["cds-10371-opinionway"]
     },
     {
+      "id": "riner",
+      "nom": "Teddy Riner",
+      "etiquette_sondeurs": "Sans étiquette",
+      "statut": "declare",
+      "precision": "Candidature annoncée le 9 novembre 2026 dans Le Parisien et sur les réseaux sociaux, sans parti.",
+      "sources_candidature": ["lcp-riner-2026-11-09"],
+      "sources_sondage": ["cds-10371-opinionway"]
+    },
+    {
       "id": "roussel",
       "nom": "Fabien Roussel",
       "etiquette_sondeurs": "Parti Communiste Français",
@@ -120,9 +129,9 @@
       "id": "ruffin",
       "nom": "François Ruffin",
       "etiquette_sondeurs": "Debout !",
-      "statut": "declare",
-      "precision": "Candidat.",
-      "sources_candidature": ["ps-candidats-2026-10-14"],
+      "statut": "retire",
+      "precision": "Candidat déclaré ; a retiré sa candidature le 21 novembre 2026, sans soutenir aucun candidat. Sa fiche reste consultable en archive.",
+      "sources_candidature": ["ps-candidats-2026-10-14", "lcp-ruffin-retrait-2026-11-21"],
       "sources_sondage": ["cds-10368-cluster17"]
     },
     {
@@ -194,11 +203,6 @@
       "nom": "Christine Lagarde",
       "raison": "Testée par Cluster17 (hypothèses 3 et 4, 9-10 novembre) ; aucune déclaration de candidature trouvée.",
       "sources": ["cds-10368-cluster17"]
-    },
-    {
-      "nom": "Teddy Riner",
-      "raison": "A déclaré sa candidature le 9 novembre 2026 et est testé depuis (Cluster17, OpinionWay) : remplit les deux critères, fiche à créer.",
-      "sources": ["lcp-riner-2026-11-09", "cds-10371-opinionway"]
     }
   ],
   "cites_sans_sondage": {
@@ -225,6 +229,7 @@
     "cds-10250-ipsos": { "titre": "Notice n° 10250 - Ipsos BVA pour Le Parisien (terrain du 31 août au 2 septembre 2026)", "editeur": "Commission des sondages", "auteur": null, "date": "2026-09-05", "consulte": "2026-10-23", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10250-pres-iv-ipsos-bva-le-parisien-5-septembre.pdf", "type": "sondage" },
     "cds-10284-ifop": { "titre": "Notice n° 10284 - Ifop-Fiducial pour LCI, Le Figaro et Sud Radio (terrain du 25 au 29 septembre 2026)", "editeur": "Commission des sondages", "auteur": null, "date": "2026-09-30", "consulte": "2026-10-31", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10284-pres-barometre-election-v6-ifop-30-septembre.pdf", "type": "sondage" },
     "lcp-villepin-2026-10-23": { "titre": "Présidentielle: Dominique de Villepin annonce avoir \"dépassé la barre des 300 signatures\"", "editeur": "LCP", "auteur": null, "date": "2026-10-23", "consulte": "2026-10-31", "url": "https://lcp.fr/actualites/presidentielle-dominique-de-villepin-annonce-avoir-depasse-la-barre-des-300-signatures", "type": "presse" },
+    "lcp-ruffin-retrait-2026-11-21": { "titre": "François Ruffin se retire de la présidentielle 2027 sans soutenir aucun des candidats de gauche encore en lice", "editeur": "LCP", "auteur": "LCP.fr (avec AFP)", "date": "2026-11-21", "consulte": "2026-11-21", "url": "https://lcp.fr/actualites/francois-ruffin-se-retire-de-la-presidentielle-2027-sans-soutenir-aucun-des-candidats-de", "type": "presse" },
     "lcp-riner-2026-11-09": {"titre": "Le judoka Teddy Riner annonce sa candidature à l'élection présidentielle de 2027", "editeur": "LCP", "auteur": null, "date": "2026-11-09", "consulte": "2026-11-16", "url": "https://lcp.fr/actualites/le-judoka-teddy-riner-annonce-sa-candidature-a-l-election-presidentielle-de-2027-444920", "type": "presse"},
     "cds-10368-cluster17": {"titre": "Notice n° 10368 - Cluster17 pour Politico (terrain du 9 au 10 novembre 2026)", "editeur": "Commission des sondages", "date": "2026-11-11", "consulte": "2026-11-16", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10368-pres-iv-cluster17-politico-11-novembre.pdf", "type": "sondage", "auteur": null},
     "cds-10371-opinionway": {"titre": "Notice n° 10371 - OpinionWay pour CNews (terrain du 10 au 12 novembre 2026)", "editeur": "Commission des sondages", "date": "2026-11-12", "consulte": "2026-11-16", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10371-pres-iv-opinionway-cnews-12-novembre.pdf", "type": "sondage", "auteur": null}

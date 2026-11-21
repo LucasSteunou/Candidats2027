@@ -1,10 +1,15 @@
 import "@testing-library/jest-dom/vitest";
-import { fireEvent, render, screen, within } from "@testing-library/react";
+import { cleanup, fireEvent, render, screen, within } from "@testing-library/react";
 import { beforeEach, expect, test } from "vitest";
 
 import App from "./App.jsx";
 import { sondages } from "./content.js";
 import { cutText, withUnits } from "./ui.jsx";
+
+const cleanupAndOpen = (hash) => {
+  cleanup();
+  return at(hash);
+};
 
 const at = (hash) => {
   window.location.hash = hash;
@@ -20,6 +25,17 @@ test("lists every candidature with a link to its fiche", () => {
   at("/");
   expect(screen.getByRole("button", { name: /Jean-Luc Mélenchon/ })).toBeInTheDocument();
   expect(screen.getByRole("button", { name: /Karim Bouamrane/ })).toBeInTheDocument();
+});
+
+test("a withdrawn candidature keeps its fiche as an archive, outside the comparator", () => {
+  const { unmount } = at("/");
+  expect(screen.getByRole("heading", { name: "Candidatures retirées" })).toBeInTheDocument();
+  fireEvent.click(screen.getByRole("button", { name: "François Ruffin" }));
+  unmount();
+  at("/c/ruffin");
+  expect(screen.getByText(/^Candidature retirée\./)).toBeInTheDocument();
+  cleanupAndOpen("/comparer/economie");
+  expect(screen.queryByRole("button", { name: "François Ruffin" })).not.toBeInTheDocument();
 });
 
 test("a fiche shows the programme and opens a source sheet", () => {

@@ -1,7 +1,7 @@
 {
   "id": "ruffin",
   "nom": "François Ruffin",
-  "maj": "2026-10-31",
+  "maj": "2026-11-21",
   "parti": {
     "nom": "Debout !",
     "sigle": null,
@@ -18,8 +18,8 @@
     }
   },
   "resume": {
-    "texte": "Fondateur du journal Fakir et réalisateur de « Merci Patron ! », François Ruffin est député de la Somme depuis 2017, avec La France insoumise jusqu'en 2024 puis au sein du groupe Écologiste et social. Il préside le mouvement Debout ! et s'est déclaré candidat en janvier 2026, d'abord à une primaire de la gauche. Sa campagne « Nous Président ! » publie son programme en cahiers thématiques : statut des travailleurs essentiels, relocalisation industrielle, logement, agriculture, écologie, éducation et finances publiques.",
-    "sources": ["sudradio-bio-ruffin", "nous-programme"]
+    "texte": "Fondateur du journal Fakir et réalisateur de « Merci Patron ! », François Ruffin est député de la Somme depuis 2017, avec La France insoumise jusqu'en 2024 puis au sein du groupe Écologiste et social. Il préside le mouvement Debout ! et s'est déclaré candidat en janvier 2026, d'abord à une primaire de la gauche. Sa campagne « Nous Président ! » publie son programme en cahiers thématiques : statut des travailleurs essentiels, relocalisation industrielle, logement, agriculture, écologie, éducation et finances publiques. Il a retiré sa candidature le 21 novembre 2026, sans soutenir aucun candidat.",
+    "sources": ["sudradio-bio-ruffin", "nous-programme", "lcp-ruffin-retrait-2026-11-21"]
   },
   "histoire": {
     "parti": [
@@ -30,7 +30,8 @@
       { "date": "1975-10-18", "titre": "Naissance", "texte": "Naît le 18 octobre 1975 à Calais. Diplômé du Centre de formation des journalistes en 2002.", "sources": ["sudradio-bio-ruffin"] },
       { "date": "1999", "titre": "Fondateur de Fakir", "texte": "Fonde à Amiens le journal Fakir ; collabore au Monde diplomatique et à l'émission « Là-bas si j'y suis ». Son documentaire « Merci Patron ! » obtient le César du meilleur film documentaire en 2017.", "sources": ["sudradio-bio-ruffin"] },
       { "date": "2017", "titre": "Député de la Somme", "texte": "Élu député de la 1re circonscription de la Somme, réélu en 2022 et 2024 ; membre du groupe La France insoumise jusqu'en 2024, puis du groupe Écologiste et social.", "sources": ["sudradio-bio-ruffin"] },
-      { "date": "2026-01", "titre": "Candidature pour 2027", "texte": "Se déclare candidat à une primaire de la gauche pour la présidentielle de 2027.", "sources": ["sudradio-bio-ruffin"] }
+      { "date": "2026-01", "titre": "Candidature pour 2027", "texte": "Se déclare candidat à une primaire de la gauche pour la présidentielle de 2027.", "sources": ["sudradio-bio-ruffin"] },
+      { "date": "2026-11-21", "titre": "Retrait de la candidature", "texte": "Faute d'avoir obtenu une primaire de toute la gauche, il retire sa candidature : « les appareils ont rejeté cette grande primaire et le duel des deux gauches irréconciliables est installé ». Il ne soutient aucun candidat et souhaite « bon courage et bonne campagne » aux « candidats de gauche encore en lice » ; son mouvement Debout! poursuit son action.", "sources": ["lcp-ruffin-retrait-2026-11-21"] }
     ]
   },
   "popularite": {
@@ -55,8 +56,8 @@
   ],
   "programme": {
     "etat": {
-      "texte": "Le programme est publié par étapes sur le site de campagne « Nous Président ! » : huit cahiers thématiques (travailleurs essentiels, probité, loisirs, agriculture, écologie, logement, industrie, éducation) et trois plans d'action (data centers, urgence climat, redressement des finances publiques), d'avril à octobre 2026. Il ne couvre pas encore la sécurité, l'immigration, la santé, l'Europe, la défense ni la diplomatie ; sur ces sujets, la fiche ne retient que des déclarations sourcées.",
-      "sources": ["nous-programme", "nous-plans", "nous-education"]
+      "texte": "Candidature retirée le 21 novembre 2026 : le programme reste affiché tel qu'il était à cette date. Le programme est publié par étapes sur le site de campagne « Nous Président ! » : huit cahiers thématiques (travailleurs essentiels, probité, loisirs, agriculture, écologie, logement, industrie, éducation) et trois plans d'action (data centers, urgence climat, redressement des finances publiques), d'avril à octobre 2026. Il ne couvre pas encore la sécurité, l'immigration, la santé, l'Europe, la défense ni la diplomatie ; sur ces sujets, la fiche ne retient que des déclarations sourcées.",
+      "sources": ["nous-programme", "nous-plans", "nous-education", "lcp-ruffin-retrait-2026-11-21"]
     },
     "themes": {
       "economie": {
@@ -175,6 +176,7 @@
   },
   "sources": {
     "debout-mouvement": { "titre": "Debout! : un mouvement, une force, une organisation", "editeur": "Debout !", "date": null, "consulte": "2026-10-26", "url": "https://debout.fr/notre-mouvement/", "type": "parti" },
+    "lcp-ruffin-retrait-2026-11-21": { "titre": "François Ruffin se retire de la présidentielle 2027 sans soutenir aucun des candidats de gauche encore en lice", "editeur": "LCP", "auteur": "LCP.fr (avec AFP)", "date": "2026-11-21", "consulte": "2026-11-21", "url": "https://lcp.fr/actualites/francois-ruffin-se-retire-de-la-presidentielle-2027-sans-soutenir-aucun-des-candidats-de", "type": "presse" },
     "nous-education": { "titre": "Cahier de campagne n° 8 : éducation, une école de tous les savoirs", "editeur": "Campagne François Ruffin 2027 (Nous Président !)", "date": null, "consulte": "2026-10-31", "url": "https://nouspresident.fr/education-une-ecole-de-tous-les-savoirs/", "type": "parti" },
     "nous-programme": { "titre": "Notre programme", "editeur": "Campagne François Ruffin 2027 (Nous Président !)", "date": "2026-10-12", "consulte": "2026-10-26", "url": "https://nouspresident.fr/notre-programme/", "type": "parti" },
     "nous-plans": { "titre": "Nos plans d'action", "editeur": "Campagne François Ruffin 2027 (Nous Président !)", "date": "2026-10-08", "consulte": "2026-10-26", "url": "https://nouspresident.fr/nos-plans-daction/", "type": "parti" },

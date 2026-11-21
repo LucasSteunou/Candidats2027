@@ -8,6 +8,7 @@ import {
   fmtNumber,
   fmtPct,
   fmtTimestamp,
+  isActive,
   lastName,
   latestPollDate,
   pollDomain,
@@ -25,6 +26,8 @@ const M = { top: 10, right: 46, bottom: 22, left: 26 };
 const MONTHS = ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."];
 
 const ROWS = candidatures.map((c) => ({ c, ...candidatePolls(c.id) }));
+// The ranking and the trend list show active candidatures; a withdrawn one keeps its chart on its fiche.
+const ACTIVE_ROWS = ROWS.filter((r) => isActive(r.c));
 const Y_MAX = Math.ceil(Math.max(...ROWS.flatMap((r) => r.points.flatMap((p) => p.scores))) / 10) * 10;
 
 function monthTicks([start, end]) {
@@ -141,8 +144,8 @@ export function CandidateTrend({ id }) {
 }
 
 function AverageBars() {
-  const ranked = ROWS.filter((r) => r.latest).sort((a, b) => b.latest.value - a.latest.value);
-  const absent = ROWS.filter((r) => !r.latest);
+  const ranked = ACTIVE_ROWS.filter((r) => r.latest).sort((a, b) => b.latest.value - a.latest.value);
+  const absent = ACTIVE_ROWS.filter((r) => !r.latest);
   const max = ranked[0]?.latest.value ?? 1;
   return (
     <>
@@ -251,7 +254,7 @@ export default function SondagesView() {
               moyenne sur {WINDOW_DAYS} jours. Même échelle pour tous.
             </p>
             <div className="multiples">
-              {ROWS.filter((r) => r.points.length).map(({ c, line }) => (
+              {ACTIVE_ROWS.filter((r) => r.points.length).map(({ c, line }) => (
                 <Fold key={c.id} title={c.nom} note={`Moyenne ${fmtPct(line.at(-1).value)}`}>
                   <div className="fold-body">
                     <CandidateTrend id={c.id} />

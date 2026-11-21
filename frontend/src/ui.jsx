@@ -120,6 +120,7 @@ export const STATUT_CANDIDATURE = {
   declare: "Candidature déclarée",
   investi: "Désigné·e par son parti",
   officiel: "Candidature officielle",
+  retire: "Candidature retirée",
 };
 
 const SOURCE_TYPE = {

@@ -12,6 +12,10 @@ export { perimetre, sondages };
 // perimetre.json is kept in alphabetical order by last name (checked by the Python tests).
 export const candidatures = perimetre.candidatures.map((c) => ({ ...c, fiche: fiches[c.id] }));
 
+// A withdrawn candidature keeps its fiche as an archive, outside the lists, the comparator and the poll averages.
+export const isActive = (c) => c.statut !== "retire";
+export const activeCandidatures = candidatures.filter(isActive);
+
 const DAY = 86_400_000;
 export const WINDOW_DAYS = 30;
 

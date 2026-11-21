@@ -1,0 +1,173 @@
+{
+  "id": "riner",
+  "nom": "Teddy Riner",
+  "maj": "2026-11-21",
+  "parti": {
+    "nom": "Sans parti (campagne « La France qu'on veut »)",
+    "sigle": null,
+    "fondation": "2026-11-09",
+    "positionnement": {
+      "auto_definition": {
+        "texte": "À la question de savoir s'il se sent de droite ou de gauche, il répond : « Ni l'un, ni l'autre. » Il refuse d'être « résigné à choisir parmi deux possibilités, celles des extrêmes », qu'il associe au Rassemblement national et à La France insoumise, et dit vouloir être « le président qui réconcilie et qui fédère ». Il ajoute : « Je ne suis pas un macroniste ».",
+        "sources": ["lcp-candidature-2026-11-09", "ps-candidature-2026-11-09", "belga-macroniste-2026-11-14"]
+      },
+      "nuance_ministere": {
+        "texte": "Pour les municipales de 2026, la circulaire du ministère de l'Intérieur regroupe les nuances politiques en six blocs : « extrême gauche », « gauche », « divers », « centre », « droite » et « extrême droite ». Teddy Riner, candidat sans parti depuis novembre 2026, ne s'est pas présenté à une élection : aucune nuance ne lui a été attribuée.",
+        "sources": ["ce-nuances-2026-02-27", "ps-candidature-2026-11-09"]
+      }
+    }
+  },
+  "resume": {
+    "texte": "Judoka quintuple champion olympique et onze fois champion du monde, Teddy Riner, 37 ans, a annoncé sa candidature le 9 novembre 2026 dans Le Parisien et dans une vidéo publiée sur les réseaux sociaux, sous le slogan « La France qu'on veut ». Candidat sans parti, il se dit « ni de droite, ni de gauche » et doit encore réunir 500 parrainages d'élus. Son programme n'est pas publié.",
+    "sources": ["lcp-candidature-2026-11-09", "ps-candidature-2026-11-09"]
+  },
+  "histoire": {
+    "parti": [
+      { "date": "2026-11-09", "titre": "Lancement de la campagne « La France qu'on veut »", "texte": "Candidat sans parti, il dit s'appuyer sur « un noyau dur d'une vingtaine de personnalités issues de la société civile, des fonctionnaires, des anciens ministres », sans les nommer, et chercher un QG de campagne.", "sources": ["lcp-candidature-2026-11-09", "ps-candidature-2026-11-09"] }
+    ],
+    "candidat": [
+      { "date": "2024", "titre": "Jeux olympiques de Paris", "texte": "Il devient le premier judoka triple champion olympique des poids lourds, pour un total de cinq titres olympiques et onze titres mondiaux. Il dit avoir pensé à une candidature à ce moment-là.", "sources": ["ps-candidature-2026-11-09", "lcp-candidature-2026-11-09"] },
+      { "date": "2026-11-09", "titre": "Candidature pour 2027", "texte": "« Je m'appelle Teddy Riner et je vous le dis, les yeux dans les yeux, je suis candidat à l'élection présidentielle », annonce-t-il dans une vidéo, avec un entretien au Parisien. Toujours en activité, il n'exclut pas de participer aux Jeux de Los Angeles en 2028, « si la fonction me le permet et si les Français m'y autorisent ».", "sources": ["lcp-candidature-2026-11-09", "ps-candidature-2026-11-09"] },
+      { "date": "2026-11-13", "titre": "Premier déplacement de campagne", "texte": "À l'hôpital Delafontaine de Saint-Denis, il dit être venu entendre les soignants : « J'ai écouté, j'ai noté, le temps de la réflexion va venir ».", "sources": ["afp-hopital-2026-11-13", "belga-macroniste-2026-11-14"] },
+      { "date": "2026-11-14", "titre": "Réponse aux félicitations d'Emmanuel Macron", "texte": "Au salon du Made in France : « Moi je ne suis pas l'envoyé du président. Je ne suis pas un macroniste. » Il qualifie les félicitations du chef de l'État d'« un baiser empoisonné ».", "sources": ["belga-macroniste-2026-11-14"] }
+    ]
+  },
+  "popularite": {
+    "chiffres_cles": [
+      { "libelle": "Potentiel électoral (Toluna Harris Interactive pour L'Opinion)", "valeur": "10 % (−8 points depuis juin 2025)", "date": "2026-10-30", "sources": ["ps-capital-sympathie-2026-11-10"] },
+      { "libelle": "Vues cumulées de la vidéo de candidature", "valeur": "20 millions", "date": "2026-11-10", "sources": ["ps-capital-sympathie-2026-11-10"] },
+      { "libelle": "Intentions de vote quand sa candidature avait été testée (Verian pour L'Hémicycle)", "valeur": "3 %", "date": "2025-11", "sources": ["ps-capital-sympathie-2026-11-10"] }
+    ],
+    "series": []
+  },
+  "perception": [
+    { "type": "personnalite", "auteur": "Emmanuel Macron, président de la République", "texte": "Sur France 5, le jour de l'annonce, le chef de l'État salue la candidature d'« un grand champion ».", "citation": "« Je suis très heureux […] que quelqu'un comme Teddy Riner, qui est un grand champion, décide de s'engager dans ce débat présidentiel et d'y apporter ses convictions, ses idées, son talent, ça ne peut qu'apporter au pays »", "date": "2026-11-09", "sources": ["ps-capital-sympathie-2026-11-10"] },
+    { "type": "organisation", "auteur": "Erwan Lestrohan, directeur conseil à Odoxa", "texte": "Il rappelle deux conditions d'une candidature victorieuse, une relation positive avec les Français et une expertise politique, et estime que Teddy Riner remplit la première mais pas encore la seconde.", "citation": "« Teddy Riner coche la première case mais pas la deuxième. »", "date": "2026-11-10", "sources": ["ps-capital-sympathie-2026-11-10"] }
+  ],
+  "controverses": [
+    {
+      "titre": "Redressement fiscal lié à sa société de location de voitures",
+      "date": "2026-10-15",
+      "faits": "Le 15 octobre 2026, la cour administrative d'appel de Versailles a confirmé un redressement fiscal de 2019 lié à la société de location de voitures de luxe qu'il détient ; le tribunal administratif de Cergy-Pontoise avait déjà rejeté sa contestation. Selon la décision citée par L'Équipe, il « ne pouvait ignorer que les frais et charges afférents à ces véhicules n'avaient pas été engagés par la société pour la réalisation d'opérations conformes à son objet social », et l'administration avait relevé une « intention délibérée » de « minorer l'impôt ». Il s'agit d'un litige fiscal devant la justice administrative, sans poursuite pénale.",
+      "statut_judiciaire": "aucune-procedure",
+      "reponse": "Pas de réponse publique trouvée : le 3 novembre, selon Media365, ni Teddy Riner ni ses avocats n'avaient réagi. Devant le tribunal, les avocats de la société avaient expliqué que les véhicules avaient été peu loués en 2017 à cause du contexte d'attentats, qui avait éloigné la clientèle étrangère.",
+      "sources": ["m365-fisc-2026-11-03", "ps-capital-sympathie-2026-11-10"]
+    }
+  ],
+  "programme": {
+    "etat": {
+      "texte": "Pas de programme publié. Candidat depuis le 9 novembre 2026, Teddy Riner a donné ses premières orientations dans Le Parisien : réformer les retraites en gardant la répartition, augmenter le salaire net par des allégements de charges, permettre de travailler plus sans remettre en cause les 35 heures. Il dit préparer son programme avec son équipe ; la plupart des questions de la grille restent sans réponse.",
+      "sources": ["lcp-candidature-2026-11-09", "ps-capital-sympathie-2026-11-10", "pm-candidature-2026-11-09"]
+    },
+    "themes": {
+      "economie": {
+        "mesures": [
+          { "sous_theme": "pouvoir-achat", "intitule": "Augmenter le salaire net", "detail": "« augmenter le salaire net, réduire l'écart avec le brut » par des « allégements de charges », sans chiffrage ; permettre à ceux qui le veulent de travailler plus pour augmenter leurs revenus, sans « remettre en question » les 35 heures.", "origine": "declaration", "date": "2026-11", "sources": ["pm-candidature-2026-11-09", "ps-capital-sympathie-2026-11-10"] },
+          { "sous_theme": "retraites", "intitule": "Réformer les retraites", "detail": "Une réforme « en prenant en compte la démographie, tout en gardant notre système solidaire par répartition », appuyée sur des critères de pénibilité, sans exclure « une part de capitalisation ».", "origine": "declaration", "date": "2026-11", "sources": ["pm-candidature-2026-11-09", "lcp-candidature-2026-11-09"] }
+        ],
+        "reponses": {
+          "cout-net-programme": { "non_communique": "2026-11-21" },
+          "objectif-deficit": { "non_communique": "2026-11-21" },
+          "economies-depenses": { "non_communique": "2026-11-21" },
+          "impot-revenu": { "non_communique": "2026-11-21" },
+          "impot-patrimoine": { "non_communique": "2026-11-21" },
+          "droits-succession": { "non_communique": "2026-11-21" },
+          "taux-is": { "non_communique": "2026-11-21" },
+          "impots-production": { "non_communique": "2026-11-21" },
+          "age-legal": { "non_communique": "2026-11-21", "precision": "Favorable à une réforme « car le système actuel ne tient pas », sans âge de départ précisé.", "sources": ["ps-capital-sympathie-2026-11-10"] },
+          "duree-cotisation": { "non_communique": "2026-11-21" },
+          "financement-retraites": { "non_communique": "2026-11-21", "precision": "Pas de financement précisé ; il veut garder la répartition et n'exclut pas « une part de capitalisation ».", "sources": ["lcp-candidature-2026-11-09"] },
+          "smic": { "non_communique": "2026-11-21" },
+          "duree-travail": { "valeur": 35, "origine": "declaration", "date": "2026-11", "precision": "« Je veux aussi permettre aux Français qui le veulent d'augmenter leurs revenus en travaillant plus. En sortant du carcan figé des 35 heures, mais sans le remettre en question ».", "sources": ["pm-candidature-2026-11-09"] },
+          "assurance-chomage": { "non_communique": "2026-11-21" },
+          "prix-energie": { "non_communique": "2026-11-21" },
+          "encadrement-prix": { "non_communique": "2026-11-21" },
+          "libre-echange": { "non_communique": "2026-11-21" },
+          "reindustrialisation": { "non_communique": "2026-11-21" }
+        }
+      },
+      "ecologie": {
+        "mesures": [],
+        "reponses": {
+          "nucleaire": { "non_communique": "2026-11-21" },
+          "renouvelables": { "non_communique": "2026-11-21" },
+          "neutralite-2050": { "non_communique": "2026-11-21" },
+          "thermique-2035": { "non_communique": "2026-11-21" }
+        }
+      },
+      "social": {
+        "mesures": [],
+        "reponses": {
+          "acces-soins": { "non_communique": "2026-11-21" },
+          "installation-medecins": { "non_communique": "2026-11-21" },
+          "mesure-ecole": { "non_communique": "2026-11-21" },
+          "remuneration-enseignants": { "non_communique": "2026-11-21" },
+          "encadrement-loyers": { "non_communique": "2026-11-21" },
+          "logements-sociaux": { "non_communique": "2026-11-21" },
+          "rsa": { "non_communique": "2026-11-21" }
+        }
+      },
+      "securite": {
+        "mesures": [],
+        "reponses": {
+          "effectifs-forces-ordre": { "non_communique": "2026-11-21" },
+          "places-prison": { "non_communique": "2026-11-21" },
+          "peines-minimales": { "non_communique": "2026-11-21" },
+          "justice-mineurs": { "non_communique": "2026-11-21" },
+          "cannabis": { "non_communique": "2026-11-21" }
+        }
+      },
+      "immigration": {
+        "mesures": [],
+        "reponses": {
+          "titres-sejour": { "non_communique": "2026-11-21" },
+          "regularisations": { "non_communique": "2026-11-21" },
+          "demandes-asile": { "non_communique": "2026-11-21" },
+          "droit-du-sol": { "non_communique": "2026-11-21" },
+          "ame": { "non_communique": "2026-11-21" },
+          "priorite-nationale": { "non_communique": "2026-11-21" },
+          "referendum-immigration": { "non_communique": "2026-11-21" }
+        }
+      },
+      "institutions": {
+        "mesures": [],
+        "reponses": {
+          "mode-scrutin": { "non_communique": "2026-11-21" },
+          "ric": { "non_communique": "2026-11-21" },
+          "constitution": { "non_communique": "2026-11-21" },
+          "mandat-presidentiel": { "non_communique": "2026-11-21" }
+        }
+      },
+      "international": {
+        "mesures": [],
+        "reponses": {
+          "relation-ue": { "non_communique": "2026-11-21" },
+          "euro": { "non_communique": "2026-11-21" },
+          "budget-defense": { "non_communique": "2026-11-21" },
+          "otan": { "non_communique": "2026-11-21" },
+          "service-national": { "non_communique": "2026-11-21" },
+          "ukraine": { "non_communique": "2026-11-21" },
+          "proche-orient": { "non_communique": "2026-11-21" }
+        }
+      },
+      "agriculture": {
+        "mesures": [],
+        "reponses": {
+          "revenu-agricole": { "non_communique": "2026-11-21" },
+          "pesticides": { "non_communique": "2026-11-21" },
+          "pac": { "non_communique": "2026-11-21" }
+        }
+      }
+    }
+  },
+  "sources": {
+    "lcp-candidature-2026-11-09": { "titre": "Le judoka Teddy Riner annonce sa candidature à l'élection présidentielle de 2027", "editeur": "LCP", "auteur": "Anne-Charlotte Dusseaulx", "date": "2026-11-09", "consulte": "2026-11-21", "url": "https://lcp.fr/actualites/le-judoka-teddy-riner-annonce-sa-candidature-a-l-election-presidentielle-de-2027-444920", "type": "presse" },
+    "ps-candidature-2026-11-09": { "titre": "Présidentielle 2027 : le judoka Teddy Riner se lance dans la course à l'Élysée, au milieu d'une multitude de candidats", "editeur": "Public Sénat", "auteur": "Emma Bador-Fritche", "date": "2026-11-09", "consulte": "2026-11-21", "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-le-judoka-teddy-riner-se-lance-dans-la-course-a-lelysee-au-milieu-dune-multitude-de-candidats", "type": "presse" },
+    "ps-capital-sympathie-2026-11-10": { "titre": "Présidentielle 2027 : Teddy Riner au défi de transformer « son capital sympathie en capital électoral »", "editeur": "Public Sénat", "auteur": "Simon Barbarit", "date": "2026-11-10", "consulte": "2026-11-21", "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-teddy-riner-au-defi-de-transformer-son-capital-sympathie-en-capital-electoral", "type": "presse" },
+    "pm-candidature-2026-11-09": { "titre": "\"J'ai pris conscience que je devais apporter ma pierre à l'édifice\" : le judoka Teddy Riner est officiellement candidat à la présidentielle française", "editeur": "Paris Match", "auteur": "La Rédaction Paris Match France", "date": "2026-11-09", "consulte": "2026-11-21", "url": "https://www.parismatch.be/actualites/people/2026/11/09/jai-pris-conscience-que-je-devais-apporter-ma-pierre-a-ledifice-le-judoka-teddy-riner-est-officiellement-candidat-a-la-presidentielle-francaise-25WU54Y6GFC3XET6O7WVJDDNSQ/", "type": "presse" },
+    "afp-hopital-2026-11-13": { "titre": "Teddy Riner débute sa campagne présidentielle dans un hôpital : \"J'ai écouté, j'ai noté, le temps de la réflexion va venir\"", "editeur": "Paris Match Belgique (AFP)", "auteur": "AFP", "date": "2026-11-13", "consulte": "2026-11-21", "url": "https://www.parismatch.be/actualites/monde/2026/11/13/teddy-riner-debute-sa-campagne-presidentielle-dans-un-hopital-jai-ecoute-jai-note-le-temps-de-la-reflexion-va-venir-ZX2IYQKNZZAEJD72XUF2ZVSDTQ/", "type": "presse" },
+    "belga-macroniste-2026-11-14": { "titre": "Teddy Riner, candidat à l'Elysée: \"Les félicitations d'Emmanuel Macron ? Un baiser empoisonné\"", "editeur": "Paris Match Belgique (Belga)", "auteur": "Belga", "date": "2026-11-14", "consulte": "2026-11-21", "url": "https://www.parismatch.be/actualites/monde/2026/11/14/teddy-riner-candidat-a-lelysee-les-felicitations-demmanuel-macron-un-baiser-empoisonne-J5TWSNPCUVDZFGFCDNHBLZ4SXQ/", "type": "presse" },
+    "m365-fisc-2026-11-03": { "titre": "Riner perd son procès contre le fisc", "editeur": "Media365 (Orange Sports)", "auteur": "Mathieu Armand", "date": "2026-11-03", "consulte": "2026-11-21", "url": "https://sports.orange.fr/plus-de-sport/sports-de-combat/article/riner-perd-son-proces-contre-le-fisc-exclu-CNT000002twSOA.html", "type": "presse" },
+    "ce-nuances-2026-02-27": { "titre": "Décision n° 512694 sur la circulaire relative aux nuances politiques des élections municipales de 2026", "editeur": "Conseil d'État", "date": "2026-02-27", "consulte": "2026-11-21", "url": "https://conseil-etat.fr/Media/actualites/documents/2026/fevrier-2026/512694.pdf", "type": "justice" }
+  }
+}

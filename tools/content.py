@@ -223,7 +223,7 @@ class Candidature(Model):
     id: str
     nom: str
     etiquette_sondeurs: str | None
-    statut: Literal["declare", "investi", "officiel"]
+    statut: Literal["declare", "investi", "officiel", "retire"]  # "retire": fiche kept as an archive
     precision: str
     sources_candidature: Refs
     sources_sondage: Refs
