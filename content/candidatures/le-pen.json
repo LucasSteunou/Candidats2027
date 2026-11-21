@@ -1,7 +1,7 @@
 {
   "id": "le-pen",
   "nom": "Marine Le Pen",
-  "maj": "2026-10-31",
+  "maj": "2026-11-21",
   "parti": {
     "nom": "Rassemblement national",
     "sigle": "RN",
@@ -53,6 +53,14 @@
   ],
   "controverses": [
     {
+      "titre": "Soupçons de fuites d'enquêtes vers le RN",
+      "date": "2026-07-27",
+      "faits": "Le parquet de Paris a ouvert le 27 juillet 2026 une information judiciaire « portant sur des faits de violation du secret professionnel, violation du secret de l'enquête et recel de ces délits », après la découverte d'un document confidentiel du ministère de l'Intérieur lors d'une perquisition menée dans une autre enquête, conduite par le parquet européen. Le ministère a été perquisitionné fin juillet et le siège du RN le 9 novembre ; selon Le Monde, cité par LCP et Public Sénat, les enquêteurs s'interrogent sur le rôle de l'ancien secrétaire général du ministère, Hugues Moutouh, aujourd'hui préfet du Loiret. Le parquet précise qu'« aucune mise en examen n'est intervenue à ce stade ».",
+      "statut_judiciaire": "enquete",
+      "reponse": "Pas de réponse publique de Marine Le Pen trouvée. Pour le RN, son vice-président Bruno Bilde déclare : « Le RN ne commentera pas cette affaire en cours et rappelle le principe du secret de l'instruction ».",
+      "sources": ["lcp-fuites-2026-11-20", "ps-fuites-2026-11-20"]
+    },
+    {
       "titre": "Assistants des eurodéputés du FN",
       "date": "2026-07-07",
       "faits": "Selon la justice, entre 2004 et 2016, des assistants payés par le Parlement européen travaillaient en réalité pour le parti. Condamnée le 31 mars 2025 en première instance à quatre ans de prison dont deux ferme, 100 000 € d'amende et cinq ans d'inéligibilité, Marine Le Pen est condamnée en appel le 7 juillet 2026 pour détournement de fonds publics : trois ans de prison dont deux avec sursis (un an ferme sous bracelet électronique), 100 000 € d'amende et 45 mois d'inéligibilité dont 30 avec sursis. La cour juge la période d'inéligibilité ferme déjà purgée, ce qui lui permet de se présenter. Le 15 juillet 2026, le parquet général de la cour d'appel de Paris annonce qu'il ne se pourvoira pas en cassation. La Cour de cassation indique qu'elle « pourrait » se prononcer sur le pourvoi de Marine Le Pen « au plus tard début avril 2027 », un calendrier « susceptible d'évoluer en fonction des facteurs procéduraux ».",
@@ -87,12 +95,13 @@
   ],
   "programme": {
     "etat": {
-      "texte": "Programme 2027 en cours de finalisation. La candidate a présenté sa trajectoire budgétaire le 6 octobre 2026 et doit détailler sa réforme des retraites le 17 novembre 2026. Les autres positions viennent de ses déclarations de 2026 ou de son programme de 2022 (badge « Ancien programme »). Un livret économique du RN présenté comme « la version 2022 du programme présidentiel de Marine Le Pen mis à jour » sert de « base de travail ».",
-      "sources": ["ps-140md-2026-10-06", "ps-union-nationale-2026-10-25", "rn-livret-entreprise"]
+      "texte": "Programme 2027 en cours de finalisation. La candidate a présenté sa trajectoire budgétaire le 6 octobre 2026, puis sa réforme des retraites le 17 novembre 2026. Les autres positions viennent de ses déclarations de 2026 ou de son programme de 2022 (badge « Ancien programme »). Un livret économique du RN présenté comme « la version 2022 du programme présidentiel de Marine Le Pen mis à jour » sert de « base de travail ».",
+      "sources": ["ps-140md-2026-10-06", "ps-union-nationale-2026-10-25", "rn-livret-entreprise", "ps-retraites-2026-11-17"]
     },
     "themes": {
       "economie": {
         "mesures": [
+          { "sous_theme": "retraites", "intitule": "Réforme des retraites : départ de 60 à 62 ans et capitalisation obligatoire", "detail": "Présentée le 17 novembre 2026 : âge de départ de 60 à 62 ans selon l'âge d'entrée dans la vie active, abrogation de la réforme de 2023 au 1er janvier 2028 ; décote portée à 5 % par trimestre manquant (dans la limite de 50 %), trimestre validé seulement après un travail « au moins à mi-temps », moins de droits acquis au chômage, majoration de 10 % supprimée progressivement pour les pères et portée à 12 % pour les mères ; pilier de capitalisation obligatoire pour les actifs de 52 ans au plus, visant « un fonds de quasi 900 milliards d'euros en une génération ». En l'absence de majorité absolue : « nous soumettrions cette réforme par référendum ».", "origine": "declaration", "date": "2026-11", "chiffrages": [ { "auteur": "Rassemblement national", "montant": 18.6, "unite": "Md€ de coût brut en 2032", "sources": ["ps-retraites-2026-11-17"] }, { "auteur": "Rassemblement national", "montant": 12, "unite": "Md€ par an de cotisations réorientées vers la capitalisation", "sources": ["lcp-capitalisation-2026-11-17"] } ], "sources": ["ps-retraites-2026-11-17", "lcp-capitalisation-2026-11-17", "fi-retraites-2026-11-18"] },
           { "sous_theme": "finances-publiques", "intitule": "Plan d'économies d'ici 2032", "detail": "Économies portant sur l'immigration, la réorganisation de l'État (fin de « la quasi-totalité des agences »), les collectivités locales (suppression des EPCI et des métropoles), la contribution française à l'UE et les retraites. Montants selon le RN.", "origine": "declaration", "date": "2026-10",
             "chiffrages": [
               { "auteur": "Rassemblement national", "montant": 140, "unite": "Md€ d'économies par an atteintes en 2032", "sources": ["ps-140md-2026-10-06"] },
@@ -114,9 +123,9 @@
           "droits-succession": { "valeur": "Baisse", "origine": "ancien-programme", "date": "2022", "precision": "Supprimer les droits sur l'héritage direct pour les familles modestes et les classes moyennes ; donations exonérées jusqu'à 100 000 € par enfant tous les dix ans.", "sources": ["mlp-22mesures-2022"] },
           "taux-is": { "non_communique": "2026-10-25", "precision": "Pas de taux national annoncé. Le RN plaide pour porter le taux minimal d'impôt sur les sociétés de 15 % à 25 % à l'OCDE et dans l'UE ; en 2022, suppression de l'IS pendant cinq ans pour les entrepreneurs de moins de 30 ans.", "sources": ["rn-livret-entreprise", "mlp-22mesures-2022"] },
           "impots-production": { "valeur": "Baisse", "origine": "ancien-programme", "date": "2022", "precision": "Supprimer la cotisation foncière des entreprises (CFE) et les impôts de production « qui nuisent à la relocalisation ».", "sources": ["mlp-22mesures-2022", "rn-livret-entreprise"] },
-          "age-legal": { "non_communique": "2026-10-25", "precision": "Réforme annoncée pour le 17 novembre 2026. Programme 2022 : refus de tout allongement de l'âge de départ, et départ à 60 ans pour ceux qui ont commencé avant 20 ans et cotisé 40 annuités.", "sources": ["ps-union-nationale-2026-10-25", "mlp-22mesures-2022"] },
-          "duree-cotisation": { "non_communique": "2026-10-25", "precision": "Réforme annoncée pour le 17 novembre 2026.", "sources": ["ps-union-nationale-2026-10-25"] },
-          "financement-retraites": { "valeur": "Un « pilier de capitalisation » et 15 à 20 Md€ d'économies « à terme » grâce à « des corrections de mesures injustes ».", "origine": "declaration", "date": "2026-10", "sources": ["ps-140md-2026-10-06"] },
+          "age-legal": { "valeur": 62, "origine": "declaration", "date": "2026-11", "precision": "De 60 à 62 ans selon l'âge d'entrée dans la vie active, par paliers de six mois : 60 ans avec 40 annuités pour ceux qui ont commencé avant 20 ans. Abrogation de la réforme de 2023 au 1er janvier 2028 ; départ à taux plein toujours possible à 67 ans.", "sources": ["ps-retraites-2026-11-17", "fi-retraites-2026-11-18"] },
+          "duree-cotisation": { "valeur": "Autre", "origine": "declaration", "date": "2026-11", "precision": "De 160 trimestres (40 annuités) pour ceux qui ont commencé à travailler avant 20 ans à 168 trimestres (42 annuités) pour ceux entrés dans la vie active après 23 ans.", "sources": ["ps-retraites-2026-11-17", "fi-retraites-2026-11-18"] },
+          "financement-retraites": { "valeur": "Pilier de capitalisation obligatoire et universel, alimenté par le Fonds de réserve pour les retraites et par 12 Md€ par an de cotisations réorientées (1 % logement, Fnal, moitié de la formation professionnelle), et durcissement des règles d'acquisition des droits.", "origine": "declaration", "date": "2026-11", "precision": "« Notre réforme des retraites est pleinement financée », selon la candidate. Le RN évalue le coût brut à 18,6 Md€ en 2032 et annonce un solde positif de 4,7 Md€ cette année-là ; les gains de croissance attendus ne sont pas intégrés au chiffrage.", "sources": ["ps-retraites-2026-11-17", "lcp-capitalisation-2026-11-17"] },
           "smic": { "non_communique": "2026-10-25", "precision": "Pas de hausse du SMIC annoncée. En 2022 : exonération de cotisations patronales pour les entreprises qui augmentent les salaires de 10 %.", "sources": ["mlp-22mesures-2022"] },
           "duree-travail": { "valeur": 35, "origine": "ancien-programme", "date": "2022", "precision": "« Stabiliser la législation relative au temps de travail », y compris la défiscalisation des heures supplémentaires.", "sources": ["rn-livret-entreprise"] },
           "assurance-chomage": { "non_communique": "2026-10-25" },
@@ -209,6 +218,11 @@
     }
   },
   "sources": {
+    "lcp-fuites-2026-11-20": { "titre": "Fuites sur des enquêtes mettant en cause le RN: un préfet convoqué par Laurent Nuñez", "editeur": "LCP", "auteur": "Raphaël Marchal", "date": "2026-11-20", "consulte": "2026-11-21", "url": "https://lcp.fr/actualites/fuites-sur-des-enquetes-mettant-en-cause-le-rn-un-prefet-convoque-par-laurent-nunez", "type": "presse" },
+    "ps-fuites-2026-11-20": { "titre": "Fuites au ministère de l'Intérieur : que risquent le RN et le préfet Hugues Moutouh ?", "editeur": "Public Sénat", "auteur": "Simon Barbarit", "date": "2026-11-20", "consulte": "2026-11-21", "url": "https://www.publicsenat.fr/actualites/politique/fuites-au-ministere-de-linterieur-que-risquent-le-rn-et-le-prefet-hugues-moutouh", "type": "presse" },
+    "ps-retraites-2026-11-17": { "titre": "Présidentielle 2027 : que contient la réforme des retraites présentée par Marine Le Pen ?", "editeur": "Public Sénat", "auteur": "Emma Bador-Fritche", "date": "2026-11-17", "consulte": "2026-11-21", "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-contient-la-reforme-des-retraites-presentee-par-marine-le-pen", "type": "presse" },
+    "lcp-capitalisation-2026-11-17": { "titre": "Réforme des retraites: c'est quoi la capitalisation obligatoire que Marine Le Pen veut mettre en place?", "editeur": "LCP", "auteur": "Raphaël Marchal", "date": "2026-11-17", "consulte": "2026-11-21", "url": "https://lcp.fr/actualites/reforme-des-retraites-c-est-quoi-la-capitalisation-obligatoire-que-marine-le-pen-veut", "type": "presse" },
+    "fi-retraites-2026-11-18": { "titre": "La réforme des retraites de Marine Le Pen décryptée : un départ à 60 ans mais à quelles conditions et à quel prix ?", "editeur": "franceinfo", "auteur": "Fanny Guinochet", "date": "2026-11-18", "consulte": "2026-11-21", "url": "https://www.franceinfo.fr/replay-radio/le-decryptage-eco/la-reforme-des-retraites-de-marine-le-pen-decryptee-un-depart-a-60-ans-mais-a-quelles-conditions-et-a-quel-prix_8266760.html", "type": "presse" },
     "ps-140md-2026-10-06": { "titre": "140 milliards d'euros d'économies d'ici 2032 : « l'effort radical » proposé par Marine Le Pen pour « redresser » les finances publiques", "editeur": "Public Sénat", "date": "2026-10-06", "consulte": "2026-10-25", "url": "https://www.publicsenat.fr/actualites/politique/140-milliards-deuros-deconomies-dici-2032-leffort-radical-propose-par-marine-le-pen-pour-redresser-les-f", "type": "presse" },
     "ps-union-nationale-2026-10-25": { "titre": "Si elle gagne en 2027, Marine Le Pen appelle à la formation d'un « gouvernement d'Union Nationale »", "editeur": "Public Sénat", "date": "2026-10-25", "consulte": "2026-10-25", "url": "https://www.publicsenat.fr/actualites/politique/si-elle-gagne-en-2027-marine-le-pen-appelle-a-la-formation-dun-gouvernement-dunion-nationale", "type": "presse" },
     "lcp-regle-or-2026-10-02": { "titre": "Budget: comment fonctionnerait la \"règle d'or\" que Marine Le Pen veut faire adopter par référendum", "editeur": "LCP", "auteur": "Maxence Kagni", "date": "2026-10-02", "consulte": "2026-10-25", "url": "https://lcp.fr/actualites/budget-comment-fonctionnerait-la-regle-d-or-que-marine-le-pen-veut-faire-adopter-par", "type": "presse" },
