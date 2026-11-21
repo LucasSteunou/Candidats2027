@@ -1,8 +1,9 @@
 {
-  "maj": "2026-11-09",
+  "maj": "2026-11-16",
   "note": "Intentions de vote au premier tour, en % des suffrages exprimés, telles que publiées par l'institut (YouGov : colonne « pondérés »). Toutes les hypothèses testées sont reprises. Un score publié « <1 % » est affiché tel quel et compte pour 0,5 point dans les moyennes.",
   "noms": {
     "arthaud": "Nathalie Arthaud",
+    "asselineau": "François Asselineau",
     "attal": "Gabriel Attal",
     "bertrand": "Xavier Bertrand",
     "bouamrane": "Karim Bouamrane",
@@ -11,6 +12,7 @@
     "glucksmann": "Raphaël Glucksmann",
     "guedj": "Jérôme Guedj",
     "hollande": "François Hollande",
+    "lagarde": "Christine Lagarde",
     "le-maire": "Bruno Le Maire",
     "le-pen": "Marine Le Pen",
     "lisnard": "David Lisnard",
@@ -20,6 +22,7 @@
     "polony": "Natacha Polony",
     "retailleau": "Bruno Retailleau",
     "roussel": "Fabien Roussel",
+    "riner": "Teddy Riner",
     "royal": "Ségolène Royal",
     "ruffin": "François Ruffin",
     "tondelier": "Marine Tondelier",
@@ -204,6 +207,47 @@
         { "nom": "Hypothèse É. Philippe candidat du bloc central et D. Lisnard seul candidat de droite", "scores": { "arthaud": 0.5, "melenchon": 17.5, "roussel": 2, "tondelier": 3, "glucksmann": 11, "philippe": 15, "lisnard": 9, "dupont-aignan": 2, "le-pen": 36, "zemmour": 4 } }
       ],
       "sources": ["cds-10351-ifop"]
+    },
+    {
+      "id": "harris-2026-11-05",
+      "institut": "Toluna Harris Interactive",
+      "commanditaires": ["M6", "RTL"],
+      "terrain": ["2026-11-03", "2026-11-05"],
+      "echantillon": "2 101 personnes inscrites sur les listes électorales, issu d'un échantillon de 2 436 personnes",
+      "hypotheses": [
+        { "nom": "Hypothèse É. Philippe, D. de Villepin et D. Lisnard candidats", "scores": {"arthaud": 1, "melenchon": 19, "roussel": 1, "tondelier": 2, "glucksmann": 11, "philippe": 12, "villepin": 2, "lisnard": 9, "retailleau": 5, "dupont-aignan": 1, "le-pen": 34, "zemmour": 3} },
+        { "nom": "Hypothèse G. Attal, D. de Villepin et D. Lisnard candidats", "scores": {"arthaud": 1, "melenchon": 19, "roussel": 1, "tondelier": 2, "glucksmann": 12, "attal": 9, "villepin": 2, "lisnard": 9, "retailleau": 6, "dupont-aignan": 1, "le-pen": 35, "zemmour": 3} },
+        { "nom": "Hypothèse G. Attal et É. Philippe candidats", "scores": {"arthaud": 1, "melenchon": 18, "roussel": 2, "tondelier": 2, "glucksmann": 11, "attal": 6, "philippe": 11, "retailleau": 7, "dupont-aignan": 2, "le-pen": 36, "zemmour": 4} },
+        { "nom": "Hypothèse É. Philippe candidat unique du centre", "scores": {"arthaud": 1, "melenchon": 19, "roussel": 2, "tondelier": 2, "glucksmann": 12, "philippe": 14, "retailleau": 8, "dupont-aignan": 2, "le-pen": 36, "zemmour": 4} },
+        { "nom": "Hypothèse G. Attal candidat unique du centre", "scores": {"arthaud": 1, "melenchon": 19, "roussel": 2, "tondelier": 3, "glucksmann": 13, "attal": 10, "retailleau": 10, "dupont-aignan": 2, "le-pen": 36, "zemmour": 4} }
+      ],
+      "sources": ["cds-10362-harris"]
+    },
+    {
+      "id": "cluster17-2026-11-10",
+      "institut": "Cluster17",
+      "commanditaires": ["Politico"],
+      "terrain": ["2026-11-09", "2026-11-10"],
+      "echantillon": "1 164 personnes inscrites sur les listes électorales, issu d'un échantillon de 1 242 personnes",
+      "hypotheses": [
+        { "nom": "Hypothèse 1 : É. Philippe et D. Lisnard candidats", "scores": {"arthaud": 0.5, "melenchon": 20, "roussel": 2, "tondelier": 1.5, "glucksmann": 11, "philippe": 13.5, "lisnard": 10, "retailleau": 5, "dupont-aignan": 3, "le-pen": 30.5, "zemmour": 3} },
+        { "nom": "Hypothèse 2 : G. Attal et D. Lisnard candidats", "scores": {"arthaud": 0.5, "melenchon": 20.5, "roussel": 2, "tondelier": 1.5, "glucksmann": 11.5, "attal": 11, "lisnard": 10, "retailleau": 6, "dupont-aignan": 3, "le-pen": 31, "zemmour": 3} },
+        { "nom": "Hypothèse 3 : C. Lagarde et D. Lisnard candidats", "scores": {"arthaud": 0.5, "melenchon": 20.5, "roussel": 2.5, "tondelier": 1.5, "glucksmann": 10, "lagarde": 14, "lisnard": 10, "retailleau": 5.5, "dupont-aignan": 2, "le-pen": 30.5, "zemmour": 3} },
+        { "nom": "Hypothèse 4 : dix-huit candidats testés dont F. Ruffin, D. de Villepin, G. Attal, É. Philippe, C. Lagarde, N. Polony, T. Riner et F. Asselineau", "scores": {"arthaud": 0.5, "melenchon": 19, "ruffin": 1.5, "roussel": 1.5, "tondelier": 1, "glucksmann": 8, "villepin": 1, "philippe": 8, "attal": 2, "lagarde": 8, "polony": 2.5, "riner": 2, "lisnard": 8, "retailleau": 5, "asselineau": 1, "dupont-aignan": 2, "le-pen": 27, "zemmour": 2} }
+      ],
+      "sources": ["cds-10368-cluster17"]
+    },
+    {
+      "id": "opinionway-2026-11-12",
+      "institut": "OpinionWay",
+      "commanditaires": ["CNews"],
+      "terrain": ["2026-11-10", "2026-11-12"],
+      "echantillon": "964 personnes inscrites sur les listes électorales, issu d'un échantillon de 1 001 personnes",
+      "hypotheses": [
+        { "nom": "Hypothèse 1 : avec Teddy Riner", "scores": {"arthaud": 1, "melenchon": 16, "roussel": 2, "tondelier": 3, "glucksmann": 10, "bouamrane": "<1", "attal": 3, "philippe": 12, "riner": 4, "retailleau": 4, "lisnard": 9, "dupont-aignan": 2, "zemmour": 3, "le-pen": 31} },
+        { "nom": "Hypothèse 2 : sans Teddy Riner", "scores": {"arthaud": 1, "melenchon": 16, "roussel": 1, "tondelier": 3, "glucksmann": 11, "bouamrane": 1, "attal": 4, "philippe": 12, "retailleau": 5, "lisnard": 10, "dupont-aignan": 2, "zemmour": 2, "le-pen": 32} }
+      ],
+      "sources": ["cds-10371-opinionway"]
     }
   ],
   "sources": {
@@ -218,6 +262,9 @@
     "cds-10305-harris": { "titre": "Notice n° 10305 - Toluna Harris Interactive pour M6 et RTL (terrain du 5 au 8 octobre 2026)", "editeur": "Commission des sondages", "date": "2026-10-12", "consulte": "2026-10-31", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10305-pres-iv-toluna-harris-interactive-12-octobre.pdf", "type": "sondage" },
     "cds-10319-opinionway": { "titre": "Notice n° 10319 - OpinionWay pour CNews (terrain du 13 au 14 octobre 2026)", "editeur": "Commission des sondages", "date": "2026-10-15", "consulte": "2026-10-31", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10319-pres-iv-opinionway-cnews-15-octobre.pdf", "type": "sondage" },
     "cds-10339-cluster17": { "titre": "Notice n° 10339 - Cluster17 pour Politico (terrain du 19 au 22 octobre 2026)", "editeur": "Commission des sondages", "date": "2026-10-26", "consulte": "2026-10-31", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10339-pres-iv-cluster17-politico-26-octobre.pdf", "type": "sondage" },
-    "cds-10351-ifop": { "titre": "Notice n° 10351 - Ifop-Fiducial pour LCI (terrain du 27 au 29 octobre 2026)", "editeur": "Commission des sondages", "date": "2026-11-03", "consulte": "2026-11-09", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10351-pres-iv-ifop-lci-3-novembre.pdf", "type": "sondage" }
+    "cds-10351-ifop": { "titre": "Notice n° 10351 - Ifop-Fiducial pour LCI (terrain du 27 au 29 octobre 2026)", "editeur": "Commission des sondages", "date": "2026-11-03", "consulte": "2026-11-09", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10351-pres-iv-ifop-lci-3-novembre.pdf", "type": "sondage" },
+    "cds-10362-harris": { "titre": "Notice n° 10362 - Toluna Harris Interactive pour M6 et RTL (terrain du 3 au 5 novembre 2026)", "editeur": "Commission des sondages", "date": "2026-11-09", "consulte": "2026-11-16", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10362-pres-iv-toluna-harris-interactive-9-novembre.pdf", "type": "sondage" },
+    "cds-10368-cluster17": { "titre": "Notice n° 10368 - Cluster17 pour Politico (terrain du 9 au 10 novembre 2026)", "editeur": "Commission des sondages", "date": "2026-11-11", "consulte": "2026-11-16", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10368-pres-iv-cluster17-politico-11-novembre.pdf", "type": "sondage" },
+    "cds-10371-opinionway": { "titre": "Notice n° 10371 - OpinionWay pour CNews (terrain du 10 au 12 novembre 2026)", "editeur": "Commission des sondages", "date": "2026-11-12", "consulte": "2026-11-16", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10371-pres-iv-opinionway-cnews-12-novembre.pdf", "type": "sondage" }
   }
 }
