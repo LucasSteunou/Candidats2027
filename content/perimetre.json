@@ -1,5 +1,5 @@
 {
-  "maj": "2026-11-21",
+  "maj": "2026-11-23",
   "regle": "Fiche si la personne a formellement déclaré sa candidature (ou a été désignée par son parti) ET a été testée dans au moins un sondage de premier tour réalisé dans les 60 derniers jours, dont la notice est publiée par la Commission des sondages.",
   "fenetre_sondages_jours": 60,
   "scrutin": {
@@ -15,7 +15,7 @@
       "statut": "declare",
       "precision": "Candidate pour la quatrième fois ; candidature annoncée en décembre 2025.",
       "sources_candidature": ["f3-arthaud-2026-10-21"],
-      "sources_sondage": ["cds-10371-opinionway"]
+      "sources_sondage": ["cds-10382-yougov"]
     },
     {
       "id": "attal",
@@ -24,7 +24,7 @@
       "statut": "declare",
       "precision": "Candidature officialisée le 22 mai 2026.",
       "sources_candidature": ["lcp-attal-2026-05-22"],
-      "sources_sondage": ["cds-10371-opinionway"]
+      "sources_sondage": ["cds-10382-yougov"]
     },
     {
       "id": "bouamrane",
@@ -42,7 +42,7 @@
       "statut": "declare",
       "precision": "Candidat à une quatrième élection présidentielle.",
       "sources_candidature": ["ps-candidats-2026-10-14"],
-      "sources_sondage": ["cds-10371-opinionway"]
+      "sources_sondage": ["cds-10382-yougov"]
     },
     {
       "id": "glucksmann",
@@ -51,7 +51,7 @@
       "statut": "investi",
       "precision": "Désigné par la primaire sociale-démocrate du 11 octobre 2026, avec 66,17 % des suffrages exprimés.",
       "sources_candidature": ["lcp-primaire-2026-10-11"],
-      "sources_sondage": ["cds-10371-opinionway"]
+      "sources_sondage": ["cds-10382-yougov"]
     },
     {
       "id": "le-pen",
@@ -60,7 +60,7 @@
       "statut": "declare",
       "precision": "Candidature confirmée après l'arrêt de la cour d'appel de Paris du 7 juillet 2026.",
       "sources_candidature": ["ps-candidats-2026-10-14", "ps-lepen-appel-2026-07-07"],
-      "sources_sondage": ["cds-10371-opinionway"]
+      "sources_sondage": ["cds-10382-yougov"]
     },
     {
       "id": "lisnard",
@@ -69,7 +69,7 @@
       "statut": "declare",
       "precision": "Candidat après avoir quitté Les Républicains.",
       "sources_candidature": ["ps-candidats-2026-10-14"],
-      "sources_sondage": ["cds-10371-opinionway"]
+      "sources_sondage": ["cds-10382-yougov"]
     },
     {
       "id": "melenchon",
@@ -78,7 +78,7 @@
       "statut": "declare",
       "precision": "Candidat pour la quatrième fois.",
       "sources_candidature": ["ps-candidats-2026-10-14"],
-      "sources_sondage": ["cds-10371-opinionway"]
+      "sources_sondage": ["cds-10382-yougov"]
     },
     {
       "id": "philippe",
@@ -87,7 +87,7 @@
       "statut": "declare",
       "precision": "Candidature annoncée le 3 septembre 2024 dans Le Point.",
       "sources_candidature": ["f3-philippe-2024-09-03"],
-      "sources_sondage": ["cds-10371-opinionway"]
+      "sources_sondage": ["cds-10382-yougov"]
     },
     {
       "id": "polony",
@@ -96,7 +96,7 @@
       "statut": "declare",
       "precision": "Candidature déclarée le 14 octobre 2026 sur France Inter.",
       "sources_candidature": ["ps-candidats-2026-10-14"],
-      "sources_sondage": ["cds-10368-cluster17"]
+      "sources_sondage": ["cds-10384-ifop"]
     },
     {
       "id": "retailleau",
@@ -105,7 +105,7 @@
       "statut": "investi",
       "precision": "Désigné candidat par les militants LR en avril 2026.",
       "sources_candidature": ["ps-candidats-2026-10-14"],
-      "sources_sondage": ["cds-10371-opinionway"]
+      "sources_sondage": ["cds-10382-yougov"]
     },
     {
       "id": "riner",
@@ -114,7 +114,7 @@
       "statut": "declare",
       "precision": "Candidature annoncée le 9 novembre 2026 dans Le Parisien et sur les réseaux sociaux, sans parti.",
       "sources_candidature": ["lcp-riner-2026-11-09"],
-      "sources_sondage": ["cds-10371-opinionway"]
+      "sources_sondage": ["cds-10382-yougov"]
     },
     {
       "id": "roussel",
@@ -123,7 +123,7 @@
       "statut": "declare",
       "precision": "Candidature annoncée le 6 septembre 2026.",
       "sources_candidature": ["ps-candidats-2026-10-14"],
-      "sources_sondage": ["cds-10371-opinionway"]
+      "sources_sondage": ["cds-10382-yougov"]
     },
     {
       "id": "ruffin",
@@ -132,7 +132,7 @@
       "statut": "retire",
       "precision": "Candidat déclaré ; a retiré sa candidature le 21 novembre 2026, sans soutenir aucun candidat. Sa fiche reste consultable en archive.",
       "sources_candidature": ["ps-candidats-2026-10-14", "lcp-ruffin-retrait-2026-11-21"],
-      "sources_sondage": ["cds-10368-cluster17"]
+      "sources_sondage": ["cds-10384-ifop"]
     },
     {
       "id": "tondelier",
@@ -141,7 +141,7 @@
       "statut": "investi",
       "precision": "Conserve l'investiture des Écologistes jusqu'au vote des adhérents du 10 au 13 décembre 2026 sur la stratégie présidentielle.",
       "sources_candidature": ["ps-ecologistes-2026-09-21"],
-      "sources_sondage": ["cds-10371-opinionway"]
+      "sources_sondage": ["cds-10382-yougov"]
     },
     {
       "id": "zemmour",
@@ -150,7 +150,7 @@
       "statut": "declare",
       "precision": "Candidature confirmée le 17 septembre 2026.",
       "sources_candidature": ["ps-candidats-2026-10-14"],
-      "sources_sondage": ["cds-10371-opinionway"]
+      "sources_sondage": ["cds-10382-yougov"]
     }
   ],
   "testes_sans_fiche": [
@@ -232,6 +232,8 @@
     "lcp-ruffin-retrait-2026-11-21": { "titre": "François Ruffin se retire de la présidentielle 2027 sans soutenir aucun des candidats de gauche encore en lice", "editeur": "LCP", "auteur": "LCP.fr (avec AFP)", "date": "2026-11-21", "consulte": "2026-11-21", "url": "https://lcp.fr/actualites/francois-ruffin-se-retire-de-la-presidentielle-2027-sans-soutenir-aucun-des-candidats-de", "type": "presse" },
     "lcp-riner-2026-11-09": {"titre": "Le judoka Teddy Riner annonce sa candidature à l'élection présidentielle de 2027", "editeur": "LCP", "auteur": null, "date": "2026-11-09", "consulte": "2026-11-16", "url": "https://lcp.fr/actualites/le-judoka-teddy-riner-annonce-sa-candidature-a-l-election-presidentielle-de-2027-444920", "type": "presse"},
     "cds-10368-cluster17": {"titre": "Notice n° 10368 - Cluster17 pour Politico (terrain du 9 au 10 novembre 2026)", "editeur": "Commission des sondages", "date": "2026-11-11", "consulte": "2026-11-16", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10368-pres-iv-cluster17-politico-11-novembre.pdf", "type": "sondage", "auteur": null},
-    "cds-10371-opinionway": {"titre": "Notice n° 10371 - OpinionWay pour CNews (terrain du 10 au 12 novembre 2026)", "editeur": "Commission des sondages", "date": "2026-11-12", "consulte": "2026-11-16", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10371-pres-iv-opinionway-cnews-12-novembre.pdf", "type": "sondage", "auteur": null}
+    "cds-10371-opinionway": {"titre": "Notice n° 10371 - OpinionWay pour CNews (terrain du 10 au 12 novembre 2026)", "editeur": "Commission des sondages", "date": "2026-11-12", "consulte": "2026-11-16", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10371-pres-iv-opinionway-cnews-12-novembre.pdf", "type": "sondage", "auteur": null},
+    "cds-10384-ifop": {"titre": "Notice n° 10384 - Ifop-Fiducial pour TF1-LCI, Le Figaro et Sud Radio (terrain du 13 au 16 novembre 2026)", "editeur": "Commission des sondages", "date": "2026-11-18", "consulte": "2026-11-23", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10384-pres-iv-ifop-18-novembre.pdf", "type": "sondage", "auteur": null},
+    "cds-10382-yougov": {"titre": "Notice n° 10382 - YouGov pour Le HuffPost (terrain du 12 au 17 novembre 2026)", "editeur": "Commission des sondages", "date": "2026-11-19", "consulte": "2026-11-23", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10382-pres-iv-yougov-le-huffpost-19-novembre.pdf", "type": "sondage", "auteur": null}
   }
 }
