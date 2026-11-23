@@ -14,12 +14,14 @@ Dernière veille : 2026-11-23 (passe hebdomadaire automatique : recherches web s
 
 ## Fiches à reprendre
 
-- philippe · programme présenté le 18 novembre (142 propositions), plan de redressement des finances publiques annoncé « dans quelques jours » et « volume 2 » d'ici début 2027 ([LCP](https://lcp.fr/actualites/presidentielle-2027-edouard-philippe-promet-des-reformes-radicales-pour-relancer-sa)) : lancer `/maj-fiche philippe` (de préférence après la publication du plan de redressement).
+- philippe · plan de redressement des finances publiques annoncé le 18 novembre « dans quelques jours », pas encore trouvé au 23 novembre, puis « volume 2 » du programme d'ici début 2027 ([LCP](https://lcp.fr/actualites/presidentielle-2027-edouard-philippe-promet-des-reformes-radicales-pour-relancer-sa)) : à sa publication, reprendre `cout-net-programme` et `economies-depenses` (aujourd'hui « près de 150 milliards d'économies », sans montant annuel).
 
 Archivée le 2026-11-21 : ruffin (retrait de la candidature annoncé le 21 novembre, [LCP](https://lcp.fr/actualites/francois-ruffin-se-retire-de-la-presidentielle-2027-sans-soutenir-aucun-des-candidats-de)) : statut `retire` dans `perimetre.json`, fiche consultable en archive, hors de la liste principale, du comparateur et des moyennes. Une seconde source d'un autre éditeur reste à ajouter.
 - villepin · LCP annonce qu'il est « sur le point d'officialiser sa candidature » et analyse les « 258 propositions » de son programme : si la déclaration est formelle, il remplira les deux critères et aura besoin d'une fiche.
 
 Créée le 2026-11-21 : riner (candidature du 9 novembre ; programme non publié, 1 question clé renseignée sur 55 ; une controverse, le redressement fiscal confirmé en appel le 15 octobre, litige administratif sans poursuite pénale).
+
+Reprise le 2026-11-23 : philippe (programme « Croire en nous » du 18 novembre, 142 propositions en 17 pages thématiques ; toutes les réponses re-sourcées, les anciennes pages « priorités » redirigeant vers `/programme` ; déficit visé sous 2,5 % au lieu de 2 %, service national obligatoire et universel, 30 000 places de prison, Ukraine, droit du sol, RSA, encadrement des loyers ; baromètres Elabe et Cluster17 de novembre ; 29 questions clés renseignées sur 55, contre 24).
 
 Reprise le 2026-11-21 : le-pen (réforme des retraites présentée le 17 novembre : départ de 60 à 62 ans, capitalisation obligatoire, mesure et trois réponses mises à jour ; nouvelle controverse sur les soupçons de fuites d'enquêtes vers le RN, perquisition du 9 novembre). Les liens `rassemblementnational.fr` répondent 307 aux scripts (protection Sucuri, y compris sur la page d'accueil) : à ouvrir dans un navigateur.
 

@@ -1,7 +1,7 @@
 {
   "id": "philippe",
   "nom": "Édouard Philippe",
-  "maj": "2026-10-31",
+  "maj": "2026-11-23",
   "parti": {
     "nom": "Horizons",
     "sigle": null,
@@ -18,8 +18,8 @@
     }
   },
   "resume": {
-    "texte": "Maire du Havre, Premier ministre de mai 2017 à juillet 2020, Édouard Philippe a fondé Horizons en 2021. Candidat déclaré depuis septembre 2024, il est candidat à l'élection présidentielle pour la première fois. Son programme est publié sur son site de campagne, en ligne depuis juillet 2026.",
-    "sources": ["lcp-chomage-2026-08-27", "brut-cjr-2025", "ps-horizons-2021-10-08", "f3-philippe-2024-09-03", "ps-meeting-2026-07-05"]
+    "texte": "Maire du Havre, Premier ministre de mai 2017 à juillet 2020, Édouard Philippe a fondé Horizons en 2021. Candidat déclaré depuis septembre 2024, il est candidat à l'élection présidentielle pour la première fois. Il a présenté le 18 novembre 2026 le premier volume de son programme (142 propositions).",
+    "sources": ["lcp-chomage-2026-08-27", "brut-cjr-2025", "ps-horizons-2021-10-08", "f3-philippe-2024-09-03", "lcp-programme-2026-11-18"]
   },
   "histoire": {
     "parti": [
@@ -31,19 +31,22 @@
       { "date": "1970-11-28", "titre": "Naissance", "texte": "Naît à Rouen.", "sources": ["an-philippe"] },
       { "date": "2017-05-15", "titre": "Premier ministre", "texte": "Premier ministre d'Emmanuel Macron jusqu'au 3 juillet 2020. Son mandat de député de Seine-Maritime prend fin le 15 juin 2017, du fait de sa nomination au gouvernement.", "sources": ["brut-cjr-2025", "an-philippe"] },
       { "date": "2024-09-03", "titre": "Candidature pour 2027", "texte": "Annonce dans Le Point : « Je serai candidat à la prochaine élection présidentielle ».", "sources": ["f3-philippe-2024-09-03"] },
-      { "date": "2026-09-29", "titre": "Réforme des retraites", "texte": "Présente dans une vidéo de vingt minutes sa réforme : 65 ans et 45 années de cotisation.", "sources": ["lcp-retraites65-2026-09-29"] }
+      { "date": "2026-09-29", "titre": "Réforme des retraites", "texte": "Présente dans une vidéo de vingt minutes sa réforme : 65 ans et 45 années de cotisation.", "sources": ["lcp-retraites65-2026-09-29"] },
+      { "date": "2026-11-18", "titre": "Programme présidentiel", "texte": "Présente le « volume 1 » de son programme, « Croire en nous » (142 propositions). Il confirme refuser une primaire de la droite et du centre, qui « conduirait nécessairement à diviser ».", "sources": ["lcp-programme-2026-11-18"] }
     ]
   },
   "popularite": {
     "chiffres_cles": [
       { "libelle": "Opinions favorables (Odoxa pour Public Sénat)", "valeur": "27 %", "date": "2026-09", "sources": ["ps-odoxa-2026-09-29"] },
-      { "libelle": "Bonne image (Elabe pour Les Échos)", "valeur": "30 % (−4 points)", "date": "2026-07", "sources": ["elabe-observatoire-2026-08"] },
+      { "libelle": "Bonne image (Elabe pour Les Échos)", "valeur": "27 % (−3 points)", "date": "2026-11", "sources": ["elabe-observatoire-2026-11"] },
+      { "libelle": "Popularité (Cluster17 pour Le Point)", "valeur": "22 % (stable)", "date": "2026-11", "sources": ["c17-barometre-2026-11"] },
       { "libelle": "Groupe Horizons & Indépendants à l'Assemblée nationale", "valeur": "30 membres et 7 apparentés", "date": "2026-10-08", "sources": ["an-groupes-2026"] }
     ],
     "series": []
   },
   "perception": [
-    { "type": "sondage", "auteur": "Elabe pour Les Échos", "texte": "30 % des Français ont une bonne image d'Édouard Philippe (−4 points), à égalité avec Gabriel Attal. Auprès des électeurs d'Emmanuel Macron en 2022, il reste en tête avec 66 % (−8 points), un point devant Gabriel Attal.", "date": "2026-07", "sources": ["elabe-observatoire-2026-08"] },
+    { "type": "sondage", "auteur": "Elabe pour Les Échos", "texte": "27 % des Français ont une bonne image d'Édouard Philippe (−3 points) ; il passe de la troisième à la cinquième place du classement. Auprès des électeurs d'Emmanuel Macron, il recule de 8 points, à 62 %, à égalité avec Christine Lagarde.", "date": "2026-11", "sources": ["elabe-observatoire-2026-11"] },
+    { "type": "sondage", "auteur": "Cluster17 pour Le Point", "texte": "22 % de popularité, stable. Auprès des électeurs d'Emmanuel Macron en 2022, il perd 9 points, à 60 %.", "date": "2026-11", "sources": ["c17-barometre-2026-11"] },
     { "type": "sondage", "auteur": "Odoxa pour Public Sénat", "texte": "27 % d'opinions favorables, contre 35 % pour Marine Le Pen et 25 % pour Gabriel Attal dans la même enquête.", "date": "2026-09", "sources": ["ps-odoxa-2026-09-29"] }
   ],
   "controverses": [
@@ -66,131 +69,146 @@
   ],
   "programme": {
     "etat": {
-      "texte": "Programme publié sur le site de campagne, en ligne depuis juillet 2026, en quatre priorités : une France « plus sûre », « plus prospère », « plus conquérante » et « plus attentive à ses enfants ». Le candidat le complète par des annonces, comme sa réforme des retraites détaillée le 29 septembre 2026.",
-      "sources": ["ps-meeting-2026-07-05", "ep-prospere", "ep-sure", "ep-conquerante", "ep-enfants", "lcp-retraites65-2026-09-29"]
+      "texte": "Programme présenté le 18 novembre 2026 : un « volume 1 » intitulé « Croire en nous », de 142 propositions, publié sur le site de campagne en 17 thématiques réparties en quatre parties : « L'ordre et la protection des Français », « Une économie forte et des comptes en ordre », « Avenir de nos enfants et qualité de vie » et « Les grands défis de demain ». Le candidat annonce un plan de redressement des finances publiques « dans quelques jours » et un « volume 2 » d'ici au début de l'année 2027.",
+      "sources": ["lcp-programme-2026-11-18", "ep-comptes-publics"]
     },
     "themes": {
       "economie": {
         "mesures": [
-          { "sous_theme": "impots-entreprises", "intitule": "Pacte fiscal avec les entreprises", "detail": "50 Md€ de baisses d'impôts de production contre 50 Md€ d'aides publiques jugées improductives en moins, présenté comme « le plus grand choc de compétitivité jamais réalisé » ; moratoire sur les nouvelles normes et les nouveaux impôts pendant le quinquennat.", "origine": "programme-2027", "date": "2026-07",
-            "chiffrages": [ { "auteur": "Édouard Philippe", "montant": 50, "unite": "Md€ de baisse d'impôts de production, compensée par 50 Md€ d'aides en moins", "sources": ["ep-prospere"] } ],
-            "sources": ["ep-prospere", "lcp-chomage-2026-08-27"] },
-          { "sous_theme": "finances-publiques", "intitule": "Réorganisation de l'État", "detail": "Non-remplacement d'un tiers des fonctionnaires partant à la retraite (plus de 250 000 postes sur le quinquennat), fusion ou suppression de dizaines d'opérateurs et d'agences ; effort réparti à 50 % sur les dépenses sociales, un quart sur l'État et les collectivités et un quart grâce à la croissance.", "origine": "programme-2027", "date": "2026-07", "sources": ["ep-prospere"] },
-          { "sous_theme": "travail-emploi", "intitule": "Travail et arrêts maladie", "detail": "Heures supplémentaires décidées par l'entreprise exonérées de cotisations et d'impôt sur le revenu (« environ 1 000 € de plus par an au SMIC pour deux heures de plus par semaine ») ; trois jours de carence pour tous, dans le privé comme le public ; délai de 3 à 6 mois entre un arrêt maladie et une rupture conventionnelle.", "origine": "programme-2027", "date": "2026-07", "sources": ["ep-prospere", "lcp-chomage-2026-08-27"] }
+          { "sous_theme": "impots-entreprises", "intitule": "Pacte fiscal avec les entreprises", "detail": "50 Md€ d'impôts de production en moins contre 50 Md€ d'aides publiques en moins, présenté comme « le plus grand choc de compétitivité jamais réalisé » ; aucun nouvel impôt ni aucune nouvelle norme pendant le quinquennat ; « livret capital France » pour diriger l'épargne vers les entreprises.", "origine": "programme-2027", "date": "2026-11",
+            "chiffrages": [ { "auteur": "Édouard Philippe", "montant": 50, "unite": "Md€ de baisse d'impôts de production, compensée par 50 Md€ d'aides en moins", "sources": ["ep-entreprises"] } ],
+            "sources": ["ep-entreprises"] },
+          { "sous_theme": "finances-publiques", "intitule": "Réorganisation de l'État", "detail": "Réduire de 250 000 le nombre de postes de fonctionnaires sur le quinquennat, en ne remplaçant pas un fonctionnaire sur trois partant à la retraite dans les fonctions de bureau ; fusionner, supprimer ou privatiser une trentaine d'agences et d'opérateurs, dont la privatisation de France Travail et la suppression du CESE.", "origine": "programme-2027", "date": "2026-11", "sources": ["ep-comptes-publics"] },
+          { "sous_theme": "travail-emploi", "intitule": "Travail et arrêts maladie", "detail": "Salaire net augmenté en redistribuant une partie des économies sur les retraites, l'assurance chômage et les arrêts maladie ; heures au-delà de 35 heures exonérées d'impôt et de cotisations salariales ; trois jours de carence pour tous, dans le privé comme dans le public ; délai de 3 à 6 mois entre un arrêt maladie et une rupture conventionnelle ; droit à la reconversion pour les salariés dont le métier est menacé par l'intelligence artificielle.", "origine": "programme-2027", "date": "2026-11", "sources": ["ep-travail", "lcp-chomage-2026-08-27"] }
         ],
         "reponses": {
-          "cout-net-programme": { "non_communique": "2026-10-26" },
-          "objectif-deficit": { "valeur": 2, "origine": "programme-2027", "date": "2026-07", "precision": "« Ramener le déficit de plus de 5 % à 2 % du PIB à la fin du quinquennat », avec une règle d'or inscrite dans la Constitution par référendum.", "sources": ["ep-prospere"] },
-          "economies-depenses": { "non_communique": "2026-10-26", "precision": "Pas de montant total ; effort réparti à 50 % sur les dépenses sociales, un quart sur l'État et les collectivités, un quart grâce à la croissance.", "sources": ["ep-prospere"] },
-          "impot-revenu": { "valeur": "Baisse", "origine": "programme-2027", "date": "2026-07", "precision": "Baisses ciblées : impôt sur le revenu supprimé pendant les trois premières années de l'enfant pour les classes moyennes ; heures supplémentaires exonérées.", "sources": ["ep-enfants", "ep-prospere"] },
-          "impot-patrimoine": { "non_communique": "2026-10-26" },
-          "droits-succession": { "valeur": "Baisse", "origine": "programme-2027", "date": "2026-07", "precision": "« Augmenter massivement les plafonds de donation du vivant aux enfants et petits-enfants » et maintenir le pacte Dutreil pour la transmission des entreprises familiales.", "sources": ["ep-enfants", "ep-prospere"] },
-          "taux-is": { "non_communique": "2026-10-26" },
-          "impots-production": { "valeur": "Baisse", "origine": "programme-2027", "date": "2026-07", "precision": "50 Md€ de baisse, compensée par 50 Md€ d'aides publiques en moins.", "sources": ["ep-prospere"] },
-          "age-legal": { "valeur": 65, "origine": "programme-2027", "date": "2026-09", "precision": "Progressivement, « en moins de dix ans, pour ceux qui le peuvent ». Âge maintenu pour les personnes en mauvaise santé (55 ans en situation de handicap, 60 ans en incapacité permanente, 62 ans en invalidité) et départs anticipés pour carrières longues ; « un Français sur trois » pourrait partir avant 65 ans.", "sources": ["ep-prospere", "lcp-retraites65-2026-09-29"] },
-          "duree-cotisation": { "valeur": 180, "origine": "programme-2027", "date": "2026-09", "precision": "45 ans de cotisation, atteints progressivement.", "sources": ["ep-prospere", "lcp-retraites65-2026-09-29"] },
-          "financement-retraites": { "valeur": "Système « mixte » : capitalisation collective généralisée à tous les salariés et plan d'épargne retraite pour chaque Français, avec un premier versement de l'État de 500 € dès le premier emploi ; « sans hausse des cotisations ni baisse générale des pensions ».", "origine": "programme-2027", "date": "2026-07", "sources": ["ep-prospere"] },
-          "smic": { "non_communique": "2026-10-26", "precision": "Pas de montant visé ; met en avant les heures supplémentaires exonérées (« environ 1 000 € de plus par an au SMIC pour deux heures de plus par semaine »).", "sources": ["ep-prospere"] },
-          "duree-travail": { "valeur": "Autre", "origine": "programme-2027", "date": "2026-07", "precision": "« Sortir des 35h » : les entreprises fixeraient librement le temps de travail, sans cotisation patronale au-delà de la 37e heure.", "sources": ["ep-prospere"] },
-          "assurance-chomage": { "valeur": "Conditions plus strictes", "origine": "programme-2027", "date": "2026-07", "precision": "Durée maximale d'indemnisation ramenée à 12 mois pour les moins de 50 ans, contre 18 mois, « sur le modèle allemand ».", "sources": ["ep-prospere", "lcp-chomage-2026-08-27"] },
-          "prix-energie": { "non_communique": "2026-10-26" },
-          "encadrement-prix": { "non_communique": "2026-10-26" },
-          "libre-echange": { "non_communique": "2026-10-26" },
-          "reindustrialisation": { "valeur": "Choc de compétitivité (50 Md€ de baisse d'impôts de production) et protection du marché européen face à la Chine : transferts de technologie, quotas de production et coentreprises dans les secteurs stratégiques.", "origine": "programme-2027", "date": "2026-07", "sources": ["ep-prospere"] }
+          "cout-net-programme": { "non_communique": "2026-11-23", "precision": "Le 18 novembre 2026, le candidat annonce un plan de redressement des finances publiques « dans quelques jours ».", "sources": ["lcp-programme-2026-11-18"] },
+          "objectif-deficit": { "valeur": 2.5, "origine": "programme-2027", "date": "2026-11", "precision": "« Ramener le déficit sous 2,5 % de la richesse nationale à la fin du quinquennat », avec une « règle d'or » budgétaire inscrite dans la Constitution par référendum dès le début du quinquennat.", "sources": ["ep-comptes-publics", "lcp-programme-2026-11-18"] },
+          "economies-depenses": { "non_communique": "2026-11-23", "precision": "« Près de 150 milliards d'économies » pour ramener le déficit sous 2,5 % à la fin du quinquennat, sans montant annuel précisé ; effort pour moitié sur les dépenses sociales, pour un quart sur l'État et les collectivités, pour un quart sur la croissance.", "sources": ["ep-comptes-publics"] },
+          "impot-revenu": { "valeur": "Baisse", "origine": "programme-2027", "date": "2026-11", "precision": "Baisses ciblées : impôt sur le revenu supprimé pendant les trois premières années de l'enfant pour les classes moyennes (du 4e au 6e décile et au début du 7e), réduction de 3 000 € par an pour les familles plus aisées qui travaillent ; heures travaillées au-delà de 35 heures exonérées d'impôt.", "sources": ["ep-famille", "ep-travail"] },
+          "impot-patrimoine": { "non_communique": "2026-11-23", "precision": "Pas de position sur l'IFI dans son ensemble ; propose de le supprimer sur les logements mis en location de longue durée.", "sources": ["ep-logement"] },
+          "droits-succession": { "valeur": "Baisse", "origine": "programme-2027", "date": "2026-11", "precision": "Doubler les plafonds de donation du vivant aux enfants et petits-enfants pendant les trois premières années du quinquennat, pérenniser la défiscalisation des donations pour un premier achat immobilier et maintenir le pacte Dutreil.", "sources": ["ep-entreprises", "ep-logement"] },
+          "taux-is": { "non_communique": "2026-11-23" },
+          "impots-production": { "valeur": "Baisse", "origine": "programme-2027", "date": "2026-11", "precision": "50 Md€ de baisse, contre 50 Md€ d'aides publiques en moins.", "sources": ["ep-entreprises"] },
+          "age-legal": { "valeur": 65, "origine": "programme-2027", "date": "2026-11", "precision": "Progressivement, « en moins de dix ans ». Âges actuels maintenus pour les personnes en mauvaise santé (55 ans en situation de handicap, 60 ans en incapacité permanente, 62 ans en invalidité) et départs anticipés pour carrières longues ; « un Français sur trois pourra partir avant 65 ans ».", "sources": ["ep-retraites", "lcp-retraites65-2026-09-29"] },
+          "duree-cotisation": { "valeur": 180, "origine": "programme-2027", "date": "2026-11", "precision": "45 ans de cotisation, atteints progressivement en moins de dix ans.", "sources": ["ep-retraites", "lcp-retraites65-2026-09-29"] },
+          "financement-retraites": { "valeur": "Répartition complétée par une capitalisation collective généralisée à tous les salariés et un plan d'épargne retraite ouvert à chaque Français, avec un premier versement de 500 € par l'État dès le premier emploi ; « sans hausse des cotisations ni baisse des pensions ».", "origine": "programme-2027", "date": "2026-11", "sources": ["ep-retraites"] },
+          "smic": { "non_communique": "2026-11-23", "precision": "Pas de montant visé ; met en avant l'exonération des heures au-delà de 35 heures : « Pour un salarié au SMIC qui travaille deux heures de plus par semaine, le gain sera de plus de 1 000 € par an. »", "sources": ["ep-travail"] },
+          "duree-travail": { "valeur": "Autre", "origine": "programme-2027", "date": "2026-11", "precision": "Les entreprises fixeraient librement leur temps de travail par accord d'entreprise, « pour sortir des 35 heures » ; heures au-delà de 35 heures exonérées d'impôt et de cotisations salariales, plus de cotisations patronales au-delà de la 37e heure.", "sources": ["ep-travail", "ep-entreprises"] },
+          "assurance-chomage": { "valeur": "Conditions plus strictes", "origine": "programme-2027", "date": "2026-11", "precision": "Durée maximale d'indemnisation ramenée à 12 mois pour les moins de 50 ans, « contre 18 mois aujourd'hui, comme en Allemagne » ; les plus de 50 ans ne sont pas concernés.", "sources": ["ep-travail", "lcp-chomage-2026-08-27"] },
+          "prix-energie": { "non_communique": "2026-11-23" },
+          "encadrement-prix": { "non_communique": "2026-11-23" },
+          "libre-echange": { "non_communique": "2026-11-23" },
+          "reindustrialisation": { "valeur": "Baisse de 50 Md€ des impôts de production, « préférence européenne massive dans l'industrie », prix du carbone aux frontières européennes et, face à la Chine, transferts de technologie, quotas de production et coentreprises imposés dans les secteurs stratégiques.", "origine": "programme-2027", "date": "2026-11", "sources": ["ep-entreprises"] }
         }
       },
       "ecologie": {
         "mesures": [
-          { "sous_theme": "climat", "intitule": "Adaptation au changement climatique", "detail": "Fonds unique d'adaptation (fusion du fonds Barnier et du Fonds vert), « DATAR 2.0 » fusionnant quatre agences, climatisation des lieux accueillant des personnes fragiles, plan baignade national, « Canadairs français » et prix du carbone aux frontières européennes.", "origine": "programme-2027", "date": "2026-07",
-            "chiffrages": [ { "auteur": "Édouard Philippe", "montant": 2, "unite": "Md€ par an (fonds unique d'adaptation)", "sources": ["ep-conquerante"] } ],
-            "sources": ["ep-conquerante", "ep-sure"] }
+          { "sous_theme": "energie", "intitule": "Électricité décarbonée", "detail": "Relance du nucléaire (8 EPR en plus des 6 prévus), électrification massive des usages, « plan Messmer des énergies de la Terre » (géothermie et biométhane), part du fret ferroviaire portée à 20 % à la fin du quinquennat contre moins de 10 % aujourd'hui, prix du carbone aux frontières européennes renforcé.", "origine": "programme-2027", "date": "2026-11", "sources": ["ep-energie"] },
+          { "sous_theme": "climat", "intitule": "Adaptation au changement climatique", "detail": "Fonds d'adaptation de 2 Md€ par an réunissant le fonds Barnier et le Fonds vert ; opérateur public unique fusionnant quatre agences ; climatisation des lieux accueillant des personnes fragiles ; plan baignade national ; « Canadairs » construits en France ; réutiliser 10 % des eaux usées traitées, contre moins de 1 % aujourd'hui.", "origine": "programme-2027", "date": "2026-11",
+            "chiffrages": [ { "auteur": "Édouard Philippe", "montant": 2, "unite": "Md€ par an (fonds d'adaptation)", "sources": ["ep-adaptation"] } ],
+            "sources": ["ep-adaptation"] }
         ],
         "reponses": {
-          "nucleaire": { "valeur": "Nouveaux réacteurs", "origine": "programme-2027", "date": "2026-07", "precision": "Lancement de 8 EPR supplémentaires, en plus des 6 déjà prévus.", "sources": ["ep-conquerante"] },
-          "renouvelables": { "valeur": "Autre", "origine": "programme-2027", "date": "2026-07", "precision": "« En développant les renouvelables et en électrifiant massivement nos usages », sans objectif chiffré.", "sources": ["ep-conquerante"] },
-          "neutralite-2050": { "non_communique": "2026-10-26" },
-          "thermique-2035": { "non_communique": "2026-10-26", "precision": "Prévoit d'aligner les aides à l'achat d'un véhicule électrique d'occasion sur celles du neuf.", "sources": ["ep-conquerante"] }
+          "nucleaire": { "valeur": "Nouveaux réacteurs", "origine": "programme-2027", "date": "2026-11", "precision": "8 EPR supplémentaires en plus des 6 déjà prévus, « soit 14 nouveaux réacteurs ».", "sources": ["ep-energie"] },
+          "renouvelables": { "valeur": "Autre", "origine": "programme-2027", "date": "2026-11", "precision": "« Développer les renouvelables là où elles sont efficaces », aux côtés du nucléaire, sans objectif chiffré.", "sources": ["ep-energie"] },
+          "neutralite-2050": { "non_communique": "2026-11-23" },
+          "thermique-2035": { "non_communique": "2026-11-23", "precision": "Pas de position sur l'échéance de 2035 ; propose la même aide à l'achat pour une voiture électrique d'occasion que pour une neuve.", "sources": ["ep-energie"] }
         }
       },
       "social": {
         "mesures": [
-          { "sous_theme": "solidarite", "intitule": "Politique familiale", "detail": "Allocation familiale unique de 350 € dès le premier enfant, dégressive avec le revenu ; impôt sur le revenu supprimé pendant les trois premières années de l'enfant pour les classes moyennes ; prêt à taux zéro à chaque naissance ; temps partiel parental à 80 % payé 100 % pendant deux mois.", "origine": "programme-2027", "date": "2026-07", "sources": ["ep-enfants"] }
+          { "sous_theme": "solidarite", "intitule": "Politique familiale", "detail": "Allocation familiale unique dès le premier enfant, jusqu'à 350 € par mois pour les plus modestes et dégressive avec le revenu ; impôt sur le revenu supprimé pendant les trois premières années de l'enfant pour les classes moyennes ; prêt à taux zéro à chaque naissance ; temps partiel parental à 80 % payé 100 % pendant deux mois ; « plan Marshall » pour la garde d'enfants.", "origine": "programme-2027", "date": "2026-11", "sources": ["ep-famille"] },
+          { "sous_theme": "logement", "intitule": "4 millions de logements en dix ans", "detail": "400 000 logements par an ; suppression des « frais de notaire » pour le premier achat des moins de 35 ans ; moratoire de cinq ans sur les normes de construction et d'habitation ; TVA sur les logements neufs affectée aux maires ; prélèvement forfaitaire unique sur les revenus de la location longue durée et suppression de l'IFI sur ces logements ; suppression de la réduction de loyer de solidarité (RLS) dans le logement social.", "origine": "programme-2027", "date": "2026-11", "sources": ["ep-logement"] }
         ],
         "reponses": {
-          "acces-soins": { "non_communique": "2026-10-26", "precision": "Le programme prévoit de « stabiliser les dépenses de santé en dépensant mieux », sans mesure sur les déserts médicaux.", "sources": ["ep-prospere"] },
-          "installation-medecins": { "non_communique": "2026-10-26" },
-          "mesure-ecole": { "valeur": "Faire des chefs d'établissement « les véritables patrons de l'école » (méthodes, horaires, uniforme, recrutement) ; recentrer le primaire sur lire, écrire, compter ; soutien scolaire universel ; moins d'élèves en maternelle et en primaire ; téléphone interdit jusqu'au collège ; « amende de responsabilisation scolaire » pour certains parents.", "origine": "programme-2027", "date": "2026-07", "sources": ["ep-enfants", "lcp-ecole-2026-08-24"] },
-          "remuneration-enseignants": { "valeur": "+20 % de la rémunération moyenne des enseignants sur le quinquennat, pour la porter au moins au niveau de la moyenne européenne.", "origine": "programme-2027", "date": "2026-07", "sources": ["ep-enfants", "ps-ecole-2026-08-31"] },
-          "encadrement-loyers": { "non_communique": "2026-10-26" },
-          "logements-sociaux": { "non_communique": "2026-10-26" },
-          "rsa": { "non_communique": "2026-10-26" }
+          "acces-soins": { "non_communique": "2026-11-23", "precision": "Ne veut « pas diminuer les dépenses de santé, mais mieux dépenser », en misant sur la prévention, sans mesure sur les déserts médicaux.", "sources": ["ep-comptes-publics"] },
+          "installation-medecins": { "non_communique": "2026-11-23" },
+          "mesure-ecole": { "valeur": "Statut d'école publique autonome : chaque établissement volontaire libre d'adapter ses méthodes, ses horaires et l'organisation de ses classes (uniforme, discipline, participation au recrutement) ; primaire recentré sur lire, écrire, compter, avec la lecture dès la maternelle ; soutien scolaire universel ; moins d'élèves par classe en maternelle et en primaire ; écoles normales recréées ; téléphone portable interdit à l'école primaire, au collège et au lycée ; « amende de responsabilisation scolaire » pour certains parents.", "origine": "programme-2027", "date": "2026-11", "sources": ["ep-ecole", "lcp-ecole-2026-08-24"] },
+          "remuneration-enseignants": { "valeur": "+20 % en moyenne sur le quinquennat, pour porter la rémunération des enseignants au moins au niveau de la moyenne européenne, en particulier en milieu de carrière.", "origine": "programme-2027", "date": "2026-11", "sources": ["ep-ecole", "ps-ecole-2026-08-31"] },
+          "encadrement-loyers": { "valeur": "Autre", "origine": "programme-2027", "date": "2026-11", "precision": "Confier aux maires « la responsabilité pleine et entière de mettre en place ou non l'encadrement des loyers ».", "sources": ["ep-logement"] },
+          "logements-sociaux": { "non_communique": "2026-11-23", "precision": "Objectif global de 4 millions de logements en dix ans (400 000 par an), sans objectif propre au logement social ; bailleurs sociaux regroupés dans des « foncières d'intérêt général » de 100 000 logements.", "sources": ["ep-logement"] },
+          "rsa": { "valeur": "Plus strictes", "origine": "programme-2027", "date": "2026-11", "precision": "Suspension automatique du RSA des délinquants condamnés, sauf décision contraire du maire après examen individuel ; objectif de diminuer de 30 % le nombre d'allocataires (suivi individuel, insertion dans les métiers en tension, lutte contre les abus).", "sources": ["ep-securite", "ep-comptes-publics"] }
         }
       },
       "securite": {
         "mesures": [
-          { "sous_theme": "drogues", "intitule": "Plan contre le narcotrafic", "detail": "« État d'urgence narco » avec des moyens d'exception limités dans le temps et l'espace, jusqu'à la reconnaissance faciale ciblée ; « fiche S financière » ; DGSI mobilisée ; régime d'application des peines des grands narcotrafiquants aligné sur celui des terroristes.", "origine": "programme-2027", "date": "2026-07", "sources": ["ep-sure"] },
-          { "sous_theme": "justice", "intitule": "Réforme de la justice pénale", "detail": "Courtes peines dès la première infraction, suppression du juge d'application des peines, instructions individuelles du garde des Sceaux aux procureurs, pouvoir de sanction pénale des maires pour les petites infractions.", "origine": "programme-2027", "date": "2026-07", "sources": ["ep-sure"] }
+          { "sous_theme": "drogues", "intitule": "Plan contre le narcotrafic", "detail": "« État d'urgence narco » dans les zones les plus touchées et pour une durée limitée (interpellations de nuit au domicile, gardes à vue étendues, jusqu'à l'usage ciblé de la reconnaissance faciale) ; DGSI mobilisée, « fiche S financière » et saisie des avoirs ; exécution des peines des grands trafiquants alignée sur celle des terroristes ; liste noire européenne des pays qui refusent de coopérer.", "origine": "programme-2027", "date": "2026-11", "sources": ["ep-securite"] },
+          { "sous_theme": "police", "intitule": "Incivilités et casseurs", "detail": "Pouvoir de sanction des maires contre les incivilités ; amendes impayées prélevées sur les aides sociales ; contre les casseurs, mêmes mesures de prévention que contre le terrorisme (fichier dédié, visites domiciliaires, assignation à résidence lors des manifestations à risque) et vidéoprotection avec intelligence artificielle.", "origine": "programme-2027", "date": "2026-11", "sources": ["ep-securite"] },
+          { "sous_theme": "justice", "intitule": "Réforme de la justice pénale", "detail": "Peines courtes dès la première infraction, rétablissement des peines planchers, suppression du juge d'application des peines, 30 000 places de prison pour les peines courtes, instructions individuelles du garde des Sceaux aux procureurs, retour des juges de paix, interdiction pour les magistrats de se syndiquer.", "origine": "programme-2027", "date": "2026-11", "sources": ["ep-justice"] }
         ],
         "reponses": {
-          "effectifs-forces-ordre": { "non_communique": "2026-10-26" },
-          "places-prison": { "non_communique": "2026-10-26" },
-          "peines-minimales": { "valeur": "Pour", "origine": "programme-2027", "date": "2026-07", "precision": "Pour les infractions les plus graves, en particulier contre les dépositaires de l'autorité publique et les professeurs.", "sources": ["ep-sure"] },
-          "justice-mineurs": { "valeur": "Lever l'excuse de minorité et créer la comparution immédiate des mineurs pour les faits liés au narcotrafic ; établissements de réinsertion et de soin pour les mineurs condamnés.", "origine": "programme-2027", "date": "2026-07", "sources": ["ep-sure"] },
-          "cannabis": { "valeur": "Sanctions renforcées", "origine": "programme-2027", "date": "2026-07", "precision": "« Être intraitable avec les consommateurs » : opérations « place nette », recouvrement forcé des amendes, y compris sur les prestations sociales.", "sources": ["ep-sure"] }
+          "effectifs-forces-ordre": { "non_communique": "2026-11-23" },
+          "places-prison": { "valeur": 30000, "origine": "programme-2027", "date": "2026-11", "precision": "Pour les peines courtes, avec une « loi d'accélération des prisons ».", "sources": ["ep-justice", "lcp-programme-2026-11-18"] },
+          "peines-minimales": { "valeur": "Pour", "origine": "programme-2027", "date": "2026-11", "precision": "Rétablissement des peines planchers pour les infractions les plus graves, en particulier les atteintes aux personnes dépositaires de l'autorité publique (pompiers, policiers, gendarmes) et aux professeurs.", "sources": ["ep-justice"] },
+          "justice-mineurs": { "valeur": "Lever l'excuse de minorité et permettre la comparution immédiate des mineurs pour les faits liés au trafic de drogue ; établissements de réinsertion et de soin pour les mineurs condamnés.", "origine": "programme-2027", "date": "2026-11", "sources": ["ep-justice", "ep-securite"] },
+          "cannabis": { "valeur": "Sanctions renforcées", "origine": "programme-2027", "date": "2026-11", "precision": "Opérations « place nette » dans les boîtes de nuit et les festivals, amendes « réellement payées, au besoin prélevées sur les prestations sociales » ; un agent public poursuivi pour usage de stupéfiants serait signalé à son employeur.", "sources": ["ep-securite"] }
         }
       },
       "immigration": {
         "mesures": [
-          { "sous_theme": "immigration-legale", "intitule": "Diviser par deux l'immigration", "detail": "Dénoncer l'accord franco-algérien de 1968, suspendre le regroupement familial pendant le quinquennat, quotas pour l'immigration économique, contrôle de l'immigration étudiante, aides sociales aux étrangers alignées sur la moyenne européenne, expulsion immédiate des étrangers délinquants.", "origine": "programme-2027", "date": "2026-07", "sources": ["ep-sure"] }
+          { "sous_theme": "immigration-legale", "intitule": "Diviser par deux l'immigration légale", "detail": "La ramener au niveau d'il y a 15 ans : quotas pour l'immigration de travail, regroupement familial suspendu pendant le quinquennat, dénonciation de l'accord franco-algérien de 1968, « centres de retour » à l'étranger, retour de la double peine, aides sociales aux étrangers alignées sur la moyenne européenne, étudiants étrangers tenus de prouver qu'ils peuvent financer leurs études.", "origine": "programme-2027", "date": "2026-11", "sources": ["ep-immigration"] }
         ],
         "reponses": {
-          "titres-sejour": { "valeur": "Baisse", "origine": "programme-2027", "date": "2026-07", "precision": "« Un objectif clair : diviser par deux l'immigration dans notre pays. »", "sources": ["ep-sure"] },
-          "regularisations": { "valeur": "Restreinte", "origine": "programme-2027", "date": "2026-07", "precision": "« Verrou Schengen » : aucun État européen ne pourrait engager seul une régularisation massive au-delà d'un seuil défini collectivement.", "sources": ["ep-sure"] },
-          "demandes-asile": { "valeur": "Liste de pays sûrs votée chaque année par le Parlement, fin de « l'asile à vie », suspension des demandes à Mayotte et en Guyane pendant le quinquennat, régime européen d'urgence en cas d'attaque hybride aux frontières.", "origine": "programme-2027", "date": "2026-07", "sources": ["ep-sure"] },
-          "droit-du-sol": { "non_communique": "2026-10-26" },
-          "ame": { "non_communique": "2026-10-26" },
-          "priorite-nationale": { "non_communique": "2026-10-26", "precision": "Propose d'aligner les aides sociales versées aux étrangers sur la moyenne européenne, sans les réserver aux Français.", "sources": ["ep-sure"] },
-          "referendum-immigration": { "non_communique": "2026-10-26" }
+          "titres-sejour": { "valeur": "Baisse", "origine": "programme-2027", "date": "2026-11", "precision": "« Diviser l'immigration légale par deux, pour la ramener au niveau d'il y a 15 ans. »", "sources": ["ep-immigration"] },
+          "regularisations": { "valeur": "Restreinte", "origine": "programme-2027", "date": "2026-11", "precision": "Pas de « régularisation massive » ; « verrou Schengen » : aucun État européen ne pourrait engager seul une régularisation massive au-delà d'un seuil défini ensemble.", "sources": ["ep-immigration"] },
+          "demandes-asile": { "valeur": "Liste des pays sûrs votée chaque année par le Parlement, suppression de l'asile à vie, suspension des nouvelles demandes à Mayotte et en Guyane pendant le quinquennat, régime européen d'urgence quand un pays utilise les migrants pour faire pression aux frontières.", "origine": "programme-2027", "date": "2026-11", "sources": ["ep-immigration"] },
+          "droit-du-sol": { "valeur": "Restriction", "origine": "programme-2027", "date": "2026-11", "precision": "Suspendre le droit du sol à Mayotte ; ailleurs, « sans revenir sur le droit du sol », faire que l'acquisition de la nationalité française ne soit « plus jamais automatique ».", "sources": ["ep-immigration"] },
+          "ame": { "non_communique": "2026-11-23" },
+          "priorite-nationale": { "non_communique": "2026-11-23", "precision": "Propose d'aligner les aides sociales versées aux étrangers sur la moyenne européenne, sans les réserver aux Français.", "sources": ["ep-immigration"] },
+          "referendum-immigration": { "non_communique": "2026-11-23" }
         }
       },
       "institutions": {
         "mesures": [],
         "reponses": {
-          "mode-scrutin": { "non_communique": "2026-10-26" },
-          "ric": { "non_communique": "2026-10-26" },
-          "constitution": { "valeur": "Révisions ciblées", "origine": "programme-2027", "date": "2026-07", "precision": "Inscrire dans la Constitution une règle d'or de maîtrise des déficits par référendum.", "sources": ["ep-prospere"] },
-          "mandat-presidentiel": { "non_communique": "2026-10-26" }
+          "mode-scrutin": { "non_communique": "2026-11-23" },
+          "ric": { "non_communique": "2026-11-23" },
+          "constitution": { "valeur": "Révisions ciblées", "origine": "programme-2027", "date": "2026-11", "precision": "Inscrire dans la Constitution une « règle d'or » budgétaire adoptée par référendum dès le début du quinquennat.", "sources": ["ep-comptes-publics"] },
+          "mandat-presidentiel": { "non_communique": "2026-11-23" }
         }
       },
       "international": {
         "mesures": [
-          { "sous_theme": "defense", "intitule": "Massification des armées", "detail": "Réservistes portés de 45 000 à 250 000, production massive de drones tactiques, plan munitions visant l'échelle allemande de 700 000 obus par an, doublement des navires aux Antilles et nouvelle loi de programmation militaire « de la massification ».", "origine": "programme-2027", "date": "2026-07", "sources": ["ep-sure"] }
+          { "sous_theme": "defense", "intitule": "Massification des armées", "detail": "Nouvelle loi de programmation militaire « de la massification » : réservistes portés de 45 000 à 250 000, production massive de drones tactiques, plan munitions visant l'échelle allemande de 700 000 obus par an, doublement des navires aux Antilles ; dissuasion nucléaire modernisée ; au moins 1 % de la richesse nationale des pays de l'UE consacré à des équipements fabriqués en Europe.", "origine": "programme-2027", "date": "2026-11", "sources": ["ep-defense"] }
         ],
         "reponses": {
-          "relation-ue": { "valeur": "Approfondir l'intégration", "origine": "programme-2027", "date": "2026-07", "precision": "Achever le marché unique, union européenne des marchés de capitaux, « Buy European Tech Act », régimes européens communs sur l'asile et les passeurs.", "sources": ["ep-prospere", "ep-conquerante", "ep-sure"] },
-          "euro": { "non_communique": "2026-10-26" },
-          "budget-defense": { "non_communique": "2026-10-26", "precision": "Pas d'objectif en % du PIB ; nouvelle loi de programmation militaire « de la massification ».", "sources": ["ep-sure"] },
-          "otan": { "non_communique": "2026-10-26" },
-          "service-national": { "valeur": "Service militaire volontaire porté de 3 000 à 50 000 places par an ; volet environnemental au « futur service national ».", "origine": "programme-2027", "date": "2026-07", "sources": ["ep-sure", "ep-conquerante"] },
-          "ukraine": { "non_communique": "2026-10-26" },
-          "proche-orient": { "non_communique": "2026-10-26" }
+          "relation-ue": { "valeur": "Approfondir l'intégration", "origine": "programme-2027", "date": "2026-11", "precision": "Achever le marché unique et l'Union des marchés de capitaux, préférence européenne en matière d'armements, régimes européens communs sur l'asile et contre les passeurs.", "sources": ["ep-entreprises", "ep-defense", "ep-immigration"] },
+          "euro": { "non_communique": "2026-11-23" },
+          "budget-defense": { "non_communique": "2026-11-23", "precision": "Pas d'objectif national en % du PIB ; au moins 1 % de la richesse nationale des pays de l'Union européenne consacré à des équipements fabriqués en Europe.", "sources": ["ep-defense"] },
+          "otan": { "non_communique": "2026-11-23" },
+          "service-national": { "valeur": "Rétablir un service national obligatoire et universel, avec le choix entre une option militaire et plusieurs options civiles (une classe d'âge, soit 600 000 jeunes par an), dont un volet environnemental ; réservistes portés de 45 000 à 250 000.", "origine": "programme-2027", "date": "2026-11", "sources": ["ep-defense", "ep-adaptation"] },
+          "ukraine": { "valeur": "« Soutenir pleinement l'Ukraine, qui a vocation à intégrer l'OTAN » et à être arrimée à l'Union européenne ; la France prendrait « toute sa part dans le soutien financier et opérationnel ».", "origine": "programme-2027", "date": "2026-11", "sources": ["ep-defense"] },
+          "proche-orient": { "non_communique": "2026-11-23" }
         }
       },
       "agriculture": {
         "mesures": [],
         "reponses": {
-          "revenu-agricole": { "valeur": "Renforcer la compétitivité : zéro surtransposition des normes européennes, plan de transmission et de modernisation, 100 « territoires de souveraineté alimentaire », stockage de l'eau agricole.", "origine": "programme-2027", "date": "2026-07", "sources": ["ep-prospere", "ep-conquerante"] },
-          "pesticides": { "non_communique": "2026-10-26", "precision": "Le programme prévoit « zéro surtransposition agricole », sans mesure explicite sur les pesticides.", "sources": ["ep-prospere"] },
-          "pac": { "non_communique": "2026-10-26" }
+          "revenu-agricole": { "valeur": "Renforcer la compétitivité : zéro surtransposition des normes européennes, « super Dutreil agricole » pour défiscaliser les transmissions, 100 territoires de souveraineté alimentaire, stockage de l'eau agricole et accords-cadres pluriannuels à la place des négociations commerciales annuelles.", "origine": "programme-2027", "date": "2026-11", "sources": ["ep-entreprises"] },
+          "pesticides": { "non_communique": "2026-11-23", "precision": "Le programme prévoit « zéro surtransposition agricole », sans mesure explicite sur les pesticides.", "sources": ["ep-adaptation"] },
+          "pac": { "non_communique": "2026-11-23" }
         }
       }
     }
   },
   "sources": {
-    "ep-prospere": { "titre": "Pour une France plus prospère", "editeur": "Avec Édouard 2027 (site de campagne)", "date": null, "consulte": "2026-10-26", "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere", "type": "parti" },
-    "ep-sure": { "titre": "Pour une France plus sûre", "editeur": "Avec Édouard 2027 (site de campagne)", "date": null, "consulte": "2026-10-26", "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure", "type": "parti" },
-    "ep-conquerante": { "titre": "Pour une France plus conquérante", "editeur": "Avec Édouard 2027 (site de campagne)", "date": null, "consulte": "2026-10-26", "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante", "type": "parti" },
-    "ep-enfants": { "titre": "Pour une France plus attentive à ses enfants", "editeur": "Avec Édouard 2027 (site de campagne)", "date": null, "consulte": "2026-10-26", "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants", "type": "parti" },
+    "ep-comptes-publics": { "titre": "Le programme : Finances publiques", "editeur": "Avec Édouard 2027 (site de campagne)", "date": "2026-11-18", "consulte": "2026-11-23", "url": "https://www.edouardphilippe.fr/programme/comptes-publics", "type": "parti" },
+    "ep-entreprises": { "titre": "Le programme : Entreprises et industrie", "editeur": "Avec Édouard 2027 (site de campagne)", "date": "2026-11-18", "consulte": "2026-11-23", "url": "https://www.edouardphilippe.fr/programme/entreprises", "type": "parti" },
+    "ep-travail": { "titre": "Le programme : Travail et salaires", "editeur": "Avec Édouard 2027 (site de campagne)", "date": "2026-11-18", "consulte": "2026-11-23", "url": "https://www.edouardphilippe.fr/programme/travail", "type": "parti" },
+    "ep-retraites": { "titre": "Le programme : Retraites", "editeur": "Avec Édouard 2027 (site de campagne)", "date": "2026-11-18", "consulte": "2026-11-23", "url": "https://www.edouardphilippe.fr/programme/retraites", "type": "parti" },
+    "ep-securite": { "titre": "Le programme : Sécurité", "editeur": "Avec Édouard 2027 (site de campagne)", "date": "2026-11-18", "consulte": "2026-11-23", "url": "https://www.edouardphilippe.fr/programme/securite", "type": "parti" },
+    "ep-justice": { "titre": "Le programme : Justice", "editeur": "Avec Édouard 2027 (site de campagne)", "date": "2026-11-18", "consulte": "2026-11-23", "url": "https://www.edouardphilippe.fr/programme/justice", "type": "parti" },
+    "ep-immigration": { "titre": "Le programme : Immigration", "editeur": "Avec Édouard 2027 (site de campagne)", "date": "2026-11-18", "consulte": "2026-11-23", "url": "https://www.edouardphilippe.fr/programme/immigration", "type": "parti" },
+    "ep-defense": { "titre": "Le programme : Défense", "editeur": "Avec Édouard 2027 (site de campagne)", "date": "2026-11-18", "consulte": "2026-11-23", "url": "https://www.edouardphilippe.fr/programme/defense", "type": "parti" },
+    "ep-energie": { "titre": "Le programme : Énergie", "editeur": "Avec Édouard 2027 (site de campagne)", "date": "2026-11-18", "consulte": "2026-11-23", "url": "https://www.edouardphilippe.fr/programme/energie", "type": "parti" },
+    "ep-adaptation": { "titre": "Le programme : Adaptation climatique", "editeur": "Avec Édouard 2027 (site de campagne)", "date": "2026-11-18", "consulte": "2026-11-23", "url": "https://www.edouardphilippe.fr/programme/adaptation-climatique", "type": "parti" },
+    "ep-famille": { "titre": "Le programme : Famille", "editeur": "Avec Édouard 2027 (site de campagne)", "date": "2026-11-18", "consulte": "2026-11-23", "url": "https://www.edouardphilippe.fr/programme/famille", "type": "parti" },
+    "ep-ecole": { "titre": "Le programme : École", "editeur": "Avec Édouard 2027 (site de campagne)", "date": "2026-11-18", "consulte": "2026-11-23", "url": "https://www.edouardphilippe.fr/programme/ecole", "type": "parti" },
+    "ep-logement": { "titre": "Le programme : Logement", "editeur": "Avec Édouard 2027 (site de campagne)", "date": "2026-11-20", "consulte": "2026-11-23", "url": "https://www.edouardphilippe.fr/programme/logement", "type": "parti" },
+    "lcp-programme-2026-11-18": { "titre": "Présidentielle 2027: Édouard Philippe promet \"des réformes radicales\" pour relancer sa campagne, loin des discussions sur la primaire", "editeur": "LCP", "auteur": "Anne-Charlotte Dusseaulx", "date": "2026-11-18", "consulte": "2026-11-23", "url": "https://lcp.fr/actualites/presidentielle-2027-edouard-philippe-promet-des-reformes-radicales-pour-relancer-sa", "type": "presse" },
+    "elabe-observatoire-2026-11": { "titre": "L'Observatoire politique, novembre 2026 (terrain du 3 au 4 novembre 2026)", "editeur": "Elabe pour Les Échos", "date": "2026-11-05", "consulte": "2026-11-23", "url": "https://elabe.fr/lobservatoire-politique-novembre-2026/", "type": "sondage" },
+    "c17-barometre-2026-11": { "titre": "Baromètre des personnalités Le Point / Cluster17 – Novembre 2026", "editeur": "Cluster17 pour Le Point", "date": "2026-11-09", "consulte": "2026-11-23", "url": "https://cluster17.com/barometre-des-personnalites-le-point-cluster17-novembre-2026-record-dimpopularite-pour-emmanuel-macron-david-lisnard-dans-le-top-5/", "type": "sondage" },
     "lcp-retraites65-2026-09-29": { "titre": "Retraites: Édouard Philippe veut porter l'âge de départ à 65 ans et la durée de cotisation à 45 ans", "editeur": "LCP", "auteur": "Anne-Charlotte Dusseaulx", "date": "2026-09-29", "consulte": "2026-10-26", "url": "https://lcp.fr/actualites/retraites-edouard-philippe-veut-porter-l-age-de-depart-a-65-ans-et-la-duree-de", "type": "presse" },
     "lcp-chomage-2026-08-27": { "titre": "Chômage: Édouard Philippe veut abaisser la durée d'indemnisation à douze mois maximum pour les moins de 50 ans", "editeur": "LCP", "auteur": "Anne-Charlotte Dusseaulx", "date": "2026-08-27", "consulte": "2026-10-26", "url": "https://lcp.fr/actualites/chomage-edouard-philippe-veut-abaisser-la-duree-d-indemnisation-a-douze-mois-maximum", "type": "presse" },
     "lcp-ecole-2026-08-24": { "titre": "Présidentielle: salaires des enseignants, sanctions pour les parents… Ce que propose Édouard Philippe pour l'école", "editeur": "LCP", "auteur": "Anne-Charlotte Dusseaulx", "date": "2026-08-24", "consulte": "2026-10-26", "url": "https://lcp.fr/actualites/presidentielle-salaires-des-enseignants-sanctions-pour-les-parents-ce-que-propose", "type": "presse" },
@@ -203,7 +221,6 @@
     "an-philippe": { "titre": "M. Édouard Philippe, mandat clos, Seine-Maritime (7e circonscription)", "editeur": "Assemblée nationale", "date": null, "consulte": "2026-10-26", "url": "https://www.assemblee-nationale.fr/dyn/deputes/PA345619", "type": "officiel" },
     "an-groupes-2026": { "titre": "Modifications à la composition des groupes, 2026", "editeur": "Assemblée nationale", "date": null, "consulte": "2026-10-26", "url": "https://www2.assemblee-nationale.fr/17/les-groupes-politiques/modifications-a-la-composition-des-groupes/2026", "type": "officiel" },
     "ps-odoxa-2026-09-29": { "titre": "Sondage : les cotes de popularité de Marine Le Pen et d'Edouard Philippe reculent fortement, Raphaël Glucksmann progresse légèrement", "editeur": "Public Sénat", "date": "2026-09-29", "consulte": "2026-10-26", "url": "https://www.publicsenat.fr/actualites/politique/sondage-les-cotes-de-popularite-de-marine-le-pen-et-dedouard-philippe-reculent-fortement-raphael-glucksmann-progresse", "type": "presse" },
-    "elabe-observatoire-2026-08": { "titre": "L'Observatoire politique, août 2026 (terrain du 28 au 29 juillet 2026)", "editeur": "Elabe pour Les Échos", "date": null, "consulte": "2026-10-26", "url": "https://elabe.fr/fichier-pdf/13180-lobservatoire-politique-aout-2026/", "type": "sondage" },
     "lcp-temoin-assiste-2026-10-30": { "titre": "Soupçons de détournement de fonds publics: Édouard Philippe placé sous le statut de témoin assisté, une \"décision favorable\" réagit son avocat", "editeur": "LCP", "auteur": "Anne-Charlotte Dusseaulx", "date": "2026-10-30", "consulte": "2026-10-31", "url": "https://lcp.fr/actualites/soupcons-de-detournement-de-fonds-publics-edouard-philippe-place-sous-le-statut-de", "type": "presse" },
     "lcp-pnf-2026-05-20": { "titre": "Édouard Philippe visé par une enquête pour des soupçons de détournement de fonds publics", "editeur": "LCP", "auteur": "Soizic Bonvarlet", "date": "2026-05-20", "consulte": "2026-10-26", "url": "https://lcp.fr/actualites/edouard-philippe-vise-par-une-enquete-pour-des-soupcons-de-detournement-de-fonds-publics", "type": "presse" },
     "f3-pnf-2026": { "titre": "Soupçons de détournements de fonds au Havre : pourquoi Édouard Philippe est visé par une enquête du parquet national financier", "editeur": "France 3 Normandie", "date": null, "consulte": "2026-10-26", "url": "https://france3-regions.franceinfo.fr/normandie/seine-maritime/havre/un-juge-d-instruction-du-parquet-national-financier-va-enqueter-sur-edouard-philippe-candidat-a-la-presidentielle-2027-3353566.html", "type": "presse" },
