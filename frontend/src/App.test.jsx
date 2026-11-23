@@ -64,7 +64,7 @@ test("the poll page ranks averages and keeps a table view of every poll", () => 
   at("/sondages");
   expect(screen.getByText("Moyenne sur 30 jours")).toBeInTheDocument();
   expect(screen.getAllByRole("table").length).toBe(sondages.sondages.length);
-  expect(screen.getByText("Elabe pour BFMTV et La Tribune Dimanche")).toBeInTheDocument();
+  expect(screen.getAllByText("Elabe pour BFMTV et La Tribune Dimanche").length).toBeGreaterThan(0); // plusieurs sondages Elabe
   expect(screen.getAllByText("<1").length).toBeGreaterThan(0); // a published « moins de 1 % » is never shown as 0
   expect(screen.getByRole("heading", { name: "Comment lire les tableaux" })).toBeInTheDocument();
   expect(screen.getAllByText("É. Philippe et G. Attal").length).toBeGreaterThan(0); // the scenario legend sits under the table
